@@ -4,8 +4,11 @@ from torch_geometric.nn import HeteroConv, SAGEConv
 import torch.nn as nn
 
 class DrugRepurposingHeteroGNN(nn.Module):
-    def __init__(self, hidden_dim=128):
+    def __init__(self, hidden_dim=256):
         super().__init__()
+
+        # 🔥 PROJECTION LAYER (1024 → 256)
+        self.proj = nn.Linear(1024, hidden_dim)
 
         self.conv1 = HeteroConv({
             ("disease", "associates", "gene"):
@@ -36,7 +39,14 @@ class DrugRepurposingHeteroGNN(nn.Module):
         }, aggr="sum")
 
     def forward(self, x_dict, edge_index_dict):
+       
+        x_dict = {
+            k: self.proj(v) if v.size(1) == 1024 else v
+            for k, v in x_dict.items()
+        }
+
         x_dict = self.conv1(x_dict, edge_index_dict)
         x_dict = {k: F.relu(v) for k, v in x_dict.items()}
         x_dict = self.conv2(x_dict, edge_index_dict)
+
         return x_dict
