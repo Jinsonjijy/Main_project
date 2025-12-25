@@ -8,76 +8,46 @@ class DrugRepurposingHeteroGNN(nn.Module):
     def __init__(self, hidden_dim=256, dropout=0.3):
         super().__init__()
 
-        # Project protein embeddings (1024 → hidden_dim)
         self.proj = nn.Linear(1024, hidden_dim)
         self.dropout = nn.Dropout(dropout)
 
-        # -----------------------------
-        # GNN Layer 1
-        # -----------------------------
         self.conv1 = HeteroConv({
-            # Disease ↔ Gene
             ("disease", "associates", "gene"):
                 SAGEConv((-1, -1), hidden_dim),
             ("gene", "rev_associates", "disease"):
                 SAGEConv((-1, -1), hidden_dim),
 
-            # Drug ↔ Gene
             ("gene", "targets", "drug"):
                 SAGEConv((-1, -1), hidden_dim),
             ("drug", "rev_targets", "gene"):
                 SAGEConv((-1, -1), hidden_dim),
 
-            # ⭐ NEW: Drug ↔ Disease (indication)
             ("drug", "treats", "disease"):
                 SAGEConv((-1, -1), hidden_dim),
             ("disease", "rev_treats", "drug"):
                 SAGEConv((-1, -1), hidden_dim),
+        }, aggr="mean")
 
-        }, aggr="sum")
-
-        # -----------------------------
-        # GNN Layer 2
-        # -----------------------------
         self.conv2 = HeteroConv({
-            # Disease ↔ Gene
             ("disease", "associates", "gene"):
                 SAGEConv((hidden_dim, hidden_dim), hidden_dim),
             ("gene", "rev_associates", "disease"):
                 SAGEConv((hidden_dim, hidden_dim), hidden_dim),
 
-            # Drug ↔ Gene
             ("gene", "targets", "drug"):
                 SAGEConv((hidden_dim, hidden_dim), hidden_dim),
             ("drug", "rev_targets", "gene"):
                 SAGEConv((hidden_dim, hidden_dim), hidden_dim),
-
-            # ⭐ NEW: Drug ↔ Disease (indication)
-            ("drug", "treats", "disease"):
-                SAGEConv((hidden_dim, hidden_dim), hidden_dim),
-            ("disease", "rev_treats", "drug"):
-                SAGEConv((hidden_dim, hidden_dim), hidden_dim),
-
-        }, aggr="sum")
+        }, aggr="mean")
 
     def forward(self, x_dict, edge_index_dict):
-
-        # -----------------------------
-        # Project protein embeddings only
-        # -----------------------------
         x_dict = {
             k: self.proj(v) if v.size(1) == 1024 else v
             for k, v in x_dict.items()
         }
 
-        # Normalize node features (IMPORTANT)
         x_dict = {k: F.normalize(v, dim=1) for k, v in x_dict.items()}
-
-        # -----------------------------
-        # Message passing
-        # -----------------------------
         x_dict = self.conv1(x_dict, edge_index_dict)
         x_dict = {k: self.dropout(F.relu(v)) for k, v in x_dict.items()}
         x_dict = self.conv2(x_dict, edge_index_dict)
-
         return x_dict

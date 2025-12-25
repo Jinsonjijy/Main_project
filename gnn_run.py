@@ -39,11 +39,32 @@ drug_id_to_name = dict(
 )
 
 # ==================================================
+# BUILD VALID DRUG FILTER
+# ==================================================
+valid_drugs_df = drug_names_df.copy()
+valid_drugs_df["Name"] = valid_drugs_df["Name"].astype(str)
+
+invalid_keywords = [
+    "keratinocyte", "cell", "tissue", "fibroblast",
+    "stem", "epithelial", "neonatal", "foreskin"
+]
+
+mask = ~valid_drugs_df["Name"].str.lower().str.contains(
+    "|".join(invalid_keywords)
+)
+
+valid_drugbank_ids = set(
+    valid_drugs_df.loc[mask, "DrugBank ID"]
+)
+
+print("Valid drugs after filtering:", len(valid_drugbank_ids))
+
+# ==================================================
 # Load datasets
 # ==================================================
 drug_gene = pd.read_csv("data/pharmacologically_active.csv")
-gene_disease = pd.read_csv("data/CTD_curated_genes_diseases.csv")
-drug_disease = pd.read_csv("data/drugbank_parse.csv")   # ⭐ NEW
+gene_disease = pd.read_csv("data/core_plus_disease_gene.csv")
+drug_disease = pd.read_csv("data/drug_parser.csv")
 
 drug_gene.columns = drug_gene.columns.str.strip()
 gene_disease.columns = gene_disease.columns.str.strip()
@@ -86,7 +107,7 @@ drug_gene = drug_gene.dropna(subset=["gene_id"])
 drug_gene["drug_id"], drug_map, drug_rev = encode(drug_gene["DrugID"])
 
 # ==================================================
-# Map DrugBank disease–drug
+# Drug–disease mapping
 # ==================================================
 drug_disease["disease_id"] = drug_disease["DiseaseName_norm"].map(disease_rev)
 drug_disease["drug_id"] = drug_disease["DrugBankID"].map(drug_rev)
@@ -118,7 +139,7 @@ data = HeteroData()
 data["disease"].x = torch.randn(num_diseases, INPUT_DIM) * 0.01
 data["drug"].x = torch.randn(num_drugs, INPUT_DIM) * 0.01
 
-# Gene nodes
+# Gene node features
 gene_features = []
 for gene_symbol in gene_map.values():
     if gene_symbol in gene_to_uniprot:
@@ -153,7 +174,6 @@ data["gene", "rev_associates", "disease"].edge_index = dg.flip(0)
 data["gene", "targets", "drug"].edge_index = gd
 data["drug", "rev_targets", "gene"].edge_index = gd.flip(0)
 
-# ⭐ disease–drug indication
 data["drug", "treats", "disease"].edge_index = dd
 data["disease", "rev_treats", "drug"].edge_index = dd.flip(0)
 
@@ -171,12 +191,9 @@ model.eval()
 print("Model loaded successfully")
 
 # ==================================================
-# Prediction function (CORRECTED)
+# Prediction function 
 # ==================================================
 def predict_drugs(disease, top_k=5, alpha=0.7):
-    """
-    alpha controls disease embedding vs gene mechanism
-    """
 
     d_norm = normalize(disease)
     if d_norm not in disease_rev:
@@ -206,10 +223,8 @@ def predict_drugs(disease, top_k=5, alpha=0.7):
     if drug_ids.numel() == 0:
         return []
 
-    # Mechanistic context
     gene_context = gene_emb[gene_ids].mean(dim=0)
 
-    # ⭐ Final disease context (KEY FIX)
     final_context = (
         alpha * disease_emb[d_id] +
         (1 - alpha) * gene_context
@@ -223,6 +238,11 @@ def predict_drugs(disease, top_k=5, alpha=0.7):
     for i, s in zip(top_idx.tolist(), top_vals.tolist()):
         drug_global_id = drug_ids[i].item()
         dbid = drug_map[drug_global_id]
+
+        # FINAL DRUG FILTER
+        if dbid not in valid_drugbank_ids:
+            continue
+
         name = drug_id_to_name.get(dbid, "Unknown")
         results.append((name, dbid, float(s)))
 
