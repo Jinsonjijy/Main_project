@@ -1,0 +1,1686 @@
+KEGG_Disease_ID,DiseaseName,GeneSymbol,Category
+H01657,Nephrotic syndrome,A2M,core_benchmark
+H00008,Burkitt lymphoma,A4GALT,core_benchmark
+H02505,Atherosclerosis,ABCA1,core_benchmark
+H00527,Retinitis pigmentosa,ABCA4,core_benchmark
+H00043,Neuroblastoma,ABCB1,core_benchmark
+H00176,Adrenoleukodystrophy,ABCD1,core_benchmark
+H01342,Zellweger syndrome,ABCD3,core_benchmark
+H01532,Gout,ABCG2,core_benchmark
+H02505,Atherosclerosis,ABCG5,core_benchmark
+H02123,Celiac disease,ACE,core_benchmark
+H01457,Diabetic retinopathy,ACE2,core_benchmark
+H00361,Malaria,ACKR1,core_benchmark
+H00653,Marfan syndrome,ACTA2,core_benchmark
+H01593,Osteoporosis,ACTG1,core_benchmark
+H00042,Glioma,ACVR1,core_benchmark
+H00802,Ehlers-Danlos syndrome,ADAMTS2,core_benchmark
+H00290,Aicardi-Goutieres syndrome,ADAR,core_benchmark
+H01593,Osteoporosis,ADCY5,core_benchmark
+H02505,Atherosclerosis,ADIPOQ,core_benchmark
+H00286,Crohn disease,ADIPOQ,core_benchmark
+H00802,Ehlers-Danlos syndrome,AEBP1,core_benchmark
+H02505,Atherosclerosis,AGER,core_benchmark
+H02505,Atherosclerosis,AGT,core_benchmark
+H01457,Diabetic retinopathy,AGT,core_benchmark
+H01457,Diabetic retinopathy,AGTR1,core_benchmark
+H02505,Atherosclerosis,AHR,core_benchmark
+H00059,Huntington disease,AIFM1,core_benchmark
+H01490,Multiple sclerosis,AIM2,core_benchmark
+H00527,Retinitis pigmentosa,AIPL1,core_benchmark
+H01202,Cataract,AKR1B1,core_benchmark
+H00211,Hemochromatosis,AKR1D1,core_benchmark
+H01637,Hypertriglyceridemia,AKT1,core_benchmark
+H01556,Meningioma,AKT1,core_benchmark
+H01556,Meningioma,ALAD,core_benchmark
+H01657,Nephrotic syndrome,ALB,core_benchmark
+H01532,Gout,ALDH16A1,core_benchmark
+H01202,Cataract,ALDH3A1,core_benchmark
+H00043,Neuroblastoma,ALK,core_benchmark
+H00010,Multiple myeloma,ALKBH5,core_benchmark
+H02505,Atherosclerosis,ALOX15,core_benchmark
+H02505,Atherosclerosis,ALOX5,core_benchmark
+H02505,Atherosclerosis,ALOX5AP,core_benchmark
+H01532,Gout,ALPK1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,ALPL,core_benchmark
+H00528,Frontonasal dysplasia,ALX1,core_benchmark
+H00528,Frontonasal dysplasia,ALX3,core_benchmark
+H02563,Neural tube defects,ALX3,core_benchmark
+H02160,Craniosynostoses,ALX4,core_benchmark
+H00528,Frontonasal dysplasia,ALX4,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,AMBN,core_benchmark
+H00042,Glioma,AMOTL1,core_benchmark
+H01637,Hypertriglyceridemia,ANGPTL4,core_benchmark
+H01593,Osteoporosis,ANTXR2,core_benchmark
+H01309,Sarcoidosis,ANXA11,core_benchmark
+H01593,Osteoporosis,ANXA2,core_benchmark
+H01656,Psoriasis,AP1S3,core_benchmark
+H01667,Medulloblastoma,APC,core_benchmark
+H02505,Atherosclerosis,APOA1,core_benchmark
+H02505,Atherosclerosis,APOA4,core_benchmark
+H01637,Hypertriglyceridemia,APOA5,core_benchmark
+H02123,Celiac disease,APOB,core_benchmark
+H01637,Hypertriglyceridemia,APOB,core_benchmark
+H02123,Celiac disease,APOC3,core_benchmark
+H00042,Glioma,APOD,core_benchmark
+H02505,Atherosclerosis,APOE,core_benchmark
+H01490,Multiple sclerosis,APOE,core_benchmark
+H01656,Psoriasis,APOE,core_benchmark
+H00359,Leishmaniasis,ARG1,core_benchmark
+H00008,Burkitt lymphoma,ARID1A,core_benchmark
+H00046,Cholangiocarcinoma,ARID1A,core_benchmark
+H01403,Coffin-Siris syndrome,ARID1A,core_benchmark
+H00043,Neuroblastoma,ARID1A,core_benchmark
+H01403,Coffin-Siris syndrome,ARID1B,core_benchmark
+H00043,Neuroblastoma,ARID1B,core_benchmark
+H00082,Graves disease,ARID5B,core_benchmark
+H00653,Marfan syndrome,ARIH1,core_benchmark
+H00527,Retinitis pigmentosa,ARL6,core_benchmark
+H02123,Celiac disease,ASAH2,core_benchmark
+H01901,Barrett esophagus,ASCC1,core_benchmark
+H02539,Intervertebral disc disease,ASPN,core_benchmark
+H02175,Hypospadias,ATF3,core_benchmark
+H00042,Glioma,ATF5,core_benchmark
+H00059,Huntington disease,ATF5,core_benchmark
+H00527,Retinitis pigmentosa,ATF6,core_benchmark
+H00286,Crohn disease,ATG16L1,core_benchmark
+H00286,Crohn disease,ATG4C,core_benchmark
+H01593,Osteoporosis,ATIC,core_benchmark
+H01202,Cataract,ATM,core_benchmark
+H01667,Medulloblastoma,ATOH1,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,ATP11A,core_benchmark
+H00042,Glioma,ATP1B2,core_benchmark
+H01202,Cataract,ATP2B1,core_benchmark
+H02176,Cryptorchidism,ATRX,core_benchmark
+H00042,Glioma,ATRX,core_benchmark
+H00043,Neuroblastoma,ATRX,core_benchmark
+H00043,Neuroblastoma,AURKA,core_benchmark
+H00802,Ehlers-Danlos syndrome,B3GALT6,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,B3GALT6,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,B3GAT3,core_benchmark
+H00082,Graves disease,B3GNT2,core_benchmark
+H00802,Ehlers-Danlos syndrome,B4GALT7,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,B4GALT7,core_benchmark
+H02123,Celiac disease,BACH2,core_benchmark
+H00286,Crohn disease,BACH2,core_benchmark
+H01372,Vitiligo,BACH2,core_benchmark
+H00046,Cholangiocarcinoma,BAP1,core_benchmark
+H01556,Meningioma,BAP1,core_benchmark
+H00043,Neuroblastoma,BARD1,core_benchmark
+H00008,Burkitt lymphoma,BBC3,core_benchmark
+H02160,Craniosynostoses,BBS9,core_benchmark
+H01637,Hypertriglyceridemia,BCHE,core_benchmark
+H01490,Multiple sclerosis,BCHE,core_benchmark
+H00043,Neuroblastoma,BCHE,core_benchmark
+H00010,Multiple myeloma,BCL2,core_benchmark
+H02176,Cryptorchidism,BCL2L1,core_benchmark
+H00010,Multiple myeloma,BCL2L1,core_benchmark
+H02505,Atherosclerosis,BCL3,core_benchmark
+H00036,Osteosarcoma,BCOR,core_benchmark
+H00653,Marfan syndrome,BGN,core_benchmark
+H02563,Neural tube defects,BHMT,core_benchmark
+H00043,Neuroblastoma,BIRC2,core_benchmark
+H00043,Neuroblastoma,BIRC3,core_benchmark
+H00042,Glioma,BMI1,core_benchmark
+H00910,Hirschsprung disease,BMI1,core_benchmark
+H00036,Osteosarcoma,BMI1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,BMP1,core_benchmark
+H02160,Craniosynostoses,BMP2,core_benchmark
+H00211,Hemochromatosis,BMP2,core_benchmark
+H02041,Myopia,BMP2,core_benchmark
+H02081,Marshall syndrome,BMP4,core_benchmark
+H01593,Osteoporosis,BMP4,core_benchmark
+H00211,Hemochromatosis,BMP6,core_benchmark
+H00010,Multiple myeloma,BNIP3,core_benchmark
+H01745,Cardiofaciocutaneous syndrome,BRAF,core_benchmark
+H01747,Costello syndrome,BRAF,core_benchmark
+H00042,Glioma,BRAF,core_benchmark
+H01738,Noonan syndrome,BRAF,core_benchmark
+H00042,Glioma,BRCA2,core_benchmark
+H01667,Medulloblastoma,BRCA2,core_benchmark
+H01667,Medulloblastoma,BRD2,core_benchmark
+H01667,Medulloblastoma,BRD3,core_benchmark
+H01667,Medulloblastoma,BRD4,core_benchmark
+H00036,Osteosarcoma,BRD4,core_benchmark
+H00238,Fanconi anemia,BRIP1,core_benchmark
+H00010,Multiple myeloma,BTG1,core_benchmark
+H01309,Sarcoidosis,BTNL2,core_benchmark
+H00802,Ehlers-Danlos syndrome,C1R,core_benchmark
+H00802,Ehlers-Danlos syndrome,C1S,core_benchmark
+H01434,Atypical hemolytic uremic syndrome,C3,core_benchmark
+H01500,Lupus nephritis,C3,core_benchmark
+H00078,Frontotemporal lobar degeneration,C9ORF72,core_benchmark
+H01593,Osteoporosis,CA2,core_benchmark
+H01593,Osteoporosis,CALCR,core_benchmark
+H01593,Osteoporosis,CAP1,core_benchmark
+H01272,Hypoplastic left heart syndrome,CAPN2,core_benchmark
+H02123,Celiac disease,CAPN8,core_benchmark
+H01656,Psoriasis,CARD14,core_benchmark
+H01532,Gout,CARD8,core_benchmark
+H01656,Psoriasis,CARM1,core_benchmark
+H01490,Multiple sclerosis,CASP1,core_benchmark
+H02176,Cryptorchidism,CASP3,core_benchmark
+H01457,Diabetic retinopathy,CASP3,core_benchmark
+H01372,Vitiligo,CASP7,core_benchmark
+H00042,Glioma,CAT,core_benchmark
+H00653,Marfan syndrome,CAT,core_benchmark
+H01656,Psoriasis,CAT,core_benchmark
+H00910,Hirschsprung disease,CAVIN2,core_benchmark
+H02176,Cryptorchidism,CBL,core_benchmark
+H01490,Multiple sclerosis,CBLB,core_benchmark
+H00010,Multiple myeloma,CBX7,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,CCDC134,core_benchmark
+H01450,Obsessive-compulsive disorder,CCKBR,core_benchmark
+H02505,Atherosclerosis,CCL2,core_benchmark
+H00286,Crohn disease,CCL2,core_benchmark
+H00010,Multiple myeloma,CCL2,core_benchmark
+H01490,Multiple sclerosis,CCL20,core_benchmark
+H02505,Atherosclerosis,CCL3,core_benchmark
+H02505,Atherosclerosis,CCL4,core_benchmark
+H00036,Osteosarcoma,CCNB3,core_benchmark
+H00010,Multiple myeloma,CCND1,core_benchmark
+H01667,Medulloblastoma,CCNE1,core_benchmark
+H00286,Crohn disease,CCNY,core_benchmark
+H02123,Celiac disease,CCR4,core_benchmark
+H00042,Glioma,CCR4,core_benchmark
+H01372,Vitiligo,CCR6,core_benchmark
+H00286,Crohn disease,CCR7,core_benchmark
+H01593,Osteoporosis,CCT2,core_benchmark
+H00008,Burkitt lymphoma,CCT6B,core_benchmark
+H01532,Gout,CD14,core_benchmark
+H00088,Common variable immunodeficiency,CD19,core_benchmark
+H01657,Nephrotic syndrome,CD2,core_benchmark
+H02123,Celiac disease,CD36,core_benchmark
+H00361,Malaria,CD36,core_benchmark
+H00082,Graves disease,CD4,core_benchmark
+H01490,Multiple sclerosis,CD40,core_benchmark
+H01490,Multiple sclerosis,CD44,core_benchmark
+H00043,Neuroblastoma,CD44,core_benchmark
+H01372,Vitiligo,CD44,core_benchmark
+H01434,Atypical hemolytic uremic syndrome,CD46,core_benchmark
+H01490,Multiple sclerosis,CD58,core_benchmark
+H01490,Multiple sclerosis,CD6,core_benchmark
+H00361,Malaria,CD68,core_benchmark
+H02123,Celiac disease,CD80,core_benchmark
+H01372,Vitiligo,CD80,core_benchmark
+H00088,Common variable immunodeficiency,CD81,core_benchmark
+H00010,Multiple myeloma,CD86,core_benchmark
+H01490,Multiple sclerosis,CD96,core_benchmark
+H01901,Barrett esophagus,CDH13,core_benchmark
+H01490,Multiple sclerosis,CDK17,core_benchmark
+H01667,Medulloblastoma,CDK6,core_benchmark
+H01667,Medulloblastoma,CDK9,core_benchmark
+H01732,Angelman syndrome,CDKL5,core_benchmark
+H02877,Glaucoma,CDKN2A,core_benchmark
+H00042,Glioma,CDKN2A,core_benchmark
+H00010,Multiple myeloma,CDKN2A,core_benchmark
+H00043,Neuroblastoma,CDKN2A,core_benchmark
+H02877,Glaucoma,CDKN2B,core_benchmark
+H00042,Glioma,CDKN2B,core_benchmark
+H02563,Neural tube defects,CECR2,core_benchmark
+H02505,Atherosclerosis,CELA2A,core_benchmark
+H00511,Short rib-polydactyly syndrome,CEP120,core_benchmark
+H02505,Atherosclerosis,CETP,core_benchmark
+H01637,Hypertriglyceridemia,CETP,core_benchmark
+H00527,Retinitis pigmentosa,CFAP418,core_benchmark
+H01434,Atypical hemolytic uremic syndrome,CFB,core_benchmark
+H01594,Myasthenia gravis,CFB,core_benchmark
+H01434,Atypical hemolytic uremic syndrome,CFH,core_benchmark
+H01434,Atypical hemolytic uremic syndrome,CFHR1,core_benchmark
+H01434,Atypical hemolytic uremic syndrome,CFHR3,core_benchmark
+H01434,Atypical hemolytic uremic syndrome,CFI,core_benchmark
+H00218,Cystic fibrosis,CFTR,core_benchmark
+H00043,Neuroblastoma,CHD5,core_benchmark
+H00043,Neuroblastoma,CHD6,core_benchmark
+H00043,Neuroblastoma,CHEK2,core_benchmark
+H00036,Osteosarcoma,CHEK2,core_benchmark
+H00042,Glioma,CHI3L1,core_benchmark
+H01293,Narcolepsy,CHKB,core_benchmark
+H00078,Frontotemporal lobar degeneration,CHMP2B,core_benchmark
+H02176,Cryptorchidism,CHRM3,core_benchmark
+H00802,Ehlers-Danlos syndrome,CHST14,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,CHST3,core_benchmark
+H01095,Syndactyly,CIBAR1,core_benchmark
+H00286,Crohn disease,CIBAR2,core_benchmark
+H02539,Intervertebral disc disease,CILP,core_benchmark
+H00361,Malaria,CISH,core_benchmark
+H00042,Glioma,CLCN2,core_benchmark
+H00042,Glioma,CLCN3,core_benchmark
+H00042,Glioma,CLCN5,core_benchmark
+H01490,Multiple sclerosis,CLDN11,core_benchmark
+H01593,Osteoporosis,CLEC11A,core_benchmark
+H01490,Multiple sclerosis,CLEC16A,core_benchmark
+H01372,Vitiligo,CLNK,core_benchmark
+H00527,Retinitis pigmentosa,CLRN1,core_benchmark
+H01490,Multiple sclerosis,CMAHP,core_benchmark
+H00527,Retinitis pigmentosa,CNGA1,core_benchmark
+H00527,Retinitis pigmentosa,CNGB1,core_benchmark
+H00059,Huntington disease,CNR1,core_benchmark
+H01490,Multiple sclerosis,CNR1,core_benchmark
+H00037,Rhabdomyosarcoma,CNR1,core_benchmark
+H02505,Atherosclerosis,CNR2,core_benchmark
+H02539,Intervertebral disc disease,COL11A1,core_benchmark
+H02081,Marshall syndrome,COL11A1,core_benchmark
+H02081,Marshall syndrome,COL11A2,core_benchmark
+H00802,Ehlers-Danlos syndrome,COL12A1,core_benchmark
+H00802,Ehlers-Danlos syndrome,COL1A1,core_benchmark
+H00653,Marfan syndrome,COL1A1,core_benchmark
+H01657,Nephrotic syndrome,COL1A1,core_benchmark
+H01593,Osteoporosis,COL1A1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,COL1A1,core_benchmark
+H00802,Ehlers-Danlos syndrome,COL1A2,core_benchmark
+H01593,Osteoporosis,COL1A2,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,COL1A2,core_benchmark
+H01202,Cataract,COL2A1,core_benchmark
+H02081,Marshall syndrome,COL2A1,core_benchmark
+H02041,Myopia,COL2A1,core_benchmark
+H00802,Ehlers-Danlos syndrome,COL3A1,core_benchmark
+H00653,Marfan syndrome,COL3A1,core_benchmark
+H01657,Nephrotic syndrome,COL4A1,core_benchmark
+H01657,Nephrotic syndrome,COL4A2,core_benchmark
+H00802,Ehlers-Danlos syndrome,COL5A1,core_benchmark
+H00653,Marfan syndrome,COL5A1,core_benchmark
+H00802,Ehlers-Danlos syndrome,COL5A2,core_benchmark
+H02081,Marshall syndrome,COL9A1,core_benchmark
+H02041,Myopia,COL9A1,core_benchmark
+H02081,Marshall syndrome,COL9A2,core_benchmark
+H02539,Intervertebral disc disease,COL9A3,core_benchmark
+H02081,Marshall syndrome,COL9A3,core_benchmark
+H01524,DiGeorge syndrome,COMT,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,COPB2,core_benchmark
+H00043,Neuroblastoma,COX2,core_benchmark
+H00211,Hemochromatosis,CP,core_benchmark
+H01656,Psoriasis,CP,core_benchmark
+H01293,Narcolepsy,CPT1B,core_benchmark
+H00361,Malaria,CR1,core_benchmark
+H00088,Common variable immunodeficiency,CR2,core_benchmark
+H00837,Leber congenital amaurosis,CRB1,core_benchmark
+H00527,Retinitis pigmentosa,CRB1,core_benchmark
+H00010,Multiple myeloma,CRBN,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,CREB3L1,core_benchmark
+H00267,Holoprosencephaly,CRIPTO,core_benchmark
+H01524,DiGeorge syndrome,CRKL,core_benchmark
+H02563,Neural tube defects,CRN,core_benchmark
+H02505,Atherosclerosis,CRP,core_benchmark
+H00286,Crohn disease,CRP,core_benchmark
+H01457,Diabetic retinopathy,CRP,core_benchmark
+H01637,Hypertriglyceridemia,CRP,core_benchmark
+H00359,Leishmaniasis,CRP,core_benchmark
+H00361,Malaria,CRP,core_benchmark
+H01656,Psoriasis,CRP,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,CRTAP,core_benchmark
+H00837,Leber congenital amaurosis,CRX,core_benchmark
+H00527,Retinitis pigmentosa,CRX,core_benchmark
+H01202,Cataract,CRYAA,core_benchmark
+H01202,Cataract,CRYAB,core_benchmark
+H01202,Cataract,CRYBB1,core_benchmark
+H01202,Cataract,CRYGC,core_benchmark
+H01202,Cataract,CRYGD,core_benchmark
+H01202,Cataract,CRYGS,core_benchmark
+H00010,Multiple myeloma,CSF2,core_benchmark
+H02563,Neural tube defects,CSF2,core_benchmark
+H01656,Psoriasis,CSF2,core_benchmark
+H00010,Multiple myeloma,CSF3,core_benchmark
+H01656,Psoriasis,CSMD1,core_benchmark
+H00042,Glioma,CSRP2,core_benchmark
+H01556,Meningioma,CST3,core_benchmark
+H01556,Meningioma,CSTB,core_benchmark
+H01901,Barrett esophagus,CTHRC1,core_benchmark
+H00082,Graves disease,CTLA4,core_benchmark
+H00268,Lissencephaly,CTNNA2,core_benchmark
+H01667,Medulloblastoma,CTNNB1,core_benchmark
+H01556,Meningioma,CTSL,core_benchmark
+H02123,Celiac disease,CXCL10,core_benchmark
+H02123,Celiac disease,CXCL11,core_benchmark
+H01901,Barrett esophagus,CXCL8,core_benchmark
+H02123,Celiac disease,CXCL9,core_benchmark
+H02505,Atherosclerosis,CYBA,core_benchmark
+H02086,Mitochondrial complex III deficiency,CYC1,core_benchmark
+H01593,Osteoporosis,CYP19A1,core_benchmark
+H00720,Long QT syndrome,CYP1A1,core_benchmark
+H02563,Neural tube defects,CYP1A2,core_benchmark
+H01593,Osteoporosis,CYP24A1,core_benchmark
+H01901,Barrett esophagus,CYP26A1,core_benchmark
+H02505,Atherosclerosis,CYP27A1,core_benchmark
+H01656,Psoriasis,CYP2S1,core_benchmark
+H00036,Osteosarcoma,CYP3A4,core_benchmark
+H01593,Osteoporosis,DAAM2,core_benchmark
+H00043,Neuroblastoma,DBH,core_benchmark
+H00218,Cystic fibrosis,DCTN4,core_benchmark
+H01667,Medulloblastoma,DDX3X,core_benchmark
+H00286,Crohn disease,DENND1B,core_benchmark
+H01524,DiGeorge syndrome,DGCR2,core_benchmark
+H01524,DiGeorge syndrome,DGCR6,core_benchmark
+H01524,DiGeorge syndrome,DGCR8,core_benchmark
+H01434,Atypical hemolytic uremic syndrome,DGKE,core_benchmark
+H02175,Hypospadias,DGKK,core_benchmark
+H00310,Q fever,DHCR24,core_benchmark
+H00036,Osteosarcoma,DHFR,core_benchmark
+H00527,Retinitis pigmentosa,DHX38,core_benchmark
+H00059,Huntington disease,DIABLO,core_benchmark
+H00507,Dyskeratosis congenita,DKC1,core_benchmark
+H00042,Glioma,DMXL1,core_benchmark
+H01020,Optic atrophy,DNM1L,core_benchmark
+H01667,Medulloblastoma,DNMT1,core_benchmark
+H00286,Crohn disease,DNMT3A,core_benchmark
+H00043,Neuroblastoma,DOCK8,core_benchmark
+H00286,Crohn disease,DOK2,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,DPP9,core_benchmark
+H01388,Hyperprolactinemia,DRD2,core_benchmark
+H00802,Ehlers-Danlos syndrome,DSE,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,DSP,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,DSPP,core_benchmark
+H01490,Multiple sclerosis,DUSP28,core_benchmark
+H00511,Short rib-polydactyly syndrome,DYNC2H1,core_benchmark
+H00511,Short rib-polydactyly syndrome,DYNC2I1,core_benchmark
+H00511,Short rib-polydactyly syndrome,DYNC2I2,core_benchmark
+H00511,Short rib-polydactyly syndrome,DYNC2LI1,core_benchmark
+H00511,Short rib-polydactyly syndrome,DYNLT2B,core_benchmark
+H00910,Hirschsprung disease,ECE1,core_benchmark
+H01657,Nephrotic syndrome,EDN1,core_benchmark
+H00910,Hirschsprung disease,EDN3,core_benchmark
+H00910,Hirschsprung disease,EDNRB,core_benchmark
+H00042,Glioma,EFL1,core_benchmark
+H02160,Craniosynostoses,EFNB1,core_benchmark
+H00528,Frontonasal dysplasia,EFNB1,core_benchmark
+H00046,Cholangiocarcinoma,EGFR,core_benchmark
+H00036,Osteosarcoma,EGFR,core_benchmark
+H00042,Glioma,EHD1,core_benchmark
+H01667,Medulloblastoma,EHMT1,core_benchmark
+H00036,Osteosarcoma,EIF2S1,core_benchmark
+H01667,Medulloblastoma,ELP1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,EMILIN1,core_benchmark
+H00218,Cystic fibrosis,ENG,core_benchmark
+H01593,Osteoporosis,ENO1,core_benchmark
+H00361,Malaria,EPHA2,core_benchmark
+H01738,Noonan syndrome,EPHA2,core_benchmark
+H00010,Multiple myeloma,EPHX1,core_benchmark
+H01656,Psoriasis,ERAP1,core_benchmark
+H00286,Crohn disease,ERAP2,core_benchmark
+H00046,Cholangiocarcinoma,ERBB2,core_benchmark
+H00042,Glioma,ERBB2,core_benchmark
+H01667,Medulloblastoma,ERBB2,core_benchmark
+H01202,Cataract,ERCC6,core_benchmark
+H02160,Craniosynostoses,ERF,core_benchmark
+H01490,Multiple sclerosis,ERN1,core_benchmark
+H02505,Atherosclerosis,ESR1,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,ESR1,core_benchmark
+H00043,Neuroblastoma,ESR1,core_benchmark
+H01667,Medulloblastoma,ESR2,core_benchmark
+H00036,Osteosarcoma,ESRRA,core_benchmark
+H01524,DiGeorge syndrome,ESS2,core_benchmark
+H02123,Celiac disease,ETS1,core_benchmark
+H00527,Retinitis pigmentosa,EYS,core_benchmark
+H02160,Craniosynostoses,EZH2,core_benchmark
+H00036,Osteosarcoma,EZH2,core_benchmark
+H01587,Disseminated intravascular coagulation,F2,core_benchmark
+H01587,Disseminated intravascular coagulation,F3,core_benchmark
+H01657,Nephrotic syndrome,F3,core_benchmark
+H01587,Disseminated intravascular coagulation,F7,core_benchmark
+H00059,Huntington disease,FAAH,core_benchmark
+H00042,Glioma,FAM107A,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,FAM13A,core_benchmark
+H00238,Fanconi anemia,FANCA,core_benchmark
+H00238,Fanconi anemia,FANCB,core_benchmark
+H00238,Fanconi anemia,FANCC,core_benchmark
+H00238,Fanconi anemia,FANCD2,core_benchmark
+H00238,Fanconi anemia,FANCE,core_benchmark
+H00238,Fanconi anemia,FANCF,core_benchmark
+H00238,Fanconi anemia,FANCG,core_benchmark
+H00238,Fanconi anemia,FANCL,core_benchmark
+H00238,Fanconi anemia,FANCM,core_benchmark
+H01500,Lupus nephritis,FAS,core_benchmark
+H01594,Myasthenia gravis,FAS,core_benchmark
+H02505,Atherosclerosis,FASLG,core_benchmark
+H01490,Multiple sclerosis,FASLG,core_benchmark
+H00802,Ehlers-Danlos syndrome,FBN1,core_benchmark
+H00653,Marfan syndrome,FBN1,core_benchmark
+H00653,Marfan syndrome,FBN2,core_benchmark
+H01656,Psoriasis,FBXL19,core_benchmark
+H00042,Glioma,FBXW7,core_benchmark
+H00218,Cystic fibrosis,FCGR2A,core_benchmark
+H00361,Malaria,FCGR2A,core_benchmark
+H00361,Malaria,FCGR2B,core_benchmark
+H02123,Celiac disease,FCGR3A,core_benchmark
+H01500,Lupus nephritis,FCGR3B,core_benchmark
+H00082,Graves disease,FCRL3,core_benchmark
+H01593,Osteoporosis,FGA,core_benchmark
+H01593,Osteoporosis,FGB,core_benchmark
+H00042,Glioma,FGF2,core_benchmark
+H01657,Nephrotic syndrome,FGF2,core_benchmark
+H01524,DiGeorge syndrome,FGF8,core_benchmark
+H02160,Craniosynostoses,FGFR1,core_benchmark
+H00042,Glioma,FGFR1,core_benchmark
+H00046,Cholangiocarcinoma,FGFR2,core_benchmark
+H02160,Craniosynostoses,FGFR2,core_benchmark
+H00010,Multiple myeloma,FGFR3,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,FKBP10,core_benchmark
+H00802,Ehlers-Danlos syndrome,FKBP14,core_benchmark
+H01667,Medulloblastoma,FLI1,core_benchmark
+H00802,Ehlers-Danlos syndrome,FLNA,core_benchmark
+H00310,Q fever,FLOT1,core_benchmark
+H00286,Crohn disease,FN1,core_benchmark
+H02563,Neural tube defects,FOLR1,core_benchmark
+H00036,Osteosarcoma,FOLR1,core_benchmark
+H02563,Neural tube defects,FOLR2,core_benchmark
+H01372,Vitiligo,FOXP1,core_benchmark
+H00286,Crohn disease,FPR2,core_benchmark
+H02160,Craniosynostoses,FREM1,core_benchmark
+H00008,Burkitt lymphoma,FTCD,core_benchmark
+H00042,Glioma,FTH1,core_benchmark
+H00286,Crohn disease,FUT2,core_benchmark
+H02563,Neural tube defects,FUZ,core_benchmark
+H01095,Syndactyly,FZD4,core_benchmark
+H00361,Malaria,G6PD,core_benchmark
+H01732,Angelman syndrome,GABRB3,core_benchmark
+H01388,Hyperprolactinemia,GAD1,core_benchmark
+H01457,Diabetic retinopathy,GAD2,core_benchmark
+H01202,Cataract,GALK1,core_benchmark
+H01593,Osteoporosis,GAPDH,core_benchmark
+H00507,Dyskeratosis congenita,GAR1,core_benchmark
+H00267,Holoprosencephaly,GAS1,core_benchmark
+H01901,Barrett esophagus,GAST,core_benchmark
+H00043,Neuroblastoma,GATA3,core_benchmark
+H02123,Celiac disease,GBP5,core_benchmark
+H00082,Graves disease,GC,core_benchmark
+H01490,Multiple sclerosis,GC,core_benchmark
+H01637,Hypertriglyceridemia,GCKR,core_benchmark
+H00042,Glioma,GDNF,core_benchmark
+H00910,Hirschsprung disease,GDNF,core_benchmark
+H00059,Huntington disease,GDNF,core_benchmark
+H02563,Neural tube defects,GHRL,core_benchmark
+H01202,Cataract,GJA8,core_benchmark
+H01656,Psoriasis,GJB2,core_benchmark
+H02041,Myopia,GJD2,core_benchmark
+H00267,Holoprosencephaly,GLI2,core_benchmark
+H02563,Neural tube defects,GLI3,core_benchmark
+H00008,Burkitt lymphoma,GNA13,core_benchmark
+H00046,Cholangiocarcinoma,GNAS,core_benchmark
+H00043,Neuroblastoma,GNAS,core_benchmark
+H01388,Hyperprolactinemia,GNRH1,core_benchmark
+H01593,Osteoporosis,GORAB,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,GORAB,core_benchmark
+H00286,Crohn disease,GPBAR1,core_benchmark
+H01657,Nephrotic syndrome,GPC5,core_benchmark
+H01593,Osteoporosis,GPC6,core_benchmark
+H01593,Osteoporosis,GPD2,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,GPER1,core_benchmark
+H01667,Medulloblastoma,GPR161,core_benchmark
+H01637,Hypertriglyceridemia,GPR55,core_benchmark
+H01593,Osteoporosis,GPX1,core_benchmark
+H02176,Cryptorchidism,GPX4,core_benchmark
+H02563,Neural tube defects,GRHL3,core_benchmark
+H02041,Myopia,GRIA4,core_benchmark
+H00036,Osteosarcoma,GRM4,core_benchmark
+H00078,Frontotemporal lobar degeneration,GRN,core_benchmark
+H01593,Osteoporosis,GSN,core_benchmark
+H02505,Atherosclerosis,GSTM1,core_benchmark
+H00042,Glioma,GSTP1,core_benchmark
+H00036,Osteosarcoma,GSTP1,core_benchmark
+H00010,Multiple myeloma,GSTT1,core_benchmark
+H00527,Retinitis pigmentosa,GUCA1B,core_benchmark
+H01657,Nephrotic syndrome,GUCA2B,core_benchmark
+H00527,Retinitis pigmentosa,GUCY2D,core_benchmark
+H00361,Malaria,GYPA,core_benchmark
+H00361,Malaria,GYPB,core_benchmark
+H00361,Malaria,GYPC,core_benchmark
+H02081,Marshall syndrome,GZF1,core_benchmark
+H00042,Glioma,H3-3A,core_benchmark
+H00042,Glioma,H3C2,core_benchmark
+H00043,Neuroblastoma,HACE1,core_benchmark
+H00211,Hemochromatosis,HAMP,core_benchmark
+H00043,Neuroblastoma,HAND2,core_benchmark
+H00361,Malaria,HBB,core_benchmark
+H01656,Psoriasis,HCAR2,core_benchmark
+H00653,Marfan syndrome,HCN4,core_benchmark
+H00010,Multiple myeloma,HCP5,core_benchmark
+H01293,Narcolepsy,HCRTR2,core_benchmark
+H00036,Osteosarcoma,HDAC6,core_benchmark
+H02505,Atherosclerosis,HDAC9,core_benchmark
+H00478,Prader-Willi syndrome,HERC2,core_benchmark
+H00896,Lymphangioleiomyomatosis,HES1,core_benchmark
+H01556,Meningioma,HES1,core_benchmark
+H00653,Marfan syndrome,HEY2,core_benchmark
+H00211,Hemochromatosis,HFE,core_benchmark
+H01901,Barrett esophagus,HGF,core_benchmark
+H00043,Neuroblastoma,HGF,core_benchmark
+H00286,Crohn disease,HGFAC,core_benchmark
+H02175,Hypospadias,HHIP,core_benchmark
+H01667,Medulloblastoma,HIC1,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,HIF1A,core_benchmark
+H00211,Hemochromatosis,HJV,core_benchmark
+H00042,Glioma,HLA-A,core_benchmark
+H00010,Multiple myeloma,HLA-A,core_benchmark
+H00042,Glioma,HLA-B,core_benchmark
+H01594,Myasthenia gravis,HLA-B,core_benchmark
+H00042,Glioma,HLA-C,core_benchmark
+H01656,Psoriasis,HLA-C,core_benchmark
+H02123,Celiac disease,HLA-DPB1,core_benchmark
+H01490,Multiple sclerosis,HLA-DPB1,core_benchmark
+H01594,Myasthenia gravis,HLA-DPB1,core_benchmark
+H01309,Sarcoidosis,HLA-DPB1,core_benchmark
+H02123,Celiac disease,HLA-DQA1,core_benchmark
+H02123,Celiac disease,HLA-DQB1,core_benchmark
+H01490,Multiple sclerosis,HLA-DQB1,core_benchmark
+H01293,Narcolepsy,HLA-DQB1,core_benchmark
+H01490,Multiple sclerosis,HLA-DRA,core_benchmark
+H00286,Crohn disease,HLA-DRB1,core_benchmark
+H01490,Multiple sclerosis,HLA-DRB1,core_benchmark
+H01293,Narcolepsy,HLA-DRB1,core_benchmark
+H01657,Nephrotic syndrome,HLA-DRB1,core_benchmark
+H01309,Sarcoidosis,HLA-DRB1,core_benchmark
+H00310,Q fever,HMGCR,core_benchmark
+H00042,Glioma,HMGN5,core_benchmark
+H00176,Adrenoleukodystrophy,HMOX1,core_benchmark
+H00046,Cholangiocarcinoma,HNF1B,core_benchmark
+H01450,Obsessive-compulsive disorder,HOXB8,core_benchmark
+H00042,Glioma,HOXD11,core_benchmark
+H01095,Syndactyly,HOXD13,core_benchmark
+H02505,Atherosclerosis,HP,core_benchmark
+H00211,Hemochromatosis,HP,core_benchmark
+H00361,Malaria,HP,core_benchmark
+H01745,Cardiofaciocutaneous syndrome,HRAS,core_benchmark
+H01747,Costello syndrome,HRAS,core_benchmark
+H00042,Glioma,HRAS,core_benchmark
+H00043,Neuroblastoma,HRAS,core_benchmark
+H01738,Noonan syndrome,HRAS,core_benchmark
+H02505,Atherosclerosis,HRH1,core_benchmark
+H01657,Nephrotic syndrome,HSD11B2,core_benchmark
+H01342,Zellweger syndrome,HSD17B4,core_benchmark
+H02176,Cryptorchidism,HSD3B2,core_benchmark
+H02175,Hypospadias,HSD3B2,core_benchmark
+H02505,Atherosclerosis,HSPA1B,core_benchmark
+H00010,Multiple myeloma,HSPB1,core_benchmark
+H01450,Obsessive-compulsive disorder,HTR1D,core_benchmark
+H01450,Obsessive-compulsive disorder,HTR2A,core_benchmark
+H00059,Huntington disease,HTT,core_benchmark
+H02505,Atherosclerosis,ICAM1,core_benchmark
+H01457,Diabetic retinopathy,ICAM1,core_benchmark
+H00361,Malaria,ICAM1,core_benchmark
+H01490,Multiple sclerosis,ICAM1,core_benchmark
+H00088,Common variable immunodeficiency,ICOS,core_benchmark
+H02123,Celiac disease,ICOSLG,core_benchmark
+H00008,Burkitt lymphoma,ID3,core_benchmark
+H00046,Cholangiocarcinoma,IDH1,core_benchmark
+H00042,Glioma,IDH1,core_benchmark
+H00046,Cholangiocarcinoma,IDH2,core_benchmark
+H01593,Osteoporosis,IDH2,core_benchmark
+H00527,Retinitis pigmentosa,IDH3B,core_benchmark
+H02123,Celiac disease,IFI27,core_benchmark
+H00290,Aicardi-Goutieres syndrome,IFIH1,core_benchmark
+H00082,Graves disease,IFIH1,core_benchmark
+H01656,Psoriasis,IFIH1,core_benchmark
+H01372,Vitiligo,IFIH1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,IFITM5,core_benchmark
+H01637,Hypertriglyceridemia,IFNA,core_benchmark
+H01637,Hypertriglyceridemia,IFNA2,core_benchmark
+H00010,Multiple myeloma,IFNA2,core_benchmark
+H01490,Multiple sclerosis,IFNB1,core_benchmark
+H00043,Neuroblastoma,IFNB1,core_benchmark
+H00176,Adrenoleukodystrophy,IFNG,core_benchmark
+H02505,Atherosclerosis,IFNG,core_benchmark
+H02123,Celiac disease,IFNG,core_benchmark
+H00286,Crohn disease,IFNG,core_benchmark
+H00082,Graves disease,IFNG,core_benchmark
+H00359,Leishmaniasis,IFNG,core_benchmark
+H01500,Lupus nephritis,IFNG,core_benchmark
+H01490,Multiple sclerosis,IFNG,core_benchmark
+H02563,Neural tube defects,IFNG,core_benchmark
+H01656,Psoriasis,IFNLR1,core_benchmark
+H02160,Craniosynostoses,IFT122,core_benchmark
+H00511,Short rib-polydactyly syndrome,IFT140,core_benchmark
+H00511,Short rib-polydactyly syndrome,IFT172,core_benchmark
+H00511,Short rib-polydactyly syndrome,IFT52,core_benchmark
+H00286,Crohn disease,IGF1,core_benchmark
+H02505,Atherosclerosis,IGF2,core_benchmark
+H00037,Rhabdomyosarcoma,IGF2,core_benchmark
+H00043,Neuroblastoma,IGF2BP1,core_benchmark
+H00088,Common variable immunodeficiency,IKZF1,core_benchmark
+H01372,Vitiligo,IKZF4,core_benchmark
+H00286,Crohn disease,IL10,core_benchmark
+H00359,Leishmaniasis,IL10,core_benchmark
+H01490,Multiple sclerosis,IL10,core_benchmark
+H00286,Crohn disease,IL10RA,core_benchmark
+H00042,Glioma,IL12A,core_benchmark
+H01490,Multiple sclerosis,IL12A,core_benchmark
+H00286,Crohn disease,IL12B,core_benchmark
+H00042,Glioma,IL12B,core_benchmark
+H01656,Psoriasis,IL12B,core_benchmark
+H01656,Psoriasis,IL13,core_benchmark
+H02123,Celiac disease,IL15,core_benchmark
+H00082,Graves disease,IL17A,core_benchmark
+H01490,Multiple sclerosis,IL17A,core_benchmark
+H00359,Leishmaniasis,IL18,core_benchmark
+H01309,Sarcoidosis,IL18,core_benchmark
+H01372,Vitiligo,IL1A,core_benchmark
+H01532,Gout,IL1B,core_benchmark
+H01490,Multiple sclerosis,IL1B,core_benchmark
+H00043,Neuroblastoma,IL1B,core_benchmark
+H01656,Psoriasis,IL1B,core_benchmark
+H01532,Gout,IL1RN,core_benchmark
+H01490,Multiple sclerosis,IL1RN,core_benchmark
+H01657,Nephrotic syndrome,IL2,core_benchmark
+H02123,Celiac disease,IL21,core_benchmark
+H00088,Common variable immunodeficiency,IL21,core_benchmark
+H01656,Psoriasis,IL23A,core_benchmark
+H00286,Crohn disease,IL23R,core_benchmark
+H01656,Psoriasis,IL23R,core_benchmark
+H00286,Crohn disease,IL2RA,core_benchmark
+H01490,Multiple sclerosis,IL2RA,core_benchmark
+H01656,Psoriasis,IL36RN,core_benchmark
+H00082,Graves disease,IL4,core_benchmark
+H01656,Psoriasis,IL4,core_benchmark
+H02505,Atherosclerosis,IL6,core_benchmark
+H00046,Cholangiocarcinoma,IL6,core_benchmark
+H00286,Crohn disease,IL6,core_benchmark
+H00082,Graves disease,IL6,core_benchmark
+H00359,Leishmaniasis,IL6,core_benchmark
+H00010,Multiple myeloma,IL6,core_benchmark
+H01593,Osteoporosis,IL6,core_benchmark
+H01656,Psoriasis,IL6,core_benchmark
+H00082,Graves disease,IL6R,core_benchmark
+H01593,Osteoporosis,IL6R,core_benchmark
+H01490,Multiple sclerosis,IL7,core_benchmark
+H01490,Multiple sclerosis,IL7R,core_benchmark
+H00837,Leber congenital amaurosis,IMPDH1,core_benchmark
+H00527,Retinitis pigmentosa,IMPDH1,core_benchmark
+H01637,Hypertriglyceridemia,INS,core_benchmark
+H02563,Neural tube defects,INS,core_benchmark
+H02176,Cryptorchidism,INSL3,core_benchmark
+H00059,Huntington disease,IP6K2,core_benchmark
+H00653,Marfan syndrome,IPO8,core_benchmark
+H00010,Multiple myeloma,IRF4,core_benchmark
+H01490,Multiple sclerosis,IRF8,core_benchmark
+H00286,Crohn disease,IRGM,core_benchmark
+H01667,Medulloblastoma,IRS2,core_benchmark
+H00528,Frontonasal dysplasia,IRX5,core_benchmark
+H02041,Myopia,IRX5,core_benchmark
+H00042,Glioma,ISG15,core_benchmark
+H00043,Neuroblastoma,ISL1,core_benchmark
+H00653,Marfan syndrome,JAG1,core_benchmark
+H00896,Lymphangioleiomyomatosis,JAG2,core_benchmark
+H01095,Syndactyly,JAG2,core_benchmark
+H01500,Lupus nephritis,JAK1,core_benchmark
+H01490,Multiple sclerosis,JARID2,core_benchmark
+H00036,Osteosarcoma,JUN,core_benchmark
+H01667,Medulloblastoma,KAT6A,core_benchmark
+H00046,Cholangiocarcinoma,KCND2,core_benchmark
+H00720,Long QT syndrome,KCNE1,core_benchmark
+H00720,Long QT syndrome,KCNE2,core_benchmark
+H00036,Osteosarcoma,KCNH1,core_benchmark
+H00720,Long QT syndrome,KCNH2,core_benchmark
+H01490,Multiple sclerosis,KCNJ10,core_benchmark
+H02081,Marshall syndrome,KCNJ13,core_benchmark
+H00720,Long QT syndrome,KCNQ1,core_benchmark
+H02041,Myopia,KCNQ5,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,KDELR2,core_benchmark
+H01667,Medulloblastoma,KDM4B,core_benchmark
+H01667,Medulloblastoma,KDM4C,core_benchmark
+H00511,Short rib-polydactyly syndrome,KIAA0586,core_benchmark
+H01490,Multiple sclerosis,KIF1B,core_benchmark
+H00043,Neuroblastoma,KIF1B,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,KIF5B,core_benchmark
+H01593,Osteoporosis,KL,core_benchmark
+H01490,Multiple sclerosis,KLHL6,core_benchmark
+H00046,Cholangiocarcinoma,KMT2C,core_benchmark
+H01745,Cardiofaciocutaneous syndrome,KRAS,core_benchmark
+H00046,Cholangiocarcinoma,KRAS,core_benchmark
+H01747,Costello syndrome,KRAS,core_benchmark
+H00043,Neuroblastoma,KRAS,core_benchmark
+H01738,Noonan syndrome,KRAS,core_benchmark
+H00786,Hypotrichosis,KRT71,core_benchmark
+H00786,Hypotrichosis,KRT74,core_benchmark
+H01667,Medulloblastoma,L3MBTL2,core_benchmark
+H01667,Medulloblastoma,L3MBTL3,core_benchmark
+H02041,Myopia,LAMA2,core_benchmark
+H00268,Lissencephaly,LAMB1,core_benchmark
+H00653,Marfan syndrome,LAMC1,core_benchmark
+H01656,Psoriasis,LCE3B,core_benchmark
+H01656,Psoriasis,LCE3C,core_benchmark
+H01656,Psoriasis,LCE3D,core_benchmark
+H02123,Celiac disease,LCN2,core_benchmark
+H02505,Atherosclerosis,LDLR,core_benchmark
+H00310,Q fever,LDLR,core_benchmark
+H00286,Crohn disease,LEP,core_benchmark
+H01388,Hyperprolactinemia,LHB,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,LIFR,core_benchmark
+H00010,Multiple myeloma,LIG4,core_benchmark
+H01202,Cataract,LIM2,core_benchmark
+H00043,Neuroblastoma,LIN28B,core_benchmark
+H00786,Hypotrichosis,LIPH,core_benchmark
+H01637,Hypertriglyceridemia,LMF1,core_benchmark
+H00653,Marfan syndrome,LOX,core_benchmark
+H00036,Osteosarcoma,LOX,core_benchmark
+H02081,Marshall syndrome,LOXL3,core_benchmark
+H02505,Atherosclerosis,LPA,core_benchmark
+H00786,Hypotrichosis,LPAR6,core_benchmark
+H02123,Celiac disease,LPL,core_benchmark
+H01637,Hypertriglyceridemia,LPL,core_benchmark
+H02123,Celiac disease,LRAT,core_benchmark
+H00837,Leber congenital amaurosis,LRAT,core_benchmark
+H00527,Retinitis pigmentosa,LRAT,core_benchmark
+H02081,Marshall syndrome,LRP2,core_benchmark
+H01095,Syndactyly,LRP4,core_benchmark
+H01593,Osteoporosis,LRP5,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,LRP5,core_benchmark
+H01490,Multiple sclerosis,LRRC8C,core_benchmark
+H00310,Q fever,LSS,core_benchmark
+H02505,Atherosclerosis,LTA4H,core_benchmark
+H02877,Glaucoma,LTBP2,core_benchmark
+H00653,Marfan syndrome,LTBP3,core_benchmark
+H00361,Malaria,LTBR,core_benchmark
+H01593,Osteoporosis,LTF,core_benchmark
+H02086,Mitochondrial complex III deficiency,LYRM7,core_benchmark
+H00478,Prader-Willi syndrome,MAGEL2,core_benchmark
+H02175,Hypospadias,MAMLD1,core_benchmark
+H00059,Huntington disease,MAOA,core_benchmark
+H00059,Huntington disease,MAOB,core_benchmark
+H01745,Cardiofaciocutaneous syndrome,MAP2K1,core_benchmark
+H01747,Costello syndrome,MAP2K1,core_benchmark
+H01738,Noonan syndrome,MAP2K1,core_benchmark
+H01745,Cardiofaciocutaneous syndrome,MAP2K2,core_benchmark
+H01747,Costello syndrome,MAP2K2,core_benchmark
+H01738,Noonan syndrome,MAP2K2,core_benchmark
+H00802,Ehlers-Danlos syndrome,MAP3K7,core_benchmark
+H00653,Marfan syndrome,MAT2A,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,MBTPS2,core_benchmark
+H01372,Vitiligo,MC1R,core_benchmark
+H01490,Multiple sclerosis,MCAM,core_benchmark
+H01901,Barrett esophagus,MCL1,core_benchmark
+H00359,Leishmaniasis,MCL1,core_benchmark
+H00010,Multiple myeloma,MCL1,core_benchmark
+H00042,Glioma,MDK,core_benchmark
+H00527,Retinitis pigmentosa,MERTK,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,MESD,core_benchmark
+H01637,Hypertriglyceridemia,MET,core_benchmark
+H00043,Neuroblastoma,MET,core_benchmark
+H00036,Osteosarcoma,MET,core_benchmark
+H00010,Multiple myeloma,METTL14,core_benchmark
+H00010,Multiple myeloma,METTL3,core_benchmark
+H00653,Marfan syndrome,MFAP5,core_benchmark
+H01593,Osteoporosis,MGLL,core_benchmark
+H00042,Glioma,MGMT,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,MIA3,core_benchmark
+H01202,Cataract,MIP,core_benchmark
+H01656,Psoriasis,MKI67,core_benchmark
+H00478,Prader-Willi syndrome,MKRN3,core_benchmark
+H01556,Meningioma,MLLT10,core_benchmark
+H00008,Burkitt lymphoma,MLLT11,core_benchmark
+H02505,Atherosclerosis,MMP1,core_benchmark
+H02123,Celiac disease,MMP12,core_benchmark
+H01500,Lupus nephritis,MMP2,core_benchmark
+H00653,Marfan syndrome,MMP2,core_benchmark
+H00036,Osteosarcoma,MMP2,core_benchmark
+H02123,Celiac disease,MMP3,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,MMP3,core_benchmark
+H01500,Lupus nephritis,MMP9,core_benchmark
+H00653,Marfan syndrome,MMP9,core_benchmark
+H00043,Neuroblastoma,MMP9,core_benchmark
+H01293,Narcolepsy,MOG,core_benchmark
+H01667,Medulloblastoma,MPL,core_benchmark
+H02505,Atherosclerosis,MPO,core_benchmark
+H00088,Common variable immunodeficiency,MS4A1,core_benchmark
+H00046,Cholangiocarcinoma,MSLN,core_benchmark
+H01901,Barrett esophagus,MSR1,core_benchmark
+H00286,Crohn disease,MST1,core_benchmark
+H00036,Osteosarcoma,MST1R,core_benchmark
+H02563,Neural tube defects,MTHFD1,core_benchmark
+H00286,Crohn disease,MTHFR,core_benchmark
+H02563,Neural tube defects,MTHFR,core_benchmark
+H00010,Multiple myeloma,MUC1,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,MUC5B,core_benchmark
+H01594,Myasthenia gravis,MUSK,core_benchmark
+H00238,Fanconi anemia,MX1,core_benchmark
+H00042,Glioma,MYB,core_benchmark
+H00043,Neuroblastoma,MYB,core_benchmark
+H00042,Glioma,MYBL1,core_benchmark
+H00008,Burkitt lymphoma,MYC,core_benchmark
+H01667,Medulloblastoma,MYC,core_benchmark
+H00043,Neuroblastoma,MYC,core_benchmark
+H00036,Osteosarcoma,MYC,core_benchmark
+H01667,Medulloblastoma,MYCL,core_benchmark
+H01667,Medulloblastoma,MYCN,core_benchmark
+H00043,Neuroblastoma,MYCN,core_benchmark
+H00653,Marfan syndrome,MYH11,core_benchmark
+H02877,Glaucoma,MYLK,core_benchmark
+H00042,Glioma,MYLK,core_benchmark
+H00653,Marfan syndrome,MYLK,core_benchmark
+H02877,Glaucoma,MYOC,core_benchmark
+H01490,Multiple sclerosis,NABP1,core_benchmark
+H02563,Neural tube defects,NAT2,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,NBAS,core_benchmark
+H00286,Crohn disease,NCF4,core_benchmark
+H01657,Nephrotic syndrome,NCK1,core_benchmark
+H01657,Nephrotic syndrome,NCK2,core_benchmark
+H00361,Malaria,NCR3,core_benchmark
+H00268,Lissencephaly,NDE1,core_benchmark
+H01202,Cataract,NDRG2,core_benchmark
+H01020,Optic atrophy,NDUFS3,core_benchmark
+H02505,Atherosclerosis,NECTIN2,core_benchmark
+H01490,Multiple sclerosis,NECTIN2,core_benchmark
+H01095,Syndactyly,NEDD4L,core_benchmark
+H01490,Multiple sclerosis,NEDD9,core_benchmark
+H00511,Short rib-polydactyly syndrome,NEK1,core_benchmark
+H02160,Craniosynostoses,NELL1,core_benchmark
+H00042,Glioma,NF1,core_benchmark
+H01556,Meningioma,NF2,core_benchmark
+H01372,Vitiligo,NFE2L2,core_benchmark
+H00088,Common variable immunodeficiency,NFKB1,core_benchmark
+H00088,Common variable immunodeficiency,NFKB2,core_benchmark
+H01656,Psoriasis,NFKBIA,core_benchmark
+H00286,Crohn disease,NKX2-3,core_benchmark
+H01272,Hypoplastic left heart syndrome,NKX2-5,core_benchmark
+H00286,Crohn disease,NLRP3,core_benchmark
+H01490,Multiple sclerosis,NLRP3,core_benchmark
+H00837,Leber congenital amaurosis,NMNAT1,core_benchmark
+H01020,Optic atrophy,NMNAT1,core_benchmark
+H00043,Neuroblastoma,NNAT,core_benchmark
+H00286,Crohn disease,NOD2,core_benchmark
+H00267,Holoprosencephaly,NODAL,core_benchmark
+H02505,Atherosclerosis,NOS2,core_benchmark
+H00046,Cholangiocarcinoma,NOS2,core_benchmark
+H00361,Malaria,NOS2,core_benchmark
+H00653,Marfan syndrome,NOS2,core_benchmark
+H01656,Psoriasis,NOS2,core_benchmark
+H02505,Atherosclerosis,NOS3,core_benchmark
+H00653,Marfan syndrome,NOTCH1,core_benchmark
+H00478,Prader-Willi syndrome,NPAP1,core_benchmark
+H02505,Atherosclerosis,NPC1,core_benchmark
+H01657,Nephrotic syndrome,NPHS2,core_benchmark
+H00507,Dyskeratosis congenita,NPM1,core_benchmark
+H00653,Marfan syndrome,NPR3,core_benchmark
+H02563,Neural tube defects,NPY1R,core_benchmark
+H00010,Multiple myeloma,NQO1,core_benchmark
+H02505,Atherosclerosis,NR1H4,core_benchmark
+H00286,Crohn disease,NR1H4,core_benchmark
+H01901,Barrett esophagus,NR1I2,core_benchmark
+H00036,Osteosarcoma,NR1I2,core_benchmark
+H00043,Neuroblastoma,NRAS,core_benchmark
+H01738,Noonan syndrome,NRAS,core_benchmark
+H00910,Hirschsprung disease,NRG1,core_benchmark
+H00527,Retinitis pigmentosa,NRL,core_benchmark
+H00043,Neuroblastoma,NT5E,core_benchmark
+H00042,Glioma,NTRK1,core_benchmark
+H00043,Neuroblastoma,NTRK1,core_benchmark
+H00042,Glioma,NTRK2,core_benchmark
+H00043,Neuroblastoma,NTRK2,core_benchmark
+H00042,Glioma,NTRK3,core_benchmark
+H00010,Multiple myeloma,NUAK1,core_benchmark
+H00059,Huntington disease,OGG1,core_benchmark
+H01667,Medulloblastoma,OTX2,core_benchmark
+H01593,Osteoporosis,OXCT1,core_benchmark
+H01587,Disseminated intravascular coagulation,OXT,core_benchmark
+H01490,Multiple sclerosis,P2RX7,core_benchmark
+H01293,Narcolepsy,P2RY11,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,P3H1,core_benchmark
+H02081,Marshall syndrome,P3H2,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,P4HA1,core_benchmark
+H01593,Osteoporosis,P4HB,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,P4HB,core_benchmark
+H00268,Lissencephaly,PAFAH1B1,core_benchmark
+H00043,Neuroblastoma,PAK4,core_benchmark
+H01593,Osteoporosis,PARK7,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,PARN,core_benchmark
+H02505,Atherosclerosis,PARP1,core_benchmark
+H00010,Multiple myeloma,PARP1,core_benchmark
+H02563,Neural tube defects,PAX3,core_benchmark
+H01202,Cataract,PAX6,core_benchmark
+H00046,Cholangiocarcinoma,PBRM1,core_benchmark
+H00008,Burkitt lymphoma,PBX1,core_benchmark
+H00008,Burkitt lymphoma,PC,core_benchmark
+H01272,Hypoplastic left heart syndrome,PCDHA13,core_benchmark
+H01272,Hypoplastic left heart syndrome,PCDHA9,core_benchmark
+H02123,Celiac disease,PCK1,core_benchmark
+H01656,Psoriasis,PCNA,core_benchmark
+H00082,Graves disease,PDCD1,core_benchmark
+H00527,Retinitis pigmentosa,PDE6A,core_benchmark
+H00527,Retinitis pigmentosa,PDE6B,core_benchmark
+H00527,Retinitis pigmentosa,PDE6G,core_benchmark
+H01667,Medulloblastoma,PDGFRA,core_benchmark
+H01593,Osteoporosis,PDLIM4,core_benchmark
+H00286,Crohn disease,PDLIM5,core_benchmark
+H00046,Cholangiocarcinoma,PEG3,core_benchmark
+H01293,Narcolepsy,PENK,core_benchmark
+H00046,Cholangiocarcinoma,PES1,core_benchmark
+H01342,Zellweger syndrome,PEX1,core_benchmark
+H01342,Zellweger syndrome,PEX10,core_benchmark
+H01342,Zellweger syndrome,PEX12,core_benchmark
+H00176,Adrenoleukodystrophy,PEX13,core_benchmark
+H01342,Zellweger syndrome,PEX13,core_benchmark
+H01342,Zellweger syndrome,PEX14,core_benchmark
+H01342,Zellweger syndrome,PEX16,core_benchmark
+H01342,Zellweger syndrome,PEX19,core_benchmark
+H01342,Zellweger syndrome,PEX2,core_benchmark
+H00176,Adrenoleukodystrophy,PEX26,core_benchmark
+H01342,Zellweger syndrome,PEX26,core_benchmark
+H01342,Zellweger syndrome,PEX3,core_benchmark
+H01342,Zellweger syndrome,PEX6,core_benchmark
+H01593,Osteoporosis,PGLS,core_benchmark
+H01556,Meningioma,PGR,core_benchmark
+H00036,Osteosarcoma,PHLDA2,core_benchmark
+H00042,Glioma,PHLDB1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,PHLDB1,core_benchmark
+H00286,Crohn disease,PHOX2B,core_benchmark
+H00043,Neuroblastoma,PHOX2B,core_benchmark
+H01667,Medulloblastoma,PIK3CG,core_benchmark
+H00008,Burkitt lymphoma,PIK3R1,core_benchmark
+H01372,Vitiligo,PIK3R1,core_benchmark
+H00043,Neuroblastoma,PINK1,core_benchmark
+H01202,Cataract,PITX3,core_benchmark
+H02123,Celiac disease,PIWIL2,core_benchmark
+H00896,Lymphangioleiomyomatosis,PKM,core_benchmark
+H01593,Osteoporosis,PKM,core_benchmark
+H02505,Atherosclerosis,PLA2G2A,core_benchmark
+H02505,Atherosclerosis,PLAT,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,PLAU,core_benchmark
+H01593,Osteoporosis,PLEK,core_benchmark
+H00042,Glioma,PLK1,core_benchmark
+H00802,Ehlers-Danlos syndrome,PLOD1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,PLOD2,core_benchmark
+H02081,Marshall syndrome,PLOD3,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,PLOD3,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,PLS3,core_benchmark
+H01637,Hypertriglyceridemia,PLTP,core_benchmark
+H00653,Marfan syndrome,PMEPA1,core_benchmark
+H00037,Rhabdomyosarcoma,PMS2,core_benchmark
+H01593,Osteoporosis,PNP,core_benchmark
+H00720,Long QT syndrome,POMC,core_benchmark
+H01490,Multiple sclerosis,POMC,core_benchmark
+H01594,Myasthenia gravis,POMC,core_benchmark
+H01593,Osteoporosis,POMC,core_benchmark
+H02505,Atherosclerosis,PON1,core_benchmark
+H01457,Diabetic retinopathy,PON1,core_benchmark
+H00042,Glioma,POU5F1,core_benchmark
+H00286,Crohn disease,PPARA,core_benchmark
+H01637,Hypertriglyceridemia,PPARA,core_benchmark
+H02505,Atherosclerosis,PPARG,core_benchmark
+H01901,Barrett esophagus,PPARG,core_benchmark
+H00286,Crohn disease,PPARG,core_benchmark
+H01656,Psoriasis,PPARG,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,PPIB,core_benchmark
+H00042,Glioma,PPM1D,core_benchmark
+H01667,Medulloblastoma,PRAME,core_benchmark
+H00010,Multiple myeloma,PRAME,core_benchmark
+H00802,Ehlers-Danlos syndrome,PRDM5,core_benchmark
+H00036,Osteosarcoma,PRDX2,core_benchmark
+H01593,Osteoporosis,PRDX3,core_benchmark
+H00046,Cholangiocarcinoma,PRKACA,core_benchmark
+H00046,Cholangiocarcinoma,PRKACB,core_benchmark
+H00653,Marfan syndrome,PRKG1,core_benchmark
+H01388,Hyperprolactinemia,PRL,core_benchmark
+H01388,Hyperprolactinemia,PRLR,core_benchmark
+H01667,Medulloblastoma,PRMT5,core_benchmark
+H00010,Multiple myeloma,PRMT5,core_benchmark
+H01490,Multiple sclerosis,PRNP,core_benchmark
+H01587,Disseminated intravascular coagulation,PROC,core_benchmark
+H02041,Myopia,PRSS56,core_benchmark
+H02563,Neural tube defects,PRSS8,core_benchmark
+H00042,Glioma,PSD3,core_benchmark
+H01593,Osteoporosis,PSMA2,core_benchmark
+H01593,Osteoporosis,PSMA5,core_benchmark
+H00043,Neuroblastoma,PSMD14,core_benchmark
+H00010,Multiple myeloma,PSORS1C2,core_benchmark
+H00286,Crohn disease,PTAFR,core_benchmark
+H00036,Osteosarcoma,PTBP1,core_benchmark
+H01667,Medulloblastoma,PTCH1,core_benchmark
+H00037,Rhabdomyosarcoma,PTCH1,core_benchmark
+H01667,Medulloblastoma,PTCH2,core_benchmark
+H00046,Cholangiocarcinoma,PTEN,core_benchmark
+H00042,Glioma,PTEN,core_benchmark
+H00720,Long QT syndrome,PTEN,core_benchmark
+H01556,Meningioma,PTEN,core_benchmark
+H02505,Atherosclerosis,PTGS2,core_benchmark
+H01901,Barrett esophagus,PTGS2,core_benchmark
+H00046,Cholangiocarcinoma,PTGS2,core_benchmark
+H00042,Glioma,PTGS2,core_benchmark
+H01593,Osteoporosis,PTH,core_benchmark
+H00010,Multiple myeloma,PTHLH,core_benchmark
+H00037,Rhabdomyosarcoma,PTMA,core_benchmark
+H01745,Cardiofaciocutaneous syndrome,PTPN11,core_benchmark
+H01747,Costello syndrome,PTPN11,core_benchmark
+H00043,Neuroblastoma,PTPN11,core_benchmark
+H01738,Noonan syndrome,PTPN11,core_benchmark
+H00043,Neuroblastoma,PTPN14,core_benchmark
+H00286,Crohn disease,PTPN2,core_benchmark
+H00082,Graves disease,PTPN22,core_benchmark
+H01656,Psoriasis,PTTG1,core_benchmark
+H02563,Neural tube defects,PYY,core_benchmark
+H00042,Glioma,QKI,core_benchmark
+H01593,Osteoporosis,RAB7B,core_benchmark
+H00238,Fanconi anemia,RAD51C,core_benchmark
+H00042,Glioma,RAF1,core_benchmark
+H01738,Noonan syndrome,RAF1,core_benchmark
+H02041,Myopia,RASGRF1,core_benchmark
+H01667,Medulloblastoma,RASSF1,core_benchmark
+H00043,Neuroblastoma,RASSF5,core_benchmark
+H00036,Osteosarcoma,RB1,core_benchmark
+H00527,Retinitis pigmentosa,RBP3,core_benchmark
+H01490,Multiple sclerosis,RBPJ,core_benchmark
+H00059,Huntington disease,RCAN1,core_benchmark
+H00527,Retinitis pigmentosa,RDH12,core_benchmark
+H02041,Myopia,RDH5,core_benchmark
+H01656,Psoriasis,REL,core_benchmark
+H01901,Barrett esophagus,RELA,core_benchmark
+H00286,Crohn disease,RELA,core_benchmark
+H00043,Neuroblastoma,RELA,core_benchmark
+H01593,Osteoporosis,REN,core_benchmark
+H01656,Psoriasis,REN,core_benchmark
+H00008,Burkitt lymphoma,RET,core_benchmark
+H00910,Hirschsprung disease,RET,core_benchmark
+H00036,Osteosarcoma,RFC1,core_benchmark
+H00527,Retinitis pigmentosa,RGR,core_benchmark
+H00036,Osteosarcoma,RGS1,core_benchmark
+H00527,Retinitis pigmentosa,RHO,core_benchmark
+H01656,Psoriasis,RIGI,core_benchmark
+H00290,Aicardi-Goutieres syndrome,RNASEH2B,core_benchmark
+H00082,Graves disease,RNASET2,core_benchmark
+H01656,Psoriasis,RNF114,core_benchmark
+H01490,Multiple sclerosis,RNF19A,core_benchmark
+H00046,Cholangiocarcinoma,RNF43,core_benchmark
+H00046,Cholangiocarcinoma,ROBO2,core_benchmark
+H00527,Retinitis pigmentosa,ROM1,core_benchmark
+H00042,Glioma,ROS1,core_benchmark
+H00837,Leber congenital amaurosis,RPE65,core_benchmark
+H00527,Retinitis pigmentosa,RPE65,core_benchmark
+H00527,Retinitis pigmentosa,RPGR,core_benchmark
+H00837,Leber congenital amaurosis,RPGRIP1,core_benchmark
+H00527,Retinitis pigmentosa,RPGRIP1,core_benchmark
+H00786,Hypotrichosis,RPL21,core_benchmark
+H01901,Barrett esophagus,RPRM,core_benchmark
+H02563,Neural tube defects,RRM1,core_benchmark
+H01593,Osteoporosis,RSU1,core_benchmark
+H00042,Glioma,RTEL1,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,RTEL1,core_benchmark
+H00036,Osteosarcoma,RUNX2,core_benchmark
+H02123,Celiac disease,RUNX3,core_benchmark
+H01656,Psoriasis,RUNX3,core_benchmark
+H01667,Medulloblastoma,S100A10,core_benchmark
+H01667,Medulloblastoma,S100A4,core_benchmark
+H01667,Medulloblastoma,S100A6,core_benchmark
+H01656,Psoriasis,S100A7,core_benchmark
+H02123,Celiac disease,S100A9,core_benchmark
+H00527,Retinitis pigmentosa,SAG,core_benchmark
+H00008,Burkitt lymphoma,SALL3,core_benchmark
+H00290,Aicardi-Goutieres syndrome,SAMHD1,core_benchmark
+H01272,Hypoplastic left heart syndrome,SAP130,core_benchmark
+H01667,Medulloblastoma,SCG5,core_benchmark
+H01667,Medulloblastoma,SCML2,core_benchmark
+H00720,Long QT syndrome,SCN5A,core_benchmark
+H00218,Cystic fibrosis,SCNN1A,core_benchmark
+H00218,Cystic fibrosis,SCNN1B,core_benchmark
+H00218,Cystic fibrosis,SCNN1G,core_benchmark
+H00286,Crohn disease,SDF2L1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,SEC16B,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,SEC24D,core_benchmark
+H01490,Multiple sclerosis,SELE,core_benchmark
+H00043,Neuroblastoma,SEMA3B,core_benchmark
+H01656,Psoriasis,SERPINB8,core_benchmark
+H01587,Disseminated intravascular coagulation,SERPINC1,core_benchmark
+H01657,Nephrotic syndrome,SERPINC1,core_benchmark
+H02505,Atherosclerosis,SERPINE1,core_benchmark
+H01657,Nephrotic syndrome,SERPINE1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,SERPINF1,core_benchmark
+H01500,Lupus nephritis,SERPING1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,SERPINH1,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,SFTPA2,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,SFTPC,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,SGMS2,core_benchmark
+H01372,Vitiligo,SH2B3,core_benchmark
+H00043,Neuroblastoma,SHFM1,core_benchmark
+H00267,Holoprosencephaly,SHH,core_benchmark
+H01738,Noonan syndrome,SHOC2,core_benchmark
+H00078,Frontotemporal lobar degeneration,SIGMAR1,core_benchmark
+H02505,Atherosclerosis,SIRT1,core_benchmark
+H01457,Diabetic retinopathy,SIRT1,core_benchmark
+H00036,Osteosarcoma,SIRT1,core_benchmark
+H00528,Frontonasal dysplasia,SIX2,core_benchmark
+H00267,Holoprosencephaly,SIX3,core_benchmark
+H02041,Myopia,SIX6,core_benchmark
+H02563,Neural tube defects,SKI,core_benchmark
+H01667,Medulloblastoma,SKP2,core_benchmark
+H01372,Vitiligo,SLA,core_benchmark
+H01020,Optic atrophy,SLBP,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,SLC10A7,core_benchmark
+H00286,Crohn disease,SLC11A1,core_benchmark
+H01490,Multiple sclerosis,SLC11A1,core_benchmark
+H01309,Sarcoidosis,SLC11A1,core_benchmark
+H00211,Hemochromatosis,SLC11A2,core_benchmark
+H01020,Optic atrophy,SLC25A46,core_benchmark
+H02081,Marshall syndrome,SLC26A2,core_benchmark
+H00059,Huntington disease,SLC29A1,core_benchmark
+H00653,Marfan syndrome,SLC2A10,core_benchmark
+H01532,Gout,SLC2A9,core_benchmark
+H01202,Cataract,SLC33A1,core_benchmark
+H00802,Ehlers-Danlos syndrome,SLC39A13,core_benchmark
+H00211,Hemochromatosis,SLC40A1,core_benchmark
+H00361,Malaria,SLC4A1,core_benchmark
+H01202,Cataract,SLC4A4,core_benchmark
+H02877,Glaucoma,SLC4A4,core_benchmark
+H00046,Cholangiocarcinoma,SLC5A5,core_benchmark
+H00042,Glioma,SLC5A5,core_benchmark
+H02123,Celiac disease,SLC6A14,core_benchmark
+H01450,Obsessive-compulsive disorder,SLC6A4,core_benchmark
+H01901,Barrett esophagus,SLC9A1,core_benchmark
+H01450,Obsessive-compulsive disorder,SLITRK5,core_benchmark
+H02081,Marshall syndrome,SLITRK6,core_benchmark
+H00238,Fanconi anemia,SLX4,core_benchmark
+H00653,Marfan syndrome,SMAD2,core_benchmark
+H00286,Crohn disease,SMAD3,core_benchmark
+H00800,Loeys-Dietz syndrome,SMAD3,core_benchmark
+H00653,Marfan syndrome,SMAD3,core_benchmark
+H00046,Cholangiocarcinoma,SMAD4,core_benchmark
+H00653,Marfan syndrome,SMAD4,core_benchmark
+H02160,Craniosynostoses,SMAD6,core_benchmark
+H01403,Coffin-Siris syndrome,SMARCA2,core_benchmark
+H00008,Burkitt lymphoma,SMARCA4,core_benchmark
+H01403,Coffin-Siris syndrome,SMARCA4,core_benchmark
+H01403,Coffin-Siris syndrome,SMARCB1,core_benchmark
+H01403,Coffin-Siris syndrome,SMARCE1,core_benchmark
+H01556,Meningioma,SMARCE1,core_benchmark
+H01556,Meningioma,SMO,core_benchmark
+H01667,Medulloblastoma,SMYD4,core_benchmark
+H00786,Hypotrichosis,SNRPE,core_benchmark
+H01732,Angelman syndrome,SNRPN,core_benchmark
+H02123,Celiac disease,SOAT2,core_benchmark
+H01293,Narcolepsy,SOCS2,core_benchmark
+H02505,Atherosclerosis,SOCS3,core_benchmark
+H02505,Atherosclerosis,SOD1,core_benchmark
+H01457,Diabetic retinopathy,SOD1,core_benchmark
+H00042,Glioma,SOD1,core_benchmark
+H00653,Marfan syndrome,SOD1,core_benchmark
+H00176,Adrenoleukodystrophy,SOD2,core_benchmark
+H02505,Atherosclerosis,SOD2,core_benchmark
+H00653,Marfan syndrome,SOD2,core_benchmark
+H00010,Multiple myeloma,SOD2,core_benchmark
+H01657,Nephrotic syndrome,SOD2,core_benchmark
+H01593,Osteoporosis,SOD2,core_benchmark
+H01656,Psoriasis,SOD2,core_benchmark
+H01309,Sarcoidosis,SOD2,core_benchmark
+H01738,Noonan syndrome,SOS1,core_benchmark
+H01403,Coffin-Siris syndrome,SOX11,core_benchmark
+H00036,Osteosarcoma,SOX2,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,SP7,core_benchmark
+H00010,Multiple myeloma,SPARC,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,SPARC,core_benchmark
+H00837,Leber congenital amaurosis,SPATA7,core_benchmark
+H00527,Retinitis pigmentosa,SPATA7,core_benchmark
+H02563,Neural tube defects,SPINT2,core_benchmark
+H00042,Glioma,SPP1,core_benchmark
+H01901,Barrett esophagus,SST,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,ST14,core_benchmark
+H01500,Lupus nephritis,STAT1,core_benchmark
+H02505,Atherosclerosis,STAT3,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,STAT3,core_benchmark
+H01667,Medulloblastoma,STAT3,core_benchmark
+H01656,Psoriasis,STAT3,core_benchmark
+H01490,Multiple sclerosis,STAT4,core_benchmark
+H00042,Glioma,STMN1,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,STN1,core_benchmark
+H01667,Medulloblastoma,STRADA,core_benchmark
+H01667,Medulloblastoma,SUFU,core_benchmark
+H02563,Neural tube defects,SULT1A1,core_benchmark
+H00042,Glioma,SUZ12,core_benchmark
+H01490,Multiple sclerosis,SYS1,core_benchmark
+H00802,Ehlers-Danlos syndrome,TAB2,core_benchmark
+H01293,Narcolepsy,TAC1,core_benchmark
+H00036,Osteosarcoma,TAF15,core_benchmark
+H00286,Crohn disease,TAGAP,core_benchmark
+H01656,Psoriasis,TAGAP,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,TAPT1,core_benchmark
+H00078,Frontotemporal lobar degeneration,TARDBP,core_benchmark
+H01020,Optic atrophy,TBCD,core_benchmark
+H01524,DiGeorge syndrome,TBX1,core_benchmark
+H00043,Neuroblastoma,TBX2,core_benchmark
+H02563,Neural tube defects,TBXT,core_benchmark
+H02160,Craniosynostoses,TCF12,core_benchmark
+H00008,Burkitt lymphoma,TCF3,core_benchmark
+H00286,Crohn disease,TCF7,core_benchmark
+H01202,Cataract,TDRD7,core_benchmark
+H02877,Glaucoma,TDRD7,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,TENT5A,core_benchmark
+H00507,Dyskeratosis congenita,TERT,core_benchmark
+H00042,Glioma,TERT,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,TERT,core_benchmark
+H00043,Neuroblastoma,TERT,core_benchmark
+H01657,Nephrotic syndrome,TF,core_benchmark
+H02123,Celiac disease,TFF1,core_benchmark
+H00211,Hemochromatosis,TFR2,core_benchmark
+H00042,Glioma,TFRC,core_benchmark
+H00082,Graves disease,TG,core_benchmark
+H01656,Psoriasis,TGFA,core_benchmark
+H00218,Cystic fibrosis,TGFB1,core_benchmark
+H01532,Gout,TGFB1,core_benchmark
+H00082,Graves disease,TGFB1,core_benchmark
+H01657,Nephrotic syndrome,TGFB1,core_benchmark
+H01593,Osteoporosis,TGFB1,core_benchmark
+H01309,Sarcoidosis,TGFB1,core_benchmark
+H02877,Glaucoma,TGFB2,core_benchmark
+H00800,Loeys-Dietz syndrome,TGFB2,core_benchmark
+H00653,Marfan syndrome,TGFB2,core_benchmark
+H00800,Loeys-Dietz syndrome,TGFB3,core_benchmark
+H00653,Marfan syndrome,TGFB3,core_benchmark
+H00800,Loeys-Dietz syndrome,TGFBR1,core_benchmark
+H00653,Marfan syndrome,TGFBR1,core_benchmark
+H00800,Loeys-Dietz syndrome,TGFBR2,core_benchmark
+H00653,Marfan syndrome,TGFBR2,core_benchmark
+H00267,Holoprosencephaly,TGIF1,core_benchmark
+H02123,Celiac disease,TGM2,core_benchmark
+H00043,Neuroblastoma,TH,core_benchmark
+H01434,Atypical hemolytic uremic syndrome,THBD,core_benchmark
+H01587,Disseminated intravascular coagulation,THBD,core_benchmark
+H01457,Diabetic retinopathy,THBS1,core_benchmark
+H00802,Ehlers-Danlos syndrome,THBS2,core_benchmark
+H02539,Intervertebral disc disease,THBS2,core_benchmark
+H02123,Celiac disease,THEMIS,core_benchmark
+H00653,Marfan syndrome,THSD4,core_benchmark
+H00037,Rhabdomyosarcoma,TIMM10,core_benchmark
+H00507,Dyskeratosis congenita,TINF2,core_benchmark
+H00361,Malaria,TIRAP,core_benchmark
+H01593,Osteoporosis,TLN1,core_benchmark
+H02505,Atherosclerosis,TLR4,core_benchmark
+H00286,Crohn disease,TLR4,core_benchmark
+H00286,Crohn disease,TLR9,core_benchmark
+H00078,Frontotemporal lobar degeneration,TMEM106B,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,TMEM38B,core_benchmark
+H00268,Lissencephaly,TMTC3,core_benchmark
+H02505,Atherosclerosis,TNF,core_benchmark
+H00286,Crohn disease,TNF,core_benchmark
+H00238,Fanconi anemia,TNF,core_benchmark
+H00042,Glioma,TNF,core_benchmark
+H00211,Hemochromatosis,TNF,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,TNF,core_benchmark
+H00359,Leishmaniasis,TNF,core_benchmark
+H00361,Malaria,TNF,core_benchmark
+H00043,Neuroblastoma,TNF,core_benchmark
+H01656,Psoriasis,TNF,core_benchmark
+H01372,Vitiligo,TNF,core_benchmark
+H01490,Multiple sclerosis,TNFAIP3,core_benchmark
+H01656,Psoriasis,TNFAIP3,core_benchmark
+H01593,Osteoporosis,TNFRSF11B,core_benchmark
+H00088,Common variable immunodeficiency,TNFRSF13B,core_benchmark
+H00010,Multiple myeloma,TNFRSF13B,core_benchmark
+H00088,Common variable immunodeficiency,TNFRSF13C,core_benchmark
+H02123,Celiac disease,TNFRSF14,core_benchmark
+H00359,Leishmaniasis,TNFRSF18,core_benchmark
+H00218,Cystic fibrosis,TNFRSF1A,core_benchmark
+H01490,Multiple sclerosis,TNFRSF1A,core_benchmark
+H00082,Graves disease,TNFRSF8,core_benchmark
+H02123,Celiac disease,TNFRSF9,core_benchmark
+H00042,Glioma,TNFSF10,core_benchmark
+H00043,Neuroblastoma,TNFSF10,core_benchmark
+H01593,Osteoporosis,TNFSF11,core_benchmark
+H01490,Multiple sclerosis,TNFSF14,core_benchmark
+H00286,Crohn disease,TNFSF15,core_benchmark
+H00359,Leishmaniasis,TNFSF4,core_benchmark
+H00082,Graves disease,TNFSF8,core_benchmark
+H00010,Multiple myeloma,TNFSF8,core_benchmark
+H01656,Psoriasis,TNIP1,core_benchmark
+H00802,Ehlers-Danlos syndrome,TNXB,core_benchmark
+H01372,Vitiligo,TOB2,core_benchmark
+H00042,Glioma,TOP2A,core_benchmark
+H00036,Osteosarcoma,TOPORS,core_benchmark
+H00046,Cholangiocarcinoma,TP53,core_benchmark
+H00042,Glioma,TP53,core_benchmark
+H00036,Osteosarcoma,TP53,core_benchmark
+H01656,Psoriasis,TP53,core_benchmark
+H01593,Osteoporosis,TPI1,core_benchmark
+H01593,Osteoporosis,TPM4,core_benchmark
+H00082,Graves disease,TPO,core_benchmark
+H01293,Narcolepsy,TRA,core_benchmark
+H01490,Multiple sclerosis,TRAF1,core_benchmark
+H01656,Psoriasis,TRAF3IP2,core_benchmark
+H00290,Aicardi-Goutieres syndrome,TREX1,core_benchmark
+H01293,Narcolepsy,TRH,core_benchmark
+H02505,Atherosclerosis,TRIM28,core_benchmark
+H00042,Glioma,TRIM29,core_benchmark
+H02505,Atherosclerosis,TRPV1,core_benchmark
+H00042,Glioma,TRPV4,core_benchmark
+H00896,Lymphangioleiomyomatosis,TSC1,core_benchmark
+H00896,Lymphangioleiomyomatosis,TSC2,core_benchmark
+H00082,Graves disease,TSHB,core_benchmark
+H00082,Graves disease,TSHR,core_benchmark
+H02086,Mitochondrial complex III deficiency,TTC19,core_benchmark
+H00511,Short rib-polydactyly syndrome,TTC21B,core_benchmark
+H02505,Atherosclerosis,TTPA,core_benchmark
+H00527,Retinitis pigmentosa,TTPA,core_benchmark
+H01593,Osteoporosis,TUBA1B,core_benchmark
+H01593,Osteoporosis,TUBA1C,core_benchmark
+H02160,Craniosynostoses,TWIST1,core_benchmark
+H00267,Holoprosencephaly,TWSG1,core_benchmark
+H00286,Crohn disease,TYK2,core_benchmark
+H01490,Multiple sclerosis,TYK2,core_benchmark
+H01656,Psoriasis,TYK2,core_benchmark
+H01593,Osteoporosis,U2AF1,core_benchmark
+H02123,Celiac disease,UBD,core_benchmark
+H01732,Angelman syndrome,UBE3A,core_benchmark
+H02123,Celiac disease,UGT1A4,core_benchmark
+H00010,Multiple myeloma,ULK4,core_benchmark
+H00527,Retinitis pigmentosa,UNC119,core_benchmark
+H02123,Celiac disease,UPB1,core_benchmark
+H02086,Mitochondrial complex III deficiency,UQCC2,core_benchmark
+H02086,Mitochondrial complex III deficiency,UQCC3,core_benchmark
+H02086,Mitochondrial complex III deficiency,UQCRB,core_benchmark
+H02086,Mitochondrial complex III deficiency,UQCRC2,core_benchmark
+H02086,Mitochondrial complex III deficiency,UQCRQ,core_benchmark
+H00527,Retinitis pigmentosa,USH2A,core_benchmark
+H00290,Aicardi-Goutieres syndrome,USP18,core_benchmark
+H00910,Hirschsprung disease,UTP25,core_benchmark
+H02563,Neural tube defects,VANGL1,core_benchmark
+H02563,Neural tube defects,VANGL2,core_benchmark
+H01667,Medulloblastoma,VAV1,core_benchmark
+H02505,Atherosclerosis,VCAM1,core_benchmark
+H01490,Multiple sclerosis,VCAM1,core_benchmark
+H02081,Marshall syndrome,VCAN,core_benchmark
+H01593,Osteoporosis,VCL,core_benchmark
+H01490,Multiple sclerosis,VDR,core_benchmark
+H02505,Atherosclerosis,VEGFA,core_benchmark
+H01457,Diabetic retinopathy,VEGFA,core_benchmark
+H00036,Osteosarcoma,VEGFA,core_benchmark
+H01656,Psoriasis,VEGFA,core_benchmark
+H00037,Rhabdomyosarcoma,VEGFA,core_benchmark
+H00896,Lymphangioleiomyomatosis,VEGFD,core_benchmark
+H01490,Multiple sclerosis,VHL,core_benchmark
+H01202,Cataract,VIM,core_benchmark
+H02123,Celiac disease,VNN1,core_benchmark
+H01656,Psoriasis,VNN1,core_benchmark
+H01656,Psoriasis,VNN2,core_benchmark
+H00286,Crohn disease,VTN,core_benchmark
+H01593,Osteoporosis,WDR1,core_benchmark
+H02160,Craniosynostoses,WDR35,core_benchmark
+H00511,Short rib-polydactyly syndrome,WDR35,core_benchmark
+H01593,Osteoporosis,WNT1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,WNT1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,WNT11,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,WNT5A,core_benchmark
+H00036,Osteosarcoma,WT1,core_benchmark
+H00042,Glioma,XAF1,core_benchmark
+H00042,Glioma,XBP1,core_benchmark
+H01490,Multiple sclerosis,XBP1,core_benchmark
+H01532,Gout,XDH,core_benchmark
+H00042,Glioma,XRCC1,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,XYLT1,core_benchmark
+H02081,Marshall syndrome,XYLT2,core_benchmark
+H00451,Osteoporosis-pseudoglioma syndrome,XYLT2,core_benchmark
+H00043,Neuroblastoma,YAP1,core_benchmark
+H01299,Idiopathic pulmonary fibrosis,YTHDF1,core_benchmark
+H00010,Multiple myeloma,YTHDF1,core_benchmark
+H00010,Multiple myeloma,YY1,core_benchmark
+H00653,Marfan syndrome,YY1AP1,core_benchmark
+H01656,Psoriasis,ZC3H12C,core_benchmark
+H01593,Osteoporosis,ZDHHC13,core_benchmark
+H02160,Craniosynostoses,ZIC1,core_benchmark
+H02563,Neural tube defects,ZIC2,core_benchmark
+H02563,Neural tube defects,ZIC5,core_benchmark
+H02123,Celiac disease,ZMIZ1,core_benchmark
+H00036,Osteosarcoma,ZMIZ1,core_benchmark
+H01490,Multiple sclerosis,ZNF267,core_benchmark
+H00802,Ehlers-Danlos syndrome,ZNF469,core_benchmark
+H01656,Psoriasis,ZNF816,core_benchmark
+H00036,Osteosarcoma,ZW10,core_benchmark
+H00043,Neuroblastoma,TP73,core_benchmark
+H01556,Meningioma,MN1,core_benchmark
+H00478,Prader-Willi syndrome,NDN,core_benchmark
+H01732,Angelman syndrome,MECP2,core_benchmark
+H00057,Parkinson disease,ABCB1,popular_showcase
+H01742,Coronary artery disease,ABCG5,popular_showcase
+H01742,Coronary artery disease,ABCG8,popular_showcase
+H01742,Coronary artery disease,ABO,popular_showcase
+H01742,Coronary artery disease,ACE,popular_showcase
+H01742,Coronary artery disease,ADAMTS7,popular_showcase
+H00057,Parkinson disease,ADARB2,popular_showcase
+H00079,Asthma,ADCY2,popular_showcase
+H00079,Asthma,ADCYAP1R1,popular_showcase
+H01742,Coronary artery disease,ADTRP,popular_showcase
+H00079,Asthma,AGER,popular_showcase
+H00057,Parkinson disease,AIF1,popular_showcase
+H00079,Asthma,ALDH2,popular_showcase
+H00057,Parkinson disease,ALDH2,popular_showcase
+H00079,Asthma,ALOX5,popular_showcase
+H01742,Coronary artery disease,ANGPTL4,popular_showcase
+H01742,Coronary artery disease,ANKS1A,popular_showcase
+H01742,Coronary artery disease,APCS,popular_showcase
+H01742,Coronary artery disease,APOA1,popular_showcase
+H01742,Coronary artery disease,APOA5,popular_showcase
+H01742,Coronary artery disease,APOC3,popular_showcase
+H00079,Asthma,AREG,popular_showcase
+H00079,Asthma,ARG1,popular_showcase
+H00079,Asthma,ARG2,popular_showcase
+H00057,Parkinson disease,ATP13A2,popular_showcase
+H01742,Coronary artery disease,ATP2B1,popular_showcase
+H00057,Parkinson disease,BAG5,popular_showcase
+H00079,Asthma,BCL2,popular_showcase
+H00057,Parkinson disease,BDNF,popular_showcase
+H00079,Asthma,BGLAP,popular_showcase
+H00057,Parkinson disease,BST1,popular_showcase
+H01742,Coronary artery disease,CARF,popular_showcase
+H00079,Asthma,CAT,popular_showcase
+H00079,Asthma,CCL11,popular_showcase
+H00079,Asthma,CCL2,popular_showcase
+H01742,Coronary artery disease,CCL2,popular_showcase
+H00079,Asthma,CCL5,popular_showcase
+H00079,Asthma,CD14,popular_showcase
+H00381,Dengue,CD209,popular_showcase
+H01742,Coronary artery disease,CD40LG,popular_showcase
+H00079,Asthma,CDHR3,popular_showcase
+H01742,Coronary artery disease,CDKN2B,popular_showcase
+H00057,Parkinson disease,CEACAM6,popular_showcase
+H01742,Coronary artery disease,CELSR2,popular_showcase
+H00079,Asthma,CLDN18,popular_showcase
+H00057,Parkinson disease,CNTNAP2,popular_showcase
+H00057,Parkinson disease,COL19A1,popular_showcase
+H00342,Tuberculosis,CORO1A,popular_showcase
+H00057,Parkinson disease,CP,popular_showcase
+H01742,Coronary artery disease,CRP,popular_showcase
+H00079,Asthma,CTLA4,popular_showcase
+H00079,Asthma,CTNNA3,popular_showcase
+H01742,Coronary artery disease,CXCL12,popular_showcase
+H00079,Asthma,CXCL14,popular_showcase
+H00057,Parkinson disease,CYP2D6,popular_showcase
+H00079,Asthma,CYP2E1,popular_showcase
+H00057,Parkinson disease,CYP2E1,popular_showcase
+H01742,Coronary artery disease,DDAH2,popular_showcase
+H00057,Parkinson disease,DDC,popular_showcase
+H00057,Parkinson disease,DDIT4,popular_showcase
+H00057,Parkinson disease,DEFA4,popular_showcase
+H00079,Asthma,DNAH5,popular_showcase
+H00057,Parkinson disease,DNM1L,popular_showcase
+H00079,Asthma,DNMT1,popular_showcase
+H00057,Parkinson disease,DRAXIN,popular_showcase
+H00057,Parkinson disease,DRD1,popular_showcase
+H00057,Parkinson disease,DRD2,popular_showcase
+H00079,Asthma,EDN1,popular_showcase
+H00057,Parkinson disease,EDN1,popular_showcase
+H00057,Parkinson disease,ENO2,popular_showcase
+H01742,Coronary artery disease,EPO,popular_showcase
+H01742,Coronary artery disease,ESR1,popular_showcase
+H01742,Coronary artery disease,ESR2,popular_showcase
+H00057,Parkinson disease,FBP1,popular_showcase
+H00057,Parkinson disease,FCER2,popular_showcase
+H01742,Coronary artery disease,FES,popular_showcase
+H00057,Parkinson disease,FGB,popular_showcase
+H00079,Asthma,FOXP3,popular_showcase
+H01742,Coronary artery disease,FURIN,popular_showcase
+H00057,Parkinson disease,GAK,popular_showcase
+H00057,Parkinson disease,GBA1,popular_showcase
+H01742,Coronary artery disease,GDF15,popular_showcase
+H00057,Parkinson disease,GDNF,popular_showcase
+H00057,Parkinson disease,GFAP,popular_showcase
+H01742,Coronary artery disease,GFOD1,popular_showcase
+H01742,Coronary artery disease,GGCX,popular_showcase
+H01742,Coronary artery disease,GNB3,popular_showcase
+H00079,Asthma,GSDMB,popular_showcase
+H00057,Parkinson disease,GSTA4,popular_showcase
+H00079,Asthma,GSTM1,popular_showcase
+H00057,Parkinson disease,GSTM1,popular_showcase
+H00079,Asthma,GSTP1,popular_showcase
+H00057,Parkinson disease,GSTP1,popular_showcase
+H01742,Coronary artery disease,GUCY1A1,popular_showcase
+H00057,Parkinson disease,HBG1,popular_showcase
+H01742,Coronary artery disease,HECTD4,popular_showcase
+H00057,Parkinson disease,HFE,popular_showcase
+H00057,Parkinson disease,HGF,popular_showcase
+H01742,Coronary artery disease,HHIPL1,popular_showcase
+H00079,Asthma,HLA-DPB1,popular_showcase
+H00079,Asthma,HLA-DQA1,popular_showcase
+H00079,Asthma,HLA-DQB1,popular_showcase
+H00057,Parkinson disease,HLA-DRA,popular_showcase
+H00079,Asthma,HLA-DRB1,popular_showcase
+H00057,Parkinson disease,HLA-DRB5,popular_showcase
+H00079,Asthma,HLA-G,popular_showcase
+H00079,Asthma,HMOX1,popular_showcase
+H01742,Coronary artery disease,HMOX1,popular_showcase
+H00057,Parkinson disease,HMOX1,popular_showcase
+H00079,Asthma,HNMT,popular_showcase
+H00342,Tuberculosis,HP,popular_showcase
+H00079,Asthma,HSD11B2,popular_showcase
+H00057,Parkinson disease,HSPA1A,popular_showcase
+H00057,Parkinson disease,HSPA9,popular_showcase
+H00079,Asthma,HTR2A,popular_showcase
+H01742,Coronary artery disease,ICA1L,popular_showcase
+H00079,Asthma,ICAM1,popular_showcase
+H00079,Asthma,IFNL3,popular_showcase
+H00057,Parkinson disease,IGF1R,popular_showcase
+H00057,Parkinson disease,IGF2,popular_showcase
+H00057,Parkinson disease,IGF2R,popular_showcase
+H00079,Asthma,IKZF3,popular_showcase
+H00079,Asthma,IL10,popular_showcase
+H00079,Asthma,IL13,popular_showcase
+H00079,Asthma,IL1B,popular_showcase
+H00079,Asthma,IL1RL1,popular_showcase
+H00079,Asthma,IL1RN,popular_showcase
+H00079,Asthma,IL33,popular_showcase
+H00079,Asthma,IL4,popular_showcase
+H00079,Asthma,IL4R,popular_showcase
+H00079,Asthma,IL5,popular_showcase
+H00079,Asthma,IL6,popular_showcase
+H00057,Parkinson disease,IL6,popular_showcase
+H00079,Asthma,IL6R,popular_showcase
+H00057,Parkinson disease,INS,popular_showcase
+H00057,Parkinson disease,INSR,popular_showcase
+H01742,Coronary artery disease,IRAK1,popular_showcase
+H01742,Coronary artery disease,IRS1,popular_showcase
+H01742,Coronary artery disease,JCAD,popular_showcase
+H01742,Coronary artery disease,KCNE2,popular_showcase
+H00057,Parkinson disease,KCNJ4,popular_showcase
+H00079,Asthma,KIF3A,popular_showcase
+H01742,Coronary artery disease,KL,popular_showcase
+H00079,Asthma,KRT19,popular_showcase
+H01742,Coronary artery disease,LDLR,popular_showcase
+H01742,Coronary artery disease,LIPA,popular_showcase
+H01742,Coronary artery disease,LMOD1,popular_showcase
+H01742,Coronary artery disease,LPA,popular_showcase
+H00057,Parkinson disease,LRRK2,popular_showcase
+H01742,Coronary artery disease,LTA,popular_showcase
+H00057,Parkinson disease,MAG,popular_showcase
+H00057,Parkinson disease,MAOA,popular_showcase
+H00057,Parkinson disease,MAOB,popular_showcase
+H00057,Parkinson disease,MAP2,popular_showcase
+H00057,Parkinson disease,MAP3K5,popular_showcase
+H00057,Parkinson disease,MAPT,popular_showcase
+H01742,Coronary artery disease,MAT2A,popular_showcase
+H01742,Coronary artery disease,MIA3,popular_showcase
+H00079,Asthma,MMP1,popular_showcase
+H00079,Asthma,MMP10,popular_showcase
+H01742,Coronary artery disease,MMP3,popular_showcase
+H00079,Asthma,MMP9,popular_showcase
+H01742,Coronary artery disease,MRAS,popular_showcase
+H01742,Coronary artery disease,MRPS6,popular_showcase
+H00057,Parkinson disease,MTA1,popular_showcase
+H00057,Parkinson disease,MTHFR,popular_showcase
+H00079,Asthma,MUC7,popular_showcase
+H00079,Asthma,MYB,popular_showcase
+H00079,Asthma,NAT1,popular_showcase
+H01742,Coronary artery disease,NAT2,popular_showcase
+H01742,Coronary artery disease,NBEAL1,popular_showcase
+H00057,Parkinson disease,NCAPG2,popular_showcase
+H00057,Parkinson disease,NECTIN2,popular_showcase
+H00057,Parkinson disease,NGF,popular_showcase
+H00057,Parkinson disease,NOS1,popular_showcase
+H00079,Asthma,NOS2,popular_showcase
+H01742,Coronary artery disease,NOS3,popular_showcase
+H01742,Coronary artery disease,NPPB,popular_showcase
+H00079,Asthma,NPSR1,popular_showcase
+H00079,Asthma,NPY,popular_showcase
+H00079,Asthma,NQO1,popular_showcase
+H00057,Parkinson disease,NQO1,popular_showcase
+H00079,Asthma,ORMDL3,popular_showcase
+H01742,Coronary artery disease,PAPPA,popular_showcase
+H00057,Parkinson disease,PARK7,popular_showcase
+H00079,Asthma,PARP1,popular_showcase
+H01742,Coronary artery disease,PCSK9,popular_showcase
+H00079,Asthma,PDE4B,popular_showcase
+H00079,Asthma,PDE4D,popular_showcase
+H01742,Coronary artery disease,PDGFD,popular_showcase
+H01742,Coronary artery disease,PECAM1,popular_showcase
+H01742,Coronary artery disease,PHACTR1,popular_showcase
+H00057,Parkinson disease,PINK1,popular_showcase
+H00079,Asthma,PLA2G7,popular_showcase
+H00079,Asthma,PLAU,popular_showcase
+H01742,Coronary artery disease,PLPP3,popular_showcase
+H01742,Coronary artery disease,PON1,popular_showcase
+H00057,Parkinson disease,PPARGC1A,popular_showcase
+H00079,Asthma,PPP2CA,popular_showcase
+H01742,Coronary artery disease,PRDM16,popular_showcase
+H00057,Parkinson disease,PRKN,popular_showcase
+H01742,Coronary artery disease,PROCR,popular_showcase
+H01742,Coronary artery disease,PSRC1,popular_showcase
+H00079,Asthma,PTEN,popular_showcase
+H00079,Asthma,PTGDR2,popular_showcase
+H01742,Coronary artery disease,PTGS2,popular_showcase
+H00079,Asthma,PYHIN1,popular_showcase
+H00057,Parkinson disease,RAB32,popular_showcase
+H00079,Asthma,RAD50,popular_showcase
+H00079,Asthma,RNASE3,popular_showcase
+H00057,Parkinson disease,RPL14,popular_showcase
+H00057,Parkinson disease,RPL23A,popular_showcase
+H00057,Parkinson disease,RPL6,popular_showcase
+H00057,Parkinson disease,RPS8,popular_showcase
+H01742,Coronary artery disease,SARS1,popular_showcase
+H00079,Asthma,SCGB3A2,popular_showcase
+H01742,Coronary artery disease,SH2B3,popular_showcase
+H00342,Tuberculosis,SLC11A1,popular_showcase
+H00057,Parkinson disease,SLC18A2,popular_showcase
+H00057,Parkinson disease,SLC2A14,popular_showcase
+H00057,Parkinson disease,SLC30A10,popular_showcase
+H00057,Parkinson disease,SLC38A2,popular_showcase
+H01742,Coronary artery disease,SLC5A3,popular_showcase
+H00057,Parkinson disease,SLC6A3,popular_showcase
+H00057,Parkinson disease,SNCA,popular_showcase
+H00079,Asthma,SOD1,popular_showcase
+H00057,Parkinson disease,SOD1,popular_showcase
+H00057,Parkinson disease,SOD2,popular_showcase
+H01742,Coronary artery disease,SORT1,popular_showcase
+H00079,Asthma,SPRR2B,popular_showcase
+H00079,Asthma,STAT4,popular_showcase
+H00057,Parkinson disease,TALDO1,popular_showcase
+H01742,Coronary artery disease,TBC1D7,popular_showcase
+H01742,Coronary artery disease,TBX2,popular_showcase
+H00079,Asthma,TBX21,popular_showcase
+H01742,Coronary artery disease,TCF21,popular_showcase
+H00057,Parkinson disease,TCL1B,popular_showcase
+H01742,Coronary artery disease,TERT,popular_showcase
+H00079,Asthma,TGFB1,popular_showcase
+H00057,Parkinson disease,TH,popular_showcase
+H00079,Asthma,TIMP3,popular_showcase
+H00342,Tuberculosis,TIRAP,popular_showcase
+H01742,Coronary artery disease,TLR4,popular_showcase
+H00057,Parkinson disease,TMEM230,popular_showcase
+H00079,Asthma,TNC,popular_showcase
+H00079,Asthma,TNF,popular_showcase
+H00057,Parkinson disease,TNF,popular_showcase
+H00079,Asthma,TNIP1,popular_showcase
+H01742,Coronary artery disease,TRAF6,popular_showcase
+H01742,Coronary artery disease,TRIB1,popular_showcase
+H00079,Asthma,TRPA1,popular_showcase
+H00057,Parkinson disease,TRPM2,popular_showcase
+H00079,Asthma,TSLP,popular_showcase
+H01742,Coronary artery disease,TWIST1,popular_showcase
+H01742,Coronary artery disease,VAMP5,popular_showcase
+H01742,Coronary artery disease,VAMP8,popular_showcase
+H00079,Asthma,VEGFA,popular_showcase
+H01742,Coronary artery disease,VEGFA,popular_showcase
+H00057,Parkinson disease,VPS35,popular_showcase
+H01742,Coronary artery disease,WDR12,popular_showcase
+H00079,Asthma,WDR36,popular_showcase
+H01742,Coronary artery disease,ZC3HC1,popular_showcase
+H00079,Asthma,PHF11,popular_showcase
