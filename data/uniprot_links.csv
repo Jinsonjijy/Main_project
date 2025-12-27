@@ -12898,3 +12898,7 @@ DB19353,Benzgalantamine,SmallMoleculeDrug,P06276,Cholinesterase
 DB19353,Benzgalantamine,SmallMoleculeDrug,P36544,Neuronal acetylcholine receptor subunit alpha-7
 DB19353,Benzgalantamine,SmallMoleculeDrug,A9X444,Muscle nicotinic acetylcholine receptor
 DB19378,Megestrol,SmallMoleculeDrug,P06401,Progesterone receptor
+DB01611,Hydroxychloroquine,SmallMoleculeDrug,,TIR domain-containing adaptor protein (TIRAP)
+DB00608,Chloroquine,SmallMoleculeDrug,,TIR domain-containing adaptor protein (TIRAP)
+DB00746,Deferoxamine,SmallMoleculeDrug,,Natural resistance-associated macrophage protein 1
+DB01609,Deferasirox,SmallMoleculeDrug,,Natural resistance-associated macrophage protein 2
