@@ -252,10 +252,27 @@ def predict_drugs(disease, top_k=5, alpha=0.7):
 # Run
 # ==================================================
 if __name__ == "__main__":
-    disease = input("Enter the Disease: ")
+    disease = input("Enter the Disease: ").strip()
 
-    print("\nDisease:", disease)
-    print("Predicted Drugs:\n")
+    results = predict_drugs(disease)
 
-    for name, dbid, score in predict_drugs(disease):
-        print(f"{name} ({dbid})  → score: {score:.4f}")
+    print("\n" + "=" * 60)
+    print("💊 DRUG REPURPOSING – NORMAL INFERENCE")
+    print(f"🦠 Input Disease : {disease}")
+    print("🧠 Mode          : Disease + Gene Network")
+    print("=" * 60 + "\n")
+    if not results:
+        print("❌ No candidate drugs found.")
+    else:
+        for i, (name, dbid, score) in enumerate(results, start=1):
+            print(f"{i:>2}. {name:<25} ({dbid})  |  Score: {score:.4f}")
+
+        
+        top_name, top_dbid, top_score = results[0]
+        print("\n⭐ Top Repurposing Candidate:")
+        print(f"→ {top_name} ({top_dbid})  |  Score: {top_score:.4f}")
+
+       
+        print("\n🧠 Interpretation:")
+        print("• Predictions are based on disease–gene–drug network inference.")
+        print("• Higher scores indicate stronger mechanistic relevance.")
