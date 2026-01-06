@@ -29,13 +29,17 @@ def normalize(x):
     return str(x).lower().replace(",", "").replace(" ", "").strip()
 
 # ==================================================
-# Load DrugBank ID → Drug Name mapping
+# Load DrugBank ID → Drug Name + Type
 # ==================================================
 drug_names_df = pd.read_csv("data/uniprot_links.csv")
 drug_names_df.columns = drug_names_df.columns.str.strip()
 
 drug_id_to_name = dict(
     zip(drug_names_df["DrugBank ID"], drug_names_df["Name"])
+)
+
+drug_type_map = dict(
+    zip(drug_names_df["DrugBank ID"], drug_names_df["Type"])
 )
 
 # ==================================================
@@ -46,16 +50,17 @@ valid_drugs_df["Name"] = valid_drugs_df["Name"].astype(str)
 
 invalid_keywords = [
     "keratinocyte", "cell", "tissue", "fibroblast",
-    "stem", "epithelial", "neonatal", "foreskin"
+    "stem", "epithelial", "neonatal", "foreskin",
+    "adenine", "flavin", "cofactor", "nucleotide",
+    "phosphate", "ribose", "metabolite",
+    "factor", "collagen", "fibrin",
+    "plasma", "albumin", "hemoglobin",
+    "von willebrand", "immunoglobulin",
+    "serum", "antibody"
 ]
 
-mask = ~valid_drugs_df["Name"].str.lower().str.contains(
-    "|".join(invalid_keywords)
-)
-
-valid_drugbank_ids = set(
-    valid_drugs_df.loc[mask, "DrugBank ID"]
-)
+mask = ~valid_drugs_df["Name"].str.lower().str.contains("|".join(invalid_keywords))
+valid_drugbank_ids = set(valid_drugs_df.loc[mask, "DrugBank ID"])
 
 print("Valid drugs after filtering:", len(valid_drugbank_ids))
 
@@ -70,7 +75,6 @@ drug_gene.columns = drug_gene.columns.str.strip()
 gene_disease.columns = gene_disease.columns.str.strip()
 drug_disease.columns = drug_disease.columns.str.strip()
 
-# Humans only
 drug_gene = drug_gene[drug_gene["Species"] == "Humans"]
 
 drug_gene = drug_gene.rename(columns={
@@ -114,13 +118,9 @@ drug_disease["drug_id"] = drug_disease["DrugBankID"].map(drug_rev)
 drug_disease = drug_disease.dropna(subset=["disease_id", "drug_id"])
 drug_disease = drug_disease[["drug_id", "disease_id"]].drop_duplicates()
 
-num_diseases = len(disease_map)
-num_genes = len(gene_map)
-num_drugs = len(drug_map)
-
-print("Diseases:", num_diseases)
-print("Genes:", num_genes)
-print("Drugs:", num_drugs)
+print("Diseases:", len(disease_map))
+print("Genes:", len(gene_map))
+print("Drugs:", len(drug_map))
 
 # ==================================================
 # Load protein embeddings
@@ -136,37 +136,20 @@ gene_to_uniprot = dict(
 # ==================================================
 data = HeteroData()
 
-data["disease"].x = torch.randn(num_diseases, INPUT_DIM) * 0.01
-data["drug"].x = torch.randn(num_drugs, INPUT_DIM) * 0.01
+data["disease"].x = torch.randn(len(disease_map), INPUT_DIM) * 0.01
+data["drug"].x = torch.randn(len(drug_map), INPUT_DIM) * 0.01
 
-# Gene node features
 gene_features = []
 for gene_symbol in gene_map.values():
-    if gene_symbol in gene_to_uniprot:
-        uid = gene_to_uniprot[gene_symbol]
-        vec = protein_emb.get(uid)
-        if vec is not None and vec.shape[0] == INPUT_DIM:
-            gene_features.append(vec)
-        else:
-            gene_features.append(torch.zeros(INPUT_DIM))
-    else:
-        gene_features.append(torch.zeros(INPUT_DIM))
+    uid = gene_to_uniprot.get(gene_symbol)
+    vec = protein_emb.get(uid) if uid else None
+    gene_features.append(vec if vec is not None else torch.zeros(INPUT_DIM))
 
 data["gene"].x = torch.stack(gene_features)
 
-# Edges
-dg = torch.tensor(
-    gene_disease[["disease_id", "gene_id"]].values.T,
-    dtype=torch.long
-)
-gd = torch.tensor(
-    drug_gene[["gene_id", "drug_id"]].values.T,
-    dtype=torch.long
-)
-dd = torch.tensor(
-    drug_disease[["drug_id", "disease_id"]].values.T,
-    dtype=torch.long
-)
+dg = torch.tensor(gene_disease[["disease_id", "gene_id"]].values.T, dtype=torch.long)
+gd = torch.tensor(drug_gene[["gene_id", "drug_id"]].values.T, dtype=torch.long)
+dd = torch.tensor(drug_disease[["drug_id", "disease_id"]].values.T, dtype=torch.long)
 
 data["disease", "associates", "gene"].edge_index = dg
 data["gene", "rev_associates", "disease"].edge_index = dg.flip(0)
@@ -183,17 +166,15 @@ data = data.to(device)
 # Load trained model
 # ==================================================
 model = DrugRepurposingHeteroGNN(hidden_dim=HIDDEN_DIM).to(device)
-model.load_state_dict(
-    torch.load("drug_repurposing_gnn.pt", map_location=device)
-)
+model.load_state_dict(torch.load("drug_repurposing_gnn.pt", map_location=device))
 model.eval()
 
 print("Model loaded successfully")
 
 # ==================================================
-# Prediction function 
+# Prediction function
 # ==================================================
-def predict_drugs(disease, top_k=5, alpha=0.7):
+def predict_drugs(disease, top_k=6, alpha=0.7):
 
     d_norm = normalize(disease)
     if d_norm not in disease_rev:
@@ -208,28 +189,21 @@ def predict_drugs(disease, top_k=5, alpha=0.7):
     disease_emb = F.normalize(emb["disease"], dim=1)
     gene_emb = F.normalize(emb["gene"], dim=1)
 
-    # Disease → Gene
-    dg_edges = data["disease", "associates", "gene"].edge_index
-    gene_ids = dg_edges[1][dg_edges[0] == d_id]
+    gene_ids = data["disease", "associates", "gene"].edge_index[1][
+        data["disease", "associates", "gene"].edge_index[0] == d_id
+    ]
 
     if gene_ids.numel() == 0:
         return []
 
-    # Gene → Drug
-    gd_edges = data["gene", "targets", "drug"].edge_index
-    mask = torch.isin(gd_edges[0], gene_ids)
-    drug_ids = gd_edges[1][mask].unique()
-
-    if drug_ids.numel() == 0:
-        return []
+    drug_ids = data["gene", "targets", "drug"].edge_index[1][
+        torch.isin(data["gene", "targets", "drug"].edge_index[0], gene_ids)
+    ].unique()
 
     gene_context = gene_emb[gene_ids].mean(dim=0)
-
-    final_context = (
-        alpha * disease_emb[d_id] +
-        (1 - alpha) * gene_context
+    final_context = F.normalize(
+        alpha * disease_emb[d_id] + (1 - alpha) * gene_context, dim=0
     )
-    final_context = F.normalize(final_context, dim=0)
 
     scores = torch.matmul(drug_emb[drug_ids], final_context)
     top_vals, top_idx = torch.topk(scores, min(top_k, scores.size(0)))
@@ -239,8 +213,12 @@ def predict_drugs(disease, top_k=5, alpha=0.7):
         drug_global_id = drug_ids[i].item()
         dbid = drug_map[drug_global_id]
 
-        # FINAL DRUG FILTER
         if dbid not in valid_drugbank_ids:
+            continue
+
+        # ✅ FIXED TYPE FILTER (ROBUST)
+        drug_type = str(drug_type_map.get(dbid, "")).lower()
+        if "small" not in drug_type:
             continue
 
         name = drug_id_to_name.get(dbid, "Unknown")
@@ -249,30 +227,32 @@ def predict_drugs(disease, top_k=5, alpha=0.7):
     return results
 
 # ==================================================
-# Run
+# Run loop
 # ==================================================
 if __name__ == "__main__":
-    disease = input("Enter the Disease: ").strip()
 
-    results = predict_drugs(disease)
+    while True:
+        disease = input("\nEnter the Disease: ").strip()
+        print("Type 'exit' to quit")
 
-    print("\n" + "=" * 60)
-    print("💊 DRUG REPURPOSING – NORMAL INFERENCE")
-    print(f"🦠 Input Disease : {disease}")
-    print("🧠 Mode          : Disease + Gene Network")
-    print("=" * 60 + "\n")
-    if not results:
-        print("❌ No candidate drugs found.")
-    else:
-        for i, (name, dbid, score) in enumerate(results, start=1):
-            print(f"{i:>2}. {name:<25} ({dbid})  |  Score: {score:.4f}")
+        if disease.lower() in ["exit", "quit", "q"]:
+            print("Exiting drug repurposing system.")
+            break
 
-        
-        top_name, top_dbid, top_score = results[0]
-        print("\n⭐ Top Repurposing Candidate:")
-        print(f"→ {top_name} ({top_dbid})  |  Score: {top_score:.4f}")
+        try:
+            results = predict_drugs(disease)
+        except ValueError as e:
+            print("Error", e)
+            continue
 
-       
-        print("\n🧠 Interpretation:")
-        print("• Predictions are based on disease–gene–drug network inference.")
-        print("• Higher scores indicate stronger mechanistic relevance.")
+        print("\n" + "=" * 60)
+        print(" DRUG REPURPOSING – NORMAL INFERENCE")
+        print(f" Input Disease : {disease}")
+        print(" Mode          : Disease + Gene Network")
+        print("=" * 60 + "\n")
+
+        if not results:
+            print("No candidate drugs found.")
+        else:
+            for i, (name, dbid, score) in enumerate(results, 1):
+                print(f"{i:>2}. {name:<25} ({dbid}) | Score: {score:.4f}")

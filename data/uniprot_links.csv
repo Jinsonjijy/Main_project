@@ -12902,3 +12902,8 @@ DB01611,Hydroxychloroquine,SmallMoleculeDrug,,TIR domain-containing adaptor prot
 DB00608,Chloroquine,SmallMoleculeDrug,,TIR domain-containing adaptor protein (TIRAP)
 DB00746,Deferoxamine,SmallMoleculeDrug,,Natural resistance-associated macrophage protein 1
 DB01609,Deferasirox,SmallMoleculeDrug,,Natural resistance-associated macrophage protein 2
+DB06716,Cholic acid,SmallMolecule,P28288,ATP-binding cassette sub-family D member 3
+DB00224,Chenodeoxycholic acid,SmallMolecule,P28288,ATP-binding cassette sub-family D member 3
+DB00168,Docosahexaenoic acid,SmallMolecule,P51659,Peroxisomal multifunctional enzyme type 2
+DB00169,Cholecalciferol,SmallMolecule,P51659,Peroxisomal multifunctional enzyme type 2
+
