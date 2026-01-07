@@ -5389,3 +5389,7 @@ Natural resistance-associated macrophage protein 1,SLC11A1,P49279,Humans,DB00746
 Natural resistance-associated macrophage protein 1,SLC11A1,P49279,Humans,DB01609
 Haptoglobin,HP,P00738,Humans,DB09130
 Haptoglobin,HP,P00738,Humans,DB09517
+Cholic acid,ABCD3,P28288,Humans,DB06716
+Chenodeoxycholic acid,ABCD3,P28289,Humans,"DB00224,"
+Docosahexaenoic acid,HSD17B4,P51659,Humans,"DB00168,"
+Cholecalciferol,HSD17B5,P51660,Humans,DB00169
