@@ -1,0 +1,682 @@
+drug_id,drug_name,drug_type
+DB00027,Gramicidin D,small molecule
+DB00080,Daptomycin,small molecule
+DB00140,Riboflavin,small molecule
+DB00152,Thiamine,small molecule
+DB00173,Adenine,small molecule
+DB00229,Cefotiam,small molecule
+DB00256,Lymecycline,small molecule
+DB00259,Sulfanilamide,small molecule
+DB00260,Cycloserine,small molecule
+DB00263,Sulfisoxazole,small molecule
+DB00267,Cefmenoxime,small molecule
+DB00274,Cefmetazole,small molecule
+DB00303,Ertapenem,small molecule
+DB00330,Ethambutol,small molecule
+DB00336,Nitrofural,small molecule
+DB00339,Pyrazinamide,small molecule
+DB00355,Aztreonam,small molecule
+DB00359,Sulfadiazine,small molecule
+DB00417,Phenoxymethylpenicillin,small molecule
+DB00430,Cefpiramide,small molecule
+DB00438,Ceftazidime,small molecule
+DB00440,Trimethoprim,small molecule
+DB00446,Chloramphenicol,small molecule
+DB00452,Framycetin,small molecule
+DB00453,Clomocycline,small molecule
+DB00456,Cefalotin,small molecule
+DB00479,Amikacin,small molecule
+DB00548,Azelaic acid,small molecule
+DB00560,Tigecycline,small molecule
+DB00576,Sulfamethizole,small molecule
+DB00578,Carbenicillin,small molecule
+DB00581,Lactulose,small molecule
+DB00595,Oxytetracycline,small molecule
+DB00609,Ethionamide,small molecule
+DB00615,Rifabutin,small molecule
+DB00634,Sulfacetamide,small molecule
+DB00664,Sulfametopyrazine,small molecule
+DB00671,Cefixime,small molecule
+DB00689,Cephaloglycin,small molecule
+DB00698,Nitrofurantoin,small molecule
+DB00730,Thiabendazole,small molecule
+DB00756,Hexachlorophene,small molecule
+DB00759,Tetracycline,small molecule
+DB00760,Meropenem,small molecule
+DB00778,Roxithromycin,small molecule
+DB00798,Gentamicin,small molecule
+DB00803,Colistin,biotech
+DB00828,Fosfomycin,small molecule
+DB00891,Sulfapyridine,small molecule
+DB00919,Spectinomycin,small molecule
+DB00948,Mezlocillin,small molecule
+DB00951,Isoniazid,small molecule
+DB00955,Netilmicin,small molecule
+DB00994,Neomycin,small molecule
+DB01000,Cyclacillin,small molecule
+DB01015,Sulfamethoxazole,small molecule
+DB01017,Minocycline,small molecule
+DB01034,Cerulenin,small molecule
+DB01045,Rifampin,small molecule
+DB01053,Benzylpenicillin,small molecule
+DB01082,Streptomycin,small molecule
+DB01111,Colistimethate,small molecule
+DB01147,Cloxacillin,small molecule
+DB01163,Amdinocillin,small molecule
+DB01172,Kanamycin,small molecule
+DB01201,Rifapentine,small molecule
+DB01211,Clarithromycin,small molecule
+DB01220,Rifaximin,small molecule
+DB01298,Sulfacytine,small molecule
+DB01299,Sulfadoxine,small molecule
+DB01301,Rolitetracycline,small molecule
+DB01327,Cefazolin,small molecule
+DB01328,Cefonicid,small molecule
+DB01329,Cefoperazone,small molecule
+DB01331,Cefoxitin,small molecule
+DB01332,Ceftizoxime,small molecule
+DB01333,Cefradine,small molecule
+DB01369,Quinupristin,small molecule
+DB01413,Cefepime,small molecule
+DB01414,Cefacetrile,small molecule
+DB01415,Ceftibuten,small molecule
+DB01416,Cefpodoxime,small molecule
+DB01581,Sulfamerazine,small molecule
+DB01582,Sulfamethazine,small molecule
+DB01598,Imipenem,small molecule
+DB01602,Bacampicillin,small molecule
+DB01629,5-fluorouridine,small molecule
+DB01634,2-Oxy-4-Hydroxy-5-(2-Hydrazinopyridine)Phenylalanine,small molecule
+DB01639,N-Methyl-Pyridoxal-5'-Phosphate,small molecule
+DB01642,methyl beta-D-glucopyranoside,small molecule
+DB01643,Thymidine monophosphate,small molecule
+DB01655,L-gulonic acid 6-phosphate,small molecule
+DB01657,"2-amino-3-[4-hydroxy-6-oxo-3-(2-phenyl-cyclopropylimino)-cyclohexa-1,4-dienyl]-propionic acid",small molecule
+DB01661,1-(5-phospho-D-ribosyl)-ATP,small molecule
+DB01673,Uridine-5'-Diphosphate-N-Acetylmuramoyl-L-Alanine,small molecule
+DB01690,Bis(Adenosine)-5'-Triphosphate,small molecule
+DB01691,Indole Naphthyridinone,small molecule
+DB01692,Dithioerythritol,small molecule
+DB01694,D-tartaric acid,small molecule
+DB01715,"7,8-Diamino-Nonanoic Acid",small molecule
+DB01717,Bis(Adenosine)-5'-Pentaphosphate,small molecule
+DB01718,Cetrimonium,small molecule
+DB01727,Isocitric Acid,small molecule
+DB01747,Coprogen,small molecule
+DB01752,S-adenosyl-L-homocysteine,small molecule
+DB01758,3-Iodo-Tyrosine,small molecule
+DB01774,Adenosine-5'-Monophosphate Glucopyranosyl-Monophosphate Ester,small molecule
+DB01783,Pantothenic acid,small molecule
+DB01785,Dimethylallyl Diphosphate,small molecule
+DB01796,Quinolinic Acid,small molecule
+DB01799,4-Hydroxy-3-Methyl Butyl Diphosphate,small molecule
+DB01813,Pyridoxyl-Glutamic Acid-5'-Monophosphate,small molecule
+DB01815,Nz-(Dicarboxymethyl)Lysine,small molecule
+DB01817,Threonine-Aspartic Ester,small molecule
+DB01819,Phosphoenolpyruvate,small molecule
+DB01859,4-CDP-2-C-methyl-D-erythritol 2-phosphate,small molecule
+DB01861,Uridine diphosphate glucose,small molecule
+DB01862,Isopropyl beta-D-thiogalactopyranoside,small molecule
+DB01865,3-(6-Aminopyridin-3-Yl)-N-Methyl-N-[(1-Methyl-1h-Indol-2-Yl)Methyl]Acrylamide,small molecule
+DB01885,D-Galctopyranosyl-1-On,small molecule
+DB01896,M-Aminophenylboronic Acid,small molecule
+DB01917,Putrescine,small molecule
+DB01920,1-O-[O-Nitrophenyl]-Beta-D-Galactopyranose,small molecule
+DB01923,L-Xylulose 5-Phosphate,small molecule
+DB01930,"2,4-Dihydroxy-3,3-Dimethyl-Butyrate",small molecule
+DB01934,Arylomycin A2,small molecule
+DB01936,alpha-D-arabinofuranose,small molecule
+DB01942,Formic acid,small molecule
+DB01956,Taurine,small molecule
+DB01965,"2'-Deoxyuridine 5'-alpha,beta-imido-triphosphate",small molecule
+DB01972,Guanosine-5'-Monophosphate,small molecule
+DB01975,AMPCPR,small molecule
+DB01987,Cocarboxylase,small molecule
+DB01992,Coenzyme A,small molecule
+DB02007,alpha-D-glucose 6-phosphate,small molecule
+DB02015,Dihydrofolic Acid,small molecule
+DB02024,3-phenylpropionic acid,small molecule
+DB02031,"(6S)-5,6,7,8-tetrahydrofolic acid",small molecule
+DB02038,"D-[3-hydroxy-2-methyl-5-phosphonooxymethyl-pyridin-4-ylmethyl]-N,O-cycloserylamide",small molecule
+DB02039,S-Acetyl-Cysteine,small molecule
+DB02059,Adenosine-5-Diphosphoribose,small molecule
+DB02066,N7-Methyl-Formycin A,small molecule
+DB02076,6-phospho-D-gluconic acid,small molecule
+DB02080,"1-{2-[2-(2-Methoxyethoxy)Ethoxy]Ethoxy}-4-(1,1,3,3-Tetramethylbutyl)Benzene",small molecule
+DB02094,N-2-Thiophen-2-Yl-Acetamide Boronic Acid,small molecule
+DB02109,Hadacidin,small molecule
+DB02113,6-Methylpurine,small molecule
+DB02119,"6-Hydroxymethyl-7,8-Dihydropterin",small molecule
+DB02129,Dihydroorotic Acid,small molecule
+DB02130,Vanillic acid,small molecule
+DB02134,Xanthine,small molecule
+DB02135,"1-deoxy-1-{2,6,8-trioxo-7-[4-(phosphonooxy)butyl]-1,2,3,6,7,8-hexahydro-9H-purin-9-yl}-D-arabinitol",small molecule
+DB02142,Pyridoxamine-5'-Phosphate,small molecule
+DB02151,Methionine Phosphonate,small molecule
+DB02153,3-sulfino-L-alanine,small molecule
+DB02158,"(2S,3S,4R,5S)-2-(4-Amino-4,5-dihydro-1H-pyrrolo[3,2-d]pyrimidin-7-yl)-5-[(methylsulfanyl)methyl]-3,4-pyrrolidinediol",small molecule
+DB02175,Malonic acid,small molecule
+DB02178,Phenylacetaldehyde,small molecule
+DB02184,"D-1,4-dithiothreitol",small molecule
+DB02190,(S)-oxalosuccinic acid,small molecule
+DB02196,Uridine-Diphosphate-N-Acetylgalactosamine,small molecule
+DB02209,Pyridoxine phosphate,small molecule
+DB02213,Metanitrophenyl-Alpha-D-Galactoside,small molecule
+DB02223,LY231514 tetra glu,small molecule
+DB02228,2-deoxy-2-fluoro-β-D-galactose,small molecule
+DB02229,5'-O-[(L-methionyl)-sulphamoyl]adenosine,small molecule
+DB02236,Glycinamide Ribonucleotide,small molecule
+DB02247,Hydrolyzed Cephalothin,small molecule
+DB02251,O-Succinylbenzoate,small molecule
+DB02256,2'-Deoxyuridine,small molecule
+DB02260,4-Oxosebacic Acid,small molecule
+DB02262,Orotic acid,small molecule
+DB02263,D-glyceraldehyde 3-phosphate,small molecule
+DB02270,Dimethylallyl S-Thiolodiphosphate,small molecule
+DB02274,7-Keto-8-Aminopelargonic Acid,small molecule
+DB02281,Formycin,small molecule
+DB02290,"3-{2,6,8-trioxo-9-[(2S,3S,4R)-2,3,4,5-tetrahydroxypentyl]-1,2,3,6,8,9-hexahydro-7H-purin-7-Yl}propyl dihydrogen phosphate",small molecule
+DB02294,"(5R,6S,7S,8S)-5-hydroxymethyl-6,7,8-trihydroxy-tetrazolo[1,5-A]piperidine",small molecule
+DB02301,"5,10-Methylene-6-Hydrofolic Acid",small molecule
+DB02314,Uridine-5'-Diphosphate-N-Acetylmuramoyl-L-Alanine-D-Glutamate,small molecule
+DB02316,"1-(5-Carboxypentyl)-5-[(2,6-Dichlorobenzyl)Oxy]-1 H-Indole-2-Carboxylic Acid",small molecule
+DB02319,"5,6-dihydroxy-NADP",small molecule
+DB02333,Deoxyuridine-5'-Triphosphate,small molecule
+DB02345,Selenocysteine,small molecule
+DB02363,2'-Monophosphoadenosine-5'-Diphosphate,small molecule
+DB02377,Guanine,small molecule
+DB02379,Beta-D-Glucose,small molecule
+DB02382,Namn,small molecule
+DB02384,(E)-2-Fluoro-P-Hydroxycinnamate,small molecule
+DB02399,L-Rhamnitol,small molecule
+DB02421,Uridine-5'-diphosphate-mannose,small molecule
+DB02431,Cytidine-5'-Triphosphate,small molecule
+DB02433,"{[(2,2-Dihydroxy-Ethyl)-(2,3,4,5-Tetrahydroxy-6-Phosphonooxy-Hexyl)-Amino]-Methyl}-Phosphonic Acid",small molecule
+DB02435,Aminomethylcyclohexane,small molecule
+DB02437,(5r)-5-Amino-6-Hydroxyhexylcarbamic Acid,small molecule
+DB02445,2-Deoxy-2-Amino Glucitol-6-Phosphate,small molecule
+DB02446,Glutamine hydroxamate,small molecule
+DB02452,Thymidine 5'-triphosphate,small molecule
+DB02456,Aracytidine 5'-monophosphate,small molecule
+DB02461,S-Methyl Phosphocysteine,small molecule
+DB02467,L-methionine (S)-S-oxide,small molecule
+DB02474,BMSC-0013,small molecule
+DB02480,(S)-4-bromo-3-hydroxy-3-methylbutyl diphosphate,small molecule
+DB02493,Hydantocidin-5'-phosphate,small molecule
+DB02496,1-Deoxy-D-xylulose 5-phosphate,small molecule
+DB02501,N(2)-succinyl-L-arginine,small molecule
+DB02503,4-(Carboxyvin-2-Yl)Phenylboronic Acid,small molecule
+DB02508,Isopentyl Pyrophosphate,small molecule
+DB02515,sn-glycerol 3-phosphate,small molecule
+DB02527,Cyclic adenosine monophosphate,small molecule
+DB02540,"10-formyl-5,8,10-trideazafolic acid",small molecule
+DB02552,Geranyl Diphosphate,small molecule
+DB02572,"1,3-bis-([3-[3-[3-(4-{3-[3-nitro-5-(galactopyranosyloxy)-benzoylamino]-propyl}-piperazin-1-yl)-propylamino-3,4-dioxo-cyclobutenyl]-amino-propoxy-ethoxy-ethoxy]-propyl-]amino-carbonyloxy)-2-amino-propane",small molecule
+DB02574,BV2,biotech
+DB02588,"(2R)-2-[(1R)-1-{[(2S)-2-Carboxy-2-(4-hydroxyphenyl)acetyl]amino}-1-methoxy-2-oxoethyl]-5-methylene-5,6-dihydro-2H-1,3-oxazine-4-carboxylic acid",small molecule
+DB02596,"alpha,beta-Methyleneadenosine 5'-triphosphate",small molecule
+DB02609,4-Hydroxy-L-Threonine-5-Monophosphate,small molecule
+DB02627,"4,4'-Biphenyldiboronic Acid",small molecule
+DB02630,L-xylitol 5-phosphate,small molecule
+DB02632,4-nitrophenyl-beta-D-galactoside,small molecule
+DB02657,Glucosamine 6-Phosphate,small molecule
+DB02666,(C8-R)-hydantocidin 5'-phosphate,small molecule
+DB02681,"2,8-bis[oxido(oxo)vanadio]-1,1,1,3,5,5,7,7,9,9,9-undecaoxopentavanadoxane-2,8-diium",small molecule
+DB02693,"(4S,5S)-1,2-dithiane-4,5-diol",small molecule
+DB02694,Pantoyl Adenylate,small molecule
+DB02711,"4-{2,6,8-Trioxo-9-[(2S,3R,4R)-2,3,4,5-Tetrahydroxypentyl]-1,2,3,6,8,9-Hexahydro-7h-Purin-7-Yl}Butyl Dihydrogen Phosphate",small molecule
+DB02724,Delta-2-Albomycin A1,small molecule
+DB02725,"2-Amino-4-(4-Amino-Cyclohexa-2,5-Dienyl)-Butyric Acid",small molecule
+DB02726,2-Phosphoglycolic Acid,small molecule
+DB02746,Phthalic Acid,small molecule
+DB02749,Pyromellitic Acid,small molecule
+DB02752,Tosyl-D-Proline,small molecule
+DB02758,Indolepropionic acid,small molecule
+DB02761,S-Mercaptocysteine,small molecule
+DB02772,Sucrose,small molecule
+DB02783,4'-Deoxy-4'-Acetylyamino-Pyridoxal-5'-Phosphate,small molecule
+DB02790,Phenyl-uridine-5'-diphosphate,small molecule
+DB02794,"(2S)-2-({4-[(2S)-1-(2-Amino-4-oxo-1,4-dihydro-6-quinazolinyl)-3-{[2-({(2R,3R,4S,5R)-3,4-dihydroxy-5-[(phosphonooxy)methyl]tetrahydro-2-furanyl}amino)-2-oxoethyl]amino}-2-hydroxy-2-propanyl]benzoyl}ami no)pentanedioic acid",small molecule
+DB02797,3-Nitrophenylboronic Acid,small molecule
+DB02799,N-[2-(1-maleimidyl)ethyl]-7-diethylaminocoumarin-3-carboxamide,small molecule
+DB02801,"2,3-Anhydro-quinic acid",small molecule
+DB02802,3-(alpha-D-Galactopyranosyloxy)-5-nitrobenzamide,small molecule
+DB02811,Diethyl phosphonate,small molecule
+DB02823,Phosphonoacetic Acid,small molecule
+DB02824,N-Pyridoxyl-Glycine-5-Monophosphate,small molecule
+DB02831,Dihydrogenphosphate,small molecule
+DB02832,Siroheme,small molecule
+DB02836,Guanosine 5'-diphosphate 2':3'-cyclic monophosphate,small molecule
+DB02843,alpha-D-glucose-1-phosphate,small molecule
+DB02854,Aetiocholanolone,small molecule
+DB02858,3-(4-Benzenesulfonyl-Thiophene-2-Sulfonylamino)-Phenylboronic Acid,small molecule
+DB02883,"2',3'-Dideoxycytidine-5'-Monophosphate",small molecule
+DB02890,6-hydroxyuridine-5'-phosphate,small molecule
+DB02896,Methylthioinosine,small molecule
+DB02897,Acetylphosphate,small molecule
+DB02899,N-Carboxymethionine,small molecule
+DB02903,"1,3-bis-([[3-(4-{3-[3-nitro-5-(galactopyranosyloxy)-benzoylamino]-propyl}-piperazin-1-yl)-propylamino-3,4-dioxo-cyclobutenyl]-amino-ethyl]-amino-carbonyloxy)-2-amino-propane",small molecule
+DB02927,"Mixed Carbamic Phosphoric Acid Anhydride of 7,8-Diaminononanic Acid",small molecule
+DB02928,3-Amino-6-Hydroxy-Tyrosine,small molecule
+DB02930,Adenosine 5'-[gamma-thio]triphosphate,small molecule
+DB02933,5'-Deoxy-5'-(Methylthio)-Tubercidin,small molecule
+DB02934,9-(6-deoxy-alpha-L-talofuranosyl)-6-methylpurine,small molecule
+DB02937,"Gamma-Arsono-Beta, Gamma-Methyleneadenosine-5'-Diphosphate",small molecule
+DB02941,3-(1-Aminoethyl)Nonanedioic Acid,small molecule
+DB02947,2-Fluoro-2'-Deoxyadenosine,small molecule
+DB02948,Fosmidomycin,small molecule
+DB02951,3-Hydroxypyruvic Acid,small molecule
+DB02954,(Carboxyhydroxyamino)Ethanoic Acid,small molecule
+DB02961,Rhamnose,small molecule
+DB02965,Ndelta-(N'-Sulphodiaminophosphinyl)-L-Ornithine,small molecule
+DB02981,Vitamin B6 Complexed with 2-Amino-Hexanoic Acid,small molecule
+DB02990,S-(2-Acetamidoethyl) hexadecanethioate,small molecule
+DB02995,Cyclohexylammonium Ion,small molecule
+DB03003,Glutathione sulfonic acid,small molecule
+DB03017,Lauric acid,small molecule
+DB03022,"3-[2,6,8-Trioxo-9-[(2R,3S,4R)-2,3,4,5-tetrahydroxypentyl]-3H-purin-7-yl]propyl dihydrogen phosphate",small molecule
+DB03026,Phosphoglycolohydroxamic Acid,small molecule
+DB03030,4-(2-Thienyl)-1-(4-Methylbenzyl)-1h-Imidazole,small molecule
+DB03038,LY341770,small molecule
+DB03049,S-Selanyl Cysteine,small molecule
+DB03051,(S)-2-Tetrahydrofuroic acid,small molecule
+DB03059,Acetoacetyl-CoA,small molecule
+DB03068,Zebularine,small molecule
+DB03075,(Diphosphono)Aminophosphonic Acid,small molecule
+DB03077,"3-Amino-4-{3-[2-(2-Propoxy-Ethoxy)-Ethoxy]-Propylamino}-Cyclobut-3-Ene-1,2-Dione",small molecule
+DB03091,Isoglutamine,small molecule
+DB03101,Ribose-1-Phosphate,small molecule
+DB03107,beta-Alanine,small molecule
+DB03108,4-phospho-D-erythronic acid,small molecule
+DB03113,3-Fluoro-2-(Phosphonooxy)Propanoic Acid,small molecule
+DB03116,5-(1-Carboxy-1-Phosphonooxy-Ethoxyl)-Shikimate-3-Phosphate,small molecule
+DB03117,2-carboxypropyl-coenzyme A,small molecule
+DB03140,4-Carboxyphenylboronic Acid,small molecule
+DB03142,Alpha-L-Arabinose,small molecule
+DB03146,2-deazo-6-thiophosphate guanosine-5'-monophosphate,small molecule
+DB03147,Flavin adenine dinucleotide,small molecule
+DB03148,Adenosine 5'-methylenediphosphate,small molecule
+DB03157,"N,O-didansyl-L-tyrosine",small molecule
+DB03160,N-Pyridoxyl-7-Keto-8-Aminopelargonic Acid-5'-Monophosphate,small molecule
+DB03165,2-Dimethylamino-Ethyl-Diphosphate,small molecule
+DB03170,Dephospho Coenzyme A,small molecule
+DB03172,Tubercidin,small molecule
+DB03197,6-Hydroxymethylpterin,small molecule
+DB03212,4-Deoxyglucarate,small molecule
+DB03228,"5-[Bis-2(Chloro-Ethyl)-Amino]-2,4-Dintro-Benzamide",small molecule
+DB03235,N-{3-[4-(3-aminopropyl)piperazin-1-yl]propyl}-3-(alpha-D-galactopyranosyloxy)-5-nitrobenzamide,small molecule
+DB03237,"2,3-Dihydroxy-5-Oxo-Hexanedioate",small molecule
+DB03246,Beta-L-Arabinose,small molecule
+DB03247,Flavin mononucleotide,small molecule
+DB03252,D-Lysine,small molecule
+DB03256,(6R)-Folinic acid,small molecule
+DB03258,2'-Deoxycytidine 5'-triphosphate,small molecule
+DB03264,Dodecyl-Coa,small molecule
+DB03274,"2',5'-Dideoxyuridine",small molecule
+DB03278,D-Treitol,small molecule
+DB03280,p1-(5'-adenosyl)p5-(5'-thymidyl)pentaphosphate,small molecule
+DB03313,Cephalosporin C,small molecule
+DB03317,Ferroheme C,small molecule
+DB03323,Maltose,small molecule
+DB03325,Tyrosyladenylate,small molecule
+DB03345,Mercaptoethanol,small molecule
+DB03350,Cobalt hexammine ion,small molecule
+DB03355,5'-O-(L-Threonylsulfamoyl)adenosine,small molecule
+DB03363,3-Acetylpyridine Adenine Dinucleotide,small molecule
+DB03366,Imidazole,small molecule
+DB03374,"3,5-Diiodotyrosine",small molecule
+DB03382,S-oxy-L-cysteine,small molecule
+DB03397,Uridine-Diphosphate-N-Acetylglucosamine,small molecule
+DB03403,Cytidine-5'-Monophosphate,small molecule
+DB03411,"2-Hydroxymethyl-Pyrrolidine-3,4-Diol",small molecule
+DB03413,Deoxyuridine-5'-Diphosphate,small molecule
+DB03434,3-(N-morpholino)propanesulfonic acid,small molecule
+DB03435,Uridine-5'-Diphosphate,small molecule
+DB03436,Gallichrome,small molecule
+DB03437,"(2R,4S)-2-[(1R)-1-{[(2Z)-2-(2-Amino-1,3-thiazol-4-yl)-2-(methoxyimino)acetyl]amino}-2-oxoethyl]-5,5-dimethyl-1,3-thiazolidine-4-carboxylic acid",small molecule
+DB03452,3-Trimethylsilylsuccinic Acid,small molecule
+DB03459,Sparfosic acid,small molecule
+DB03461,Nicotinamide adenine dinucleotide phosphate,small molecule
+DB03462,Thymine,small molecule
+DB03464,Formycin-5'-Monophosphate,small molecule
+DB03485,alpha-D-Fucopyranose,small molecule
+DB03487,(S)-Aspartimide,small molecule
+DB03488,Uridine-5'-diphosphate-2-deoxy-2-fluoro-alpha-D-galactose,small molecule
+DB03498,Mercaptomethyl Phosphonate,small molecule
+DB03499,D-Malic acid,small molecule
+DB03524,"N-[3-[4-(3-aminopropyl)piperazin-1-yl]propyl]-3-[(2-thiophen-2-ylacetyl)amino]-5-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxybenzamide",small molecule
+DB03528,9-Beta-D-Xylofuranosyl-Adenine,small molecule
+DB03530,Acylated ceftazidime,small molecule
+DB03534,3-[(Acetyl-Methyl-Amino)-Methyl]-4-Amino-N-Methyl-N-(1-Methyl-1h-Indol-2-Ylmethyl)-Benzamide,small molecule
+DB03541,"10-Propargyl-5,8-Dideazafolic Acid",small molecule
+DB03543,1-(O-Carboxy-Phenylamino)-1-Deoxy-D-Ribulose-5-Phosphate,small molecule
+DB03544,S-Phosphocysteine,small molecule
+DB03551,"(3R,4R)-3-Hydroxy-4-(hydroxymethyl)-1-[(4-oxo-4,4a,5,7a-tetrahydro-3H-pyrrolo[3,2-d]pyrimidin-7-yl)methyl]pyrrolidinium",small molecule
+DB03553,Glutaric Acid,small molecule
+DB03556,"2-(2-{2-[2-(2-{2-[2-(2-Ethoxy-Ethoxy)-Ethoxy]-Ethoxy}-Ethoxy)-Ethoxy]-Ethoxy}-Ethoxy)-Ethanol, Polyethyleneglycol Peg400",small molecule
+DB03558,SP-876,small molecule
+DB03566,Spermidine,small molecule
+DB03581,Glucose-6-Phosphate,small molecule
+DB03582,N~2~-Succinylornithine,small molecule
+DB03584,4-Thio-beta-D-glucopyranose,small molecule
+DB03590,"2,6-Diaminopimelic Acid",small molecule
+DB03592,Pterin-6-Yl-Methyl-Monophosphate,small molecule
+DB03600,Capric acid,small molecule
+DB03603,Glucaric acid,small molecule
+DB03615,Ribostamycin,small molecule
+DB03619,Deoxycholic acid,small molecule
+DB03624,7-(Carboxyamino)-8-Amino-Nonanoic Acid,small molecule
+DB03629,Pyridoxal-5'-Phosphate-N-Oxide,small molecule
+DB03631,"3-(4-hydroxy-3-imino-6-oxo-cyclohexa-1,4-dienyl)-alanine",small molecule
+DB03649,"[{(5-Chloro-2-Pyridinyl)Amino} Methylene]-1,1-Bisphosphonate",small molecule
+DB03658,"(2R,4S)-2-[(1R)-1-{[(2R)-2-Amino-2-(4-hydroxyphenyl)acetyl]amino}-2-oxoethyl]-5,5-dimethyl-1,3-thiazolidine-4-carboxylic acid",small molecule
+DB03661,L-cysteic acid,small molecule
+DB03662,Vitamin B6 Complexed with 2-Amino-Pentanoic Acid,small molecule
+DB03666,Zidovudine monophosphate,small molecule
+DB03668,6-oxouridine 5'-phosphate,small molecule
+DB03685,Uridine monophosphate,small molecule
+DB03687,4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol,small molecule
+DB03688,Hydracrylic acid,small molecule
+DB03692,1-Hexadecanosulfonyl-O-L-Serine,small molecule
+DB03705,6-Methylamino-5-Nitroisocytosine,small molecule
+DB03709,Bicine,small molecule
+DB03721,N-acetyl-alpha-neuraminic acid,small molecule
+DB03734,Xylarohydroxamate,small molecule
+DB03735,9-(2-Deoxy-Beta-D-Ribofuranosyl)-6-Methylpurine,small molecule
+DB03739,3-Hydroxyimino Quinic Acid,small molecule
+DB03746,"3-Amino-4,5-Dihydroxy-Cyclohex-1-Enecarboxylate",small molecule
+DB03750,Isovaleric Acid,small molecule
+DB03761,5-fluoro-2'-deoxyuridine-5'-monophosphate,small molecule
+DB03775,Dethiobiotin,small molecule
+DB03795,2-Dehydropantoate,small molecule
+DB03799,Trifluoromethionine,small molecule
+DB03800,Deoxyuridine monophosphate,small molecule
+DB03801,Lysine Nz-Carboxylic Acid,small molecule
+DB03811,Histidinol,small molecule
+DB03812,"3-{2,6,8-trioxo-9-[(2S,3R,4R)-2,3,4,5-tetrahydroxypentyl]-1,2,3,6,8,9-hexahydro-7H-purin-7-Yl}propyl dihydrogen phosphate",small molecule
+DB03813,2-Decenoyl N-acetyl cysteamine,small molecule
+DB03814,2-(N-morpholino)ethanesulfonic acid,small molecule
+DB03815,Fucitol,small molecule
+DB03816,Difluoromethionine,small molecule
+DB03818,N-[Tosyl-D-Prolinyl]Amino-Ethanethiol,small molecule
+DB03825,Rhodamine 6G,small molecule
+DB03830,Phosphorylated Dihydropteroate,small molecule
+DB03846,2'-deoxy-5-(hydroxymethyl)uridine 5'-(dihydrogen phosphate),small molecule
+DB03854,Cadaverine,small molecule
+DB03855,L-Threonohydroxamate 4-Phosphate,small molecule
+DB03869,5'-O-(L-Serylsulfamoyl)adenosine,small molecule
+DB03909,"Adenosine-5'-[Beta, Gamma-Methylene]Triphosphate",small molecule
+DB03912,D-pantetheine 4'-phosphate,small molecule
+DB03915,2-Amino-3-Ketobutyric Acid,small molecule
+DB03936,1-Deoxy-Ribofuranose-5'-Phosphate,small molecule
+DB03939,"(4S)-4-hydroxy-3,4-dihydro-2(1H)-pyrimidinone",small molecule
+DB03940,Oxamic Acid,small molecule
+DB03942,Carboxylic PRPP,small molecule
+DB03951,N-acetyl-D-glucosamine-6-phosphate,small molecule
+DB03952,9-(6-deoxy-beta-D-allofuranosyl)-6-methylpurine,small molecule
+DB03961,"2c-Methyl-D-Erythritol 2,4-Cyclodiphosphate",small molecule
+DB03967,Dodecyl sulfate,small molecule
+DB03973,"3-[2,6,8-Trioxo-9-[(2R,3R,4R)-2,3,4,5-tetrahydroxypentyl]-3H-purin-7-yl]propyl dihydrogen phosphate",small molecule
+DB03986,6-methyl-formycin A,small molecule
+DB03989,D-Allopyranose,small molecule
+DB03993,Isocaproic acid,small molecule
+DB03995,Betadex,small molecule
+DB03997,L-histidinol phosphate,small molecule
+DB04007,Bromo-WR99210,small molecule
+DB04015,Methionine Phosphinate,small molecule
+DB04024,Serine-3'-aminoadenosine,small molecule
+DB04030,"1,3,4,9-Tetrahydro-2-(Hydroxybenzoyl)-9-[(4-Hydroxyphenyl)Methyl]-6-Methoxy-2h-Pyrido[3,4-B]Indole",small molecule
+DB04031,Serine vanadate,small molecule
+DB04034,Ribulose-5-Phosphate,small molecule
+DB04035,Ceftazidime BATSI,small molecule
+DB04047,6-hydroxymethylpterin diphosphate,small molecule
+DB04062,beta-D-fucose,small molecule
+DB04063,alpha-Methylleucine,small molecule
+DB04073,N-{3-[4-(3-amino-propyl)-piperazin-1-yl]-propyl}-3-nitro-5-(galactopyranosyl)-beta-benzamide,small molecule
+DB04074,alpha-Ketoisovalerate,small molecule
+DB04075,N-Acetyl-L-Glutamate,small molecule
+DB04083,N(6)-(pyridoxal phosphate)-L-lysine,small molecule
+DB04087,Open Form of 2'-Deoxy-Ribofuranose-5'-Phosphate,small molecule
+DB04095,9-Deazahypoxanthine,small molecule
+DB04097,Uridine-5'-diphosphate-4-deoxy-4-fluoro-alpha-D-galactose,small molecule
+DB04099,Deamido-Nad+,small molecule
+DB04104,3-Methyladenine,small molecule
+DB04116,Allolactose,small molecule
+DB04127,beta-D-arabinofuranose 5-phosphate,small molecule
+DB04135,"(4S)-5-Fluoro-4-hydroxy-3,4-dihydro-2(1H)-pyrimidinone",small molecule
+DB04137,Guanosine-5'-Triphosphate,small molecule
+DB04138,"5-[Bis(2-bromoethyl)amino]-N-(2,3-dioxopropyl)-2,4-dinitrobenzamide",small molecule
+DB04147,Dodecyldimethylamine N-oxide,small molecule
+DB04155,2-Fluoro-2-Deoxy-Beta-D-Galactopyranosyl-Beta-D-Glucopyranose,small molecule
+DB04156,Aspartate beryllium trifluoride,small molecule
+DB04158,"6-(adenosine tetraphosphate-methyl)-7,8-dihydropterin",small molecule
+DB04160,Pyrophosphoric acid,small molecule
+DB04170,4-bromo-3-hydroxy-3-methyl butyl diphosphate,small molecule
+DB04196,Pteroic acid,small molecule
+DB04198,Formycin B,small molecule
+DB04201,Histidyl-Adenosine Monophosphate,small molecule
+DB04210,"3-(alpha-D-galactopyranosyloxy)-N-(3-{4-[3-({2-[(3-{4-[3-({[3-(hexopyranosyloxy)-5-nitrophenyl]carbonyl}amino)propyl]piperazin-1-yl}propyl)amino]-3,4-dioxocyclobut-1-en-1-yl}amino)propyl]piperazin-1-yl}propyl)-5-nitrobenzamide",biotech
+DB04217,L-2-amino-3-butynoic acid,small molecule
+DB04221,Didecyldimethylammonium,small molecule
+DB04233,(Hydroxyethyloxy)Tri(Ethyloxy)Octane,small molecule
+DB04242,4-hydroxybenzoic acid,small molecule
+DB04243,TMP,small molecule
+DB04252,N-Carbamoylaspartic acid,small molecule
+DB04253,Tretazicar,small molecule
+DB04264,"(10R)-10-formyl-5,8,10-trideazafolic acid",small molecule
+DB04267,Dipicolinic acid,small molecule
+DB04272,Citric acid,small molecule
+DB04279,3-Isopropylmalic Acid,small molecule
+DB04284,L-proline betaine,small molecule
+DB04286,beta-D-Ribopyranose,small molecule
+DB04289,Genz-10850,small molecule
+DB04293,7-(2-Amino-2-Phenyl-Acetylamino)-3-Chloro-8-Oxo-1-Aza-Bicyclo[4.2.0]Oct-2-Ene-2-Carboxylic Acid,small molecule
+DB04294,5-Phosphoribosyl-1-(Beta-Methylene) Pyrophosphate,small molecule
+DB04296,5-Oxo-L-Norleucine,small molecule
+DB04299,Maleic acid,small molecule
+DB04302,"4-Hydroxy-3,5-Dimethyl-5-(2-Methyl-Buta-1,3-Dienyl)-5h-Thiophen-2-One",small molecule
+DB04315,Guanosine-5'-Diphosphate,small molecule
+DB04317,"3,3-Dichloro-2-Phosphonomethyl-Acrylic Acid",small molecule
+DB04325,Phenethylamine,small molecule
+DB04326,Dihydroxyacetone phosphate,small molecule
+DB04328,Shikimate-3-Phosphate,small molecule
+DB04334,6-hydroxydopa quinone,small molecule
+DB04335,Inosine,small molecule
+DB04343,Glyoxylic acid,small molecule
+DB04346,"(2r,4s)-2-Methyl-2,3,3,4-Tetrahydroxytetrahydrofuran",small molecule
+DB04351,Aconitate Ion,small molecule
+DB04360,Benzo[B]Thiophene-2-Boronic Acid,small molecule
+DB04380,Allantoate,small molecule
+DB04382,2-Deoxy-alpha-D-galactopyranose,small molecule
+DB04385,3-Deazacytidine,small molecule
+DB04392,"Bishydroxy[2h-1-Benzopyran-2-One,1,2-Benzopyrone]",small molecule
+DB04393,Soneclosan,small molecule
+DB04395,Phosphoaminophosphonic Acid-Adenylate Ester,small molecule
+DB04398,Lactic acid,small molecule
+DB04401,Betaine aldehyde,small molecule
+DB04441,2-Fluoroadenosine,small molecule
+DB04444,Tetrafluoroaluminate Ion,small molecule
+DB04447,"1,4-Dithiothreitol",small molecule
+DB04450,Heptyl 1-Thiohexopyranoside,small molecule
+DB04455,"N,N,N-trimethylglycinium",small molecule
+DB04457,2'-Deoxyguanosine-5'-Monophosphate,small molecule
+DB04460,(C8-S)-Hydantocidin 5'-phosphate,small molecule
+DB04464,N-Formylmethionine,small molecule
+DB04465,Lactose,small molecule
+DB04467,N-(5'-phosphopyridoxyl)-L-alanine,small molecule
+DB04496,4-Phospho-D-erythronohydroxamic acid,small molecule
+DB04503,Sp-722,small molecule
+DB04517,Dipyrromethane Cofactor,small molecule
+DB04519,Caprylic acid,small molecule
+DB04522,Dexfosfoserine,small molecule
+DB04524,Malonyl-CoA,small molecule
+DB04530,"S,S-(2-Hydroxyethyl)Thiocysteine",small molecule
+DB04539,Glyphosate,small molecule
+DB04545,Afegostat,small molecule
+DB04551,"beta-D-fructofuranose 1,6-bisphosphate",small molecule
+DB04554,8-Bromoadenosine-5'-Diphosphate,small molecule
+DB04555,Cytidine-5'-Diphosphate,small molecule
+DB04560,"4,7-Dioxosebacic Acid",small molecule
+DB04566,Inosinic Acid,small molecule
+DB04570,Latamoxef,small molecule
+DB04586,o-Bromophenol,small molecule
+DB04610,"7,8-dihydro-6-hydroxymethyl-7-methyl-7-[2-phenylethyl]-pterin",small molecule
+DB04631,Atpenin A5,small molecule
+DB04647,BOC-GAMMA-D-GLU-L-LYS(CBZ)-D-BOROALA,small molecule
+DB04651,BIOTINOL-5-AMP,small molecule
+DB04695,Farnesyl thiopyrophosphate,small molecule
+DB04696,"4-CHLORO-3',3''-DIBROMOPHENOL-1,8-NAPHTHALEIN",small molecule
+DB04714,ISOPENTENYL PYROPHOSPHATE,small molecule
+DB04729,Gentamicin C1a,small molecule
+DB04732,N-(4-MORPHOLINE)CARBONYL-B-(1-NAPHTHYL)-L-ALANINE-L-LEUCINE BORONIC ACID,small molecule
+DB04762,N-PYRIDOXYL-D-GLUTAMIC ACID-5'-MONOPHOSPHATE,small molecule
+DB04765,N-PYRIDOXYL-2-METHYL-L-GLUTAMIC ACID-5'-MONOPHOSPHATE,small molecule
+DB04911,Oritavancin,small molecule
+DB04918,Ceftobiprole,small molecule
+DB04934,Rifalazil,small molecule
+DB05154,Pretomanid,small molecule
+DB05245,Silver sulfadiazine,small molecule
+DB05540,Alanosine,small molecule
+DB06211,Doripenem,small molecule
+DB06358,Iclaprim,small molecule
+DB06590,Ceftaroline fosamil,small molecule
+DB06656,TAS-106,small molecule
+DB06696,Arbekacin,small molecule
+DB06729,Sulfaphenazole,small molecule
+DB06821,Sulfameter,small molecule
+DB06864,"2-(3-CARBOXYPROPIONYL)-6-HYDROXY-CYCLOHEXA-2,4-DIENE CARBOXYLIC ACID",small molecule
+DB06872,"1-((2-HYDROXYETHOXY)METHYL)-5-(PHENYLTHIO)PYRIMIDINE-2,4(1H,3H)-DIONE",small molecule
+DB06873,"1-((2-HYDROXYETHOXY)METHYL)-5-(3-(BENZYLOXY)BENZYL)PYRIMIDINE-2,4(1H,3H)-DIONE",small molecule
+DB06904,"(5S,6S)-6-[(R)ACETOXYETH-2-YL]-PENEM-3-CARBOXYLATEPROPANE",small molecule
+DB06922,"2-[(1R)-1-carboxy-2-naphthalen-1-ylethyl]-1,3-dioxo-2,3-dihydro-1H-isoindole-5-carboxylic acid",small molecule
+DB06998,"[(5R)-5-(2,3-dibromo-5-ethoxy-4-hydroxybenzyl)-4-oxo-2-thioxo-1,3-thiazolidin-3-yl]acetic acid",small molecule
+DB07052,5'-S-ethyl-5'-thioadenosine,small molecule
+DB07057,(3S)-1-(2-hydroxyphenyl)-5-oxopyrrolidine-3-carboxylic acid,small molecule
+DB07084,"N-(6,7,9,10,17,18,20,21-octahydrodibenzo[b,k][1,4,7,10,13,16]hexaoxacyclooctadecin-2-yl)acetamide",small molecule
+DB07090,(3S)-N-(3-CHLORO-2-METHYLPHENYL)-1-CYCLOHEXYL-5-OXOPYRROLIDINE-3-CARBOXAMIDE,small molecule
+DB07114,4-[(METHYLSULFONYL)AMINO]BENZOIC ACID,small molecule
+DB07123,N-(4-METHYLBENZOYL)-4-BENZYLPIPERIDINE,small molecule
+DB07155,(3S)-1-CYCLOHEXYL-5-OXO-N-PHENYLPYRROLIDINE-3-CARBOXAMIDE,small molecule
+DB07178,5-PENTYL-2-PHENOXYPHENOL,small molecule
+DB07188,"(3S)-1-CYCLOHEXYL-N-(3,5-DICHLOROPHENYL)-5-OXOPYRROLIDINE-3-CARBOXAMIDE",small molecule
+DB07192,(3S)-N-(3-BROMOPHENYL)-1-CYCLOHEXYL-5-OXOPYRROLIDINE-3-CARBOXAMIDE,small molecule
+DB07222,(3S)-N-(5-CHLORO-2-METHYLPHENYL)-1-CYCLOHEXYL-5-OXOPYRROLIDINE-3-CARBOXAMIDE,small molecule
+DB07262,1-{[N-(1-Imino-guanidino-methyl)]sulfanylmethyl}-3-trifluoromethyl-benzene,small molecule
+DB07287,"2-(2,4-DICHLOROPHENOXY)-5-(PYRIDIN-2-YLMETHYL)PHENOL",small molecule
+DB07296,(5Z)-3-(4-CHLOROPHENYL)-4-HYDROXY-5-(1-NAPHTHYLMETHYLENE)FURAN-2(5H)-ONE,small molecule
+DB07349,"(1S)-2-{[{[(2S)-2,3-DIHYDROXYPROPYL]OXY}(HYDROXY)PHOSPHORYL]OXY}-1-[(PENTANOYLOXY)METHYL]ETHYL OCTANOATE",small molecule
+DB07398,"2-[(CYCLOPROPYLCARBONYL)AMINO]-4,5,6,7-TETRAHYDRO-1-BENZOTHIOPHENE-3-CARBOXAMIDE",small molecule
+DB07404,BPH-608,small molecule
+DB07409,"(1-HYDROXY-1-PHOSPHONO-2-[1,1';4',1'']TERPHENYL-3-YL-ETHYL)-PHOSPHONIC ACID",small molecule
+DB07410,[2-(3-DIBENZOFURAN-4-YL-PHENYL)-1-HYDROXY-1-PHOSPHONO-ETHYL]-PHOSPHONIC ACID,small molecule
+DB07413,5'-S-[2-(decylamino)ethyl]-5'-thioadenosine,small molecule
+DB07426,"[1-HYDROXY-2-(1,1':3',1''-TERPHENYL-3-YLOXY)ETHANE-1,1-DIYL]BIS(PHOSPHONIC ACID)",small molecule
+DB07432,"[[(3R,4R,5S,6R)-3-(butanoylamino)-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-ylidene]amino] N-phenylcarbamate",small molecule
+DB07437,5-Benzylacyclouridine,small molecule
+DB07439,"1-((2-HYDROXYETHOXY)METHYL)-5-(3-(BENZYLOXY)BENZYL)-6-HYDROXYPYRIMIDINE-2,4(1H,3H)-DIONE",small molecule
+DB07463,"(3R,4S)-1-[(4-amino-5H-pyrrolo[3,2-d]pyrimidin-7-yl)methyl]-4-[(butylsulfanyl)methyl]pyrrolidin-3-ol",small molecule
+DB07490,"2-[1-(4-CHLORO-PHENYL)-ETHYL]-4,6-DINITRO-PHENOL",small molecule
+DB07541,4-(dihydroxyboranyl)-2-({[4-(phenylsulfonyl)thiophen-2-yl]sulfonyl}amino)benzoic acid,small molecule
+DB07611,DECANE-1-THIOL,small molecule
+DB07650,Decyl formate,small molecule
+DB07663,"2-[(1R)-1-CARBOXY-2-(4-HYDROXYPHENYL)ETHYL]-1,3-DIOXOISOINDOLINE-5-CARBOXYLIC ACID",small molecule
+DB07671,"2-[1-METHYLHEXYL]-4,6-DINITROPHENOL",small molecule
+DB07780,Farnesyl diphosphate,small molecule
+DB07803,2-phenyl-1H-imidazole-4-carboxylic acid,small molecule
+DB07823,"(2S)-2-[(3aR,4R,7S,7aS)-1,3-dioxooctahydro-2H-4,7-methanoisoindol-2-yl]propanoic acid",small molecule
+DB07824,"4-ethyl-5-methyl-2-(1H-tetrazol-5-yl)-1,2-dihydro-3H-pyrazol-3-one",small molecule
+DB07825,(3S)-1-(4-acetylphenyl)-5-oxopyrrolidine-3-carboxylic acid,small molecule
+DB07850,"(1R,2S)-2-(5-thioxo-4,5-dihydro-1H-1,2,4-triazol-3-yl)cyclohexanecarboxylic acid",small molecule
+DB07911,"(3E)-2,6-DIOXO-6-PHENYLHEX-3-ENOATE",small molecule
+DB07918,2-heptyl-4-hydroxyquinoline N-oxide,small molecule
+DB07927,3-[(4-Carboxy-2-hydroxyphenyl)sulfamoyl]-2-thiophenecarboxylic acid,small molecule
+DB07928,N-(2-OXOTETRAHYDROFURAN-3-YL)OCTANAMIDE,small molecule
+DB08016,"4-(6-CHLORO-2,4-DIOXO-1,2,3,4-TETRAHYDROPYRIMIDIN-5-YL) BUTYL PHOSPHATE",small molecule
+DB08074,3-(3-Methyl-2-buten-1-yl)-3H-purin-6-amine,small molecule
+DB08075,"4-(2-amino-1,3-thiazol-4-yl)pyrimidin-2-amine",small molecule
+DB08076,"4-[1-(2,6-dichlorobenzyl)-2-methyl-1H-imidazol-4-yl]pyrimidin-2-amine",small molecule
+DB08105,N-[(6-butoxynaphthalen-2-yl)sulfonyl]-L-glutamic acid,small molecule
+DB08106,N-[(6-butoxynaphthalen-2-yl)sulfonyl]-D-glutamic acid,small molecule
+DB08107,N-{[6-(PENTYLOXY)NAPHTHALEN-2-YL]SULFONYL}-D-GLUTAMIC ACID,small molecule
+DB08108,N-({6-[(4-CYANOBENZYL)OXY]NAPHTHALEN-2-YL}SULFONYL)-D-GLUTAMIC ACID,small molecule
+DB08112,N-({6-[(4-CYANO-2-FLUOROBENZYL)OXY]NAPHTHALEN-2-YL}SULFONYL)-D-GLUTAMIC ACID,small molecule
+DB08131,"2-{4-[2-(2-AMINO-4-OXO-4,7-DIHYDRO-3H-PYRROLO[2,3-D]PYRIMIDIN-5-YL)-ETHYL]-BENZOYLAMINO}-3-METHYL-BUTYRIC ACID",small molecule
+DB08144,"6-(2,6-dibromophenyl)pyrido[2,3-d]pyrimidine-2,7-diamine",small molecule
+DB08145,"6-(2,6-DIMETHOXYPHENYL)PYRIDO[2,3-D]PYRIMIDINE-2,7-DIAMINE",small molecule
+DB08146,"7-(2,5-dihydropyrrol-1-yl)-6-phenyl-pyrido[6,5-d]pyrimidin-2-amine",small molecule
+DB08168,Coumarin 120,small molecule
+DB08171,11-MERCAPTOUNDECANOIC ACID,small molecule
+DB08227,"1-(1-HYDROXY-2,2,6,6-TETRAMETHYLPIPERIDIN-4-YL)PYRROLIDINE-2,5-DIONE",small molecule
+DB08231,Myristic acid,small molecule
+DB08265,"2-(TOLUENE-4-SULFONYL)-2H-BENZO[D][1,2,3]DIAZABORININ-1-OL",small molecule
+DB08306,3-[(3-Nitrophenyl)sulfamoyl]-2-thiophenecarboxylic acid,small molecule
+DB08314,"(2-AMINO-1,3-OXAZOL-5-YL)-(3-BROMOPHENYL)METHANONE",small molecule
+DB08315,"2-AMINO-N,N-BIS(PHENYLMETHYL)-1,3-OXAZOLE-5-CARBOXAMIDE",small molecule
+DB08316,"4-amino-7,7-dimethyl-7,8-dihydroquinazolin-5(6H)-one",small molecule
+DB08317,"5-methyl-6-phenylquinazoline-2,4-diamine",small molecule
+DB08318,"6-(2-phenoxyethoxy)-1,3,5-triazine-2,4-diamine",small molecule
+DB08336,"2-Methyl-2-propanyl [(1R)-2-methyl-1-(1,3,4-oxadiazol-2-yl)propyl]carbamate",small molecule
+DB08337,"2-Methyl-2-propanyl [(1S)-2-methyl-1-(1,3,4-oxadiazol-2-yl)propyl]carbamate",small molecule
+DB08359,2-PHENYLAMINO-4-METHYL-5-ACETYL THIAZOLE,small molecule
+DB08364,1-{[(1E)-(3-HYDROXY-2-METHYL-5-{[(TRIHYDROXY-LAMBDA^5^-PHOSPHANYL)OXY]METHYL}PYRIDIN-4-YL)METHYLIDENE]AMINO}UNDECAN-2-ONE,small molecule
+DB08366,"3-({3-[(1S,4aS,6S,7S,9S,9aR)-1,6-dimethyl-2-oxodecahydro-6,9-epoxy-4a,7-methanobenzo[7]annulen-1-yl]propanoyl}amino)-2,4-dihydroxybenzoic acid",small molecule
+DB08375,"(2R)-2-[(1R)-1-[[(2Z)-2-(2-Amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-2-oxoethyl]-5-methylidene-2H-1,3-thiazine-4-carboxylic acid",small molecule
+DB08404,"S-(2-{[N-(2-HYDROXY-4-{[HYDROXY(OXIDO)PHOSPHINO]OXY}-3,3-DIMETHYLBUTANOYL)-BETA-ALANYL]AMINO}ETHYL) HEXANETHIOATE",small molecule
+DB08405,"S-(2-{[N-(2-HYDROXY-4-{[HYDROXY(OXIDO)PHOSPHINO]OXY}-3,3-DIMETHYLBUTANOYL)-BETA-ALANYL]AMINO}ETHYL) HEPTANETHIOATE",small molecule
+DB08407,Platensimycin,small molecule
+DB08432,THYMIDINE-5'-THIOPHOSPHATE,small molecule
+DB08506,N-{(2S)-3-[(1R)-1-aminoethyl](hydroxy)phosphoryl-2-benzylpropanoyl}-L-phenylalanine,small molecule
+DB08542,"3,4-dihydroxy-9,10-secoandrosta-1(10),2,4-triene-9,17-dione",small molecule
+DB08551,3-{(R)-(Dihydroxyboryl)[(2-thienylacetyl)amino]methyl}benzoic acid,small molecule
+DB08552,(1R)-1-(2-thienylacetylamino)-1-phenylmethylboronic acid,small molecule
+DB08558,"2-HYDROXYMETHYL-6-OCTYLSULFANYL-TETRAHYDRO-PYRAN-3,4,5-TRIOL",small molecule
+DB08573,3-[(4-CHLOROANILINO)SULFONYL]THIOPHENE-2-CARBOXYLIC ACID,small molecule
+DB08604,Triclosan,small molecule
+DB08605,"6-METHYL-2(PROPANE-1-SULFONYL)-2H-THIENO[3,2-D][1,2,3]DIAZABORININ-1-OL",small molecule
+DB08606,"(3R,4S)-1-[(4-AMINO-5H-PYRROLO[3,2-D]PYRIMIDIN-7-YL)METHYL]-4-[(METHYLSULFANYL)METHYL]PYRROLIDIN-3-OL",small molecule
+DB08623,"2-[CARBOXY-(2-THIOPHEN-2-YL-ACETYLAMINO)-METHYL]-5-METHYLENE-5,6-DIHYDRO-2H-[1,3]THIAZINE-4-CARBOXYLIC ACID",small molecule
+DB08627,"(5R)-4-HYDROXY-3,5-DIMETHYL-5-[(1E,3E)-2-METHYLPENTA-1,3-DIENYL]THIOPHEN-2(5H)-ONE",small molecule
+DB08628,"(5R)-5-[(1E)-BUTA-1,3-DIENYL]-4-HYDROXY-3,5-DIMETHYLTHIOPHEN-2(5H)-ONE",small molecule
+DB08648,"8-Hydroxy-2-oxa-bicyclo[3.3.1]non-6-ene-3,5-dicarboxylic acid",small molecule
+DB08684,O-Decyl Hydrogen Thiocarbonate,small molecule
+DB08689,Ubiquinone Q1,small molecule
+DB08690,Ubiquinone Q2,small molecule
+DB08704,"[[(3R,4R,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-(pentanoylamino)oxan-2-ylidene]amino] N-phenylcarbamate",small molecule
+DB08712,11-[(MERCAPTOCARBONYL)OXY]UNDECANOIC ACID,small molecule
+DB08731,"2-[(1R)-2-carboxy-1-(naphthalen-1-ylmethyl)ethyl]-1,3-dioxo-2,3-dihydro-1H-isoindole-5-carboxylic acid",small molecule
+DB08845,Oxogluric acid,small molecule
+DB08903,Bedaquiline,small molecule
+DB09050,Ceftolozane,small molecule
+DB09062,Cefminox,small molecule
+DB09093,Chlortetracycline,small molecule
+DB09319,Carindacillin,small molecule
+DB09320,Procaine benzylpenicillin,small molecule
+DB09462,Glycerin,small molecule
+DB11367,Cefroxadine,small molecule
+DB11596,Levoleucovorin,small molecule
+DB11753,Rifamycin,small molecule
+DB12190,Faropenem,small molecule
+DB12329,Eravacycline,small molecule
+DB12455,Omadacycline,small molecule
+DB12466,Favipiravir,small molecule
+DB12615,Plazomicin,small molecule
+DB12667,Protionamide,small molecule
+DB12769,Lometrexol,small molecule
+DB13028,Biapenem,small molecule
+DB13092,Meclocycline,small molecule
+DB13179,Troleandomycin,small molecule
+DB13470,Cefodizime,small molecule
+DB13503,Tyrothricin,small molecule
+DB13667,Cefozopran,small molecule
+DB13682,Cefpirome,small molecule
+DB13726,Sulfaguanidine,small molecule
+DB13918,Diclofop-methyl,small molecule
+DB13949,Ferric cation,small molecule
+DB14033,Acetyl sulfisoxazole,small molecule
+DB14128,Nadide,small molecule
+DB14189,Ethylenediamine,small molecule
+DB14511,Acetate,small molecule
+DB14520,Tetraferric tricitrate decahydrate,small molecule
+DB00781,Polymyxin B,biotech
+DB14879,Cefiderocol,small molecule
+DB16335,Sulopenem etzadroxil,small molecule
