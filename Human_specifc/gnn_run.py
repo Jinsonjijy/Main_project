@@ -216,7 +216,7 @@ def predict_drugs(disease, top_k=6, alpha=0.7):
         if dbid not in valid_drugbank_ids:
             continue
 
-        # ✅ FIXED TYPE FILTER (ROBUST)
+        #  FIXED TYPE FILTER (ROBUST)
         drug_type = str(drug_type_map.get(dbid, "")).lower()
         if "small" not in drug_type:
             continue
@@ -255,4 +255,5 @@ if __name__ == "__main__":
             print("No candidate drugs found.")
         else:
             for i, (name, dbid, score) in enumerate(results, 1):
-                print(f"{i:>2}. {name:<25} ({dbid}) | Score: {score:.4f}")
+                print(f"{i:>2}. {name:<25} ({dbid}) | Score: {score:.4f}") 
+ 

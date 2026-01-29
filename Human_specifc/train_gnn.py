@@ -74,7 +74,7 @@ data = HeteroData()
 # Drug nodes
 data["drug"].x = torch.randn(num_dr, EMB_DIM) * 0.01
 
-# Gene nodes (FIXED)
+# Gene nodes
 gene_x = []
 missing = 0
 for gene_symbol in g_map.values():
@@ -88,7 +88,7 @@ for gene_symbol in g_map.values():
 data["gene"].x = torch.stack(gene_x)
 print("Missing gene embeddings:", missing)
 
-# Disease nodes (initialized from genes)
+# Disease nodes 
 data["disease"].x = torch.zeros(num_d, EMB_DIM)
 
 dg_edges = torch.tensor(
@@ -102,7 +102,7 @@ for d in range(num_d):
         data["disease"].x[d] = data["gene"].x[gids].mean(dim=0)
 
 # ==================================================
-# Edges (WITH reverse edges ✅)
+# Edges
 # ==================================================
 gd_edges = torch.tensor(
     drug_gene[["gene_id", "drug_id"]].values.T,
@@ -124,7 +124,7 @@ data["drug", "treats", "disease"].edge_index = dd_edges
 data["disease", "rev_treats", "drug"].edge_index = dd_edges.flip(0)
 
 # ==================================================
-# Training pairs (NO leakage)
+# Training pairs
 # ==================================================
 merged = gene_disease.merge(drug_gene, on="gene_id")
 
@@ -175,4 +175,4 @@ for epoch in range(150):
         print(f"Epoch {epoch} | Loss: {loss:.4f}")
 
 torch.save(model.state_dict(), "drug_repurposing_gnn.pt")
-print("✅ Model saved")
+print(" Model saved")
