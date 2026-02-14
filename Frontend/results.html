@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drug Prediction Results</title>
+  <!-- Bootstrap & Font Awesome (same as home.html for consistency) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #4f6df5;
+      --secondary-color: #10b981;
+      --accent-color: #8b5cf6;
+      --dark-color: #1f2937;
+      --light-color: #f8fafc;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #f5f7ff 0%, #f3f4f6 100%);
+      min-height: 100vh;
+      color: var(--dark-color);
+    }
+    .navbar {
+      background: rgba(255,255,255,0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+      padding: 1rem 0;
+    }
+    .navbar-brand {
+      font-weight: 800;
+      font-size: 1.8rem;
+      color: var(--primary-color) !important;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+    .results-header {
+      background: white;
+      border-radius: 24px;
+      padding: 40px;
+      margin: 40px 0;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .results-header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+    }
+    .disease-badge {
+      background: rgba(79,109,245,0.1);
+      color: var(--primary-color);
+      padding: 10px 25px;
+      border-radius: 50px;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 40px 0 30px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .section-title i { color: var(--accent-color); }
+    .pathway-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+    .pathway-tag {
+      background: white;
+      padding: 12px 25px;
+      border-radius: 50px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      font-weight: 500;
+      border-left: 4px solid var(--primary-color);
+    }
+    .drugs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 25px;
+      margin-bottom: 40px;
+    }
+    .drug-card {
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+    .drug-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+    }
+    .drug-name {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--secondary-color);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .drug-bank {
+      background: rgba(16,185,129,0.1);
+      color: var(--secondary-color);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+    .score-container {
+      margin: 20px 0;
+    }
+    .score-label {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+    .score-bar-bg {
+      width: 100%;
+      height: 12px;
+      background: #e5e7eb;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .score-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+      border-radius: 6px;
+      width: 0%;
+    }
+    .score-value {
+      font-family: 'Source Code Pro', monospace;
+      font-weight: 600;
+      color: var(--dark-color);
+    }
+    .action-buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    .btn {
+      padding: 15px 40px;
+      border-radius: 16px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+      color: white;
+      box-shadow: 0 4px 15px rgba(79,109,245,0.3);
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(79,109,245,0.4);
+    }
+    .btn-secondary {
+      background: white;
+      color: var(--dark-color);
+      border: 2px solid #e5e7eb;
+    }
+    .btn-secondary:hover {
+      background: #f8fafc;
+    }
+    .footer {
+      text-align: center;
+      padding: 40px 0;
+      color: #6b7280;
+    }
+    .loading { text-align: center; padding: 60px; }
+    .spinner { border: 4px solid rgba(79,109,245,0.1); border-top-color: var(--primary-color); border-radius: 50%; width: 50px; height: 50px; animation: spin 1s linear infinite; margin: 20px auto; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .error-message { background: #fee2e2; color: #b91c1c; padding: 20px; border-radius: 16px; text-align: center; }
+  </style>
+</head>
+<body>
+  <!-- Navigation (same as home.html) -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="home.html"><i class="fas fa-dna"></i> Disease Network Explorer</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="home.html"><i class="fas fa-home"></i> Home</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <p>Loading prediction results...</p>
+    </div>
+
+    <div id="content" style="display: none;">
+      <div class="results-header">
+        <h1><i class="fas fa-chart-line"></i> Drug Repurposing Predictions</h1>
+        <div class="disease-badge" id="disease-name"></div>
+        <p class="text-muted">Top drug candidates identified by Graph Neural Network</p>
+      </div>
+
+      <!-- Pathways Used -->
+      <div class="section-title">
+        <i class="fas fa-sitemap"></i> Pathways Involved
+      </div>
+      <div class="pathway-list" id="pathways"></div>
+
+      <!-- Top Drugs -->
+      <div class="section-title">
+        <i class="fas fa-pills"></i> Top Predicted Drugs
+      </div>
+      <div class="drugs-grid" id="drugs"></div>
+
+      <!-- Action Buttons -->
+      <div class="action-buttons">
+        <button class="btn btn-secondary" onclick="window.location.href='home.html'">
+          <i class="fas fa-arrow-left"></i> New Search
+        </button>
+        <button class="btn btn-primary" id="view-graph-btn">
+          <i class="fas fa-project-diagram"></i> View Network Graph
+        </button>
+      </div>
+    </div>
+
+    <div id="error" style="display: none;" class="error-message"></div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2023 Disease Network Explorer. Predictions are for research purposes only.</p>
+  </footer>
+
+  <script>
+    // Fetch results.json and display
+    async function loadResults() {
+      try {
+        const response = await fetch('http://127.0.0.1:5000/results.json?v=' + Date.now());
+        if (!response.ok) throw new Error('Results not found. Please run a GNN analysis first.');
+        const data = await response.json();
+
+        // Hide loading, show content
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+
+        // Set disease name
+        document.getElementById('disease-name').innerHTML = `<i class="fas fa-virus"></i> ${data.disease}`;
+
+        // Display pathways
+        const pathwaysDiv = document.getElementById('pathways');
+        if (data.pathways_used && data.pathways_used.length) {
+          pathwaysDiv.innerHTML = data.pathways_used.map(p => `<span class="pathway-tag">${p}</span>`).join('');
+        } else {
+          pathwaysDiv.innerHTML = '<p class="text-muted">No pathway information available.</p>';
+        }
+
+        // Display top drugs with score bars (normalized to 0-100%)
+        const drugsDiv = document.getElementById('drugs');
+        if (data.top_drugs && data.top_drugs.length) {
+          // Find min and max score for scaling (more negative = better)
+          const scores = data.top_drugs.map(d => d.score);
+          const minScore = Math.min(...scores);
+          const maxScore = Math.max(...scores);
+          const range = maxScore - minScore || 1;
+
+          drugsDiv.innerHTML = data.top_drugs.map(drug => {
+            // Normalize: map minScore to 100%, maxScore to 0%
+            // Because lower (more negative) scores are better
+            const percent = ((maxScore - drug.score) / range) * 100;
+            return `
+              <div class="drug-card">
+                <div class="drug-name">
+                  ${drug.drug_name}
+                  <span class="drug-bank">${drug.drugbank_id}</span>
+                </div>
+                <div class="score-container">
+                  <div class="score-label">
+                    <span>Prediction Score</span>
+                    <span class="score-value">${drug.score.toFixed(3)}</span>
+                  </div>
+                  <div class="score-bar-bg">
+                    <div class="score-bar-fill" style="width: ${percent}%;"></div>
+                  </div>
+                </div>
+                <small class="text-muted">Lower score indicates stronger predicted efficacy</small>
+              </div>
+            `;
+          }).join('');
+
+          // Set up the "View Graph" button to pass the disease to index.html
+          document.getElementById('view-graph-btn').addEventListener('click', () => {
+            const disease = encodeURIComponent(data.disease);
+            window.location.href = `index.html?disease=${disease}&type=human`; // assume human, adjust if needed
+          });
+        } else {
+          drugsDiv.innerHTML = '<p class="text-muted">No drug predictions available.</p>';
+        }
+      } catch (err) {
+        document.getElementById('loading').style.display = 'none';
+        const errorDiv = document.getElementById('error');
+        errorDiv.style.display = 'block';
+        errorDiv.innerHTML = `<i class="fas fa-exclamation-triangle"></i> ${err.message}`;
+      }
+    }
+
+    // Start loading
+    loadResults();
+  </script>
+</body>
+</html>
