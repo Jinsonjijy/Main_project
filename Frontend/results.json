@@ -1,0 +1,62 @@
+{
+  "disease": "Coronary Artery Disease",
+  "pathways_used": [
+    "Pathways in cancer - Homo sapiens (human)",
+    "Metabolic pathways - Homo sapiens (human)",
+    "Cholesterol metabolism - Homo sapiens (human)",
+    "Lipid and atherosclerosis - Homo sapiens (human)",
+    "PI3K-Akt signaling pathway - Homo sapiens (human)"
+  ],
+  "top_drugs": [
+    {
+      "drug_name": "Etanercept",
+      "drugbank_id": "DB00005",
+      "score": 0.8338
+    },
+    {
+      "drug_name": "Pegaptanib",
+      "drugbank_id": "DB04895",
+      "score": 0.8312
+    },
+    {
+      "drug_name": "Brolucizumab",
+      "drugbank_id": "DB14864",
+      "score": 0.8295
+    },
+    {
+      "drug_name": "Aflibercept",
+      "drugbank_id": "DB08885",
+      "score": 0.8284
+    },
+    {
+      "drug_name": "Ranibizumab",
+      "drugbank_id": "DB01270",
+      "score": 0.8279
+    },
+    {
+      "drug_name": "Faricimab",
+      "drugbank_id": "DB15303",
+      "score": 0.8272
+    },
+    {
+      "drug_name": "Bevacizumab",
+      "drugbank_id": "DB00112",
+      "score": 0.8261
+    },
+    {
+      "drug_name": "Nimesulide",
+      "drugbank_id": "DB04743",
+      "score": 0.8253
+    },
+    {
+      "drug_name": "Pomalidomide",
+      "drugbank_id": "DB08910",
+      "score": 0.7971
+    },
+    {
+      "drug_name": "Imetelstat",
+      "drugbank_id": "DB14909",
+      "score": 0.7356
+    }
+  ]
+}

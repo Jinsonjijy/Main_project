@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease-Gene-Drug Network Explorer</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #4f6df5;
+            --secondary-color: #10b981;
+            --accent-color: #8b5cf6;
+            --dark-color: #1f2937;
+            --light-color: #f8fafc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f5f7ff 0%, #f3f4f6 100%);
+            min-height: 100vh;
+            color: var(--dark-color);
+        }
+
+        /* Navigation */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            padding: 1rem 0;
+        }
+
+        .navbar-brand {
+            font-weight: 800;
+            font-size: 1.8rem;
+            color: var(--primary-color) !important;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .navbar-brand i {
+            font-size: 1.6rem;
+        }
+
+        .nav-link {
+            font-weight: 600;
+            color: var(--dark-color) !important;
+            padding: 0.5rem 1.5rem !important;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            margin: 0 5px;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            color: white !important;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            padding: 100px 0 60px;
+            background: linear-gradient(135deg, rgba(79, 109, 245, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+            border-radius: 0 0 40px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%234f6df5' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+            opacity: 0.3;
+        }
+
+        .hero-title {
+            font-size: 3.2rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: #6b7280;
+            max-width: 600px;
+            margin: 0 auto 40px;
+            line-height: 1.6;
+        }
+
+        /* Search Section */
+        .search-section {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 2;
+        }
+
+        .search-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            background: #f8fafc;
+            padding: 8px;
+            border-radius: 16px;
+        }
+
+        .search-tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            background: transparent;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            color: #6b7280;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .search-tab:hover {
+            background: rgba(79, 109, 245, 0.1);
+        }
+
+        .search-tab.active {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            color: white;
+            box-shadow: 0 4px 12px rgba(79, 109, 245, 0.3);
+        }
+
+        .search-form {
+            margin-top: 20px;
+        }
+
+        .search-input-group {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            z-index: 3;
+        }
+
+        .form-control {
+            padding: 20px 20px 20px 60px;
+            border: 2px solid #e5e7eb;
+            border-radius: 16px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            height: auto;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(79, 109, 245, 0.2);
+        }
+
+        .search-btn {
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            border: none;
+            border-radius: 16px;
+            color: white;
+            font-weight: 700;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 4px 12px rgba(79, 109, 245, 0.3);
+        }
+
+        .search-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(79, 109, 245, 0.4);
+        }
+
+        .examples-section {
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .examples-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #6b7280;
+            margin-bottom: 15px;
+        }
+
+        .example-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .example-tag {
+            padding: 8px 16px;
+            background: rgba(79, 109, 245, 0.1);
+            color: var(--primary-color);
+            border-radius: 12px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .example-tag:hover {
+            background: rgba(79, 109, 245, 0.2);
+            transform: translateY(-2px);
+        }
+
+        /* Features Section */
+        .features-section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 60px;
+            color: var(--dark-color);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 24px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+            font-size: 1.8rem;
+            color: white;
+        }
+
+        .feature-icon.analysis {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .feature-icon.network {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .feature-icon.research {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .feature-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--dark-color);
+        }
+
+        .feature-description {
+            color: #6b7280;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--dark-color);
+            color: white;
+            padding: 60px 0 30px;
+            margin-top: 60px;
+        }
+
+        .footer-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 25px;
+            color: white;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: #d1d5db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            margin-top: 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #9ca3af;
+            font-size: 0.9rem;
+        }
+
+        /* Loading Animation */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .loading-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid rgba(79, 109, 245, 0.1);
+            border-top-color: var(--primary-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.2rem;
+            }
+
+            .search-section {
+                padding: 30px 20px;
+            }
+
+            .search-tabs {
+                flex-direction: column;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <h4>Analyzing Disease Network...</h4>
+        <p>Redirecting to visualization page</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <i class="fas fa-dna"></i> Disease Network Explorer
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" id="nav-human">
+                            <i class="fas fa-user"></i> Human Diseases
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="nav-pathogen">
+                            <i class="fas fa-virus"></i> Pathogen Diseases
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" target="_blank">
+                            <i class="fas fa-project-diagram"></i> View Full Network
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="hero-title">Explore Disease-Gene-Drug Networks</h1>
+                    <p class="hero-subtitle">
+                        Discover complex relationships between diseases, genetic factors, and therapeutic compounds.
+                        Our interactive platform helps researchers visualize and analyze biomedical networks.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-tabs">
+                <button class="search-tab active" id="human-tab" data-type="human">
+                    <i class="fas fa-user"></i> Human Diseases
+                </button>
+                <button class="search-tab" id="pathogen-tab" data-type="pathogen">
+                    <i class="fas fa-virus"></i> Pathogen Diseases
+                </button>
+            </div>
+
+            <div id="search-interface">
+                <!-- Human Disease Search -->
+                <div class="search-form" id="human-form">
+                    <h3 class="mb-4" style="color: var(--primary-color);">
+                        <i class="fas fa-search me-2"></i>Search Human Disease Network
+                    </h3>
+
+                    <div class="search-input-group">
+                        <i class="fas fa-disease search-icon"></i>
+                        <input type="text" class="form-control" id="human-disease-input"
+                            placeholder="Enter human disease name (e.g., Alzheimer's, Diabetes, Breast Cancer)">
+                    </div>
+
+                    <button class="search-btn" id="search-human-btn">
+                        <i class="fas fa-chart-network"></i> Analyze Disease Network
+                    </button>
+                </div>
+
+                <!-- Pathogen Disease Search -->
+                <div class="search-form" id="pathogen-form" style="display: none;">
+                    <h3 class="mb-4" style="color: var(--accent-color);">
+                        <i class="fas fa-virus me-2"></i>Search Pathogen Disease Network
+                    </h3>
+
+                    <div class="search-input-group">
+                        <i class="fas fa-bacteria search-icon"></i>
+                        <input type="text" class="form-control" id="pathogen-disease-input"
+                            placeholder="Enter pathogen disease name (e.g., Tuberculosis, Malaria, COVID-19)">
+                    </div>
+
+                    <button class="search-btn" id="search-pathogen-btn">
+                        <i class="fas fa-chart-network"></i> Analyze Pathogen Network
+                    </button>
+                </div>
+            </div>
+
+            <div class="examples-section">
+                <div class="examples-title">Try these examples:</div>
+                <div class="example-tags" id="example-tags">
+                    <!-- Examples will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Why Use Our Platform</h2>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon analysis">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">Advanced Network Analysis</h3>
+                    <p class="feature-description">
+                        Visualize complex relationships between diseases, genes, and drugs using interactive
+                        force-directed graphs.
+                        Identify key nodes and clusters in biomedical networks.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon network">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="feature-title">Interactive Exploration</h3>
+                    <p class="feature-description">
+                        Click on nodes to highlight connections, drag to reposition, and filter by node type.
+                        Real-time control over graph parameters for customized analysis.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon research">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 class="feature-title">Research-Ready Tools</h3>
+                    <p class="feature-description">
+                        Export visualizations for publications, analyze connection patterns, and discover potential
+                        drug repurposing opportunities through network pharmacology.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h3 class="footer-title">
+                        <i class="fas fa-dna me-2"></i>Disease Network Explorer
+                    </h3>
+                    <p style="color: #d1d5db;">
+                        A biomedical research platform for visualizing and analyzing complex disease-gene-drug networks.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="home.html"><i class="fas fa-home me-2"></i>Home</a></li>
+                        <li><a href="#" id="nav-human-footer"><i class="fas fa-user me-2"></i>Human Diseases</a></li>
+                        <li><a href="#" id="nav-pathogen-footer"><i class="fas fa-virus me-2"></i>Pathogen Diseases</a>
+                        </li>
+                        <li><a href="index.html" target="_blank"><i class="fas fa-project-diagram me-2"></i>Network
+                                Visualization</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 class="footer-title">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-book me-2"></i>Documentation</a></li>
+                        <li><a href="#"><i class="fas fa-database me-2"></i>Data Sources</a></li>
+                        <li><a href="#"><i class="fas fa-question-circle me-2"></i>Help Center</a></li>
+                        <li><a href="#"><i class="fas fa-file-alt me-2"></i>Research Papers</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-envelope me-2"></i>Contact Us</a></li>
+                        <li><a href="#"><i class="fas fa-comments me-2"></i>Feedback</a></li>
+                        <li><a href="#"><i class="fas fa-code-branch me-2"></i>GitHub</a></li>
+                        <li><a href="#"><i class="fas fa-newspaper me-2"></i>Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2023 Disease Network Explorer. Built for biomedical research. Data is for demonstration
+                    purposes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Disease examples
+        const humanDiseases = [
+            "Asthma",
+            "Coronary Artery Disease",
+            "Osteoporosis"
+        ];
+
+        const pathogenDiseases = [
+            "Tuberculosis",
+            "Malaria",
+            "Influenza",
+            "Hepatitis B",
+            "Dengue Fever",
+            "Zika Virus",
+            "Ebola",
+            "Cholera",
+            "Typhoid Fever",
+            "Lyme Disease"
+        ];
+
+        // DOM Elements
+        const humanTab = document.getElementById('human-tab');
+        const pathogenTab = document.getElementById('pathogen-tab');
+        const humanForm = document.getElementById('human-form');
+        const pathogenForm = document.getElementById('pathogen-form');
+        const humanInput = document.getElementById('human-disease-input');
+        const pathogenInput = document.getElementById('pathogen-disease-input');
+        const searchHumanBtn = document.getElementById('search-human-btn');
+        const searchPathogenBtn = document.getElementById('search-pathogen-btn');
+        const exampleTags = document.getElementById('example-tags');
+        const navHuman = document.getElementById('nav-human');
+        const navPathogen = document.getElementById('nav-pathogen');
+        const navHumanFooter = document.getElementById('nav-human-footer');
+        const navPathogenFooter = document.getElementById('nav-pathogen-footer');
+        const loadingOverlay = document.getElementById('loadingOverlay');
+
+        // Set current disease type
+        let currentType = 'human';
+
+        // Initialize examples
+        updateExamples();
+
+        // Tab switching
+        humanTab.addEventListener('click', () => {
+            switchTab('human');
+        });
+
+        pathogenTab.addEventListener('click', () => {
+            switchTab('pathogen');
+        });
+
+        // Navigation links
+        navHuman.addEventListener('click', (e) => {
+            e.preventDefault();
+            switchTab('human');
+            // Scroll to search section
+            document.querySelector('.search-section').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        navPathogen.addEventListener('click', (e) => {
+            e.preventDefault();
+            switchTab('pathogen');
+            // Scroll to search section
+            document.querySelector('.search-section').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Footer navigation
+        navHumanFooter.addEventListener('click', (e) => {
+            e.preventDefault();
+            switchTab('human');
+            // Scroll to search section
+            document.querySelector('.search-section').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        navPathogenFooter.addEventListener('click', (e) => {
+            e.preventDefault();
+            switchTab('pathogen');
+            // Scroll to search section
+            document.querySelector('.search-section').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // Search functionality
+        searchHumanBtn.addEventListener('click', () => {
+            const disease = humanInput.value.trim();
+            if (disease) {
+                searchDisease(disease, 'human');
+            } else {
+                showAlert('Please enter a disease name', 'warning');
+            }
+        });
+
+        searchPathogenBtn.addEventListener('click', () => {
+            const disease = pathogenInput.value.trim();
+            if (disease) {
+                searchDisease(disease, 'pathogen');
+            } else {
+                showAlert('Please enter a disease name', 'warning');
+            }
+        });
+
+        // Enter key support
+        humanInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                searchHumanBtn.click();
+            }
+        });
+
+        pathogenInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                searchPathogenBtn.click();
+            }
+        });
+
+        // Switch tab function
+        function switchTab(type) {
+            currentType = type;
+
+            // Update tab styles
+            if (type === 'human') {
+                humanTab.classList.add('active');
+                pathogenTab.classList.remove('active');
+                humanForm.style.display = 'block';
+                pathogenForm.style.display = 'none';
+
+                // Update navigation
+                navHuman.classList.add('active');
+                navPathogen.classList.remove('active');
+            } else {
+                humanTab.classList.remove('active');
+                pathogenTab.classList.add('active');
+                humanForm.style.display = 'none';
+                pathogenForm.style.display = 'block';
+
+                // Update navigation
+                navHuman.classList.remove('active');
+                navPathogen.classList.add('active');
+            }
+
+            // Update examples
+            updateExamples();
+        }
+
+        // Update examples based on current tab
+        function updateExamples() {
+            const diseases = currentType === 'human' ? humanDiseases : pathogenDiseases;
+
+            exampleTags.innerHTML = diseases.map(disease =>
+                `<div class="example-tag" onclick="fillExample('${disease}')">${disease}</div>`
+            ).join('');
+        }
+
+        // Fill example into input
+        window.fillExample = function (disease) {
+            if (currentType === 'human') {
+                humanInput.value = disease;
+                // Auto-search after a short delay
+                setTimeout(() => searchDisease(disease, 'human'), 300);
+            } else {
+                pathogenInput.value = disease;
+                setTimeout(() => searchDisease(disease, 'pathogen'), 300);
+            }
+        };
+
+        // Search disease function - UPDATED TO PASS PARAMETERS
+        // Search disease function - FIXED VERSION
+        function searchDisease(disease, type) {
+
+            fetch("http://127.0.0.1:5000/run-gnn", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ disease: disease })
+            })
+                .then(res => res.json())
+                .then(data => {
+
+                    if (data.error) {
+                        throw new Error(data.error);
+                    }
+
+                    const encodedDisease = encodeURIComponent(disease);
+                    window.location.href =
+                        `results.html?disease=${encodedDisease}&type=${type}`;
+
+                })
+                .catch(err => {
+                    alert("Error running GNN: " + err.message);
+                });
+        }
+
+
+
+        // Show loading overlay
+        function showLoading(show) {
+            if (show) {
+                loadingOverlay.classList.add('active');
+            } else {
+                loadingOverlay.classList.remove('active');
+            }
+        }
+
+        // Show alert message
+        function showAlert(message, type = 'info') {
+            // Remove existing alerts
+            const existingAlert = document.querySelector('.custom-alert');
+            if (existingAlert) {
+                existingAlert.remove();
+            }
+
+            // Create alert
+            const alert = document.createElement('div');
+            alert.className = `custom-alert alert-${type}`;
+            alert.innerHTML = `
+                <div style="position: fixed; top: 20px; right: 20px; z-index: 10000;
+                            background: ${type === 'success' ? '#10b981' : type === 'warning' ? '#f59e0b' : '#3b82f6'};
+                            color: white; padding: 15px 20px; border-radius: 12px;
+                            box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 10px;
+                            animation: slideIn 0.5s ease;">
+                    <i class="fas ${type === 'success' ? 'fa-check-circle' : type === 'warning' ? 'fa-exclamation-triangle' : 'fa-info-circle'}"></i>
+                    <span>${message}</span>
+                    <button onclick="this.parentElement.parentElement.remove()" 
+                            style="background: none; border: none; color: white; cursor: pointer; margin-left: 10px;">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            `;
+
+            document.body.appendChild(alert);
+
+            // Auto-remove after 5 seconds
+            setTimeout(() => {
+                if (alert.parentElement) {
+                    alert.style.opacity = '0';
+                    alert.style.transition = 'opacity 0.5s ease';
+                    setTimeout(() => {
+                        if (alert.parentElement) {
+                            alert.remove();
+                        }
+                    }, 500);
+                }
+            }, 5000);
+        }
+
+        // Initialize with human tab active
+        switchTab('human');
+
+        // Auto-focus on search input
+        window.addEventListener('load', () => {
+            humanInput.focus();
+        });
+
+        // Add slideIn animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {
+                from {
+                    transform: translateX(100%);
+                    opacity: 0;
+                }
+                to {
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+
+</html>
