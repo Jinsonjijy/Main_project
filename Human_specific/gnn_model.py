@@ -16,14 +16,27 @@ class DrugRepurposingHeteroGNN(nn.Module):
                 SAGEConv((-1, -1), hidden_dim),
             ("gene", "rev_associates", "disease"):
                 SAGEConv((-1, -1), hidden_dim),
+
             ("gene", "targets", "drug"):
                 SAGEConv((-1, -1), hidden_dim),
             ("drug", "rev_targets", "gene"):
                 SAGEConv((-1, -1), hidden_dim),
+
+            ("gene", "inhibits", "drug"):
+                SAGEConv((-1, -1), hidden_dim),
+            ("drug", "rev_inhibits", "gene"):
+                SAGEConv((-1, -1), hidden_dim),
+
+            ("gene", "activates", "drug"):
+                SAGEConv((-1, -1), hidden_dim),
+            ("drug", "rev_activates", "gene"):
+                SAGEConv((-1, -1), hidden_dim),
+
             ("drug", "treats", "disease"):
                 SAGEConv((-1, -1), hidden_dim),
             ("disease", "rev_treats", "drug"):
                 SAGEConv((-1, -1), hidden_dim),
+
         }, aggr="mean")
 
         self.conv2 = HeteroConv({
@@ -31,10 +44,22 @@ class DrugRepurposingHeteroGNN(nn.Module):
                 SAGEConv((hidden_dim, hidden_dim), hidden_dim),
             ("gene", "rev_associates", "disease"):
                 SAGEConv((hidden_dim, hidden_dim), hidden_dim),
+
             ("gene", "targets", "drug"):
                 SAGEConv((hidden_dim, hidden_dim), hidden_dim),
             ("drug", "rev_targets", "gene"):
                 SAGEConv((hidden_dim, hidden_dim), hidden_dim),
+
+            ("gene", "inhibits", "drug"):
+                SAGEConv((hidden_dim, hidden_dim), hidden_dim),
+            ("drug", "rev_inhibits", "gene"):
+                SAGEConv((hidden_dim, hidden_dim), hidden_dim),
+
+            ("gene", "activates", "drug"):
+                SAGEConv((hidden_dim, hidden_dim), hidden_dim),
+            ("drug", "rev_activates", "gene"):
+                SAGEConv((hidden_dim, hidden_dim), hidden_dim),
+
         }, aggr="mean")
 
     def forward(self, x_dict, edge_index_dict):

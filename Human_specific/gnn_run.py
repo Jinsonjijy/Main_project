@@ -3,6 +3,21 @@ import torch
 import torch.nn.functional as F
 from torch_geometric.data import HeteroData
 from gnn_model import DrugRepurposingHeteroGNN
+import os
+import json
+import random
+import numpy as np
+ 
+
+SEED = 42
+random.seed(SEED)
+np.random.seed(SEED)
+torch.manual_seed(SEED)
+
+if torch.cuda.is_available():
+    torch.cuda.manual_seed(SEED)
+    torch.cuda.manual_seed_all(SEED)
+
 
 # ==================================================
 # CONFIG
@@ -10,10 +25,10 @@ from gnn_model import DrugRepurposingHeteroGNN
 INPUT_DIM = 640
 HIDDEN_DIM = 256
 TOP_PATHWAYS = 5
-ALPHA = 0.7
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Using device:", device)
+
 
 # ==================================================
 # Helpers
@@ -24,8 +39,10 @@ def encode(series):
     reverse = {v: k for k, v in mapping.items()}
     return codes, mapping, reverse
 
+
 def normalize(x):
     return str(x).lower().replace(",", "").replace(" ", "").strip()
+
 
 # ==================================================
 # Load Drug Names
@@ -34,8 +51,15 @@ drug_names_df = pd.read_csv("data/uniprot_links.csv")
 drug_names_df.columns = drug_names_df.columns.str.strip()
 drug_id_to_name = dict(zip(drug_names_df["DrugBank ID"], drug_names_df["Name"]))
 
+
 # ==================================================
-# Load Datasets
+# Load Cleaned Metadata
+# ==================================================
+metadata = pd.read_csv("data/drug_target_metadata_cleaned.csv")
+
+
+# ==================================================
+# Load Core Datasets
 # ==================================================
 drug_gene = pd.read_csv("data/pharmacologically_active.csv")
 gene_disease = pd.read_csv("data/core_plus_disease_gene.csv")
@@ -50,23 +74,48 @@ drug_gene = drug_gene.rename(columns={
 gene_disease["DiseaseName_norm"] = gene_disease["DiseaseName"].apply(normalize)
 drug_disease["DiseaseName_norm"] = drug_disease["DiseaseName"].apply(normalize)
 
-gene_disease["disease_id"], disease_map, disease_rev = encode(gene_disease["DiseaseName_norm"])
-gene_disease["gene_id"], gene_map, gene_rev = encode(gene_disease["GeneSymbol"])
+gene_disease["disease_id"], disease_map, disease_rev = encode(
+    gene_disease["DiseaseName_norm"]
+)
+gene_disease["gene_id"], gene_map, gene_rev = encode(
+    gene_disease["GeneSymbol"]
+)
 
 drug_gene["gene_id"] = drug_gene["GeneSymbol"].map(gene_rev)
 drug_gene = drug_gene.dropna(subset=["gene_id"])
-drug_gene["drug_id"], drug_map, drug_rev = encode(drug_gene["DrugID"])
+
+unique_drugs = sorted(drug_gene["DrugID"].unique())
+drug_map = {dbid: idx for idx, dbid in enumerate(unique_drugs)}
+drug_rev = {idx: dbid for dbid, idx in drug_map.items()}
+drug_gene["drug_id"] = drug_gene["DrugID"].map(drug_map)
 
 drug_disease["disease_id"] = drug_disease["DiseaseName_norm"].map(disease_rev)
-drug_disease["drug_id"] = drug_disease["DrugBankID"].map(drug_rev)
+drug_disease["drug_id"] = drug_disease["DrugBankID"].map(drug_map)
 drug_disease = drug_disease.dropna(subset=["disease_id", "drug_id"])
 
 print(f"Diseases: {len(disease_map)}, Genes: {len(gene_map)}, Drugs: {len(drug_map)}")
+
 
 # ==================================================
 # Load Protein Embeddings
 # ==================================================
 protein_emb = torch.load("protein_embeddings.pt", map_location="cpu")
+
+
+# ==================================================
+# Load Drug Embeddings
+# ==================================================
+full_drug_features = torch.load("drug_embeddings.pt")
+
+with open("data/drug_map.json", "r") as f:
+    full_drug_map = json.load(f)
+
+drug_features = torch.zeros((len(drug_map), INPUT_DIM))
+
+for dbid, idx in drug_map.items():
+    if dbid in full_drug_map:
+        drug_features[idx] = full_drug_features[full_drug_map[dbid]]
+
 
 # ==================================================
 # Load KEGG Pathways
@@ -81,28 +130,25 @@ for _, row in kegg_df.iterrows():
     genes = [g.strip() for g in row["GeneSymbols"].split(";") if g.strip()]
     pathway_to_genes[pname] = set(genes)
 
+
 # ==================================================
 # Build Graph
 # ==================================================
 data = HeteroData()
 
-data["drug"].x = torch.randn(len(drug_map), INPUT_DIM) * 0.01
+data["drug"].x = drug_features
 
 gene_features = []
-missing = 0
-
 for gene in gene_map.values():
-    if gene in protein_emb and protein_emb[gene].shape[0] == INPUT_DIM:
+    if gene in protein_emb:
         gene_features.append(protein_emb[gene])
     else:
         gene_features.append(torch.zeros(INPUT_DIM))
-        missing += 1
-
-print("Missing gene embeddings:", missing)
 
 data["gene"].x = torch.stack(gene_features)
-data["disease"].x = torch.randn(len(disease_map), INPUT_DIM) * 0.01
+data["disease"].x = torch.randn(len(disease_map), INPUT_DIM)
 
+# Core edges (INT64 FIX)
 dg = torch.tensor(gene_disease[["disease_id", "gene_id"]].values.T, dtype=torch.long)
 gd = torch.tensor(drug_gene[["gene_id", "drug_id"]].values.T, dtype=torch.long)
 dd = torch.tensor(drug_disease[["drug_id", "disease_id"]].values.T, dtype=torch.long)
@@ -116,6 +162,7 @@ data["disease", "rev_treats", "drug"].edge_index = dd.flip(0)
 
 data = data.to(device)
 
+
 # ==================================================
 # Load Model
 # ==================================================
@@ -124,13 +171,23 @@ model = DrugRepurposingHeteroGNN(
     hidden_dim=HIDDEN_DIM
 ).to(device)
 
-model.load_state_dict(torch.load("drug_repurposing_gnn.pt", map_location=device))
+model.load_state_dict(
+    torch.load("drug_repurposing_gnn.pt", map_location=device,weights_only=False)
+)
 model.eval()
 
 print("Model loaded successfully\n")
 
+with torch.no_grad():
+    full_emb = model(data.x_dict, data.edge_index_dict)
+
+disease_emb = full_emb["disease"]
+drug_emb = full_emb["drug"]
+gene_emb = full_emb["gene"]
+
+
 # ==================================================
-# Prediction
+# Prediction Function
 # ==================================================
 @torch.no_grad()
 def predict_drugs(disease, top_k=10):
@@ -141,12 +198,12 @@ def predict_drugs(disease, top_k=10):
 
     d_id = disease_rev[d_norm]
 
-    emb = model(data.x_dict, data.edge_index_dict)
+    # emb = model(data.x_dict, data.edge_index_dict)
+    # disease_emb = emb["disease"]
+    # drug_emb = emb["drug"]
+    # gene_emb = emb["gene"]
 
-    disease_emb = emb["disease"]
-    gene_emb = emb["gene"]
-    drug_emb = emb["drug"]
-
+    # Get disease genes
     gene_ids = data["disease", "associates", "gene"].edge_index[1][
         data["disease", "associates", "gene"].edge_index[0] == d_id
     ]
@@ -156,7 +213,7 @@ def predict_drugs(disease, top_k=10):
 
     disease_genes = {gene_map[g.item()] for g in gene_ids}
 
-    # -------- Pathway overlap --------
+    # Pathway scoring
     pathway_scores = []
     for pname, pgenes in pathway_to_genes.items():
         overlap = disease_genes & pgenes
@@ -166,47 +223,29 @@ def predict_drugs(disease, top_k=10):
     pathway_scores.sort(key=lambda x: x[1], reverse=True)
     selected_pathways = pathway_scores[:TOP_PATHWAYS]
 
-    # -------- Context embedding --------
-    gene_context = gene_emb[gene_ids].mean(dim=0)
-    final_context = F.normalize(
-        ALPHA * disease_emb[d_id] + (1 - ALPHA) * gene_context,
-        dim=0
+    # Cosine similarity
+    disease_norm = disease_emb
+    drug_norm = drug_emb
+
+    scores = F.cosine_similarity(
+        disease_norm[d_id].unsqueeze(0),
+        drug_norm,
+        dim=1
     )
 
-    drug_ids = data["gene", "targets", "drug"].edge_index[1][
-        torch.isin(data["gene", "targets", "drug"].edge_index[0], gene_ids)
-    ].unique()
-
-    scores = torch.matmul(drug_emb[drug_ids], final_context)
-    top_vals, top_idx = torch.topk(scores, min(len(scores), 50))
-
-    # -------- Cleaner --------
-    bad_keywords = [
-        "cell", "keratinocyte", "fibroblast",
-        "alcohol", "serum", "plasma",
-        "culture", "medium", "reagent",
-        "buffer", "vehicle"
-    ]
+    top_vals, top_idx = torch.topk(scores, min(len(scores), top_k))
 
     results = []
-
-    for i, score in zip(top_idx.tolist(), top_vals.tolist()):
-        dbid = drug_map[drug_ids[i].item()]
+    for idx, score in zip(top_idx.tolist(), top_vals.tolist()):
+        dbid = drug_rev[idx]
         name = drug_id_to_name.get(dbid, "Unknown")
-
-        if any(k in name.lower() for k in bad_keywords):
-            continue
-
         results.append((name, dbid, float(score)))
-
-        if len(results) == top_k:
-            break
 
     return results, selected_pathways
 
 
 # ==================================================
-# Interactive Loop
+# CLI
 # ==================================================
 if __name__ == "__main__":
 
@@ -234,17 +273,12 @@ if __name__ == "__main__":
         except Exception as e:
             print("Error:", e)
 
-# ==================================================
-# EXPORT GRAPH + RESULTS (FOR FLASK)
-# ==================================================
 
-import os
-import json
-
+# ==================================================
+# EXPORT FOR FLASK
+# ==================================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-FRONTEND_DIR = os.path.abspath(
-    os.path.join(BASE_DIR, "..", "Frontend")
-)
+FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "Frontend"))
 
 GRAPH_JSON_PATH = os.path.join(FRONTEND_DIR, "graph.json")
 RESULTS_JSON_PATH = os.path.join(FRONTEND_DIR, "results.json")
@@ -252,92 +286,108 @@ RESULTS_JSON_PATH = os.path.join(FRONTEND_DIR, "results.json")
 os.makedirs(FRONTEND_DIR, exist_ok=True)
 
 
-def export_disease_subgraph(disease, top_k=10, max_genes=15):
+def export_disease_subgraph(disease, top_k=6):
 
+    # -------------------------------------------------
+    # Get Predictions from Real GNN
+    # -------------------------------------------------
     results, pathways = predict_drugs(disease, top_k=top_k)
 
-    if not results:
-        raise ValueError("No results found")
+    # -------------------------------------------------
+    # WRITE RESULTS.JSON
+    # -------------------------------------------------
+    with open(RESULTS_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump({
+            "disease": disease,
+            "pathways": pathways,
+            "drugs": [
+                {
+                    "name": name,
+                    "drugbank_id": dbid,
+                    "score": float(score)
+                }
+                for name, dbid, score in results
+            ]
+        }, f, indent=2)
+
+    # -------------------------------------------------
+    # BUILD GRAPH.JSON (Top 5 Genes Only)
+    # -------------------------------------------------
 
     d_norm = normalize(disease)
+    if d_norm not in disease_rev:
+        raise ValueError("Disease not found")
+
     d_id = disease_rev[d_norm]
 
+    # Get disease-associated genes
     gene_ids = data["disease", "associates", "gene"].edge_index[1][
         data["disease", "associates", "gene"].edge_index[0] == d_id
-    ].unique()[:max_genes]
+    ]
+
+    # Convert to gene symbols
+    all_genes = [gene_map[g.item()] for g in gene_ids]
+
+    # Select ONLY top 5 genes
+    disease_genes = all_genes[:5]
 
     nodes = []
     links = []
 
-    # -----------------------------
-    # Disease node
-    # -----------------------------
+    # --------------------------
+    # Disease Node
+    # --------------------------
     nodes.append({
         "id": disease,
         "label": disease,
         "type": "disease"
     })
 
-    # -----------------------------
-    # Gene nodes
-    # -----------------------------
-    for g in gene_ids.tolist():
-        gene_name = gene_map[g]
-
+    # --------------------------
+    # Gene Nodes + Disease-Gene Links
+    # --------------------------
+    for gene in disease_genes:
         nodes.append({
-            "id": gene_name,
-            "label": gene_name,
+            "id": gene,
+            "label": gene,
             "type": "gene"
         })
 
         links.append({
             "source": disease,
-            "target": gene_name,
+            "target": gene,
             "type": "disease-gene"
         })
 
-    # -----------------------------
-    # Drug nodes
-    # -----------------------------
+    # --------------------------
+    # Drug Nodes + Gene-Drug Links
+    # --------------------------
     for name, dbid, score in results:
 
         nodes.append({
             "id": dbid,
             "label": name,
             "type": "drug",
-            "score": round(score, 4)
+            "score": float(score)
         })
 
-        for g in gene_ids.tolist():
+        # Connect each selected gene to this drug
+        for gene in disease_genes:
             links.append({
-                "source": gene_map[g],
+                "source": gene,
                 "target": dbid,
                 "type": "gene-drug"
             })
 
-    # -----------------------------
-    # Save graph.json
-    # -----------------------------
-    with open(GRAPH_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump({"nodes": nodes, "links": links}, f, indent=2)
-
-    # -----------------------------
-    # Save results.json (exact format you want)
-    # -----------------------------
-    results_output = {
-        "disease": disease,
-        "pathways_used": [p[0] if isinstance(p, tuple) else p for p in pathways],
-        "top_drugs": [
-            {
-                "drug_name": name,
-                "drugbank_id": dbid,
-                "score": round(score, 4)
-            }
-            for name, dbid, score in results
-        ]
+    graph_data = {
+        "nodes": nodes,
+        "links": links
     }
 
-    with open(RESULTS_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(results_output, f, indent=2)
+    with open(GRAPH_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(graph_data, f, indent=2)
+
+    print("graph.json updated")
+    print("results.json updated")
 
     return results, pathways

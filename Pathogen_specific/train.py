@@ -1,233 +1,204 @@
-import pandas as pd
 import torch
+import pandas as pd
 import random
 import torch.nn.functional as F
 from torch_geometric.data import HeteroData
-from model import PathogenDrugHeteroGNN
+from model import BacteriaSpecificHeteroGNN
+import json
 
-# ==================================================
-# CONFIG
-# ==================================================
-PROTEIN_DIM = 320
+# ================= CONFIG =================
+SEED = 42
+EMB_DIM = 320
 HIDDEN_DIM = 256
-LR = 1e-3
-EPOCHS = 200
-BATCH_SIZE = 256
-MARGIN = 1.0
+EPOCHS = 100
+BATCH_SIZE = 512
 
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+random.seed(SEED)
+torch.manual_seed(SEED)
 
-torch.manual_seed(42)
-random.seed(42)
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print("Using device:", device)
 
-# ==================================================
-# HELPER
-# ==================================================
+
+# ================= UTIL =================
 def encode(series):
     codes, uniques = pd.factorize(series)
-    return codes, list(uniques)
+    mapping = dict(enumerate(uniques))
+    reverse = {v: k for k, v in mapping.items()}
+    return codes, mapping, reverse
 
-# ==================================================
-# LOAD DATA
-# ==================================================
-print("\n📌 Loading CSV files...")
 
-proteins = pd.read_csv("data/all_bacteria.csv")
-pp = pd.read_csv("data/ALL_protein_pathway_STEP2B.csv")
-anchors = pd.read_csv("data/ALL_step3_FINAL.csv")
-drug_direct = pd.read_csv("data/ALL_step4_protein_drug.csv")
-drug_infer = pd.read_csv("data/ALL_step5_KO_inferred_drugs.csv")
+# ================= LOAD DATA =================
+print("Loading datasets...")
 
-drug_direct = drug_direct.rename(columns={"drugbank_id": "drug_id"})
-drug_infer = drug_infer.rename(columns={"drugbank_id": "drug_id"})
+disease_protein = pd.read_csv("data/disease_protein.csv")
+disease_drug = pd.read_csv("data/disease_drug_positive.csv")
+kegg_lookup = pd.read_csv("data/kegg_drug_lookup.csv")
 
-print("✅ CSV files loaded!")
+# Clean column names
+disease_protein.columns = disease_protein.columns.str.strip()
+disease_drug.columns = disease_drug.columns.str.strip()
+kegg_lookup.columns = kegg_lookup.columns.str.strip()
 
-# ==================================================
-# BUILD EDGES
-# ==================================================
-pp_main = pp[["uniprot_id", "map_pathway_id"]]
-pp_anchor = anchors[["uniprot_id", "pathway_id"]].rename(
-    columns={"pathway_id": "map_pathway_id"}
+# Encode disease and protein
+disease_protein["disease_id"], d_map, d_rev = encode(
+    disease_protein["disease_name"]
 )
 
-protein_pathway = pd.concat([pp_main, pp_anchor], ignore_index=True).drop_duplicates()
-
-pd_direct = (
-    drug_direct.merge(protein_pathway, on="uniprot_id", how="inner")
-    [["map_pathway_id", "drug_id"]]
+disease_protein["protein_id"], p_map, p_rev = encode(
+    disease_protein["uniprot_id"]
 )
 
-pd_infer = drug_infer[["pathway_id", "drug_id"]].rename(
-    columns={"pathway_id": "map_pathway_id"}
-)
+# Map disease-drug positives
+disease_drug["disease_id"] = disease_drug["disease_name"].map(d_rev)
 
-pathway_drug = pd.concat([pd_direct, pd_infer], ignore_index=True).drop_duplicates()
+# Create KEGG drug index
+unique_drugs = sorted(kegg_lookup["KEGG_ID"].unique())
+dr_map = {d: i for i, d in enumerate(unique_drugs)}
+dr_rev = {i: d for d, i in dr_map.items()}
 
-# ==================================================
-# ENCODE IDS
-# ==================================================
-proteins["pathogen_idx"], pathogen_ids = encode(proteins["pathogen"])
-proteins["protein_idx"], protein_ids = encode(proteins["uniprot_id"])
+disease_drug["drug_id"] = disease_drug["KEGG_ID"].map(dr_map)
+disease_drug = disease_drug.dropna(subset=["disease_id", "drug_id"])
 
-protein_pathway["protein_idx"] = protein_pathway["uniprot_id"].map(
-    {p: i for i, p in enumerate(protein_ids)}
-)
-protein_pathway.dropna(inplace=True)
+num_d = len(d_map)
+num_p = len(p_map)
+num_dr = len(dr_map)
 
-protein_pathway["pathway_idx"], pathway_ids = encode(
-    protein_pathway["map_pathway_id"]
-)
+print(f"Diseases: {num_d}")
+print(f"Proteins: {num_p}")
+print(f"Drugs: {num_dr}")
 
-pathway_drug["pathway_idx"] = pathway_drug["map_pathway_id"].map(
-    {p: i for i, p in enumerate(pathway_ids)}
-)
-pathway_drug.dropna(inplace=True)
 
-pathway_drug["drug_idx"], drug_ids = encode(pathway_drug["drug_id"])
+# ================= LOAD PROTEIN EMBEDDINGS =================
+print("Loading protein embeddings...")
 
-print(f"""
-Graph Summary:
-Pathogens: {len(pathogen_ids)}
-Proteins : {len(protein_ids)}
-Pathways : {len(pathway_ids)}
-Drugs    : {len(drug_ids)}
-""")
+protein_embeddings = torch.load("protein_embeddings.pt", map_location="cpu")
 
-# ==================================================
-# LOAD PROTEIN EMBEDDINGS
-# ==================================================
-protein_emb = torch.load("protein_embeddings_all.pt")
+protein_x = []
+for protein in p_map.values():
+    if protein in protein_embeddings:
+        protein_x.append(protein_embeddings[protein])
+    else:
+        protein_x.append(torch.zeros(EMB_DIM))
 
-# ==================================================
-# BUILD GRAPH
-# ==================================================
+protein_x = torch.stack(protein_x)
+
+
+# ================= LOAD DRUG EMBEDDINGS =================
+print("Loading drug embeddings...")
+
+drug_features = torch.load("drug_embeddings_320.pt", map_location="cpu")
+
+with open("drug_map.json", "r") as f:
+    full_drug_map = json.load(f)
+
+drug_x = torch.zeros((num_dr, EMB_DIM))
+
+for kegg_id, idx in dr_map.items():
+    if kegg_id in full_drug_map:
+        drug_x[idx] = drug_features[full_drug_map[kegg_id]]
+    else:
+        drug_x[idx] = torch.zeros(EMB_DIM)
+
+# Disease embeddings (learnable initial state)
+disease_x = torch.randn(num_d, EMB_DIM)
+
+
+# ================= BUILD GRAPH =================
+print("Building heterogeneous graph...")
+
 data = HeteroData()
 
-data["protein"].x = torch.stack([
-    protein_emb.get(pid, torch.zeros(PROTEIN_DIM))
-    for pid in protein_ids
-])
+data["disease"].x = disease_x
+data["protein"].x = protein_x
+data["drug"].x = drug_x
 
-data["drug"].num_nodes = len(drug_ids)
-data["pathway"].num_nodes = len(pathway_ids)
-data["pathogen"].num_nodes = len(pathogen_ids)
-
-pp_edge = torch.tensor(
-    proteins[["pathogen_idx", "protein_idx"]].values.T,
+# Disease → Protein edges
+dp_edge = torch.tensor(
+    disease_protein[["disease_id", "protein_id"]].values.T,
     dtype=torch.long
 )
 
-pw_edge = torch.tensor(
-    protein_pathway[["protein_idx", "pathway_idx"]].values.T,
-    dtype=torch.long
-)
+data["disease", "associated_with", "protein"].edge_index = dp_edge
+data["protein", "rev_associated_with", "disease"].edge_index = dp_edge.flip(0)
+
+# Protein → Drug edges
+protein_drug_df = kegg_lookup.copy()
+protein_drug_df["protein_id"] = protein_drug_df["UniProt"].map(p_rev)
+protein_drug_df["drug_id"] = protein_drug_df["KEGG_ID"].map(dr_map)
+protein_drug_df = protein_drug_df.dropna(subset=["protein_id", "drug_id"])
 
 pd_edge = torch.tensor(
-    pathway_drug[["pathway_idx", "drug_idx"]].values.T,
+    protein_drug_df[["protein_id", "drug_id"]].values.T,
     dtype=torch.long
 )
 
-data["pathogen", "rev_has", "protein"].edge_index = pp_edge
-data["protein", "has", "pathogen"].edge_index = pp_edge.flip(0)
+data["protein", "targeted_by", "drug"].edge_index = pd_edge
+data["drug", "rev_targeted_by", "protein"].edge_index = pd_edge.flip(0)
 
-data["protein", "rev_in_pathway", "pathway"].edge_index = pw_edge
-data["pathway", "in_pathway", "protein"].edge_index = pw_edge.flip(0)
+data = data.to(device)
 
-data["pathway", "targeted_by", "drug"].edge_index = pd_edge
-data["drug", "rev_targeted_by", "pathway"].edge_index = pd_edge.flip(0)
 
-data = data.to(DEVICE)
+# ================= TRAIN =================
+print("Preparing training pairs...")
 
-# ==================================================
-# BUILD POSITIVE PAIRS
-# ==================================================
-merged = (
-    proteins.merge(protein_pathway, on="protein_idx")
-    .merge(pathway_drug, on="pathway_idx")
-)
+positive_pairs = list(set(
+    zip(disease_drug["disease_id"], disease_drug["drug_id"])
+))
 
-pos_pairs = list(set(zip(
-    merged["pathogen_idx"],
-    merged["drug_idx"]
-)))
-
-pos_set = set(pos_pairs)
-
-print("Positive pairs:", len(pos_pairs))
-
-# ==================================================
-# MODEL
-# ==================================================
-model = PathogenDrugHeteroGNN(
-    num_drugs=len(drug_ids),
-    num_pathways=len(pathway_ids),
-    num_pathogens=len(pathogen_ids),
-    protein_dim=PROTEIN_DIM,
+model = BacteriaSpecificHeteroGNN(
+    input_dim=EMB_DIM,
     hidden_dim=HIDDEN_DIM
-).to(DEVICE)
+).to(device)
 
-optimizer = torch.optim.Adam(model.parameters(), lr=LR)
+optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 
-# ==================================================
-# TRAIN STEP
-# ==================================================
-def train_step():
+
+def train_epoch():
     model.train()
     optimizer.zero_grad()
 
-    emb = model(data)
+    emb = model(data.x_dict, data.edge_index_dict)
 
-    batch = random.sample(pos_pairs, min(BATCH_SIZE, len(pos_pairs)))
-    batch = torch.tensor(batch, device=DEVICE)
+    disease_emb = emb["disease"]
+    drug_emb = emb["drug"]
 
-    p, d_pos = batch[:, 0], batch[:, 1]
+    batch = random.sample(
+        positive_pairs,
+        min(BATCH_SIZE, len(positive_pairs))
+    )
 
-    # --- Negative sampling (avoid true positives) ---
-    d_neg = []
-    for pi in p.tolist():
-        while True:
-            candidate = random.randint(0, len(drug_ids) - 1)
-            if (pi, candidate) not in pos_set:
-                d_neg.append(candidate)
-                break
+    batch = torch.tensor(batch, device=device)
 
-    d_neg = torch.tensor(d_neg, device=DEVICE)
+    d = batch[:, 0]
+    dr = batch[:, 1]
 
-    # --- Normalize embeddings ---
-    p_emb = F.normalize(emb["pathogen"][p], dim=1)
-    d_pos_emb = F.normalize(emb["drug"][d_pos], dim=1)
-    d_neg_emb = F.normalize(emb["drug"][d_neg], dim=1)
+    pos = F.cosine_similarity(disease_emb[d], drug_emb[dr])
 
-    pos_score = (p_emb * d_pos_emb).sum(dim=1)
-    neg_score = (p_emb * d_neg_emb).sum(dim=1)
+    neg_dr = torch.randint(0, num_dr, (len(d),), device=device)
+    neg = F.cosine_similarity(disease_emb[d], drug_emb[neg_dr])
 
-    loss = F.relu(MARGIN - pos_score + neg_score).mean()
+    loss = F.margin_ranking_loss(
+        pos,
+        neg,
+        torch.ones_like(pos),
+        margin=0.5
+    )
 
     loss.backward()
     optimizer.step()
 
-    return loss.item(), pos_score.mean().item(), neg_score.mean().item()
+    return loss.item()
 
-# ==================================================
-# TRAIN LOOP
-# ==================================================
-print("\n🚀 Training Started...\n")
+
+print("\nTraining started...\n")
 
 for epoch in range(EPOCHS):
+    loss = train_epoch()
 
-    loss, pos_m, neg_m = train_step()
+    if epoch % 10 == 0:
+        print(f"Epoch {epoch} | Loss: {loss:.4f}")
 
-    if epoch % 25 == 0:
-        print(
-            f"Epoch {epoch:03d} | "
-            f"Loss {loss:.4f} | "
-            f"Pos {pos_m:.4f} | "
-            f"Neg {neg_m:.4f}"
-        )
+torch.save(model.state_dict(), "bacteria_gnn.pt")
 
-# ==================================================
-# SAVE
-# ==================================================
-torch.save(model.state_dict(), "pathogen_gnn.pt")
-print("\n✅ Training complete! Model saved as pathogen_gnn.pt")
+print("\nModel saved as bacteria_gnn.pt")
