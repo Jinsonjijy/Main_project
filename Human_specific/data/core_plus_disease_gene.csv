@@ -1684,3 +1684,18 @@ H01742,Coronary artery disease,WDR12,popular_showcase
 H00079,Asthma,WDR36,popular_showcase
 H01742,Coronary artery disease,ZC3HC1,popular_showcase
 H00079,Asthma,PHF11,popular_showcase
+H00097,Breast cancer,BRCA1,core_benchmark
+H00097,Breast cancer,BRCA2,core_benchmark
+H00097,Breast cancer,TP53,core_benchmark
+H00097,Breast cancer,PIK3CA,core_benchmark
+H00097,Breast cancer,ERBB2,core_benchmark
+H00097,Breast cancer,PTEN,core_benchmark
+H00097,Breast cancer,AKT1,core_benchmark
+H00097,Breast cancer,CCND1,core_benchmark
+H00097,Breast cancer,CDK4,core_benchmark
+H00097,Breast cancer,EGFR,core_benchmark
+H00097,Breast cancer,KRAS,core_benchmark
+H00097,Breast cancer,NRAS,core_benchmark
+H00097,Breast cancer,BRAF,core_benchmark
+H00097,Breast cancer,RB1,core_benchmark
+H00097,Breast cancer,ATM,core_benchmark

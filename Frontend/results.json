@@ -1,62 +1,57 @@
 {
-  "disease": "Coronary Artery Disease",
-  "pathways_used": [
-    "Pathways in cancer - Homo sapiens (human)",
-    "Metabolic pathways - Homo sapiens (human)",
-    "Cholesterol metabolism - Homo sapiens (human)",
-    "Lipid and atherosclerosis - Homo sapiens (human)",
-    "PI3K-Akt signaling pathway - Homo sapiens (human)"
+  "disease": "Gout",
+  "pathways": [
+    [
+      "Cytokine-cytokine receptor interaction - Homo sapiens (human)",
+      3
+    ],
+    [
+      "MAPK signaling pathway - Homo sapiens (human)",
+      3
+    ],
+    [
+      "Tuberculosis - Homo sapiens (human)",
+      3
+    ],
+    [
+      "Amoebiasis - Homo sapiens (human)",
+      3
+    ],
+    [
+      "Lipid and atherosclerosis - Homo sapiens (human)",
+      2
+    ]
   ],
-  "top_drugs": [
+  "drugs": [
     {
-      "drug_name": "Etanercept",
-      "drugbank_id": "DB00005",
-      "score": 0.8338
+      "name": "Allopurinol",
+      "drugbank_id": "DB00437",
+      "score": 0.4797128438949585
     },
     {
-      "drug_name": "Pegaptanib",
-      "drugbank_id": "DB04895",
-      "score": 0.8312
+      "name": "Febuxostat",
+      "drugbank_id": "DB04854",
+      "score": 0.47606921195983887
     },
     {
-      "drug_name": "Brolucizumab",
-      "drugbank_id": "DB14864",
-      "score": 0.8295
+      "name": "Fosdenopterin",
+      "drugbank_id": "DB16628",
+      "score": 0.45532912015914917
     },
     {
-      "drug_name": "Aflibercept",
-      "drugbank_id": "DB08885",
-      "score": 0.8284
+      "name": "Thalidomide",
+      "drugbank_id": "DB01041",
+      "score": 0.4526652693748474
     },
     {
-      "drug_name": "Ranibizumab",
-      "drugbank_id": "DB01270",
-      "score": 0.8279
+      "name": "Triflusal",
+      "drugbank_id": "DB08814",
+      "score": 0.427541047334671
     },
     {
-      "drug_name": "Faricimab",
-      "drugbank_id": "DB15303",
-      "score": 0.8272
-    },
-    {
-      "drug_name": "Bevacizumab",
-      "drugbank_id": "DB00112",
-      "score": 0.8261
-    },
-    {
-      "drug_name": "Nimesulide",
-      "drugbank_id": "DB04743",
-      "score": 0.8253
-    },
-    {
-      "drug_name": "Pomalidomide",
-      "drugbank_id": "DB08910",
-      "score": 0.7971
-    },
-    {
-      "drug_name": "Imetelstat",
-      "drugbank_id": "DB14909",
-      "score": 0.7356
+      "name": "Pirfenidone",
+      "drugbank_id": "DB04951",
+      "score": 0.42535290122032166
     }
   ]
 }

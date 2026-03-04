@@ -7,14 +7,17 @@ import json
 app = Flask(__name__)
 CORS(app)
 
-# Path to Frontend folder
-FRONTEND_DIR = os.path.abspath(
-    os.path.join(os.path.dirname(__file__), "..", "Frontend")
-)
+# ==================================================
+# PATH CONFIG
+# ==================================================
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "Frontend"))
 
-# ==========================================
-# Serve Frontend Pages
-# ==========================================
+print("Frontend directory:", FRONTEND_DIR)
+
+# ==================================================
+# SERVE FRONTEND
+# ==================================================
 
 @app.route("/")
 def serve_home():
@@ -25,63 +28,79 @@ def serve_index():
     return send_from_directory(FRONTEND_DIR, "index.html")
 
 @app.route("/<path:filename>")
-def serve_static_files(filename):
+def serve_static(filename):
     return send_from_directory(FRONTEND_DIR, filename)
 
 
-# ==========================================
-# Run GNN
-# ==========================================
+# ==================================================
+# RUN GNN (MAIN API)
+# ==================================================
 
-@app.route("/run-gnn", methods=["POST"])
+@app.route("/run-gnn", methods=["GET", "POST"])
 def run_gnn():
 
-    data = request.get_json(force=True)
-    disease = data.get("disease")
-
-    if not disease:
-        return jsonify({"error": "Disease name missing"}), 400
+    # Allow GET for testing in browser
+    if request.method == "GET":
+        return jsonify({"message": "run-gnn endpoint is working. Use POST with JSON."})
 
     try:
+        data = request.get_json(force=True)
+        print("Incoming request:", data)
+
+        disease = data.get("disease")
+
+        if not disease:
+            return jsonify({"error": "Disease name missing"}), 400
+
         results, pathways = export_disease_subgraph(disease)
 
         return jsonify({
             "status": "success",
             "disease": disease,
+            "pathways": pathways,
             "drugs": [
                 {
                     "name": name,
                     "drugbank_id": dbid,
-                    "score": score
+                    "score": float(score)
                 }
                 for name, dbid, score in results
-            ],
-            "pathways": pathways
+            ]
         })
 
     except Exception as e:
+        print("ERROR:", str(e))
         return jsonify({"error": str(e)}), 500
 
 
-# ==========================================
-# Serve Generated JSON
-# ==========================================
-
-@app.route("/graph.json")
-def serve_graph():
-    with open(os.path.join(FRONTEND_DIR, "graph.json"), "r") as f:
-        return jsonify(json.load(f))
-
+# ==================================================
+# OPTIONAL: SERVE GENERATED JSON FILES
+# ==================================================
 
 @app.route("/results.json")
 def serve_results():
-    with open(os.path.join(FRONTEND_DIR, "results.json"), "r") as f:
+    path = os.path.join(FRONTEND_DIR, "results.json")
+    if not os.path.exists(path):
+        return jsonify({"error": "results.json not found"}), 404
+
+    with open(path, "r") as f:
         return jsonify(json.load(f))
 
 
-# ==========================================
-# Start Server
-# ==========================================
+@app.route("/graph.json")
+def serve_graph():
+    path = os.path.join(FRONTEND_DIR, "graph.json")
+    if not os.path.exists(path):
+        return jsonify({"error": "graph.json not found"}), 404
+
+    with open(path, "r") as f:
+        return jsonify(json.load(f))
+
+
+# ==================================================
+# START SERVER
+# ==================================================
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    print("Starting Flask server...")
+    app.run(host="0.0.0.0", port=5000, debug=True)

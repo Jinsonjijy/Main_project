@@ -1,970 +1,246 @@
 {
   "nodes": [
     {
-      "id": "Coronary Artery Disease",
-      "label": "Coronary Artery Disease",
+      "id": "Gout",
+      "label": "Gout",
       "type": "disease"
     },
     {
-      "id": "ABCG5",
-      "label": "ABCG5",
+      "id": "ABCG2",
+      "label": "ABCG2",
       "type": "gene"
     },
     {
-      "id": "ACE",
-      "label": "ACE",
+      "id": "ALDH16A1",
+      "label": "ALDH16A1",
       "type": "gene"
     },
     {
-      "id": "ANGPTL4",
-      "label": "ANGPTL4",
+      "id": "ALPK1",
+      "label": "ALPK1",
       "type": "gene"
     },
     {
-      "id": "APOA1",
-      "label": "APOA1",
+      "id": "CARD8",
+      "label": "CARD8",
       "type": "gene"
     },
     {
-      "id": "APOA5",
-      "label": "APOA5",
+      "id": "CD14",
+      "label": "CD14",
       "type": "gene"
     },
     {
-      "id": "APOC3",
-      "label": "APOC3",
-      "type": "gene"
-    },
-    {
-      "id": "ATP2B1",
-      "label": "ATP2B1",
-      "type": "gene"
-    },
-    {
-      "id": "CCL2",
-      "label": "CCL2",
-      "type": "gene"
-    },
-    {
-      "id": "CDKN2B",
-      "label": "CDKN2B",
-      "type": "gene"
-    },
-    {
-      "id": "CRP",
-      "label": "CRP",
-      "type": "gene"
-    },
-    {
-      "id": "ESR1",
-      "label": "ESR1",
-      "type": "gene"
-    },
-    {
-      "id": "ESR2",
-      "label": "ESR2",
-      "type": "gene"
-    },
-    {
-      "id": "HMOX1",
-      "label": "HMOX1",
-      "type": "gene"
-    },
-    {
-      "id": "KCNE2",
-      "label": "KCNE2",
-      "type": "gene"
-    },
-    {
-      "id": "KL",
-      "label": "KL",
-      "type": "gene"
-    },
-    {
-      "id": "DB00005",
-      "label": "Etanercept",
+      "id": "DB00437",
+      "label": "Allopurinol",
       "type": "drug",
-      "score": 0.8338
+      "score": 0.4797128438949585
     },
     {
-      "id": "DB04895",
-      "label": "Pegaptanib",
+      "id": "DB04854",
+      "label": "Febuxostat",
       "type": "drug",
-      "score": 0.8312
+      "score": 0.47606921195983887
     },
     {
-      "id": "DB14864",
-      "label": "Brolucizumab",
+      "id": "DB16628",
+      "label": "Fosdenopterin",
       "type": "drug",
-      "score": 0.8295
+      "score": 0.45532912015914917
     },
     {
-      "id": "DB08885",
-      "label": "Aflibercept",
+      "id": "DB01041",
+      "label": "Thalidomide",
       "type": "drug",
-      "score": 0.8284
+      "score": 0.4526652693748474
     },
     {
-      "id": "DB01270",
-      "label": "Ranibizumab",
+      "id": "DB08814",
+      "label": "Triflusal",
       "type": "drug",
-      "score": 0.8279
+      "score": 0.427541047334671
     },
     {
-      "id": "DB15303",
-      "label": "Faricimab",
+      "id": "DB04951",
+      "label": "Pirfenidone",
       "type": "drug",
-      "score": 0.8272
-    },
-    {
-      "id": "DB00112",
-      "label": "Bevacizumab",
-      "type": "drug",
-      "score": 0.8261
-    },
-    {
-      "id": "DB04743",
-      "label": "Nimesulide",
-      "type": "drug",
-      "score": 0.8253
-    },
-    {
-      "id": "DB08910",
-      "label": "Pomalidomide",
-      "type": "drug",
-      "score": 0.7971
-    },
-    {
-      "id": "DB14909",
-      "label": "Imetelstat",
-      "type": "drug",
-      "score": 0.7356
+      "score": 0.42535290122032166
     }
   ],
   "links": [
     {
-      "source": "Coronary Artery Disease",
-      "target": "ABCG5",
+      "source": "Gout",
+      "target": "ABCG2",
       "type": "disease-gene"
     },
     {
-      "source": "Coronary Artery Disease",
-      "target": "ACE",
+      "source": "Gout",
+      "target": "ALDH16A1",
       "type": "disease-gene"
     },
     {
-      "source": "Coronary Artery Disease",
-      "target": "ANGPTL4",
+      "source": "Gout",
+      "target": "ALPK1",
       "type": "disease-gene"
     },
     {
-      "source": "Coronary Artery Disease",
-      "target": "APOA1",
+      "source": "Gout",
+      "target": "CARD8",
       "type": "disease-gene"
     },
     {
-      "source": "Coronary Artery Disease",
-      "target": "APOA5",
+      "source": "Gout",
+      "target": "CD14",
       "type": "disease-gene"
     },
     {
-      "source": "Coronary Artery Disease",
-      "target": "APOC3",
-      "type": "disease-gene"
-    },
-    {
-      "source": "Coronary Artery Disease",
-      "target": "ATP2B1",
-      "type": "disease-gene"
-    },
-    {
-      "source": "Coronary Artery Disease",
-      "target": "CCL2",
-      "type": "disease-gene"
-    },
-    {
-      "source": "Coronary Artery Disease",
-      "target": "CDKN2B",
-      "type": "disease-gene"
-    },
-    {
-      "source": "Coronary Artery Disease",
-      "target": "CRP",
-      "type": "disease-gene"
-    },
-    {
-      "source": "Coronary Artery Disease",
-      "target": "ESR1",
-      "type": "disease-gene"
-    },
-    {
-      "source": "Coronary Artery Disease",
-      "target": "ESR2",
-      "type": "disease-gene"
-    },
-    {
-      "source": "Coronary Artery Disease",
-      "target": "HMOX1",
-      "type": "disease-gene"
-    },
-    {
-      "source": "Coronary Artery Disease",
-      "target": "KCNE2",
-      "type": "disease-gene"
-    },
-    {
-      "source": "Coronary Artery Disease",
-      "target": "KL",
-      "type": "disease-gene"
-    },
-    {
-      "source": "ABCG5",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ACE",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ANGPTL4",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA1",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA5",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOC3",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ATP2B1",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CCL2",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CDKN2B",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CRP",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR1",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR2",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "HMOX1",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KCNE2",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KL",
-      "target": "DB00005",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ABCG5",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ACE",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ANGPTL4",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA1",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA5",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOC3",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ATP2B1",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CCL2",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CDKN2B",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CRP",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR1",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR2",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "HMOX1",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KCNE2",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KL",
-      "target": "DB04895",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ABCG5",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ACE",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ANGPTL4",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA1",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA5",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOC3",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ATP2B1",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CCL2",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CDKN2B",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CRP",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR1",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR2",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "HMOX1",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KCNE2",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KL",
-      "target": "DB14864",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ABCG5",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ACE",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ANGPTL4",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA1",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA5",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOC3",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ATP2B1",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CCL2",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CDKN2B",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CRP",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR1",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR2",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "HMOX1",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KCNE2",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KL",
-      "target": "DB08885",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ABCG5",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ACE",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ANGPTL4",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA1",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA5",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOC3",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ATP2B1",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CCL2",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CDKN2B",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CRP",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR1",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR2",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "HMOX1",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KCNE2",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KL",
-      "target": "DB01270",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ABCG5",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ACE",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ANGPTL4",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA1",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA5",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOC3",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ATP2B1",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CCL2",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CDKN2B",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CRP",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR1",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR2",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "HMOX1",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KCNE2",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KL",
-      "target": "DB15303",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ABCG5",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ACE",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ANGPTL4",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA1",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA5",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOC3",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ATP2B1",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CCL2",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CDKN2B",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CRP",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR1",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR2",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "HMOX1",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KCNE2",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KL",
-      "target": "DB00112",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ABCG5",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ACE",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ANGPTL4",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA1",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOA5",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "APOC3",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ATP2B1",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CCL2",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CDKN2B",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "CRP",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR1",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ESR2",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "HMOX1",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KCNE2",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "KL",
-      "target": "DB04743",
-      "type": "gene-drug"
-    },
-    {
-      "source": "ABCG5",
-      "target": "DB08910",
+      "source": "ABCG2",
+      "target": "DB00437",
       "type": "gene-drug"
     },
     {
-      "source": "ACE",
-      "target": "DB08910",
+      "source": "ALDH16A1",
+      "target": "DB00437",
       "type": "gene-drug"
     },
     {
-      "source": "ANGPTL4",
-      "target": "DB08910",
+      "source": "ALPK1",
+      "target": "DB00437",
       "type": "gene-drug"
     },
     {
-      "source": "APOA1",
-      "target": "DB08910",
+      "source": "CARD8",
+      "target": "DB00437",
       "type": "gene-drug"
     },
     {
-      "source": "APOA5",
-      "target": "DB08910",
+      "source": "CD14",
+      "target": "DB00437",
       "type": "gene-drug"
     },
     {
-      "source": "APOC3",
-      "target": "DB08910",
+      "source": "ABCG2",
+      "target": "DB04854",
       "type": "gene-drug"
     },
     {
-      "source": "ATP2B1",
-      "target": "DB08910",
+      "source": "ALDH16A1",
+      "target": "DB04854",
       "type": "gene-drug"
     },
     {
-      "source": "CCL2",
-      "target": "DB08910",
+      "source": "ALPK1",
+      "target": "DB04854",
       "type": "gene-drug"
     },
     {
-      "source": "CDKN2B",
-      "target": "DB08910",
+      "source": "CARD8",
+      "target": "DB04854",
       "type": "gene-drug"
     },
     {
-      "source": "CRP",
-      "target": "DB08910",
+      "source": "CD14",
+      "target": "DB04854",
       "type": "gene-drug"
     },
     {
-      "source": "ESR1",
-      "target": "DB08910",
+      "source": "ABCG2",
+      "target": "DB16628",
       "type": "gene-drug"
     },
     {
-      "source": "ESR2",
-      "target": "DB08910",
+      "source": "ALDH16A1",
+      "target": "DB16628",
       "type": "gene-drug"
     },
     {
-      "source": "HMOX1",
-      "target": "DB08910",
+      "source": "ALPK1",
+      "target": "DB16628",
       "type": "gene-drug"
     },
     {
-      "source": "KCNE2",
-      "target": "DB08910",
+      "source": "CARD8",
+      "target": "DB16628",
       "type": "gene-drug"
     },
     {
-      "source": "KL",
-      "target": "DB08910",
+      "source": "CD14",
+      "target": "DB16628",
       "type": "gene-drug"
     },
     {
-      "source": "ABCG5",
-      "target": "DB14909",
+      "source": "ABCG2",
+      "target": "DB01041",
       "type": "gene-drug"
     },
     {
-      "source": "ACE",
-      "target": "DB14909",
+      "source": "ALDH16A1",
+      "target": "DB01041",
       "type": "gene-drug"
     },
     {
-      "source": "ANGPTL4",
-      "target": "DB14909",
+      "source": "ALPK1",
+      "target": "DB01041",
       "type": "gene-drug"
     },
     {
-      "source": "APOA1",
-      "target": "DB14909",
+      "source": "CARD8",
+      "target": "DB01041",
       "type": "gene-drug"
     },
     {
-      "source": "APOA5",
-      "target": "DB14909",
+      "source": "CD14",
+      "target": "DB01041",
       "type": "gene-drug"
     },
     {
-      "source": "APOC3",
-      "target": "DB14909",
+      "source": "ABCG2",
+      "target": "DB08814",
       "type": "gene-drug"
     },
     {
-      "source": "ATP2B1",
-      "target": "DB14909",
+      "source": "ALDH16A1",
+      "target": "DB08814",
       "type": "gene-drug"
     },
     {
-      "source": "CCL2",
-      "target": "DB14909",
+      "source": "ALPK1",
+      "target": "DB08814",
       "type": "gene-drug"
     },
     {
-      "source": "CDKN2B",
-      "target": "DB14909",
+      "source": "CARD8",
+      "target": "DB08814",
       "type": "gene-drug"
     },
     {
-      "source": "CRP",
-      "target": "DB14909",
+      "source": "CD14",
+      "target": "DB08814",
       "type": "gene-drug"
     },
     {
-      "source": "ESR1",
-      "target": "DB14909",
+      "source": "ABCG2",
+      "target": "DB04951",
       "type": "gene-drug"
     },
     {
-      "source": "ESR2",
-      "target": "DB14909",
+      "source": "ALDH16A1",
+      "target": "DB04951",
       "type": "gene-drug"
     },
     {
-      "source": "HMOX1",
-      "target": "DB14909",
+      "source": "ALPK1",
+      "target": "DB04951",
       "type": "gene-drug"
     },
     {
-      "source": "KCNE2",
-      "target": "DB14909",
+      "source": "CARD8",
+      "target": "DB04951",
       "type": "gene-drug"
     },
     {
-      "source": "KL",
-      "target": "DB14909",
+      "source": "CD14",
+      "target": "DB04951",
       "type": "gene-drug"
     }
   ]

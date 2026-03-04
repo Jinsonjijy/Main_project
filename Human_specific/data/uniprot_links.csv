@@ -1,272 +1,22 @@
 DrugBank ID,Name,Type,UniProt ID,UniProt Name
-DB00001,Lepirudin,BiotechDrug,P00734,Prothrombin
-DB00002,Cetuximab,BiotechDrug,P00533,Epidermal growth factor receptor
-DB00002,Cetuximab,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB00002,Cetuximab,BiotechDrug,P02745,Complement C1q subcomponent subunit A
-DB00002,Cetuximab,BiotechDrug,P02746,Complement C1q subcomponent subunit B
-DB00002,Cetuximab,BiotechDrug,P02747,Complement C1q subcomponent subunit C
-DB00002,Cetuximab,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
-DB00002,Cetuximab,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB00002,Cetuximab,BiotechDrug,P12318,Low affinity immunoglobulin gamma Fc region receptor II-a
-DB00003,Dornase alfa,BiotechDrug,P24855,Deoxyribonuclease-1
-DB00004,Denileukin diftitox,BiotechDrug,P01589,Interleukin-2 receptor subunit alpha
-DB00004,Denileukin diftitox,BiotechDrug,P14784,Interleukin-2 receptor subunit beta
-DB00005,Etanercept,BiotechDrug,P01375,Tumor necrosis factor
-DB00005,Etanercept,BiotechDrug,P01374,Lymphotoxin-alpha
-DB00005,Etanercept,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB00005,Etanercept,BiotechDrug,P12318,Low affinity immunoglobulin gamma Fc region receptor II-a
-DB00005,Etanercept,BiotechDrug,P31994,Low affinity immunoglobulin gamma Fc region receptor II-b
-DB00005,Etanercept,BiotechDrug,P31995,Low affinity immunoglobulin gamma Fc region receptor II-c
-DB00005,Etanercept,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
-DB00005,Etanercept,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB00005,Etanercept,BiotechDrug,P02745,Complement C1q subcomponent subunit A
-DB00005,Etanercept,BiotechDrug,P02746,Complement C1q subcomponent subunit B
-DB00005,Etanercept,BiotechDrug,P02747,Complement C1q subcomponent subunit C
 DB00006,Bivalirudin,SmallMoleculeDrug,P00734,Prothrombin
-DB00007,Leuprolide,BiotechDrug,P30968,Gonadotropin-releasing hormone receptor
-DB00007,Leuprolide,BiotechDrug,P01148,Progonadoliberin-1
-DB00008,Peginterferon alfa-2a,BiotechDrug,P48551,Interferon alpha/beta receptor 2
-DB00008,Peginterferon alfa-2a,BiotechDrug,P17181,Interferon alpha/beta receptor 1
-DB00009,Alteplase,BiotechDrug,P00747,Plasminogen
-DB00009,Alteplase,BiotechDrug,P02671,Fibrinogen alpha chain
-DB00009,Alteplase,BiotechDrug,P02679,Fibrinogen gamma chain
-DB00009,Alteplase,BiotechDrug,P05121,Plasminogen activator inhibitor 1
-DB00010,Sermorelin,BiotechDrug,Q02643,Growth hormone-releasing hormone receptor
-DB00011,Interferon alfa-n1,BiotechDrug,P17181,Interferon alpha/beta receptor 1
-DB00011,Interferon alfa-n1,BiotechDrug,P48551,Interferon alpha/beta receptor 2
-DB00012,Darbepoetin alfa,BiotechDrug,P19235,Erythropoietin receptor
-DB00013,Urokinase,BiotechDrug,P00747,Plasminogen
-DB00013,Urokinase,BiotechDrug,Q03405,Urokinase plasminogen activator surface receptor
-DB00013,Urokinase,BiotechDrug,P05121,Plasminogen activator inhibitor 1
-DB00013,Urokinase,BiotechDrug,P05120,Plasminogen activator inhibitor 2
-DB00013,Urokinase,BiotechDrug,P05154,Plasma serine protease inhibitor
-DB00013,Urokinase,BiotechDrug,P98164,Low-density lipoprotein receptor-related protein 2
-DB00013,Urokinase,BiotechDrug,Q9Y5Y6,Suppressor of tumorigenicity 14 protein
-DB00013,Urokinase,BiotechDrug,P14543,Nidogen-1
 DB00014,Goserelin,SmallMoleculeDrug,P22888,Lutropin-choriogonadotropic hormone receptor
 DB00014,Goserelin,SmallMoleculeDrug,P01148,Progonadoliberin-1
 DB00014,Goserelin,SmallMoleculeDrug,P30968,Gonadotropin-releasing hormone receptor
-DB00015,Reteplase,BiotechDrug,P00747,Plasminogen
-DB00015,Reteplase,BiotechDrug,P02671,Fibrinogen alpha chain
-DB00015,Reteplase,BiotechDrug,P05121,Plasminogen activator inhibitor 1
-DB00016,Erythropoietin,BiotechDrug,P19235,Erythropoietin receptor
-DB00017,Salmon calcitonin,BiotechDrug,P30988,Calcitonin receptor
-DB00018,Interferon alfa-n3,BiotechDrug,P17181,Interferon alpha/beta receptor 1
-DB00018,Interferon alfa-n3,BiotechDrug,P48551,Interferon alpha/beta receptor 2
-DB00019,Pegfilgrastim,BiotechDrug,Q99062,Granulocyte colony-stimulating factor receptor
-DB00020,Sargramostim,BiotechDrug,P15509,Granulocyte-macrophage colony-stimulating factor receptor subunit alpha
-DB00020,Sargramostim,BiotechDrug,P26951,Interleukin-3 receptor subunit alpha
-DB00020,Sargramostim,BiotechDrug,P32927,Cytokine receptor common subunit beta
-DB00020,Sargramostim,BiotechDrug,P34741,Syndecan-2
-DB00020,Sargramostim,BiotechDrug,P13727,Bone marrow proteoglycan
-DB00022,Peginterferon alfa-2b,BiotechDrug,P17181,Interferon alpha/beta receptor 1
-DB00022,Peginterferon alfa-2b,BiotechDrug,P48551,Interferon alpha/beta receptor 2
-DB00024,Thyrotropin alfa,BiotechDrug,P16473,Thyrotropin receptor
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,P00742,Coagulation factor X
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,P00740,Coagulation factor IX
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,P04275,von Willebrand factor
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,O14832,"Phytanoyl-CoA dioxygenase, peroxisomal"
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,P07307,Asialoglycoprotein receptor 2
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,P11021,Endoplasmic reticulum chaperone BiP
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,P27797,Calreticulin
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,P27824,Calnexin
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,P49257,Protein ERGIC-53
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,Q07954,Prolow-density lipoprotein receptor-related protein 1
-DB00025,"Antihemophilic factor, human recombinant",BiotechDrug,Q8NI22,Multiple coagulation factor deficiency protein 2
-DB00026,Anakinra,BiotechDrug,P14778,Interleukin-1 receptor type 1
 DB00027,Gramicidin D,SmallMoleculeDrug,P0AC13,Dihydropteroate synthase
-DB00028,Human immunoglobulin G,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB00028,Human immunoglobulin G,BiotechDrug,Q92637,Putative high affinity immunoglobulin gamma Fc receptor IB
-DB00028,Human immunoglobulin G,BiotechDrug,P12318,Low affinity immunoglobulin gamma Fc region receptor II-a
-DB00028,Human immunoglobulin G,BiotechDrug,P31994,Low affinity immunoglobulin gamma Fc region receptor II-b
-DB00028,Human immunoglobulin G,BiotechDrug,P31995,Low affinity immunoglobulin gamma Fc region receptor II-c
-DB00028,Human immunoglobulin G,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
-DB00028,Human immunoglobulin G,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB00028,Human immunoglobulin G,BiotechDrug,P01024,Complement C3
-DB00028,Human immunoglobulin G,BiotechDrug,P0C0L4,Complement C4-A
-DB00028,Human immunoglobulin G,BiotechDrug,P0C0L5,Complement C4-B
-DB00028,Human immunoglobulin G,BiotechDrug,P01031,Complement C5
-DB00029,Anistreplase,BiotechDrug,P00747,Plasminogen
-DB00029,Anistreplase,BiotechDrug,P02671,Fibrinogen alpha chain
-DB00029,Anistreplase,BiotechDrug,P05121,Plasminogen activator inhibitor 1
-DB00030,Insulin human,BiotechDrug,P06213,Insulin receptor
-DB00030,Insulin human,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
-DB00030,Insulin human,BiotechDrug,P16870,Carboxypeptidase E
-DB00030,Insulin human,BiotechDrug,P48745,CCN family member 3
-DB00030,Insulin human,BiotechDrug,P98164,Low-density lipoprotein receptor-related protein 2
-DB00030,Insulin human,BiotechDrug,Q16270,Insulin-like growth factor-binding protein 7
-DB00031,Tenecteplase,BiotechDrug,P00747,Plasminogen
-DB00032,Menotropins,BiotechDrug,P23945,Follicle-stimulating hormone receptor
-DB00032,Menotropins,BiotechDrug,P22888,Lutropin-choriogonadotropic hormone receptor
-DB00033,Interferon gamma-1b,BiotechDrug,P15260,Interferon gamma receptor 1
-DB00033,Interferon gamma-1b,BiotechDrug,P38484,Interferon gamma receptor 2
-DB00034,Interferon alfa-2a,BiotechDrug,P17181,Interferon alpha/beta receptor 1
-DB00034,Interferon alfa-2a,BiotechDrug,P48551,Interferon alpha/beta receptor 2
 DB00035,Desmopressin,SmallMoleculeDrug,P30559,Oxytocin receptor
 DB00035,Desmopressin,SmallMoleculeDrug,P30518,Vasopressin V2 receptor
 DB00035,Desmopressin,SmallMoleculeDrug,P37288,Vasopressin V1a receptor
 DB00035,Desmopressin,SmallMoleculeDrug,P47901,Vasopressin V1b receptor
-DB00036,Coagulation factor VIIa Recombinant Human,BiotechDrug,P00742,Coagulation factor X
-DB00036,Coagulation factor VIIa Recombinant Human,BiotechDrug,P13726,Tissue factor
-DB00038,Oprelvekin,BiotechDrug,Q14626,Interleukin-11 receptor subunit alpha
-DB00039,Palifermin,BiotechDrug,P21802,Fibroblast growth factor receptor 2
-DB00039,Palifermin,BiotechDrug,P11362,Fibroblast growth factor receptor 1
-DB00039,Palifermin,BiotechDrug,P98160,Basement membrane-specific heparan sulfate proteoglycan core protein
-DB00040,Glucagon,BiotechDrug,P47871,Glucagon receptor
-DB00040,Glucagon,BiotechDrug,O95838,Glucagon-like peptide 2 receptor
-DB00040,Glucagon,BiotechDrug,P43220,Glucagon-like peptide 1 receptor
-DB00041,Aldesleukin,BiotechDrug,P14784,Interleukin-2 receptor subunit beta
-DB00041,Aldesleukin,BiotechDrug,P01589,Interleukin-2 receptor subunit alpha
-DB00041,Aldesleukin,BiotechDrug,P31785,Cytokine receptor common subunit gamma
-DB00042,Botulinum toxin type B,BiotechDrug,P63027,Vesicle-associated membrane protein 2
-DB00042,Botulinum toxin type B,BiotechDrug,P23763,Vesicle-associated membrane protein 1
-DB00042,Botulinum toxin type B,BiotechDrug,Q8N9I0,Synaptotagmin-2
-DB00043,Omalizumab,BiotechDrug,P01854,Immunoglobulin heavy constant epsilon
-DB00044,Lutropin alfa,BiotechDrug,P22888,Lutropin-choriogonadotropic hormone receptor
-DB00045,Lyme disease vaccine (recombinant OspA),BiotechDrug,O60603,Toll-like receptor 2
-DB00046,Insulin lispro,BiotechDrug,P06213,Insulin receptor
-DB00046,Insulin lispro,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
-DB00047,Insulin glargine,BiotechDrug,P06213,Insulin receptor
-DB00047,Insulin glargine,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
-DB00048,Collagenase clostridium histolyticum,BiotechDrug,P02452,Collagen alpha-1(I) chain
-DB00048,Collagenase clostridium histolyticum,BiotechDrug,P02458,Collagen alpha-1(II) chain
-DB00048,Collagenase clostridium histolyticum,BiotechDrug,P02461,Collagen alpha-1(III) chain
 DB00050,Cetrorelix,SmallMoleculeDrug,P30968,Gonadotropin-releasing hormone receptor
 DB00050,Cetrorelix,SmallMoleculeDrug,P22888,Lutropin-choriogonadotropic hormone receptor
-DB00051,Adalimumab,BiotechDrug,P01375,Tumor necrosis factor
-DB00052,Somatotropin,BiotechDrug,P10912,Growth hormone receptor
-DB00052,Somatotropin,BiotechDrug,P16471,Prolactin receptor
-DB00054,Abciximab,BiotechDrug,P05106,Integrin beta-3
-DB00054,Abciximab,BiotechDrug,P08514,Integrin alpha-IIb
-DB00054,Abciximab,BiotechDrug,P12318,Low affinity immunoglobulin gamma Fc region receptor II-a
-DB00054,Abciximab,BiotechDrug,P31994,Low affinity immunoglobulin gamma Fc region receptor II-b
-DB00054,Abciximab,BiotechDrug,P04004,Vitronectin
-DB00055,Drotrecogin alfa,BiotechDrug,P00451,Coagulation factor VIII
-DB00055,Drotrecogin alfa,BiotechDrug,P12259,Coagulation factor V
-DB00055,Drotrecogin alfa,BiotechDrug,P05121,Plasminogen activator inhibitor 1
-DB00055,Drotrecogin alfa,BiotechDrug,P07204,Thrombomodulin
-DB00055,Drotrecogin alfa,BiotechDrug,P07225,Vitamin K-dependent protein S
-DB00055,Drotrecogin alfa,BiotechDrug,P00734,Prothrombin
-DB00055,Drotrecogin alfa,BiotechDrug,P02776,Platelet factor 4
-DB00055,Drotrecogin alfa,BiotechDrug,P05154,Plasma serine protease inhibitor
-DB00055,Drotrecogin alfa,BiotechDrug,P35237,Serpin B6
-DB00055,Drotrecogin alfa,BiotechDrug,Q9UNN8,Endothelial protein C receptor
-DB00056,Gemtuzumab ozogamicin,BiotechDrug,P20138,Myeloid cell surface antigen CD33
-DB00056,Gemtuzumab ozogamicin,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB00056,Gemtuzumab ozogamicin,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
-DB00056,Gemtuzumab ozogamicin,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB00058,Alpha-1-proteinase inhibitor,BiotechDrug,P08246,Neutrophil elastase
-DB00060,Interferon beta-1a,BiotechDrug,P17181,Interferon alpha/beta receptor 1
-DB00060,Interferon beta-1a,BiotechDrug,P48551,Interferon alpha/beta receptor 2
-DB00061,Pegademase,BiotechDrug,P62993,Growth factor receptor-bound protein 2
-DB00063,Eptifibatide,BiotechDrug,P05106,Integrin beta-3
-DB00063,Eptifibatide,BiotechDrug,P08514,Integrin alpha-IIb
-DB00063,Eptifibatide,BiotechDrug,A0A024R8I1,Voltage-dependent N-type calcium channel subunit alpha
-DB00063,Eptifibatide,BiotechDrug,Q00975,Voltage-dependent N-type calcium channel subunit alpha-1B
-DB00065,Infliximab,BiotechDrug,P01375,Tumor necrosis factor
-DB00066,Follitropin,BiotechDrug,P23945,Follicle-stimulating hormone receptor
-DB00067,Vasopressin,BiotechDrug,P30518,Vasopressin V2 receptor
-DB00067,Vasopressin,BiotechDrug,P37288,Vasopressin V1a receptor
-DB00067,Vasopressin,BiotechDrug,P47901,Vasopressin V1b receptor
-DB00067,Vasopressin,BiotechDrug,P30559,Oxytocin receptor
-DB00068,Interferon beta-1b,BiotechDrug,P17181,Interferon alpha/beta receptor 1
-DB00068,Interferon beta-1b,BiotechDrug,P48551,Interferon alpha/beta receptor 2
-DB00069,Interferon alfacon-1,BiotechDrug,P17181,Interferon alpha/beta receptor 1
-DB00069,Interferon alfacon-1,BiotechDrug,P48551,Interferon alpha/beta receptor 2
-DB00070,Hyaluronidase (ovine),BiotechDrug,P01137,Transforming growth factor beta-1 proprotein
-DB00071,Insulin pork,BiotechDrug,P06213,Insulin receptor
-DB00071,Insulin pork,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
-DB00072,Trastuzumab,BiotechDrug,P04626,Receptor tyrosine-protein kinase erbB-2
-DB00073,Rituximab,BiotechDrug,P11836,B-lymphocyte antigen CD20
-DB00074,Basiliximab,BiotechDrug,P01589,Interleukin-2 receptor subunit alpha
-DB00074,Basiliximab,BiotechDrug,P14784,Interleukin-2 receptor subunit beta
-DB00075,Muromonab,BiotechDrug,P04234,T-cell surface glycoprotein CD3 delta chain
-DB00075,Muromonab,BiotechDrug,P07766,T-cell surface glycoprotein CD3 epsilon chain
-DB00075,Muromonab,BiotechDrug,P09693,T-cell surface glycoprotein CD3 gamma chain
-DB00075,Muromonab,BiotechDrug,P20963,T-cell surface glycoprotein CD3 zeta chain
-DB00075,Muromonab,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB00078,Ibritumomab tiuxetan,BiotechDrug,P11836,B-lymphocyte antigen CD20
 DB00080,Daptomycin,SmallMoleculeDrug,P0AC13,Dihydropteroate synthase
-DB00081,Tositumomab,BiotechDrug,P11836,B-lymphocyte antigen CD20
-DB00081,Tositumomab,BiotechDrug,P31994,Low affinity immunoglobulin gamma Fc region receptor II-b
-DB00082,Pegvisomant,BiotechDrug,P10912,Growth hormone receptor
-DB00083,Botulinum toxin type A,BiotechDrug,P60880,Synaptosomal-associated protein 25
-DB00083,Botulinum toxin type A,BiotechDrug,P62745,Rho-related GTP-binding protein RhoB
-DB00086,Streptokinase,BiotechDrug,P00747,Plasminogen
-DB00086,Streptokinase,BiotechDrug,P25116,Proteinase-activated receptor 1
-DB00087,Alemtuzumab,BiotechDrug,P31358,CAMPATH-1 antigen
-DB00087,Alemtuzumab,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB00087,Alemtuzumab,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
-DB00087,Alemtuzumab,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB00087,Alemtuzumab,BiotechDrug,P12318,Low affinity immunoglobulin gamma Fc region receptor II-a
-DB00087,Alemtuzumab,BiotechDrug,P31994,Low affinity immunoglobulin gamma Fc region receptor II-b
-DB00087,Alemtuzumab,BiotechDrug,P31995,Low affinity immunoglobulin gamma Fc region receptor II-c
-DB00089,Capromab pendetide,BiotechDrug,Q04609,Glutamate carboxypeptidase 2
 DB00091,Cyclosporine,SmallMoleculeDrug,P49069,Guided entry of tail-anchored proteins factor CAMLG
 DB00091,Cyclosporine,SmallMoleculeDrug,Q08209,Protein phosphatase 3 catalytic subunit alpha
 DB00091,Cyclosporine,SmallMoleculeDrug,Q96LZ3,Calcineurin subunit B type 2
 DB00091,Cyclosporine,SmallMoleculeDrug,P62937,Peptidyl-prolyl cis-trans isomerase A
 DB00091,Cyclosporine,SmallMoleculeDrug,P30405,"Peptidyl-prolyl cis-trans isomerase F, mitochondrial"
-DB00092,Alefacept,BiotechDrug,P06729,T-cell surface antigen CD2
-DB00092,Alefacept,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
-DB00092,Alefacept,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB00094,Urofollitropin,BiotechDrug,P23945,Follicle-stimulating hormone receptor
-DB00095,Efalizumab,BiotechDrug,P20702,Integrin alpha-X
-DB00095,Efalizumab,BiotechDrug,P20701,Integrin alpha-L
-DB00097,Choriogonadotropin alfa,BiotechDrug,P23945,Follicle-stimulating hormone receptor
-DB00097,Choriogonadotropin alfa,BiotechDrug,P22888,Lutropin-choriogonadotropic hormone receptor
-DB00098,Antithymocyte immunoglobulin (rabbit),BiotechDrug,Q95460,Major histocompatibility complex class I-related gene protein
-DB00098,Antithymocyte immunoglobulin (rabbit),BiotechDrug,P20701,Integrin alpha-L
-DB00098,Antithymocyte immunoglobulin (rabbit),BiotechDrug,P42081,T-lymphocyte activation antigen CD86
-DB00098,Antithymocyte immunoglobulin (rabbit),BiotechDrug,P31994,Low affinity immunoglobulin gamma Fc region receptor II-b
-DB00098,Antithymocyte immunoglobulin (rabbit),BiotechDrug,P01730,T-cell surface glycoprotein CD4
-DB00098,Antithymocyte immunoglobulin (rabbit),BiotechDrug,P05556,Integrin beta-1
-DB00098,Antithymocyte immunoglobulin (rabbit),BiotechDrug,P06756,Integrin alpha-V
-DB00098,Antithymocyte immunoglobulin (rabbit),BiotechDrug,P05106,Integrin beta-3
-DB00098,Antithymocyte immunoglobulin (rabbit),BiotechDrug,P06126,T-cell surface glycoprotein CD1a
-DB00099,Filgrastim,BiotechDrug,Q99062,Granulocyte colony-stimulating factor receptor
-DB00100,Coagulation Factor IX (Recombinant),BiotechDrug,P00742,Coagulation factor X
-DB00100,Coagulation Factor IX (Recombinant),BiotechDrug,P03951,Coagulation factor XI
-DB00100,Coagulation Factor IX (Recombinant),BiotechDrug,P08709,Coagulation factor VII
-DB00100,Coagulation Factor IX (Recombinant),BiotechDrug,P00451,Coagulation factor VIII
-DB00100,Coagulation Factor IX (Recombinant),BiotechDrug,P00734,Prothrombin
-DB00100,Coagulation Factor IX (Recombinant),BiotechDrug,Q07954,Prolow-density lipoprotein receptor-related protein 1
-DB00100,Coagulation Factor IX (Recombinant),BiotechDrug,P38435,Vitamin K-dependent gamma-carboxylase
-DB00102,Becaplermin,BiotechDrug,P09619,Platelet-derived growth factor receptor beta
-DB00102,Becaplermin,BiotechDrug,P16234,Platelet-derived growth factor receptor alpha
-DB00102,Becaplermin,BiotechDrug,P01023,Alpha-2-macroglobulin
-DB00104,Octreotide,BiotechDrug,P30874,Somatostatin receptor type 2
-DB00105,Interferon alfa-2b,BiotechDrug,P48551,Interferon alpha/beta receptor 2
-DB00105,Interferon alfa-2b,BiotechDrug,P01563,Interferon alpha-2
-DB00105,Interferon alfa-2b,BiotechDrug,P17181,Interferon alpha/beta receptor 1
 DB00106,Abarelix,SmallMoleculeDrug,P30968,Gonadotropin-releasing hormone receptor
-DB00107,Oxytocin,BiotechDrug,P30559,Oxytocin receptor
-DB00107,Oxytocin,BiotechDrug,P47901,Vasopressin V1b receptor
-DB00107,Oxytocin,BiotechDrug,P30518,Vasopressin V2 receptor
-DB00107,Oxytocin,BiotechDrug,P37288,Vasopressin V1a receptor
-DB00108,Natalizumab,BiotechDrug,P13612,Integrin alpha-4
-DB00108,Natalizumab,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB00108,Natalizumab,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB00108,Natalizumab,BiotechDrug,P05362,Intercellular adhesion molecule 1
-DB00109,Enfuvirtide,BiotechDrug,Q53I07,Envelope glycoprotein
-DB00110,Palivizumab,BiotechDrug,P13843,Fusion glycoprotein F0
-DB00110,Palivizumab,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB00110,Palivizumab,BiotechDrug,P00736,Complement C1r subcomponent
-DB00110,Palivizumab,BiotechDrug,P02745,Complement C1q subcomponent subunit A
-DB00110,Palivizumab,BiotechDrug,P02746,Complement C1q subcomponent subunit B
-DB00110,Palivizumab,BiotechDrug,P02747,Complement C1q subcomponent subunit C
-DB00110,Palivizumab,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
-DB00110,Palivizumab,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB00110,Palivizumab,BiotechDrug,P31994,Low affinity immunoglobulin gamma Fc region receptor II-b
-DB00112,Bevacizumab,BiotechDrug,P15692,"Vascular endothelial growth factor A, long form"
-DB00112,Bevacizumab,BiotechDrug,P02745,Complement C1q subcomponent subunit A
-DB00112,Bevacizumab,BiotechDrug,P02746,Complement C1q subcomponent subunit B
-DB00112,Bevacizumab,BiotechDrug,P02747,Complement C1q subcomponent subunit C
-DB00112,Bevacizumab,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
-DB00112,Bevacizumab,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB00112,Bevacizumab,BiotechDrug,P12318,Low affinity immunoglobulin gamma Fc region receptor II-a
-DB00112,Bevacizumab,BiotechDrug,P31994,Low affinity immunoglobulin gamma Fc region receptor II-b
-DB00112,Bevacizumab,BiotechDrug,P31995,Low affinity immunoglobulin gamma Fc region receptor II-c
 DB00114,Pyridoxal phosphate,SmallMoleculeDrug,P80404,"4-aminobutyrate aminotransferase, mitochondrial"
 DB00114,Pyridoxal phosphate,SmallMoleculeDrug,P00734,Prothrombin
 DB00114,Pyridoxal phosphate,SmallMoleculeDrug,Q9BYV1,"Alanine--glyoxylate aminotransferase 2, mitochondrial"
@@ -1696,8 +1446,6 @@ DB00284,Acarbose,SmallMoleculeDrug,P10253,Lysosomal alpha-glucosidase
 DB00285,Venlafaxine,SmallMoleculeDrug,P31645,Sodium-dependent serotonin transporter
 DB00285,Venlafaxine,SmallMoleculeDrug,P23975,Sodium-dependent noradrenaline transporter
 DB00285,Venlafaxine,SmallMoleculeDrug,Q01959,Sodium-dependent dopamine transporter
-DB00286,Conjugated estrogens,SmallMoleculeDrug,Q92731,Estrogen receptor beta
-DB00286,Conjugated estrogens,SmallMoleculeDrug,P03372,Estrogen receptor
 DB00287,Travoprost,SmallMoleculeDrug,P43088,Prostaglandin F2-alpha receptor
 DB00288,Amcinonide,SmallMoleculeDrug,P11474,Steroid hormone receptor ERR1
 DB00288,Amcinonide,SmallMoleculeDrug,O95718,Steroid hormone receptor ERR2
@@ -2130,8 +1878,6 @@ DB00360,Sapropterin,SmallMoleculeDrug,P29474,Nitric oxide synthase 3
 DB00360,Sapropterin,SmallMoleculeDrug,P07101,Tyrosine 3-monooxygenase
 DB00360,Sapropterin,SmallMoleculeDrug,P17752,Tryptophan 5-hydroxylase 1
 DB00361,Vinorelbine,SmallMoleculeDrug,P07437,Tubulin beta chain
-DB00362,Anidulafungin,BiotechDrug,A2QLK4,"1,3-beta-glucan synthase component FKS1"
-DB00362,Anidulafungin,BiotechDrug,P40989,"1,3-beta-glucan synthase component GSC2"
 DB00363,Clozapine,SmallMoleculeDrug,P14416,D(2) dopamine receptor
 DB00363,Clozapine,SmallMoleculeDrug,P28223,5-hydroxytryptamine receptor 2A
 DB00363,Clozapine,SmallMoleculeDrug,P21728,D(1A) dopamine receptor
@@ -3592,8 +3338,6 @@ DB00637,Astemizole,SmallMoleculeDrug,P35367,Histamine H1 receptor
 DB00637,Astemizole,SmallMoleculeDrug,Q12809,Voltage-gated inwardly rectifying potassium channel KCNH2
 DB00637,Astemizole,SmallMoleculeDrug,O95259,Voltage-gated delayed rectifier potassium channel KCNH1
 DB00637,Astemizole,SmallMoleculeDrug,P10636,Microtubule-associated protein tau
-DB00638,Inulin,BiotechDrug,P01308,Insulin
-DB00638,Inulin,BiotechDrug,Q9F0I5,Cycloinulo-oligosaccharide fructanotransferase
 DB00639,Butoconazole,SmallMoleculeDrug,P10613,Lanosterol 14-alpha demethylase
 DB00640,Adenosine,SmallMoleculeDrug,P30542,Adenosine receptor A1
 DB00640,Adenosine,SmallMoleculeDrug,P29274,Adenosine receptor A2a
@@ -3609,8 +3353,6 @@ DB00642,Pemetrexed,SmallMoleculeDrug,P00374,Dihydrofolate reductase
 DB00642,Pemetrexed,SmallMoleculeDrug,P22102,Trifunctional purine biosynthetic protein adenosine-3
 DB00643,Mebendazole,SmallMoleculeDrug,Q71U36,Tubulin alpha-1A chain
 DB00643,Mebendazole,SmallMoleculeDrug,P68371,Tubulin beta-4B chain
-DB00644,Gonadorelin,BiotechDrug,P30968,Gonadotropin-releasing hormone receptor
-DB00644,Gonadorelin,BiotechDrug,Q96P88,Putative gonadotropin-releasing hormone II receptor
 DB00645,Dyclonine,SmallMoleculeDrug,Q9Y5Y9,Sodium channel protein type 10 subunit alpha
 DB00645,Dyclonine,SmallMoleculeDrug,Q14524,Sodium channel protein type 5 subunit alpha
 DB00647,Dextropropoxyphene,SmallMoleculeDrug,P35372,Mu-type opioid receptor
@@ -4377,7 +4119,6 @@ DB00801,Halazepam,SmallMoleculeDrug,Q8N1C3,Gamma-aminobutyric acid receptor subu
 DB00801,Halazepam,SmallMoleculeDrug,P18507,Gamma-aminobutyric acid receptor subunit gamma-2
 DB00801,Halazepam,SmallMoleculeDrug,Q99928,Gamma-aminobutyric acid receptor subunit gamma-3
 DB00802,Alfentanil,SmallMoleculeDrug,P35372,Mu-type opioid receptor
-DB00803,Colistin,BiotechDrug,P0AC13,Dihydropteroate synthase
 DB00804,Dicyclomine,SmallMoleculeDrug,P11229,Muscarinic acetylcholine receptor M1
 DB00804,Dicyclomine,SmallMoleculeDrug,P20309,Muscarinic acetylcholine receptor M3
 DB00804,Dicyclomine,SmallMoleculeDrug,P08172,Muscarinic acetylcholine receptor M2
@@ -6728,7 +6469,6 @@ DB01254,Dasatinib,SmallMoleculeDrug,Q16539,Mitogen-activated protein kinase 14
 DB01254,Dasatinib,SmallMoleculeDrug,Q06203,Amidophosphoribosyltransferase
 DB01255,Lisdexamfetamine,SmallMoleculeDrug,Q96RJ0,Trace amine-associated receptor 1
 DB01256,Retapamulin,SmallMoleculeDrug,Q9A1X4,50S ribosomal protein L3
-DB01257,Eculizumab,BiotechDrug,P01031,Complement C5
 DB01259,Lapatinib,SmallMoleculeDrug,P00533,Epidermal growth factor receptor
 DB01259,Lapatinib,SmallMoleculeDrug,O00418,Eukaryotic elongation factor 2 kinase
 DB01259,Lapatinib,SmallMoleculeDrug,P04626,Receptor tyrosine-protein kinase erbB-2
@@ -6779,10 +6519,6 @@ DB01268,Sunitinib,SmallMoleculeDrug,P36888,Receptor-type tyrosine-protein kinase
 DB01268,Sunitinib,SmallMoleculeDrug,P07333,Macrophage colony-stimulating factor 1 receptor
 DB01268,Sunitinib,SmallMoleculeDrug,P16234,Platelet-derived growth factor receptor alpha
 DB01268,Sunitinib,SmallMoleculeDrug,P08581,Hepatocyte growth factor receptor
-DB01269,Panitumumab,BiotechDrug,P00533,Epidermal growth factor receptor
-DB01270,Ranibizumab,BiotechDrug,P15692,"Vascular endothelial growth factor A, long form"
-DB01271,Idursulfase,BiotechDrug,O60664,Perilipin-3
-DB01272,Alglucosidase alfa,BiotechDrug,P20645,Cation-dependent mannose-6-phosphate receptor
 DB01273,Varenicline,SmallMoleculeDrug,P43681,Neuronal acetylcholine receptor subunit alpha-4
 DB01273,Varenicline,SmallMoleculeDrug,P36544,Neuronal acetylcholine receptor subunit alpha-7
 DB01273,Varenicline,SmallMoleculeDrug,P32297,Neuronal acetylcholine receptor subunit alpha-3
@@ -6792,11 +6528,6 @@ DB01274,Arformoterol,SmallMoleculeDrug,P07550,Beta-2 adrenergic receptor
 DB01275,Hydralazine,SmallMoleculeDrug,Q16853,Amine oxidase [copper-containing] 3
 DB01275,Hydralazine,SmallMoleculeDrug,Q16665,Hypoxia-inducible factor 1-alpha
 DB01275,Hydralazine,SmallMoleculeDrug,P13674,Prolyl 4-hydroxylase subunit alpha-1
-DB01276,Exenatide,BiotechDrug,P43220,Glucagon-like peptide 1 receptor
-DB01277,Mecasermin,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
-DB01277,Mecasermin,BiotechDrug,P17936,Insulin-like growth factor-binding protein 3
-DB01277,Mecasermin,BiotechDrug,P06213,Insulin receptor
-DB01277,Mecasermin,BiotechDrug,P11717,Cation-independent mannose-6-phosphate receptor
 DB01278,Pramlintide,SmallMoleculeDrug,P43220,Glucagon-like peptide 1 receptor
 DB01278,Pramlintide,SmallMoleculeDrug,P30988,Calcitonin receptor
 DB01278,Pramlintide,SmallMoleculeDrug,O60894,Receptor activity-modifying protein 1
@@ -6806,15 +6537,10 @@ DB01280,Nelarabine,SmallMoleculeDrug,P09884,DNA polymerase alpha catalytic subun
 DB01280,Nelarabine,SmallMoleculeDrug,P18858,DNA ligase 1
 DB01280,Nelarabine,SmallMoleculeDrug,P49642,DNA primase small subunit
 DB01280,Nelarabine,SmallMoleculeDrug,P23921,Ribonucleoside-diphosphate reductase large subunit
-DB01281,Abatacept,BiotechDrug,P33681,T-lymphocyte activation antigen CD80
-DB01281,Abatacept,BiotechDrug,P42081,T-lymphocyte activation antigen CD86
-DB01281,Abatacept,BiotechDrug,P16410,Cytotoxic T-lymphocyte protein 4
 DB01282,Carbetocin,SmallMoleculeDrug,P30559,Oxytocin receptor
 DB01283,Lumiracoxib,SmallMoleculeDrug,P35354,Prostaglandin G/H synthase 2
 DB01283,Lumiracoxib,SmallMoleculeDrug,P23219,Prostaglandin G/H synthase 1
 DB01284,Tetracosactide,SmallMoleculeDrug,Q01718,Adrenocorticotropic hormone receptor
-DB01285,Corticotropin,BiotechDrug,Q01718,Adrenocorticotropic hormone receptor
-DB01285,Corticotropin,BiotechDrug,P06850,Corticoliberin
 DB01288,Fenoterol,SmallMoleculeDrug,P07550,Beta-2 adrenergic receptor
 DB01288,Fenoterol,SmallMoleculeDrug,P08588,Beta-1 adrenergic receptor
 DB01288,Fenoterol,SmallMoleculeDrug,P13945,Beta-3 adrenergic receptor
@@ -6835,12 +6561,6 @@ DB01303,Oxtriphylline,SmallMoleculeDrug,P27815,"3',5'-cyclic-AMP phosphodiestera
 DB01303,Oxtriphylline,SmallMoleculeDrug,P29274,Adenosine receptor A2a
 DB01303,Oxtriphylline,SmallMoleculeDrug,P30542,Adenosine receptor A1
 DB01303,Oxtriphylline,SmallMoleculeDrug,Q92769,Histone deacetylase 2
-DB01306,Insulin aspart,BiotechDrug,P06213,Insulin receptor
-DB01306,Insulin aspart,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
-DB01307,Insulin detemir,BiotechDrug,P06213,Insulin receptor
-DB01307,Insulin detemir,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
-DB01309,Insulin glulisine,BiotechDrug,P06213,Insulin receptor
-DB01309,Insulin glulisine,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
 DB01319,Fosamprenavir,SmallMoleculeDrug,Q72874,Pol polyprotein
 DB01319,Fosamprenavir,SmallMoleculeDrug,P03366,Gag-Pol polyprotein
 DB01320,Fosphenytoin,SmallMoleculeDrug,Q14524,Sodium channel protein type 5 subunit alpha
@@ -6962,14 +6682,6 @@ DB01380,Cortisone acetate,SmallMoleculeDrug,P62508,Estrogen-related receptor gam
 DB01380,Cortisone acetate,SmallMoleculeDrug,P04150,Glucocorticoid receptor
 DB01380,Cortisone acetate,SmallMoleculeDrug,P11474,Steroid hormone receptor ERR1
 DB01380,Cortisone acetate,SmallMoleculeDrug,P04083,Annexin A1
-DB01381,Ginkgo biloba,BiotechDrug,P23975,Sodium-dependent noradrenaline transporter
-DB01381,Ginkgo biloba,BiotechDrug,P14555,"Phospholipase A2, membrane associated"
-DB01381,Ginkgo biloba,BiotechDrug,P23415,Glycine receptor subunit alpha-1
-DB01381,Ginkgo biloba,BiotechDrug,P14867,Gamma-aminobutyric acid receptor subunit alpha-1
-DB01381,Ginkgo biloba,BiotechDrug,P47870,Gamma-aminobutyric acid receptor subunit beta-2
-DB01381,Ginkgo biloba,BiotechDrug,P18507,Gamma-aminobutyric acid receptor subunit gamma-2
-DB01381,Ginkgo biloba,BiotechDrug,P21397,Amine oxidase [flavin-containing] A
-DB01381,Ginkgo biloba,BiotechDrug,P35228,"Nitric oxide synthase, inducible"
 DB01382,Glymidine,SmallMoleculeDrug,P48048,ATP-sensitive inward rectifier potassium channel 1
 DB01382,Glymidine,SmallMoleculeDrug,P78508,ATP-sensitive inward rectifier potassium channel 10
 DB01382,Glymidine,SmallMoleculeDrug,Q09428,ATP-binding cassette sub-family C member 8
@@ -7668,9 +7380,6 @@ DB02546,Vorinostat,SmallMoleculeDrug,Q8WUI4,Histone deacetylase 7
 DB02546,Vorinostat,SmallMoleculeDrug,Q9BY41,Histone deacetylase 8
 DB02546,Vorinostat,SmallMoleculeDrug,Q9UKV0,Histone deacetylase 9
 DB02546,Vorinostat,SmallMoleculeDrug,Q969S8,Polyamine deacetylase HDAC10
-DB02638,Terlipressin,BiotechDrug,P37288,Vasopressin V1a receptor
-DB02638,Terlipressin,BiotechDrug,P47901,Vasopressin V1b receptor
-DB02638,Terlipressin,BiotechDrug,P30518,Vasopressin V2 receptor
 DB02659,Cholic Acid,SmallMoleculeDrug,P04054,Phospholipase A2
 DB02659,Cholic Acid,SmallMoleculeDrug,P22830,"Ferrochelatase, mitochondrial"
 DB02659,Cholic Acid,SmallMoleculeDrug,P23141,Liver carboxylesterase 1
@@ -7944,7 +7653,6 @@ DB03312,Brivudine,SmallMoleculeDrug,O00142,"Thymidine kinase 2, mitochondrial"
 DB03312,Brivudine,SmallMoleculeDrug,P04183,"Thymidine kinase, cytosolic"
 DB03312,Brivudine,SmallMoleculeDrug,Q91CQ6,DNA polymerase
 DB03312,Brivudine,SmallMoleculeDrug,P13159,Thymidine kinase
-DB03404,Hemin,BiotechDrug,P13196,"5-aminolevulinate synthase, non-specific, mitochondrial"
 DB03585,Oxyphenbutazone,SmallMoleculeDrug,P02768,Albumin
 DB03585,Oxyphenbutazone,SmallMoleculeDrug,Q9NZK7,Group IIE secretory phospholipase A2
 DB03614,Mecobalamin,SmallMoleculeDrug,Q99707,Methionine synthase
@@ -8266,7 +7974,6 @@ DB04871,Lorcaserin,SmallMoleculeDrug,P28335,5-hydroxytryptamine receptor 2C
 DB04876,Vildagliptin,SmallMoleculeDrug,P27487,Dipeptidyl peptidase 4
 DB04880,Enoximone,SmallMoleculeDrug,Q14432,"cGMP-inhibited 3',5'-cyclic phosphodiesterase 3A"
 DB04890,Bepotastine,SmallMoleculeDrug,P35367,Histamine H1 receptor
-DB04895,Pegaptanib,BiotechDrug,P15692,"Vascular endothelial growth factor A, long form"
 DB04896,Milnacipran,SmallMoleculeDrug,P31645,Sodium-dependent serotonin transporter
 DB04896,Milnacipran,SmallMoleculeDrug,P23975,Sodium-dependent noradrenaline transporter
 DB04896,Milnacipran,SmallMoleculeDrug,Q05586,"Glutamate receptor ionotropic, NMDA 1"
@@ -8277,9 +7984,6 @@ DB04896,Milnacipran,SmallMoleculeDrug,O15399,"Glutamate receptor ionotropic, NMD
 DB04896,Milnacipran,SmallMoleculeDrug,Q8TCU5,"Glutamate receptor ionotropic, NMDA 3A"
 DB04896,Milnacipran,SmallMoleculeDrug,O60391,"Glutamate receptor ionotropic, NMDA 3B"
 DB04898,Ximelagatran,SmallMoleculeDrug,P00734,Prothrombin
-DB04899,Nesiritide,BiotechDrug,P16066,Atrial natriuretic peptide receptor 1
-DB04899,Nesiritide,BiotechDrug,P20594,Atrial natriuretic peptide receptor 2
-DB04899,Nesiritide,BiotechDrug,P17342,Atrial natriuretic peptide receptor 3
 DB04908,Flibanserin,SmallMoleculeDrug,P08908,5-hydroxytryptamine receptor 1A
 DB04908,Flibanserin,SmallMoleculeDrug,P28223,5-hydroxytryptamine receptor 2A
 DB04908,Flibanserin,SmallMoleculeDrug,P21917,D(4) dopamine receptor
@@ -8298,9 +8002,6 @@ DB04930,Permethrin,SmallMoleculeDrug,P03372,Estrogen receptor
 DB04930,Permethrin,SmallMoleculeDrug,O75469,Nuclear receptor subfamily 1 group I member 2
 DB04931,Afamelanotide,SmallMoleculeDrug,P32245,Melanocortin receptor 4
 DB04931,Afamelanotide,SmallMoleculeDrug,Q01726,Melanocyte-stimulating hormone receptor
-DB04932,Defibrotide,BiotechDrug,P30542,Adenosine receptor A1
-DB04932,Defibrotide,BiotechDrug,P29274,Adenosine receptor A2a
-DB04932,Defibrotide,BiotechDrug,P29275,Adenosine receptor A2b
 DB04938,Ospemifene,SmallMoleculeDrug,P03372,Estrogen receptor
 DB04941,Crofelemer,SmallMoleculeDrug,Q5XXA6,Anoctamin-1
 DB04941,Crofelemer,SmallMoleculeDrug,P13569,Cystic fibrosis transmembrane conductance regulator
@@ -8349,7 +8050,6 @@ DB05016,Ataluren,SmallMoleculeDrug,P11532,Dystrophin
 DB05018,Migalastat,SmallMoleculeDrug,P06280,Alpha-galactosidase A
 DB05039,Indacaterol,SmallMoleculeDrug,P07550,Beta-2 adrenergic receptor
 DB05057,Erdosteine,SmallMoleculeDrug,Q9UNI1,Chymotrypsin-like elastase family member 1
-DB05084,Abaloparatide,BiotechDrug,Q03431,Parathyroid hormone/parathyroid hormone-related peptide receptor
 DB05087,Ganaxolone,SmallMoleculeDrug,P14867,Gamma-aminobutyric acid receptor subunit alpha-1
 DB05087,Ganaxolone,SmallMoleculeDrug,P47869,Gamma-aminobutyric acid receptor subunit alpha-2
 DB05087,Ganaxolone,SmallMoleculeDrug,P34903,Gamma-aminobutyric acid receptor subunit alpha-3
@@ -8366,7 +8066,6 @@ DB05087,Ganaxolone,SmallMoleculeDrug,P18507,Gamma-aminobutyric acid receptor sub
 DB05087,Ganaxolone,SmallMoleculeDrug,Q99928,Gamma-aminobutyric acid receptor subunit gamma-3
 DB05087,Ganaxolone,SmallMoleculeDrug,O00591,Gamma-aminobutyric acid receptor subunit pi
 DB05087,Ganaxolone,SmallMoleculeDrug,Q9UN88,Gamma-aminobutyric acid receptor subunit theta
-DB05099,Ancrod,BiotechDrug,P02671,Fibrinogen alpha chain
 DB05154,Pretomanid,SmallMoleculeDrug,P9WPB7,Cyclopropane mycolic acid synthase 1
 DB05154,Pretomanid,SmallMoleculeDrug,P9WPB5,Cyclopropane mycolic acid synthase 2
 DB05154,Pretomanid,SmallMoleculeDrug,P9WPB3,Cyclopropane mycolic acid synthase 3
@@ -8398,20 +8097,15 @@ DB05271,Rotigotine,SmallMoleculeDrug,P21918,D(1B) dopamine receptor
 DB05271,Rotigotine,SmallMoleculeDrug,P21728,D(1A) dopamine receptor
 DB05271,Rotigotine,SmallMoleculeDrug,P08908,5-hydroxytryptamine receptor 1A
 DB05271,Rotigotine,SmallMoleculeDrug,P18089,Alpha-2B adrenergic receptor
-DB05276,Hepatitis B immune globulin,BiotechDrug,Q69600,HBsAg
 DB05294,Vandetanib,SmallMoleculeDrug,P35968,Vascular endothelial growth factor receptor 2
 DB05294,Vandetanib,SmallMoleculeDrug,P07949,Proto-oncogene tyrosine-protein kinase receptor Ret
 DB05294,Vandetanib,SmallMoleculeDrug,P00533,Epidermal growth factor receptor
 DB05294,Vandetanib,SmallMoleculeDrug,P15692,"Vascular endothelial growth factor A, long form"
 DB05294,Vandetanib,SmallMoleculeDrug,Q13882,Protein-tyrosine kinase 6
 DB05294,Vandetanib,SmallMoleculeDrug,Q02763,Angiopoietin-1 receptor
-DB05299,Keyhole limpet hemocyanin,BiotechDrug,P60568,Interleukin-2
-DB05311,Ecallantide,BiotechDrug,P03952,Plasma kallikrein
 DB05316,Pimavanserin,SmallMoleculeDrug,P28223,5-hydroxytryptamine receptor 2A
 DB05316,Pimavanserin,SmallMoleculeDrug,P28335,5-hydroxytryptamine receptor 2C
 DB05316,Pimavanserin,SmallMoleculeDrug,Q99720,Sigma non-opioid intracellular receptor 1
-DB05332,Romiplostim,BiotechDrug,P40238,Thrombopoietin receptor
-DB05336,Obiltoxaximab,BiotechDrug,P13423,Protective antigen
 DB05351,Dexlansoprazole,SmallMoleculeDrug,P20648,Potassium-transporting ATPase alpha chain 1
 DB05351,Dexlansoprazole,SmallMoleculeDrug,P51164,Potassium-transporting ATPase subunit beta
 DB05351,Dexlansoprazole,SmallMoleculeDrug,O94760,"N(G),N(G)-dimethylarginine dimethylaminohydrolase 1"
@@ -8429,7 +8123,6 @@ DB05521,Telaprevir,SmallMoleculeDrug,P26664,Genome polyprotein
 DB05521,Telaprevir,SmallMoleculeDrug,B0B3C9,Genome polyprotein
 DB05521,Telaprevir,SmallMoleculeDrug,Q9Y6L6,Solute carrier organic anion transporter family member 1B1
 DB05521,Telaprevir,SmallMoleculeDrug,O94956,Solute carrier organic anion transporter family member 2B1
-DB05528,Mipomersen,BiotechDrug,P04114,Apolipoprotein B-100
 DB05541,Brivaracetam,SmallMoleculeDrug,Q7L0J3,Synaptic vesicle glycoprotein 2A
 DB05541,Brivaracetam,SmallMoleculeDrug,P35498,Sodium channel protein type 1 subunit alpha
 DB05541,Brivaracetam,SmallMoleculeDrug,Q9Y5Y9,Sodium channel protein type 10 subunit alpha
@@ -8445,7 +8138,6 @@ DB05541,Brivaracetam,SmallMoleculeDrug,Q07699,Sodium channel regulatory subunit 
 DB05541,Brivaracetam,SmallMoleculeDrug,O60939,Sodium channel regulatory subunit beta-2
 DB05541,Brivaracetam,SmallMoleculeDrug,Q9NY72,Sodium channel regulatory subunit beta-3
 DB05541,Brivaracetam,SmallMoleculeDrug,Q8IWT1,Sodium channel regulatory subunit beta-4
-DB05578,Ramucirumab,BiotechDrug,P35968,Vascular endothelial growth factor receptor 2
 DB05630,Sodium stibogluconate,SmallMoleculeDrug,P11387,DNA topoisomerase 1
 DB05667,Levoketoconazole,SmallMoleculeDrug,P05093,"Steroid 17-alpha-hydroxylase/17,20 lyase"
 DB05667,Levoketoconazole,SmallMoleculeDrug,P15538,"Cytochrome P450 11B1, mitochondrial"
@@ -8455,16 +8147,7 @@ DB05667,Levoketoconazole,SmallMoleculeDrug,Q16850,Lanosterol 14-alpha demethylas
 DB05676,Apremilast,SmallMoleculeDrug,Q86V67,Phosphodiesterase isozyme 4
 DB05676,Apremilast,SmallMoleculeDrug,P11802,Cyclin-dependent kinase 4
 DB05676,Apremilast,SmallMoleculeDrug,Q00534,Cyclin-dependent kinase 6
-DB05679,Ustekinumab,BiotechDrug,P29460,Interleukin-12 subunit beta
-DB05679,Ustekinumab,BiotechDrug,Q9NPF7,Interleukin-23 subunit alpha
-DB05679,Ustekinumab,BiotechDrug,P29460,Interleukin-12 subunit beta
-DB05773,Trastuzumab emtansine,BiotechDrug,P04626,Receptor tyrosine-protein kinase erbB-2
-DB05777,Thrombomodulin Alfa,BiotechDrug,P00734,Prothrombin
-DB05777,Thrombomodulin Alfa,BiotechDrug,P12259,Coagulation factor V
 DB05812,Abiraterone,SmallMoleculeDrug,P05093,"Steroid 17-alpha-hydroxylase/17,20 lyase"
-DB05829,Parathyroid hormone,BiotechDrug,P49190,Parathyroid hormone 2 receptor
-DB05829,Parathyroid hormone,BiotechDrug,Q03431,Parathyroid hormone/parathyroid hormone-related peptide receptor
-DB05889,Inotuzumab ozogamicin,BiotechDrug,P20273,B-cell receptor CD22
 DB05990,Obeticholic acid,SmallMoleculeDrug,Q96RI1,Bile acid receptor
 DB06016,Cariprazine,SmallMoleculeDrug,P35462,D(3) dopamine receptor
 DB06016,Cariprazine,SmallMoleculeDrug,P14416,D(2) dopamine receptor
@@ -8474,12 +8157,10 @@ DB06016,Cariprazine,SmallMoleculeDrug,P28223,5-hydroxytryptamine receptor 2A
 DB06016,Cariprazine,SmallMoleculeDrug,P35367,Histamine H1 receptor
 DB06016,Cariprazine,SmallMoleculeDrug,P28335,5-hydroxytryptamine receptor 2C
 DB06016,Cariprazine,SmallMoleculeDrug,P35348,Alpha-1A adrenergic receptor
-DB06043,Olaratumab,BiotechDrug,P16234,Platelet-derived growth factor receptor alpha
 DB06077,Lumateperone,SmallMoleculeDrug,P31645,Sodium-dependent serotonin transporter
 DB06077,Lumateperone,SmallMoleculeDrug,P28223,5-hydroxytryptamine receptor 2A
 DB06077,Lumateperone,SmallMoleculeDrug,P14416,D(2) dopamine receptor
 DB06077,Lumateperone,SmallMoleculeDrug,P21728,D(1A) dopamine receptor
-DB06081,Caplacizumab,BiotechDrug,P04275,von Willebrand factor
 DB06083,Tapinarof,SmallMoleculeDrug,P35869,Aryl hydrocarbon receptor
 DB06119,Cenobamate,SmallMoleculeDrug,P35498,Sodium channel protein type 1 subunit alpha
 DB06119,Cenobamate,SmallMoleculeDrug,Q9Y5Y9,Sodium channel protein type 10 subunit alpha
@@ -8558,7 +8239,6 @@ DB06154,Pentaerythritol tetranitrate,SmallMoleculeDrug,P69905,Hemoglobin subunit
 DB06154,Pentaerythritol tetranitrate,SmallMoleculeDrug,P68871,Hemoglobin subunit beta
 DB06155,Rimonabant,SmallMoleculeDrug,P21554,Cannabinoid receptor 1
 DB06155,Rimonabant,SmallMoleculeDrug,Q9Y2T6,G-protein coupled receptor 55
-DB06168,Canakinumab,BiotechDrug,P01584,Interleukin-1 beta
 DB06174,Noscapine,SmallMoleculeDrug,Q99720,Sigma non-opioid intracellular receptor 1
 DB06176,Romidepsin,SmallMoleculeDrug,Q13547,Histone deacetylase 1
 DB06176,Romidepsin,SmallMoleculeDrug,Q92769,Histone deacetylase 2
@@ -8576,11 +8256,8 @@ DB06176,Romidepsin,SmallMoleculeDrug,Q8WUI4,Histone deacetylase 7
 DB06176,Romidepsin,SmallMoleculeDrug,Q9BY41,Histone deacetylase 8
 DB06176,Romidepsin,SmallMoleculeDrug,Q9UKV0,Histone deacetylase 9
 DB06176,Romidepsin,SmallMoleculeDrug,Q969S8,Polyamine deacetylase HDAC10
-DB06186,Ipilimumab,BiotechDrug,P16410,Cytotoxic T-lymphocyte protein 4
 DB06193,Pixantrone,SmallMoleculeDrug,P11388,DNA topoisomerase 2-alpha
 DB06193,Pixantrone,SmallMoleculeDrug,Q02880,DNA topoisomerase 2-beta
-DB06196,Icatibant,BiotechDrug,P30411,B2 bradykinin receptor
-DB06196,Icatibant,BiotechDrug,P15144,Aminopeptidase N
 DB06201,Rufinamide,SmallMoleculeDrug,Q15858,Sodium channel protein type 9 subunit alpha
 DB06201,Rufinamide,SmallMoleculeDrug,P41594,Metabotropic glutamate receptor 5
 DB06202,Lasofoxifene,SmallMoleculeDrug,P03420,Fusion glycoprotein F0
@@ -8593,7 +8270,6 @@ DB06204,Tapentadol,SmallMoleculeDrug,P23975,Sodium-dependent noradrenaline trans
 DB06204,Tapentadol,SmallMoleculeDrug,P41145,Kappa-type opioid receptor
 DB06204,Tapentadol,SmallMoleculeDrug,P41143,Delta-type opioid receptor
 DB06204,Tapentadol,SmallMoleculeDrug,P31645,Sodium-dependent serotonin transporter
-DB06205,Hyaluronidase (human recombinant),BiotechDrug,P01137,Transforming growth factor beta-1 proprotein
 DB06207,Silodosin,SmallMoleculeDrug,P35348,Alpha-1A adrenergic receptor
 DB06207,Silodosin,SmallMoleculeDrug,P25100,Alpha-1D adrenergic receptor
 DB06207,Silodosin,SmallMoleculeDrug,P35368,Alpha-1B adrenergic receptor
@@ -8663,17 +8339,10 @@ DB06262,Droxidopa,SmallMoleculeDrug,P00439,Phenylalanine-4-hydroxylase
 DB06267,Udenafil,SmallMoleculeDrug,O76074,"cGMP-specific 3',5'-cyclic phosphodiesterase"
 DB06268,Sitaxentan,SmallMoleculeDrug,P25101,Endothelin-1 receptor
 DB06268,Sitaxentan,SmallMoleculeDrug,P24530,Endothelin receptor type B
-DB06271,Sulodexide,BiotechDrug,P05546,Heparin cofactor 2
-DB06271,Sulodexide,BiotechDrug,P01008,Antithrombin-III
-DB06273,Tocilizumab,BiotechDrug,P08887,Interleukin-6 receptor subunit alpha
 DB06274,Alvimopan,SmallMoleculeDrug,P35372,Mu-type opioid receptor
 DB06274,Alvimopan,SmallMoleculeDrug,P41145,Kappa-type opioid receptor
 DB06274,Alvimopan,SmallMoleculeDrug,P41143,Delta-type opioid receptor
 DB06282,Levocetirizine,SmallMoleculeDrug,P35367,Histamine H1 receptor
-DB06283,Ziconotide,BiotechDrug,Q00975,Voltage-dependent N-type calcium channel subunit alpha-1B
-DB06283,Ziconotide,BiotechDrug,O00555,Voltage-dependent P/Q-type calcium channel subunit alpha-1A
-DB06285,Teriparatide,BiotechDrug,P01270,Parathyroid hormone
-DB06285,Teriparatide,BiotechDrug,Q03431,Parathyroid hormone/parathyroid hormone-related peptide receptor
 DB06287,Temsirolimus,SmallMoleculeDrug,P42345,Serine/threonine-protein kinase mTOR
 DB06288,Amisulpride,SmallMoleculeDrug,P34969,5-hydroxytryptamine receptor 7
 DB06288,Amisulpride,SmallMoleculeDrug,P28223,5-hydroxytryptamine receptor 2A
@@ -8686,13 +8355,7 @@ DB06290,Simeprevir,SmallMoleculeDrug,P26664,Genome polyprotein
 DB06290,Simeprevir,SmallMoleculeDrug,Q91RS4,NS3 protease
 DB06290,Simeprevir,SmallMoleculeDrug,B0B3C9,Genome polyprotein
 DB06292,Dapagliflozin,SmallMoleculeDrug,P31639,Sodium/glucose cotransporter 2
-DB06317,Elotuzumab,BiotechDrug,Q9NQ25,SLAM family member 7
 DB06335,Saxagliptin,SmallMoleculeDrug,P27487,Dipeptidyl peptidase 4
-DB06343,Teprotumumab,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
-DB06366,Pertuzumab,BiotechDrug,P04626,Receptor tyrosine-protein kinase erbB-2
-DB06372,Rilonacept,BiotechDrug,P01584,Interleukin-1 beta
-DB06372,Rilonacept,BiotechDrug,P01583,Interleukin-1 alpha
-DB06372,Rilonacept,BiotechDrug,P18510,Interleukin-1 receptor antagonist protein
 DB06374,Elacestrant,SmallMoleculeDrug,P03372,Estrogen receptor
 DB06401,Bazedoxifene,SmallMoleculeDrug,P03372,Estrogen receptor
 DB06401,Bazedoxifene,SmallMoleculeDrug,Q92731,Estrogen receptor beta
@@ -8701,13 +8364,6 @@ DB06402,Telavancin,SmallMoleculeDrug,P32297,Neuronal acetylcholine receptor subu
 DB06402,Telavancin,SmallMoleculeDrug,P34998,Corticotropin-releasing factor receptor 1
 DB06403,Ambrisentan,SmallMoleculeDrug,P25101,Endothelin-1 receptor
 DB06403,Ambrisentan,SmallMoleculeDrug,P24530,Endothelin receptor type B
-DB06404,Human C1-esterase inhibitor,BiotechDrug,P00736,Complement C1r subcomponent
-DB06404,Human C1-esterase inhibitor,BiotechDrug,P09871,Complement C1s subcomponent
-DB06404,Human C1-esterase inhibitor,BiotechDrug,P03952,Plasma kallikrein
-DB06404,Human C1-esterase inhibitor,BiotechDrug,P00748,Coagulation factor XII
-DB06404,Human C1-esterase inhibitor,BiotechDrug,P03951,Coagulation factor XI
-DB06404,Human C1-esterase inhibitor,BiotechDrug,P00750,Tissue-type plasminogen activator
-DB06404,Human C1-esterase inhibitor,BiotechDrug,P00734,Prothrombin
 DB06410,Doxercalciferol,SmallMoleculeDrug,P11473,Vitamin D3 receptor
 DB06412,Oxymetholone,SmallMoleculeDrug,P10275,Androgen receptor
 DB06412,Oxymetholone,SmallMoleculeDrug,P16860,Natriuretic peptides B
@@ -8753,7 +8409,6 @@ DB06595,Midostaurin,SmallMoleculeDrug,P16234,Platelet-derived growth factor rece
 DB06595,Midostaurin,SmallMoleculeDrug,P09619,Platelet-derived growth factor receptor beta
 DB06595,Midostaurin,SmallMoleculeDrug,P36888,Receptor-type tyrosine-protein kinase FLT3
 DB06595,Midostaurin,SmallMoleculeDrug,P10721,Mast/stem cell growth factor receptor Kit
-DB06602,Reslizumab,BiotechDrug,P05113,Interleukin-5
 DB06603,Panobinostat,SmallMoleculeDrug,Q13547,Histone deacetylase 1
 DB06603,Panobinostat,SmallMoleculeDrug,Q13547,Histone deacetylase 1
 DB06603,Panobinostat,SmallMoleculeDrug,Q96DB2,Histone deacetylase 11
@@ -8767,14 +8422,6 @@ DB06603,Panobinostat,SmallMoleculeDrug,Q9BY41,Histone deacetylase 8
 DB06603,Panobinostat,SmallMoleculeDrug,Q9UKV0,Histone deacetylase 9
 DB06603,Panobinostat,SmallMoleculeDrug,Q969S8,Polyamine deacetylase HDAC10
 DB06605,Apixaban,SmallMoleculeDrug,P00742,Coagulation factor X
-DB06606,Teplizumab,BiotechDrug,P07766,T-cell surface glycoprotein CD3 epsilon chain
-DB06607,Catumaxomab,BiotechDrug,P12318,Low affinity immunoglobulin gamma Fc region receptor II-a
-DB06607,Catumaxomab,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
-DB06607,Catumaxomab,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB06607,Catumaxomab,BiotechDrug,P07766,T-cell surface glycoprotein CD3 epsilon chain
-DB06607,Catumaxomab,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB06607,Catumaxomab,BiotechDrug,P16422,Epithelial cell adhesion molecule
-DB06612,Mepolizumab,BiotechDrug,P05113,Interleukin-5
 DB06614,Peramivir,SmallMoleculeDrug,P03472,Neuraminidase
 DB06614,Peramivir,SmallMoleculeDrug,P06818,Neuraminidase
 DB06614,Peramivir,SmallMoleculeDrug,P27907,Neuraminidase
@@ -8810,26 +8457,15 @@ DB06637,Dalfampridine,SmallMoleculeDrug,Q14003,Voltage-gated potassium channel K
 DB06637,Dalfampridine,SmallMoleculeDrug,Q9NSA2,A-type voltage-gated potassium channel KCND1
 DB06637,Dalfampridine,SmallMoleculeDrug,Q9NZV8,A-type voltage-gated potassium channel KCND2
 DB06637,Dalfampridine,SmallMoleculeDrug,Q9UK17,A-type voltage-gated potassium channel KCND3
-DB06643,Denosumab,BiotechDrug,O14788,Tumor necrosis factor ligand superfamily member 11
-DB06650,Ofatumumab,BiotechDrug,P11836,B-lymphocyte antigen CD20
 DB06654,Safinamide,SmallMoleculeDrug,P27338,Amine oxidase [flavin-containing] B
-DB06655,Liraglutide,BiotechDrug,P43220,Glucagon-like peptide 1 receptor
 DB06663,Pasireotide,SmallMoleculeDrug,P32745,Somatostatin receptor type 3
 DB06663,Pasireotide,SmallMoleculeDrug,P30872,Somatostatin receptor type 1
 DB06663,Pasireotide,SmallMoleculeDrug,P30874,Somatostatin receptor type 2
 DB06663,Pasireotide,SmallMoleculeDrug,P35346,Somatostatin receptor type 5
-DB06674,Golimumab,BiotechDrug,P01375,Tumor necrosis factor
-DB06681,Belatacept,BiotechDrug,P42081,T-lymphocyte activation antigen CD86
-DB06681,Belatacept,BiotechDrug,P33681,T-lymphocyte activation antigen CD80
 DB06684,Vilazodone,SmallMoleculeDrug,P31645,Sodium-dependent serotonin transporter
 DB06684,Vilazodone,SmallMoleculeDrug,P08908,5-hydroxytryptamine receptor 1A
-DB06688,Sipuleucel-T,BiotechDrug,P15309,Prostatic acid phosphatase
 DB06689,Ethanolamine oleate,SmallMoleculeDrug,P00748,Coagulation factor XII
 DB06691,Mepyramine,SmallMoleculeDrug,P35367,Histamine H1 receptor
-DB06692,Aprotinin,BiotechDrug,P07477,Serine protease 1
-DB06692,Aprotinin,BiotechDrug,P17538,Chymotrypsinogen B
-DB06692,Aprotinin,BiotechDrug,P00747,Plasminogen
-DB06692,Aprotinin,BiotechDrug,P06870,Kallikrein-1
 DB06694,Xylometazoline,SmallMoleculeDrug,P08913,Alpha-2A adrenergic receptor
 DB06694,Xylometazoline,SmallMoleculeDrug,P18089,Alpha-2B adrenergic receptor
 DB06694,Xylometazoline,SmallMoleculeDrug,P35348,Alpha-1A adrenergic receptor
@@ -8902,9 +8538,6 @@ DB06716,Fospropofol,SmallMoleculeDrug,P47870,Gamma-aminobutyric acid receptor su
 DB06716,Fospropofol,SmallMoleculeDrug,P28472,Gamma-aminobutyric acid receptor subunit beta-3
 DB06717,Fosaprepitant,SmallMoleculeDrug,P25103,Substance-P receptor
 DB06718,Stanozolol,SmallMoleculeDrug,P10275,Androgen receptor
-DB06719,Buserelin,BiotechDrug,P22888,Lutropin-choriogonadotropic hormone receptor
-DB06719,Buserelin,BiotechDrug,P30968,Gonadotropin-releasing hormone receptor
-DB06720,Velaglucerase alfa,BiotechDrug,P04062,Lysosomal acid glucosylceramidase
 DB06725,Lornoxicam,SmallMoleculeDrug,P23219,Prostaglandin G/H synthase 1
 DB06725,Lornoxicam,SmallMoleculeDrug,P35354,Prostaglandin G/H synthase 2
 DB06729,Sulfaphenazole,SmallMoleculeDrug,P0AC13,Dihydropteroate synthase
@@ -8921,7 +8554,6 @@ DB06751,Drotaverine,SmallMoleculeDrug,Q08289,Voltage-dependent L-type calcium ch
 DB06751,Drotaverine,SmallMoleculeDrug,P54284,Voltage-dependent L-type calcium channel subunit beta-3
 DB06751,Drotaverine,SmallMoleculeDrug,O00305,Voltage-dependent L-type calcium channel subunit beta-4
 DB06751,Drotaverine,SmallMoleculeDrug,O00555,Voltage-dependent P/Q-type calcium channel subunit alpha-1A
-DB06752,Chymopapain,BiotechDrug,P13727,Bone marrow proteoglycan
 DB06754,Danaparoid,SmallMoleculeDrug,P01008,Antithrombin-III
 DB06756,Betaine,SmallMoleculeDrug,Q93088,Betaine--homocysteine S-methyltransferase 1
 DB06757,Manganese cation,SmallMoleculeDrug,P50213,"Isocitrate dehydrogenase [NAD] subunit alpha, mitochondrial"
@@ -8933,8 +8565,6 @@ DB06757,Manganese cation,SmallMoleculeDrug,P15104,Glutamine synthetase
 DB06757,Manganese cation,SmallMoleculeDrug,Q16822,"Phosphoenolpyruvate carboxykinase [GTP], mitochondrial"
 DB06757,Manganese cation,SmallMoleculeDrug,P35558,"Phosphoenolpyruvate carboxykinase, cytosolic [GTP]"
 DB06757,Manganese cation,SmallMoleculeDrug,P36873,Serine/threonine-protein phosphatase PP1-gamma catalytic subunit
-DB06759,Fomivirsen,BiotechDrug,P06434,30 kDa immediate-early protein 2
-DB06759,Fomivirsen,BiotechDrug,P06435,45 kDa immediate-early protein 2
 DB06764,Tetryzoline,SmallMoleculeDrug,P35348,Alpha-1A adrenergic receptor
 DB06764,Tetryzoline,SmallMoleculeDrug,P35368,Alpha-1B adrenergic receptor
 DB06764,Tetryzoline,SmallMoleculeDrug,P25100,Alpha-1D adrenergic receptor
@@ -8950,7 +8580,6 @@ DB06771,Besifloxacin,SmallMoleculeDrug,P72525,DNA topoisomerase 4 subunit A
 DB06771,Besifloxacin,SmallMoleculeDrug,P43700,DNA gyrase subunit A
 DB06771,Besifloxacin,SmallMoleculeDrug,P72524,DNA gyrase subunit A
 DB06772,Cabazitaxel,SmallMoleculeDrug,Q9H4B7,Tubulin beta-1 chain
-DB06773,Human calcitonin,BiotechDrug,P12814,Alpha-actinin-1
 DB06774,Capsaicin,SmallMoleculeDrug,Q8NER1,Transient receptor potential cation channel subfamily V member 1
 DB06774,Capsaicin,SmallMoleculeDrug,Q99623,Prohibitin-2
 DB06775,Carglumic acid,SmallMoleculeDrug,P31327,"Carbamoyl-phosphate synthase [ammonia], mitochondrial"
@@ -9127,8 +8756,6 @@ DB08868,Fingolimod,SmallMoleculeDrug,P21453,Sphingosine 1-phosphate receptor 1
 DB08868,Fingolimod,SmallMoleculeDrug,Q99500,Sphingosine 1-phosphate receptor 3
 DB08868,Fingolimod,SmallMoleculeDrug,Q13547,Histone deacetylase 1
 DB08868,Fingolimod,SmallMoleculeDrug,O95977,Sphingosine 1-phosphate receptor 4
-DB08869,Tesamorelin,BiotechDrug,Q02643,Growth hormone-releasing hormone receptor
-DB08870,Brentuximab vedotin,BiotechDrug,P28908,Tumor necrosis factor receptor superfamily member 8
 DB08871,Eribulin,SmallMoleculeDrug,Q9H4B7,Tubulin beta-1 chain
 DB08871,Eribulin,SmallMoleculeDrug,P10415,Apoptosis regulator Bcl-2
 DB08872,Gabapentin enacarbil,SmallMoleculeDrug,Q9Y289,Sodium-dependent multivitamin transporter
@@ -9145,7 +8772,6 @@ DB08877,Ruxolitinib,SmallMoleculeDrug,O60674,Tyrosine-protein kinase JAK2
 DB08877,Ruxolitinib,SmallMoleculeDrug,P23458,Tyrosine-protein kinase JAK1
 DB08877,Ruxolitinib,SmallMoleculeDrug,P52333,Tyrosine-protein kinase JAK3
 DB08877,Ruxolitinib,SmallMoleculeDrug,P29597,Non-receptor tyrosine-protein kinase TYK2
-DB08879,Belimumab,BiotechDrug,Q9Y275,Tumor necrosis factor ligand superfamily member 13B
 DB08880,Teriflunomide,SmallMoleculeDrug,Q08210,"Dihydroorotate dehydrogenase (quinone), mitochondrial"
 DB08880,Teriflunomide,SmallMoleculeDrug,P04035,3-hydroxy-3-methylglutaryl-coenzyme A reductase
 DB08880,Teriflunomide,SmallMoleculeDrug,Q02127,"Dihydroorotate dehydrogenase (quinone), mitochondrial"
@@ -9155,12 +8781,6 @@ DB08883,Perampanel,SmallMoleculeDrug,P42262,Glutamate receptor 2
 DB08883,Perampanel,SmallMoleculeDrug,P42263,Glutamate receptor 3
 DB08883,Perampanel,SmallMoleculeDrug,P48058,Glutamate receptor 4
 DB08883,Perampanel,SmallMoleculeDrug,P42261,Glutamate receptor 1
-DB08885,Aflibercept,BiotechDrug,P15692,"Vascular endothelial growth factor A, long form"
-DB08885,Aflibercept,BiotechDrug,P49763,Placenta growth factor
-DB08885,Aflibercept,BiotechDrug,P49765,Vascular endothelial growth factor B
-DB08888,Ocriplasmin,BiotechDrug,P02751,Fibronectin
-DB08888,Ocriplasmin,BiotechDrug,P01023,Alpha-2-macroglobulin
-DB08888,Ocriplasmin,BiotechDrug,P08697,Alpha-2-antiplasmin
 DB08889,Carfilzomib,SmallMoleculeDrug,P28074,Proteasome subunit beta type-5
 DB08889,Carfilzomib,SmallMoleculeDrug,P28062,Proteasome subunit beta type-8
 DB08889,Carfilzomib,SmallMoleculeDrug,P20618,Proteasome subunit beta type-1
@@ -9170,7 +8790,6 @@ DB08889,Carfilzomib,SmallMoleculeDrug,P40306,Proteasome subunit beta type-10
 DB08890,Linaclotide,SmallMoleculeDrug,P25092,Guanylyl cyclase C
 DB08893,Mirabegron,SmallMoleculeDrug,P13945,Beta-3 adrenergic receptor
 DB08893,Mirabegron,SmallMoleculeDrug,P08588,Beta-1 adrenergic receptor
-DB08894,Peginesatide,BiotechDrug,P19235,Erythropoietin receptor
 DB08895,Tofacitinib,SmallMoleculeDrug,P23458,Tyrosine-protein kinase JAK1
 DB08895,Tofacitinib,SmallMoleculeDrug,O60674,Tyrosine-protein kinase JAK2
 DB08895,Tofacitinib,SmallMoleculeDrug,P52333,Tyrosine-protein kinase JAK3
@@ -9199,7 +8818,6 @@ DB08897,Aclidinium,SmallMoleculeDrug,P20309,Muscarinic acetylcholine receptor M3
 DB08897,Aclidinium,SmallMoleculeDrug,P08173,Muscarinic acetylcholine receptor M4
 DB08897,Aclidinium,SmallMoleculeDrug,P08912,Muscarinic acetylcholine receptor M5
 DB08899,Enzalutamide,SmallMoleculeDrug,P10275,Androgen receptor
-DB08900,Teduglutide,BiotechDrug,O95838,Glucagon-like peptide 2 receptor
 DB08901,Ponatinib,SmallMoleculeDrug,P00519,Tyrosine-protein kinase ABL1
 DB08901,Ponatinib,SmallMoleculeDrug,P11274,Breakpoint cluster region protein
 DB08901,Ponatinib,SmallMoleculeDrug,P10721,Mast/stem cell growth factor receptor Kit
@@ -9215,9 +8833,7 @@ DB08901,Ponatinib,SmallMoleculeDrug,P12931,Proto-oncogene tyrosine-protein kinas
 DB08901,Ponatinib,SmallMoleculeDrug,P07948,Tyrosine-protein kinase Lyn
 DB08901,Ponatinib,SmallMoleculeDrug,P35968,Vascular endothelial growth factor receptor 2
 DB08901,Ponatinib,SmallMoleculeDrug,P16234,Platelet-derived growth factor receptor alpha
-DB08902,Raxibacumab,BiotechDrug,P13423,Protective antigen
 DB08903,Bedaquiline,SmallMoleculeDrug,P9WPS1,ATP synthase subunit c
-DB08904,Certolizumab pegol,BiotechDrug,P01375,Tumor necrosis factor
 DB08905,Formestane,SmallMoleculeDrug,P11511,Aromatase
 DB08906,Fluticasone furoate,SmallMoleculeDrug,P04150,Glucocorticoid receptor
 DB08906,Fluticasone furoate,SmallMoleculeDrug,P06401,Progesterone receptor
@@ -9249,7 +8865,6 @@ DB08932,Macitentan,SmallMoleculeDrug,P24530,Endothelin receptor type B
 DB08933,Luliconazole,SmallMoleculeDrug,P10613,Lanosterol 14-alpha demethylase
 DB08934,Sofosbuvir,SmallMoleculeDrug,P26664,Genome polyprotein
 DB08934,Sofosbuvir,SmallMoleculeDrug,O39930,RNA-dependent RNA-polymerase
-DB08935,Obinutuzumab,BiotechDrug,P11836,B-lymphocyte antigen CD20
 DB08936,Chlorcyclizine,SmallMoleculeDrug,P35367,Histamine H1 receptor
 DB08943,Isoconazole,SmallMoleculeDrug,P05093,"Steroid 17-alpha-hydroxylase/17,20 lyase"
 DB08949,Inositol nicotinate,SmallMoleculeDrug,P49019,Hydroxycarboxylic acid receptor 3
@@ -9290,27 +8905,16 @@ DB09020,Bisacodyl,SmallMoleculeDrug,P54710,Sodium/potassium-transporting ATPase 
 DB09026,Aliskiren,SmallMoleculeDrug,P00797,Renin
 DB09027,Ledipasvir,SmallMoleculeDrug,P26664,Genome polyprotein
 DB09027,Ledipasvir,SmallMoleculeDrug,Q5L478,Nonstructural protein 5A
-DB09029,Secukinumab,BiotechDrug,Q16552,Interleukin-17A
 DB09030,Vorapaxar,SmallMoleculeDrug,P25116,Proteinase-activated receptor 1
 DB09031,Miltefosine,SmallMoleculeDrug,P04054,Phospholipase A2
 DB09031,Miltefosine,SmallMoleculeDrug,P08183,ATP-dependent translocase ABCB1
-DB09033,Vedolizumab,BiotechDrug,P13612,Integrin alpha-4
-DB09033,Vedolizumab,BiotechDrug,P26010,Integrin beta-7
 DB09034,Suvorexant,SmallMoleculeDrug,O43613,Orexin/Hypocretin receptor type 1
 DB09034,Suvorexant,SmallMoleculeDrug,O43614,Orexin receptor type 2
-DB09035,Nivolumab,BiotechDrug,Q15116,Programmed cell death protein 1
-DB09035,Nivolumab,BiotechDrug,Q9NZQ7,Programmed cell death 1 ligand 1
-DB09036,Siltuximab,BiotechDrug,P05231,Interleukin-6
-DB09037,Pembrolizumab,BiotechDrug,Q15116,Programmed cell death protein 1
-DB09037,Pembrolizumab,BiotechDrug,Q9NZQ7,Programmed cell death 1 ligand 1
 DB09038,Empagliflozin,SmallMoleculeDrug,P31639,Sodium/glucose cotransporter 2
 DB09039,Eliglustat,SmallMoleculeDrug,Q16739,Ceramide glucosyltransferase
 DB09040,Efinaconazole,SmallMoleculeDrug,P50859,Lanosterol 14-alpha demethylase
 DB09040,Efinaconazole,SmallMoleculeDrug,P10613,Lanosterol 14-alpha demethylase
 DB09041,Tavaborole,SmallMoleculeDrug,A0A178ESV1,leucine--tRNA ligase
-DB09043,Albiglutide,BiotechDrug,P43220,Glucagon-like peptide 1 receptor
-DB09045,Dulaglutide,BiotechDrug,P43220,Glucagon-like peptide 1 receptor
-DB09046,Metreleptin,BiotechDrug,P48357,Leptin receptor
 DB09047,Finafloxacin,SmallMoleculeDrug,P43700,DNA gyrase subunit A
 DB09047,Finafloxacin,SmallMoleculeDrug,P0A0K8,DNA gyrase subunit B
 DB09047,Finafloxacin,SmallMoleculeDrug,P20831,DNA gyrase subunit A
@@ -9329,11 +8933,8 @@ DB09050,Ceftolozane,SmallMoleculeDrug,P02918,Penicillin-binding protein 1A
 DB09050,Ceftolozane,SmallMoleculeDrug,P02919,Penicillin-binding protein 1B
 DB09050,Ceftolozane,SmallMoleculeDrug,P0AD65,Penicillin-binding protein 2
 DB09050,Ceftolozane,SmallMoleculeDrug,P0AD68,Peptidoglycan synthase FtsI
-DB09052,Blinatumomab,BiotechDrug,P15391,B-lymphocyte antigen CD19
-DB09052,Blinatumomab,BiotechDrug,P04234,T-cell surface glycoprotein CD3 delta chain
 DB09053,Ibrutinib,SmallMoleculeDrug,Q06187,Tyrosine-protein kinase BTK
 DB09054,Idelalisib,SmallMoleculeDrug,O00329,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform"
-DB09057,Anthrax immune globulin human,BiotechDrug,P13423,Protective antigen
 DB09059,Atosiban,SmallMoleculeDrug,P30559,Oxytocin receptor
 DB09059,Atosiban,SmallMoleculeDrug,P37288,Vasopressin V1a receptor
 DB09059,Atosiban,SmallMoleculeDrug,P47901,Vasopressin V1b receptor
@@ -9395,9 +8996,6 @@ DB09064,Ciprofibrate,SmallMoleculeDrug,Q07869,Peroxisome proliferator-activated 
 DB09065,Cobicistat,SmallMoleculeDrug,P08684,Cytochrome P450 3A4
 DB09065,Cobicistat,SmallMoleculeDrug,P20815,Cytochrome P450 3A5
 DB09065,Cobicistat,SmallMoleculeDrug,P24462,Cytochrome P450 3A7
-DB09066,Corifollitropin alfa,BiotechDrug,P23945,Follicle-stimulating hormone receptor
-DB09067,Corticorelin ovine triflutate,BiotechDrug,P34998,Corticotropin-releasing factor receptor 1
-DB09067,Corticorelin ovine triflutate,BiotechDrug,Q13324,Corticotropin-releasing factor receptor 2
 DB09068,Vortioxetine,SmallMoleculeDrug,P31645,Sodium-dependent serotonin transporter
 DB09068,Vortioxetine,SmallMoleculeDrug,P46098,5-hydroxytryptamine receptor 3A
 DB09068,Vortioxetine,SmallMoleculeDrug,P34969,5-hydroxytryptamine receptor 7
@@ -9550,8 +9148,6 @@ DB09096,Benzoyl peroxide,SmallMoleculeDrug,P04179,"Superoxide dismutase [Mn], mi
 DB09097,Quinagolide,SmallMoleculeDrug,P14416,D(2) dopamine receptor
 DB09097,Quinagolide,SmallMoleculeDrug,P21728,D(1A) dopamine receptor
 DB09097,Quinagolide,SmallMoleculeDrug,P21918,D(1B) dopamine receptor
-DB09098,Somatrem,BiotechDrug,P10912,Growth hormone receptor
-DB09098,Somatrem,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
 DB09099,Somatostatin,SmallMoleculeDrug,P35372,Mu-type opioid receptor
 DB09099,Somatostatin,SmallMoleculeDrug,P41143,Delta-type opioid receptor
 DB09099,Somatostatin,SmallMoleculeDrug,P30872,Somatostatin receptor type 1
@@ -9559,18 +9155,10 @@ DB09099,Somatostatin,SmallMoleculeDrug,P30874,Somatostatin receptor type 2
 DB09099,Somatostatin,SmallMoleculeDrug,P32745,Somatostatin receptor type 3
 DB09099,Somatostatin,SmallMoleculeDrug,P31391,Somatostatin receptor type 4
 DB09099,Somatostatin,SmallMoleculeDrug,P35346,Somatostatin receptor type 5
-DB09100,"Thyroid, porcine",BiotechDrug,P10827,Thyroid hormone receptor alpha
-DB09100,"Thyroid, porcine",BiotechDrug,P10828,Thyroid hormone receptor beta
 DB09101,Elvitegravir,SmallMoleculeDrug,Q7ZJM1,Integrase
 DB09101,Elvitegravir,SmallMoleculeDrug,P03366,Gag-Pol polyprotein
 DB09102,Daclatasvir,SmallMoleculeDrug,P26664,Genome polyprotein
 DB09102,Daclatasvir,SmallMoleculeDrug,Q5L478,Nonstructural protein 5A
-DB09103,Ancestim,BiotechDrug,P10721,Mast/stem cell growth factor receptor Kit
-DB09107,Methoxy polyethylene glycol-epoetin beta,BiotechDrug,P19235,Erythropoietin receptor
-DB09108,Simoctocog alfa,BiotechDrug,P04275,von Willebrand factor
-DB09109,Turoctocog alfa,BiotechDrug,P00740,Coagulation factor IX
-DB09109,Turoctocog alfa,BiotechDrug,P00742,Coagulation factor X
-DB09109,Turoctocog alfa,BiotechDrug,P00734,Prothrombin
 DB09112,Nitrous acid,SmallMoleculeDrug,P69905,Hemoglobin subunit alpha
 DB09112,Nitrous acid,SmallMoleculeDrug,P68871,Hemoglobin subunit beta
 DB09112,Nitrous acid,SmallMoleculeDrug,P02144,Myoglobin
@@ -9602,11 +9190,9 @@ DB09120,Zucapsaicin,SmallMoleculeDrug,Q8NER1,Transient receptor potential cation
 DB09121,Aurothioglucose,SmallMoleculeDrug,Q08828,Adenylate cyclase type 1
 DB09121,Aurothioglucose,SmallMoleculeDrug,Q08462,Adenylate cyclase type 2
 DB09121,Aurothioglucose,SmallMoleculeDrug,O95622,Adenylate cyclase type 5
-DB09122,Peginterferon beta-1a,BiotechDrug,P17181,Interferon alpha/beta receptor 1
 DB09123,Dienogest,SmallMoleculeDrug,P06401,Progesterone receptor
 DB09123,Dienogest,SmallMoleculeDrug,P10275,Androgen receptor
 DB09124,Medrogestone,SmallMoleculeDrug,P06401,Progesterone receptor
-DB09126,Chorionic Gonadotropin (Human),BiotechDrug,P22888,Lutropin-choriogonadotropic hormone receptor
 DB09128,Brexpiprazole,SmallMoleculeDrug,P08908,5-hydroxytryptamine receptor 1A
 DB09128,Brexpiprazole,SmallMoleculeDrug,P14416,D(2) dopamine receptor
 DB09128,Brexpiprazole,SmallMoleculeDrug,P35462,D(3) dopamine receptor
@@ -9771,8 +9357,6 @@ DB09131,Cupric Chloride,SmallMoleculeDrug,P04070,Vitamin K-dependent protein C
 DB09131,Cupric Chloride,SmallMoleculeDrug,P04080,Cystatin-B
 DB09140,Oxygen,SmallMoleculeDrug,P00395,Cytochrome c oxidase subunit 1
 DB09140,Oxygen,SmallMoleculeDrug,Q9Y5S8,NADPH oxidase 1
-DB09142,Sincalide,BiotechDrug,P32238,Cholecystokinin receptor type A
-DB09142,Sincalide,BiotechDrug,P32239,Gastrin/cholecystokinin type B receptor
 DB09143,Sonidegib,SmallMoleculeDrug,Q99835,Protein smoothened
 DB09148,Florbetaben F-18,SmallMoleculeDrug,P05067,Amyloid-beta precursor protein
 DB09149,Florbetapir F-18,SmallMoleculeDrug,P05067,Amyloid-beta precursor protein
@@ -9857,13 +9441,6 @@ DB09225,Zotepine,SmallMoleculeDrug,P34969,5-hydroxytryptamine receptor 7
 DB09225,Zotepine,SmallMoleculeDrug,P23975,Sodium-dependent noradrenaline transporter
 DB09225,Zotepine,SmallMoleculeDrug,P31645,Sodium-dependent serotonin transporter
 DB09225,Zotepine,SmallMoleculeDrug,P50406,5-hydroxytryptamine receptor 6
-DB09228,Conestat alfa,BiotechDrug,P00736,Complement C1r subcomponent
-DB09228,Conestat alfa,BiotechDrug,P09871,Complement C1s subcomponent
-DB09228,Conestat alfa,BiotechDrug,P03952,Plasma kallikrein
-DB09228,Conestat alfa,BiotechDrug,P00748,Coagulation factor XII
-DB09228,Conestat alfa,BiotechDrug,P00734,Prothrombin
-DB09228,Conestat alfa,BiotechDrug,P03951,Coagulation factor XI
-DB09228,Conestat alfa,BiotechDrug,P00750,Tissue-type plasminogen activator
 DB09236,Lacidipine,SmallMoleculeDrug,Q13936,Voltage-dependent L-type calcium channel subunit alpha-1C
 DB09236,Lacidipine,SmallMoleculeDrug,Q01668,Voltage-dependent L-type calcium channel subunit alpha-1D
 DB09236,Lacidipine,SmallMoleculeDrug,O60840,Voltage-dependent L-type calcium channel subunit alpha-1F
@@ -9906,7 +9483,6 @@ DB09257,Gimeracil,SmallMoleculeDrug,Q12882,Dihydropyrimidine dehydrogenase [NADP
 DB09258,Bemiparin,SmallMoleculeDrug,P00742,Coagulation factor X
 DB09258,Bemiparin,SmallMoleculeDrug,P01008,Antithrombin-III
 DB09258,Bemiparin,SmallMoleculeDrug,P05546,Heparin cofactor 2
-DB09265,Lixisenatide,BiotechDrug,P43220,Glucagon-like peptide 1 receptor
 DB09266,Technetium Tc-99m tilmanocept,SmallMoleculeDrug,P22897,Macrophage mannose receptor 1
 DB09270,Ubidecarenone,SmallMoleculeDrug,P56181,"NADH dehydrogenase [ubiquinone] flavoprotein 3, mitochondrial"
 DB09270,Ubidecarenone,SmallMoleculeDrug,P31040,"Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial"
@@ -9934,9 +9510,6 @@ DB09301,Chondroitin sulfate,SmallMoleculeDrug,P23560,Neurotrophic factor BDNF pr
 DB09301,Chondroitin sulfate,SmallMoleculeDrug,P39905,Glial cell line-derived neurotrophic factor
 DB09301,Chondroitin sulfate,SmallMoleculeDrug,P15692,"Vascular endothelial growth factor A, long form"
 DB09301,Chondroitin sulfate,SmallMoleculeDrug,P13500,C-C motif chemokine 2
-DB09302,Alirocumab,BiotechDrug,Q8NBP7,Proprotein convertase subtilisin/kexin type 9
-DB09303,Evolocumab,BiotechDrug,Q8NBP7,Proprotein convertase subtilisin/kexin type 9
-DB09310,Catridecacog,BiotechDrug,P05160,Coagulation factor XIII B chain
 DB09317,"Synthetic Conjugated Estrogens, A",SmallMoleculeDrug,P03372,Estrogen receptor
 DB09318,"Synthetic Conjugated Estrogens, B",SmallMoleculeDrug,P03372,Estrogen receptor
 DB09319,Carindacillin,SmallMoleculeDrug,P0AEB2,D-alanyl-D-alanine carboxypeptidase DacA
@@ -9956,9 +9529,7 @@ DB09320,Procaine benzylpenicillin,SmallMoleculeDrug,P0AD68,Peptidoglycan synthas
 DB09324,Sulbactam,SmallMoleculeDrug,P00807,Beta-lactamase
 DB09327,Tegafur-uracil,SmallMoleculeDrug,Q12882,Dihydropyrimidine dehydrogenase [NADP(+)]
 DB09327,Tegafur-uracil,SmallMoleculeDrug,P04818,Thymidylate synthase
-DB09329,"Antihemophilic factor (recombinant), PEGylated",BiotechDrug,P04275,von Willebrand factor
 DB09330,Osimertinib,SmallMoleculeDrug,P00533,Epidermal growth factor receptor
-DB09331,Daratumumab,BiotechDrug,P28907,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1
 DB09332,Kappadione,SmallMoleculeDrug,P00734,Prothrombin
 DB09332,Kappadione,SmallMoleculeDrug,P08709,Coagulation factor VII
 DB09332,Kappadione,SmallMoleculeDrug,P00740,Coagulation factor IX
@@ -9967,7 +9538,6 @@ DB09332,Kappadione,SmallMoleculeDrug,P04070,Vitamin K-dependent protein C
 DB09332,Kappadione,SmallMoleculeDrug,P38435,Vitamin K-dependent gamma-carboxylase
 DB09332,Kappadione,SmallMoleculeDrug,P07225,Vitamin K-dependent protein S
 DB09333,Iopodic acid,SmallMoleculeDrug,P55073,Thyroxine 5-deiodinase
-DB09334,Seractide acetate,BiotechDrug,Q01718,Adrenocorticotropic hormone receptor
 DB09336,Technetium Tc-99m nofetumomab merpentan,SmallMoleculeDrug,P16422,Epithelial cell adhesion molecule
 DB09336,Technetium Tc-99m nofetumomab merpentan,SmallMoleculeDrug,P11836,B-lymphocyte antigen CD20
 DB09342,Propoxycaine,SmallMoleculeDrug,P35498,Sodium channel protein type 1 subunit alpha
@@ -10015,9 +9585,6 @@ DB09409,Magnesium acetate tetrahydrate,SmallMoleculeDrug,Q8TCU5,"Glutamate recep
 DB09409,Magnesium acetate tetrahydrate,SmallMoleculeDrug,O60391,"Glutamate receptor ionotropic, NMDA 3B"
 DB09418,Potassium perchlorate,SmallMoleculeDrug,Q92911,Sodium/iodide cotransporter
 DB09421,Protirelin,SmallMoleculeDrug,P34981,Thyrotropin-releasing hormone receptor
-DB09422,Soybean oil,BiotechDrug,Q07869,Peroxisome proliferator-activated receptor alpha
-DB09456,Insulin beef,BiotechDrug,P06213,Insulin receptor
-DB09456,Insulin beef,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
 DB09460,Sodium carbonate,SmallMoleculeDrug,P00915,Carbonic anhydrase 1
 DB09460,Sodium carbonate,SmallMoleculeDrug,P00918,Carbonic anhydrase 2
 DB09460,Sodium carbonate,SmallMoleculeDrug,P22748,Carbonic anhydrase 4
@@ -10055,7 +9622,6 @@ DB09526,Hydroquinone,SmallMoleculeDrug,P14679,Tyrosinase
 DB09526,Hydroquinone,SmallMoleculeDrug,P05106,Integrin beta-3
 DB09526,Hydroquinone,SmallMoleculeDrug,P08514,Integrin alpha-IIb
 DB09526,Hydroquinone,SmallMoleculeDrug,Q9Y271,Cysteinyl leukotriene receptor 1
-DB09532,Secretin human,BiotechDrug,P47872,Secretin receptor
 DB09535,Octocrylene,SmallMoleculeDrug,P03372,Estrogen receptor
 DB09535,Octocrylene,SmallMoleculeDrug,Q92731,Estrogen receptor beta
 DB09536,Titanium dioxide,SmallMoleculeDrug,Q9UEW3,Macrophage receptor MARCO
@@ -10063,10 +9629,6 @@ DB09539,Omega-3-acid ethyl esters,SmallMoleculeDrug,P36956,Sterol regulatory ele
 DB09543,Methyl salicylate,SmallMoleculeDrug,O75762,Transient receptor potential cation channel subfamily A member 1
 DB09552,Thonzonium,SmallMoleculeDrug,P21283,V-type proton ATPase subunit C 1
 DB09555,Dexchlorpheniramine maleate,SmallMoleculeDrug,P35367,Histamine H1 receptor
-DB09559,Necitumumab,BiotechDrug,P00533,Epidermal growth factor receptor
-DB09564,Insulin degludec,BiotechDrug,P01308,Insulin
-DB09564,Insulin degludec,BiotechDrug,P06213,Insulin receptor
-DB09564,Insulin degludec,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
 DB09568,Omega-3-carboxylic acids,SmallMoleculeDrug,Q96PD7,Diacylglycerol O-acyltransferase 2
 DB09568,Omega-3-carboxylic acids,SmallMoleculeDrug,Q99714,3-hydroxyacyl-CoA dehydrogenase type-2
 DB09568,Omega-3-carboxylic acids,SmallMoleculeDrug,P30084,"Enoyl-CoA hydratase, mitochondrial"
@@ -10074,29 +9636,6 @@ DB09568,Omega-3-carboxylic acids,SmallMoleculeDrug,Q16836,"Hydroxyacyl-coenzyme 
 DB09568,Omega-3-carboxylic acids,SmallMoleculeDrug,Q9GZR5,Very long chain fatty acid elongase 4
 DB09568,Omega-3-carboxylic acids,SmallMoleculeDrug,P06858,Lipoprotein lipase
 DB09570,Ixazomib,SmallMoleculeDrug,P28074,Proteasome subunit beta type-5
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P17948,Vascular endothelial growth factor receptor 1
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P05231,Interleukin-6
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P14778,Interleukin-1 receptor type 1
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P37173,TGF-beta receptor type-2
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P05230,Fibroblast growth factor 1
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P01579,Interferon gamma
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P21802,Fibroblast growth factor receptor 2
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P15509,Granulocyte-macrophage colony-stimulating factor receptor subunit alpha
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P09619,Platelet-derived growth factor receptor beta
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P01137,Transforming growth factor beta-1 proprotein
-DB10770,Foreskin fibroblast (neonatal),BiotechDrug,P01375,Tumor necrosis factor
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P05230,Fibroblast growth factor 1
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P00533,Epidermal growth factor receptor
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P15509,Granulocyte-macrophage colony-stimulating factor receptor subunit alpha
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P01584,Interleukin-1 beta
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P05231,Interleukin-6
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P01579,Interferon gamma
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P16234,Platelet-derived growth factor receptor alpha
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P37173,TGF-beta receptor type-2
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P01137,Transforming growth factor beta-1 proprotein
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P01375,Tumor necrosis factor
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P15692,"Vascular endothelial growth factor A, long form"
-DB10772,Foreskin keratinocyte (neonatal),BiotechDrug,P21802,Fibroblast growth factor receptor 2
 DB11059,Carboxymethylcellulose,SmallMoleculeDrug,P11166,"Solute carrier family 2, facilitated glucose transporter member 1"
 DB11064,Homosalate,SmallMoleculeDrug,P06401,Progesterone receptor
 DB11064,Homosalate,SmallMoleculeDrug,P10275,Androgen receptor
@@ -10114,7 +9653,6 @@ DB11085,Resorcinol,SmallMoleculeDrug,P00918,Carbonic anhydrase 2
 DB11085,Resorcinol,SmallMoleculeDrug,Q9ULX7,Carbonic anhydrase 14
 DB11085,Resorcinol,SmallMoleculeDrug,P23219,Prostaglandin G/H synthase 1
 DB11085,Resorcinol,SmallMoleculeDrug,P07202,Thyroid peroxidase
-DB11087,Pyrethrum extract,BiotechDrug,O75469,Nuclear receptor subfamily 1 group I member 2
 DB11090,Potassium nitrate,SmallMoleculeDrug,Q12809,Voltage-gated inwardly rectifying potassium channel KCNH2
 DB11091,Hydrogen peroxide,SmallMoleculeDrug,P18031,Tyrosine-protein phosphatase non-receptor type 1
 DB11093,Calcium citrate,SmallMoleculeDrug,P41180,Extracellular calcium-sensing receptor
@@ -10154,8 +9692,6 @@ DB11093,Calcium citrate,SmallMoleculeDrug,P0DP24,Calmodulin-2
 DB11093,Calcium citrate,SmallMoleculeDrug,P0DP25,Calmodulin-3
 DB11094,Vitamin D,SmallMoleculeDrug,P11473,Vitamin D3 receptor
 DB11094,Vitamin D,SmallMoleculeDrug,P02774,Vitamin D-binding protein
-DB11113,Castor oil,BiotechDrug,P43115,Prostaglandin E2 receptor EP3 subtype
-DB11113,Castor oil,BiotechDrug,P35408,Prostaglandin E2 receptor EP4 subtype
 DB11117,Undecylenic acid,SmallMoleculeDrug,P07384,Calpain-1 catalytic subunit
 DB11120,Turpentine,SmallMoleculeDrug,P28482,Mitogen-activated protein kinase 1
 DB11124,Racepinephrine,SmallMoleculeDrug,P35348,Alpha-1A adrenergic receptor
@@ -10170,7 +9706,6 @@ DB11124,Racepinephrine,SmallMoleculeDrug,P13945,Beta-3 adrenergic receptor
 DB11130,Opium,SmallMoleculeDrug,P41143,Delta-type opioid receptor
 DB11130,Opium,SmallMoleculeDrug,P41145,Kappa-type opioid receptor
 DB11130,Opium,SmallMoleculeDrug,P35372,Mu-type opioid receptor
-DB11131,Capsicum oleoresin,BiotechDrug,Q8NER1,Transient receptor potential cation channel subfamily V member 1
 DB11132,Silicon dioxide,SmallMoleculeDrug,Q9UEW3,Macrophage receptor MARCO
 DB11133,Omega-3 fatty acids,SmallMoleculeDrug,P37231,Peroxisome proliferator-activated receptor gamma
 DB11133,Omega-3 fatty acids,SmallMoleculeDrug,Q07869,Peroxisome proliferator-activated receptor alpha
@@ -10223,8 +9758,6 @@ DB11160,Phenyltoloxamine,SmallMoleculeDrug,P21918,D(1B) dopamine receptor
 DB11160,Phenyltoloxamine,SmallMoleculeDrug,P21728,D(1A) dopamine receptor
 DB11160,Phenyltoloxamine,SmallMoleculeDrug,P21917,D(4) dopamine receptor
 DB11160,Phenyltoloxamine,SmallMoleculeDrug,P70174,Histamine H1 receptor
-DB11166,Antithrombin Alfa,BiotechDrug,P00734,Prothrombin
-DB11166,Antithrombin Alfa,BiotechDrug,P00742,Coagulation factor X
 DB11181,Homatropine,SmallMoleculeDrug,P11229,Muscarinic acetylcholine receptor M1
 DB11181,Homatropine,SmallMoleculeDrug,P08172,Muscarinic acetylcholine receptor M2
 DB11181,Homatropine,SmallMoleculeDrug,P20309,Muscarinic acetylcholine receptor M3
@@ -10244,7 +9777,6 @@ DB11186,Pentoxyverine,SmallMoleculeDrug,Q9UQD0,Sodium channel protein type 8 sub
 DB11186,Pentoxyverine,SmallMoleculeDrug,Q15858,Sodium channel protein type 9 subunit alpha
 DB11186,Pentoxyverine,SmallMoleculeDrug,P41145,Kappa-type opioid receptor
 DB11186,Pentoxyverine,SmallMoleculeDrug,P35372,Mu-type opioid receptor
-DB11193,Papain,BiotechDrug,O00206,Toll-like receptor 4
 DB11201,Menthyl salicylate,SmallMoleculeDrug,P23219,Prostaglandin G/H synthase 1
 DB11201,Menthyl salicylate,SmallMoleculeDrug,P35354,Prostaglandin G/H synthase 2
 DB11217,Arbutin,SmallMoleculeDrug,P14679,Tyrosinase
@@ -10310,29 +9842,6 @@ DB11278,DL-Methylephedrine,SmallMoleculeDrug,P18825,Alpha-2C adrenergic receptor
 DB11278,DL-Methylephedrine,SmallMoleculeDrug,P08588,Beta-1 adrenergic receptor
 DB11278,DL-Methylephedrine,SmallMoleculeDrug,P07550,Beta-2 adrenergic receptor
 DB11278,DL-Methylephedrine,SmallMoleculeDrug,P13945,Beta-3 adrenergic receptor
-DB11294,Coccidioides immitis spherule,BiotechDrug,P01903,"HLA class II histocompatibility antigen, DR alpha chain"
-DB11294,Coccidioides immitis spherule,BiotechDrug,P79483,"HLA class II histocompatibility antigen, DR beta 3 chain"
-DB11294,Coccidioides immitis spherule,BiotechDrug,P13762,"HLA class II histocompatibility antigen, DR beta 4 chain"
-DB11294,Coccidioides immitis spherule,BiotechDrug,Q30154,"HLA class II histocompatibility antigen, DR beta 5 chain"
-DB11294,Coccidioides immitis spherule,BiotechDrug,P01911,"HLA class II histocompatibility antigen, DRB1-15 beta chain"
-DB11294,Coccidioides immitis spherule,BiotechDrug,P04439,"HLA class I histocompatibility antigen, A-3 alpha chain"
-DB11294,Coccidioides immitis spherule,BiotechDrug,P01889,"HLA class I histocompatibility antigen, B-27 alpha chain"
-DB11300,Thrombin,BiotechDrug,P03951,Coagulation factor XI
-DB11300,Thrombin,BiotechDrug,P00488,Coagulation factor XIII A chain
-DB11300,Thrombin,BiotechDrug,P05160,Coagulation factor XIII B chain
-DB11300,Thrombin,BiotechDrug,P02671,Fibrinogen alpha chain
-DB11300,Thrombin,BiotechDrug,P02675,Fibrinogen beta chain
-DB11300,Thrombin,BiotechDrug,P02679,Fibrinogen gamma chain
-DB11300,Thrombin,BiotechDrug,P12259,Coagulation factor V
-DB11300,Thrombin,BiotechDrug,P00451,Coagulation factor VIII
-DB11300,Thrombin,BiotechDrug,P25116,Proteinase-activated receptor 1
-DB11300,Thrombin,BiotechDrug,Q96RI0,Proteinase-activated receptor 4
-DB11311,Prothrombin,BiotechDrug,P02671,Fibrinogen alpha chain
-DB11311,Prothrombin,BiotechDrug,P02675,Fibrinogen beta chain
-DB11311,Prothrombin,BiotechDrug,P00488,Coagulation factor XIII A chain
-DB11311,Prothrombin,BiotechDrug,Q96IY4,Carboxypeptidase B2
-DB11312,Protein C,BiotechDrug,P12259,Coagulation factor V
-DB11312,Protein C,BiotechDrug,P00451,Coagulation factor VIII
 DB11315,Methscopolamine,SmallMoleculeDrug,P20309,Muscarinic acetylcholine receptor M3
 DB11315,Methscopolamine,SmallMoleculeDrug,P08172,Muscarinic acetylcholine receptor M2
 DB11323,Glycol salicylate,SmallMoleculeDrug,P23219,Prostaglandin G/H synthase 1
@@ -10340,10 +9849,6 @@ DB11323,Glycol salicylate,SmallMoleculeDrug,P35354,Prostaglandin G/H synthase 2
 DB11327,Dipyrithione,SmallMoleculeDrug,P35228,"Nitric oxide synthase, inducible"
 DB11327,Dipyrithione,SmallMoleculeDrug,P35354,Prostaglandin G/H synthase 2
 DB11328,Tetradecyl hydrogen sulfate (ester),SmallMoleculeDrug,Q9UNN8,Endothelial protein C receptor
-DB11338,Clove oil,BiotechDrug,P19320,Vascular cell adhesion protein 1
-DB11338,Clove oil,BiotechDrug,P02778,C-X-C motif chemokine 10
-DB11338,Clove oil,BiotechDrug,P02452,Collagen alpha-1(I) chain
-DB11338,Clove oil,BiotechDrug,P15509,Granulocyte-macrophage colony-stimulating factor receptor subunit alpha
 DB11348,Calcium Phosphate,SmallMoleculeDrug,P41180,Extracellular calcium-sensing receptor
 DB11348,Calcium Phosphate,SmallMoleculeDrug,P27797,Calreticulin
 DB11348,Calcium Phosphate,SmallMoleculeDrug,Q99828,Calcium and integrin-binding protein 1
@@ -10387,20 +9892,6 @@ DB11431,Moxidectin,SmallMoleculeDrug,Q25634,Glutamate-gated chloride channel
 DB11496,2-mercaptobenzothiazole,SmallMoleculeDrug,P07202,Thyroid peroxidase
 DB11560,Lesinurad,SmallMoleculeDrug,Q96S37,Solute carrier family 22 member 12
 DB11560,Lesinurad,SmallMoleculeDrug,Q9NSA0,Solute carrier family 22 member 11
-DB11569,Ixekizumab,BiotechDrug,Q16552,Interleukin-17A
-DB11571,Human thrombin,BiotechDrug,P12259,Coagulation factor V
-DB11571,Human thrombin,BiotechDrug,P00451,Coagulation factor VIII
-DB11571,Human thrombin,BiotechDrug,P03951,Coagulation factor XI
-DB11571,Human thrombin,BiotechDrug,P00488,Coagulation factor XIII A chain
-DB11571,Human thrombin,BiotechDrug,P05160,Coagulation factor XIII B chain
-DB11571,Human thrombin,BiotechDrug,P02671,Fibrinogen alpha chain
-DB11571,Human thrombin,BiotechDrug,P02675,Fibrinogen beta chain
-DB11571,Human thrombin,BiotechDrug,P02679,Fibrinogen gamma chain
-DB11572,Thrombin alfa,BiotechDrug,P12259,Coagulation factor V
-DB11572,Thrombin alfa,BiotechDrug,P00451,Coagulation factor VIII
-DB11572,Thrombin alfa,BiotechDrug,P02671,Fibrinogen alpha chain
-DB11572,Thrombin alfa,BiotechDrug,P02675,Fibrinogen beta chain
-DB11572,Thrombin alfa,BiotechDrug,P02679,Fibrinogen gamma chain
 DB11574,Elbasvir,SmallMoleculeDrug,Q5L478,Nonstructural protein 5A
 DB11575,Grazoprevir,SmallMoleculeDrug,B0B3C9,Genome polyprotein
 DB11577,Indigotindisulfonic acid,SmallMoleculeDrug,P35348,Alpha-1A adrenergic receptor
@@ -10409,7 +9900,6 @@ DB11577,Indigotindisulfonic acid,SmallMoleculeDrug,P25100,Alpha-1D adrenergic re
 DB11577,Indigotindisulfonic acid,SmallMoleculeDrug,P08913,Alpha-2A adrenergic receptor
 DB11577,Indigotindisulfonic acid,SmallMoleculeDrug,P18089,Alpha-2B adrenergic receptor
 DB11577,Indigotindisulfonic acid,SmallMoleculeDrug,P18825,Alpha-2C adrenergic receptor
-DB11580,Ravulizumab,BiotechDrug,P01031,Complement C5
 DB11581,Venetoclax,SmallMoleculeDrug,P10415,Apoptosis regulator Bcl-2
 DB11584,Pipradrol,SmallMoleculeDrug,P21728,D(1A) dopamine receptor
 DB11584,Pipradrol,SmallMoleculeDrug,P21918,D(1B) dopamine receptor
@@ -10421,24 +9911,10 @@ DB11590,Thimerosal,SmallMoleculeDrug,Q99707,Methionine synthase
 DB11590,Thimerosal,SmallMoleculeDrug,Q9UPY5,Cystine/glutamate transporter
 DB11590,Thimerosal,SmallMoleculeDrug,P54710,Sodium/potassium-transporting ATPase subunit gamma
 DB11591,Bilastine,SmallMoleculeDrug,P35367,Histamine H1 receptor
-DB11595,Atezolizumab,BiotechDrug,Q9NZQ7,Programmed cell death 1 ligand 1
-DB11595,Atezolizumab,BiotechDrug,Q15116,Programmed cell death protein 1
 DB11596,Levoleucovorin,SmallMoleculeDrug,P0A827,Serine hydroxymethyltransferase
-DB11597,Human Rho(D) immune globulin,BiotechDrug,A6PZ59,Rhesus blood group D antigen
-DB11598,Antithrombin III human,BiotechDrug,P01008,Antithrombin-III
-DB11601,Tuberculin purified protein derivative,BiotechDrug,O60603,Toll-like receptor 2
-DB11603,"Rabies immune globulin, human",BiotechDrug,P08667,Glycoprotein
-DB11603,"Rabies immune globulin, human",BiotechDrug,P11213,Large structural protein
-DB11603,"Rabies immune globulin, human",BiotechDrug,P08671,Matrix protein
-DB11603,"Rabies immune globulin, human",BiotechDrug,P06025,Nucleoprotein
-DB11603,"Rabies immune globulin, human",BiotechDrug,P06747,Phosphoprotein
-DB11604,"Tetanus immune globulin, human",BiotechDrug,P04958,Tetanus toxin
 DB11605,Myrrh,SmallMoleculeDrug,Q96RI1,Bile acid receptor
 DB11605,Myrrh,SmallMoleculeDrug,O75469,Nuclear receptor subfamily 1 group I member 2
 DB11605,Myrrh,SmallMoleculeDrug,Q07869,Peroxisome proliferator-activated receptor alpha
-DB11606,Susoctocog alfa,BiotechDrug,P04275,von Willebrand factor
-DB11607,Efmoroctocog alfa,BiotechDrug,P04275,von Willebrand factor
-DB11608,Eftrenonacog alfa,BiotechDrug,P55899,IgG receptor FcRn large subunit p51
 DB11611,Lifitegrast,SmallMoleculeDrug,P05362,Intercellular adhesion molecule 1
 DB11611,Lifitegrast,SmallMoleculeDrug,P20701,Integrin alpha-L
 DB11613,Velpatasvir,SmallMoleculeDrug,Q5L478,Nonstructural protein 5A
@@ -10450,8 +9926,6 @@ DB11619,Gestrinone,SmallMoleculeDrug,P10275,Androgen receptor
 DB11619,Gestrinone,SmallMoleculeDrug,P30968,Gonadotropin-releasing hormone receptor
 DB11619,Gestrinone,SmallMoleculeDrug,P03372,Estrogen receptor
 DB11619,Gestrinone,SmallMoleculeDrug,P04278,Sex hormone-binding globulin
-DB11626,Tasonermin,BiotechDrug,P19438,Tumor necrosis factor receptor superfamily member 1A
-DB11626,Tasonermin,BiotechDrug,P20333,Tumor necrosis factor receptor superfamily member 1B
 DB11629,Laropiprant,SmallMoleculeDrug,P43116,Prostaglandin E2 receptor EP2 subtype
 DB11629,Laropiprant,SmallMoleculeDrug,P04035,3-hydroxy-3-methylglutaryl-coenzyme A reductase
 DB11629,Laropiprant,SmallMoleculeDrug,P21731,Thromboxane A2 receptor
@@ -10662,8 +10136,6 @@ DB11638,Artenimol,SmallMoleculeDrug,Q8IKM6,Inner membrane complex sub-compartmen
 DB11638,Artenimol,SmallMoleculeDrug,Q8IL88,"HSP40, subfamily A, putative"
 DB11638,Artenimol,SmallMoleculeDrug,C6KT50,Pyridoxal 5'-phosphate synthase subunit Pdx1
 DB11638,Artenimol,SmallMoleculeDrug,P02768,Albumin
-DB11639,Dibotermin alfa,BiotechDrug,Q13873,Bone morphogenetic protein receptor type-2
-DB11639,Dibotermin alfa,BiotechDrug,P36894,Bone morphogenetic protein receptor type-1A
 DB11640,Amifampridine,SmallMoleculeDrug,Q09470,Potassium voltage-gated channel subfamily A member 1
 DB11641,Vinflunine,SmallMoleculeDrug,P07437,Tubulin beta chain
 DB11642,Pitolisant,SmallMoleculeDrug,Q9Y5N1,Histamine H3 receptor
@@ -10671,11 +10143,6 @@ DB11642,Pitolisant,SmallMoleculeDrug,Q12809,Voltage-gated inwardly rectifying po
 DB11644,Tafamidis,SmallMoleculeDrug,P02766,Transthyretin
 DB11652,Tucatinib,SmallMoleculeDrug,P04626,Receptor tyrosine-protein kinase erbB-2
 DB11652,Tucatinib,SmallMoleculeDrug,P21860,Receptor tyrosine-protein kinase erbB-3
-DB11653,Bremelanotide,BiotechDrug,Q01726,Melanocyte-stimulating hormone receptor
-DB11653,Bremelanotide,BiotechDrug,P32245,Melanocortin receptor 4
-DB11653,Bremelanotide,BiotechDrug,P41968,Melanocortin receptor 3
-DB11653,Bremelanotide,BiotechDrug,P33032,Melanocortin receptor 5
-DB11653,Bremelanotide,BiotechDrug,Q01718,Adrenocorticotropic hormone receptor
 DB11656,Rebamipide,SmallMoleculeDrug,P21462,fMet-Leu-Phe receptor
 DB11660,Latanoprostene bunod,SmallMoleculeDrug,P43088,Prostaglandin F2-alpha receptor
 DB11672,Curcumin,SmallMoleculeDrug,P08684,Cytochrome P450 3A4
@@ -10721,8 +10188,6 @@ DB11699,Tropisetron,SmallMoleculeDrug,P46098,5-hydroxytryptamine receptor 3A
 DB11700,Setmelanotide,SmallMoleculeDrug,P32245,Melanocortin receptor 4
 DB11703,Acalabrutinib,SmallMoleculeDrug,Q06187,Tyrosine-protein kinase BTK
 DB11712,Tezacaftor,SmallMoleculeDrug,P13569,Cystic fibrosis transmembrane conductance regulator
-DB11714,Durvalumab,BiotechDrug,Q9NZQ7,Programmed cell death 1 ligand 1
-DB11714,Durvalumab,BiotechDrug,Q15116,Programmed cell death protein 1
 DB11718,Encorafenib,SmallMoleculeDrug,P15056,Serine/threonine-protein kinase B-raf
 DB11718,Encorafenib,SmallMoleculeDrug,P24385,G1/S-specific cyclin-D1
 DB11718,Encorafenib,SmallMoleculeDrug,P04049,RAF proto-oncogene serine/threonine-protein kinase
@@ -10759,14 +10224,6 @@ DB11763,Momelotinib,SmallMoleculeDrug,P52333,Tyrosine-protein kinase JAK3
 DB11763,Momelotinib,SmallMoleculeDrug,P29597,Non-receptor tyrosine-protein kinase TYK2
 DB11763,Momelotinib,SmallMoleculeDrug,Q04771,Activin receptor type-1
 DB11763,Momelotinib,SmallMoleculeDrug,P36888,Receptor-type tyrosine-protein kinase FLT3
-DB11767,Sarilumab,BiotechDrug,P08887,Interleukin-6 receptor subunit alpha
-DB11767,Sarilumab,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB11767,Sarilumab,BiotechDrug,P12318,Low affinity immunoglobulin gamma Fc region receptor II-a
-DB11767,Sarilumab,BiotechDrug,P31994,Low affinity immunoglobulin gamma Fc region receptor II-b
-DB11767,Sarilumab,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
-DB11767,Sarilumab,BiotechDrug,O75015,Low affinity immunoglobulin gamma Fc region receptor III-B
-DB11771,Tremelimumab,BiotechDrug,P16410,Cytotoxic T-lymphocyte protein 4
-DB11776,Brodalumab,BiotechDrug,Q96F46,Interleukin-17 receptor A
 DB11791,Capmatinib,SmallMoleculeDrug,P08581,Hepatocyte growth factor receptor
 DB11793,Niraparib,SmallMoleculeDrug,P09874,Poly [ADP-ribose] polymerase 1
 DB11793,Niraparib,SmallMoleculeDrug,Q9UGN5,Poly [ADP-ribose] polymerase 2
@@ -10805,12 +10262,8 @@ DB11827,Ertugliflozin,SmallMoleculeDrug,P31639,Sodium/glucose cotransporter 2
 DB11828,Neratinib,SmallMoleculeDrug,P35968,Vascular endothelial growth factor receptor 2
 DB11828,Neratinib,SmallMoleculeDrug,P04626,Receptor tyrosine-protein kinase erbB-2
 DB11828,Neratinib,SmallMoleculeDrug,P00533,Epidermal growth factor receptor
-DB11834,Guselkumab,BiotechDrug,Q9NPF7,Interleukin-23 subunit alpha
 DB11837,Osilodrostat,SmallMoleculeDrug,P15538,"Cytochrome P450 11B1, mitochondrial"
 DB11837,Osilodrostat,SmallMoleculeDrug,P19099,"Cytochrome P450 11B2, mitochondrial"
-DB11842,Angiotensin II,BiotechDrug,P50052,Type-2 angiotensin II receptor
-DB11842,Angiotensin II,BiotechDrug,P30556,Type-1 angiotensin II receptor
-DB11850,Ublituximab,BiotechDrug,P11836,B-lymphocyte antigen CD20
 DB11853,Relugolix,SmallMoleculeDrug,P30968,Gonadotropin-releasing hormone receptor
 DB11855,Revefenacin,SmallMoleculeDrug,P11229,Muscarinic acetylcholine receptor M1
 DB11855,Revefenacin,SmallMoleculeDrug,P08172,Muscarinic acetylcholine receptor M2
@@ -10838,7 +10291,6 @@ DB11859,Brexanolone,SmallMoleculeDrug,Q9UN88,Gamma-aminobutyric acid receptor su
 DB11859,Brexanolone,SmallMoleculeDrug,P18507,Gamma-aminobutyric acid receptor subunit gamma-2
 DB11859,Brexanolone,SmallMoleculeDrug,P14867,Gamma-aminobutyric acid receptor subunit alpha-1
 DB11859,Brexanolone,SmallMoleculeDrug,P47870,Gamma-aminobutyric acid receptor subunit beta-2
-DB11866,Romosozumab,BiotechDrug,Q9BQB4,Sclerostin
 DB11886,Infigratinib,SmallMoleculeDrug,P11362,Fibroblast growth factor receptor 1
 DB11886,Infigratinib,SmallMoleculeDrug,P21802,Fibroblast growth factor receptor 2
 DB11886,Infigratinib,SmallMoleculeDrug,P22607,Fibroblast growth factor receptor 3
@@ -10860,16 +10312,13 @@ DB11901,Apalutamide,SmallMoleculeDrug,P18507,Gamma-aminobutyric acid receptor su
 DB11901,Apalutamide,SmallMoleculeDrug,Q99928,Gamma-aminobutyric acid receptor subunit gamma-3
 DB11901,Apalutamide,SmallMoleculeDrug,O00591,Gamma-aminobutyric acid receptor subunit pi
 DB11901,Apalutamide,SmallMoleculeDrug,Q9UN88,Gamma-aminobutyric acid receptor subunit theta
-DB11914,Lebrikizumab,BiotechDrug,P35225,Interleukin-13
 DB11915,Valbenazine,SmallMoleculeDrug,Q05940,Synaptic vesicular amine transporter
 DB11921,Deflazacort,SmallMoleculeDrug,P04150,Glucocorticoid receptor
-DB11928,Vosoritide,BiotechDrug,P20594,Atrial natriuretic peptide receptor 2
 DB11936,Bempedoic acid,SmallMoleculeDrug,P53396,ATP-citrate synthase
 DB11938,Difelikefalin,SmallMoleculeDrug,P41145,Kappa-type opioid receptor
 DB11942,Selinexor,SmallMoleculeDrug,O14980,Exportin-1
 DB11943,Delafloxacin,SmallMoleculeDrug,P0AFI2,DNA topoisomerase 4 subunit A
 DB11943,Delafloxacin,SmallMoleculeDrug,P0AES4,DNA gyrase subunit A
-DB11945,Avelumab,BiotechDrug,Q9NZQ7,Programmed cell death 1 ligand 1
 DB11951,Lemborexant,SmallMoleculeDrug,O43613,Orexin/Hypocretin receptor type 1
 DB11951,Lemborexant,SmallMoleculeDrug,O43614,Orexin receptor type 2
 DB11952,Duvelisib,SmallMoleculeDrug,P48736,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform"
@@ -10879,7 +10328,6 @@ DB11963,Dacomitinib,SmallMoleculeDrug,P04626,Receptor tyrosine-protein kinase er
 DB11963,Dacomitinib,SmallMoleculeDrug,P00533,Epidermal growth factor receptor
 DB11967,Binimetinib,SmallMoleculeDrug,P36507,Dual specificity mitogen-activated protein kinase kinase 2
 DB11967,Binimetinib,SmallMoleculeDrug,Q02750,Dual specificity mitogen-activated protein kinase kinase 1
-DB11976,Anifrolumab,BiotechDrug,P17181,Interferon alpha/beta receptor 1
 DB11978,Glasdegib,SmallMoleculeDrug,Q99835,Protein smoothened
 DB11978,Glasdegib,SmallMoleculeDrug,P42345,Serine/threonine-protein kinase mTOR
 DB11979,Elagolix,SmallMoleculeDrug,P30968,Gonadotropin-releasing hormone receptor
@@ -10890,7 +10338,6 @@ DB11986,Entrectinib,SmallMoleculeDrug,P08922,Proto-oncogene tyrosine-protein kin
 DB11986,Entrectinib,SmallMoleculeDrug,Q16620,BDNF/NT-3 growth factors receptor
 DB11986,Entrectinib,SmallMoleculeDrug,O60674,Tyrosine-protein kinase JAK2
 DB11986,Entrectinib,SmallMoleculeDrug,Q07912,Activated CDC42 kinase 1
-DB11988,Ocrelizumab,BiotechDrug,P11836,B-lymphocyte antigen CD20
 DB11994,Diacerein,SmallMoleculeDrug,P01584,Interleukin-1 beta
 DB11994,Diacerein,SmallMoleculeDrug,Q13133,Oxysterols receptor LXR-alpha
 DB11994,Diacerein,SmallMoleculeDrug,P55055,Oxysterols receptor LXR-beta
@@ -11221,8 +10668,6 @@ DB12010,Fostamatinib,SmallMoleculeDrug,Q8WU08,Serine/threonine-protein kinase 32
 DB12015,Alpelisib,SmallMoleculeDrug,P42336,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform"
 DB12016,Ponesimod,SmallMoleculeDrug,P21453,Sphingosine 1-phosphate receptor 1
 DB12020,Tecovirimat,SmallMoleculeDrug,P33815,Envelope protein F13
-DB12023,Benralizumab,BiotechDrug,Q01344,Interleukin-5 receptor subunit alpha
-DB12023,Benralizumab,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
 DB12026,Voxilaprevir,SmallMoleculeDrug,B0B3C9,Genome polyprotein
 DB12026,Voxilaprevir,SmallMoleculeDrug,P26664,Genome polyprotein
 DB12070,Letermovir,SmallMoleculeDrug,F5HC79,Tripartite terminase subunit 1
@@ -11242,10 +10687,6 @@ DB12107,Vaborbactam,SmallMoleculeDrug,P0AD64,Beta-lactamase SHV-1
 DB12107,Vaborbactam,SmallMoleculeDrug,P62593,Beta-lactamase TEM
 DB12107,Vaborbactam,SmallMoleculeDrug,Q9X757,Beta-lactamase
 DB12107,Vaborbactam,SmallMoleculeDrug,Q53IN1,Beta-lactamase
-DB12118,Sotatercept,BiotechDrug,P27037,Activin receptor type-2A
-DB12118,Sotatercept,BiotechDrug,P36896,Activin receptor type-1B
-DB12118,Sotatercept,BiotechDrug,O14793,Growth/differentiation factor 8
-DB12118,Sotatercept,BiotechDrug,O95390,Growth/differentiation factor 11
 DB12130,Lorlatinib,SmallMoleculeDrug,P08922,Proto-oncogene tyrosine-protein kinase ROS
 DB12130,Lorlatinib,SmallMoleculeDrug,Q9UM73,ALK tyrosine kinase receptor
 DB12141,Gilteritinib,SmallMoleculeDrug,P36888,Receptor-type tyrosine-protein kinase FLT3
@@ -11287,11 +10728,7 @@ DB12151,Brincidofovir,SmallMoleculeDrug,P54098,DNA polymerase subunit gamma-1
 DB12151,Brincidofovir,SmallMoleculeDrug,P56282,DNA polymerase epsilon subunit 2
 DB12151,Brincidofovir,SmallMoleculeDrug,P0DOO6,DNA polymerase
 DB12153,Citicoline,SmallMoleculeDrug,A0A0H2UQB5,LicC protein
-DB12159,Dupilumab,BiotechDrug,P24394,Interleukin-4 receptor subunit alpha
-DB12159,Dupilumab,BiotechDrug,P35225,Interleukin-13
-DB12159,Dupilumab,BiotechDrug,P05112,Interleukin-4
 DB12161,Deutetrabenazine,SmallMoleculeDrug,Q05940,Synaptic vesicular amine transporter
-DB12169,Tralokinumab,BiotechDrug,P35225,Interleukin-13
 DB12184,Gepirone,SmallMoleculeDrug,P08908,5-hydroxytryptamine receptor 1A
 DB12218,Capivasertib,SmallMoleculeDrug,P31749,RAC-alpha serine/threonine-protein kinase
 DB12218,Capivasertib,SmallMoleculeDrug,P31751,RAC-beta serine/threonine-protein kinase
@@ -11299,7 +10736,6 @@ DB12218,Capivasertib,SmallMoleculeDrug,Q9Y243,RAC-gamma serine/threonine-protein
 DB12235,Estetrol,SmallMoleculeDrug,P03372,Estrogen receptor
 DB12235,Estetrol,SmallMoleculeDrug,Q92731,Estrogen receptor beta
 DB12236,Bexagliflozin,SmallMoleculeDrug,P31639,Sodium/glucose cotransporter 2
-DB12240,Polatuzumab vedotin,BiotechDrug,P40259,B-cell antigen receptor complex-associated protein beta chain
 DB12243,Edaravone,SmallMoleculeDrug,P10415,Apoptosis regulator Bcl-2
 DB12245,Triclabendazole,SmallMoleculeDrug,P25779,Cruzipain
 DB12245,Triclabendazole,SmallMoleculeDrug,Q6IX08,14-3-3 epsilon2 isoform
@@ -11324,7 +10760,6 @@ DB12267,Brigatinib,SmallMoleculeDrug,P06213,Insulin receptor
 DB12267,Brigatinib,SmallMoleculeDrug,P08581,Hepatocyte growth factor receptor
 DB12267,Brigatinib,SmallMoleculeDrug,Q15303,Receptor tyrosine-protein kinase erbB-4
 DB12267,Brigatinib,SmallMoleculeDrug,P04626,Receptor tyrosine-protein kinase erbB-2
-DB12274,Aducanumab,BiotechDrug,P05067,Amyloid-beta precursor protein
 DB12278,Propiverine,SmallMoleculeDrug,P11229,Muscarinic acetylcholine receptor M1
 DB12278,Propiverine,SmallMoleculeDrug,P08172,Muscarinic acetylcholine receptor M2
 DB12278,Propiverine,SmallMoleculeDrug,P20309,Muscarinic acetylcholine receptor M3
@@ -11393,8 +10828,6 @@ DB12483,Copanlisib,SmallMoleculeDrug,P42336,"Phosphatidylinositol 4,5-bisphospha
 DB12483,Copanlisib,SmallMoleculeDrug,O00329,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform"
 DB12483,Copanlisib,SmallMoleculeDrug,P42338,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform"
 DB12483,Copanlisib,SmallMoleculeDrug,P48736,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform"
-DB12489,Mirvetuximab soravtansine,BiotechDrug,P15328,Folate receptor alpha
-DB12498,Mogamulizumab,BiotechDrug,P51679,C-C chemokine receptor type 4
 DB12499,Clascoterone,SmallMoleculeDrug,P10275,Androgen receptor
 DB12500,Fedratinib,SmallMoleculeDrug,O60674,Tyrosine-protein kinase JAK2
 DB12500,Fedratinib,SmallMoleculeDrug,P36888,Receptor-type tyrosine-protein kinase FLT3
@@ -11402,7 +10835,6 @@ DB12500,Fedratinib,SmallMoleculeDrug,P23458,Tyrosine-protein kinase JAK1
 DB12513,Omaveloxolone,SmallMoleculeDrug,Q16236,Nuclear factor erythroid 2-related factor 2
 DB12513,Omaveloxolone,SmallMoleculeDrug,Q14145,Kelch-like ECH-associated protein 1
 DB12523,Mizolastine,SmallMoleculeDrug,P35367,Histamine H1 receptor
-DB12530,Inebilizumab,BiotechDrug,P15391,B-lymphocyte antigen CD19
 DB12532,Oxetacaine,SmallMoleculeDrug,P01350,Gastrin
 DB12537,"1,2-Benzodiazepine",SmallMoleculeDrug,P30536,Translocator protein
 DB12537,"1,2-Benzodiazepine",SmallMoleculeDrug,P14867,Gamma-aminobutyric acid receptor subunit alpha-1
@@ -11455,11 +10887,6 @@ DB12645,Givinostat,SmallMoleculeDrug,Q969S8,Polyamine deacetylase HDAC10
 DB12645,Givinostat,SmallMoleculeDrug,O60674,Tyrosine-protein kinase JAK2
 DB12645,Givinostat,SmallMoleculeDrug,Q13547,Histone deacetylase 1
 DB12667,Protionamide,SmallMoleculeDrug,P9WGR1,Enoyl-[acyl-carrier-protein] reductase [NADH]
-DB12688,Moxetumomab pasudotox,BiotechDrug,P20273,B-cell receptor CD22
-DB12688,Moxetumomab pasudotox,BiotechDrug,P13639,Elongation factor 2
-DB12698,Ibalizumab,BiotechDrug,P51681,C-C chemokine receptor type 5
-DB12698,Ibalizumab,BiotechDrug,P61073,C-X-C chemokine receptor type 4
-DB12698,Ibalizumab,BiotechDrug,P01730,T-cell surface glycoprotein CD4
 DB12710,Perazine,SmallMoleculeDrug,P14416,D(2) dopamine receptor
 DB12713,Sotagliflozin,SmallMoleculeDrug,P31639,Sodium/glucose cotransporter 2
 DB12713,Sotagliflozin,SmallMoleculeDrug,P13866,Sodium/glucose cotransporter 1
@@ -11478,20 +10905,12 @@ DB12808,Trifarotene,SmallMoleculeDrug,P13631,Retinoic acid receptor gamma
 DB12808,Trifarotene,SmallMoleculeDrug,P10826,Retinoic acid receptor beta
 DB12808,Trifarotene,SmallMoleculeDrug,P10276,Retinoic acid receptor alpha
 DB12825,Lefamulin,SmallMoleculeDrug,P61182,50S ribosomal protein L22
-DB12839,Pegvaliase,BiotechDrug,P00439,Phenylalanine-4-hydroxylase
 DB12865,Etelcalcetide,SmallMoleculeDrug,P41180,Extracellular calcium-sensing receptor
-DB12872,Vonicog alfa,BiotechDrug,P00451,Coagulation factor VIII
-DB12872,Vonicog alfa,BiotechDrug,P02452,Collagen alpha-1(I) chain
 DB12874,Quizartinib,SmallMoleculeDrug,P36888,Receptor-type tyrosine-protein kinase FLT3
 DB12877,Oxatomide,SmallMoleculeDrug,P35367,Histamine H1 receptor
 DB12887,Tazemetostat,SmallMoleculeDrug,Q15910,Histone-lysine N-methyltransferase EZH2
 DB12887,Tazemetostat,SmallMoleculeDrug,Q92800,Histone-lysine N-methyltransferase EZH1
-DB12893,Sacituzumab govitecan,BiotechDrug,P09758,Tumor-associated calcium signal transducer 2
-DB12893,Sacituzumab govitecan,BiotechDrug,P11387,DNA topoisomerase 1
-DB12893,Sacituzumab govitecan,BiotechDrug,Q96AE4,Far upstream element-binding protein 1
 DB12914,Resmetirom,SmallMoleculeDrug,P10828,Thyroid hormone receptor beta
-DB12917,Bimekizumab,BiotechDrug,Q16552,Interleukin-17A
-DB12917,Bimekizumab,BiotechDrug,Q96PD4,Interleukin-17F
 DB12924,Ozenoxacin,SmallMoleculeDrug,P43700,DNA gyrase subunit A
 DB12924,Ozenoxacin,SmallMoleculeDrug,P0AFI2,DNA topoisomerase 4 subunit A
 DB12924,Ozenoxacin,SmallMoleculeDrug,P0A0K8,DNA gyrase subunit B
@@ -11521,7 +10940,6 @@ DB12978,Pexidartinib,SmallMoleculeDrug,P07333,Macrophage colony-stimulating fact
 DB12978,Pexidartinib,SmallMoleculeDrug,P10721,Mast/stem cell growth factor receptor Kit
 DB12978,Pexidartinib,SmallMoleculeDrug,P36888,Receptor-type tyrosine-protein kinase FLT3
 DB12978,Pexidartinib,SmallMoleculeDrug,P09619,Platelet-derived growth factor receptor beta
-DB13007,Enfortumab vedotin,BiotechDrug,Q96NY8,Nectin-4
 DB13055,Oteseconazole,SmallMoleculeDrug,P10613,Lanosterol 14-alpha demethylase
 DB13063,Parthenolide,SmallMoleculeDrug,Q04864,Proto-oncogene c-Rel
 DB13063,Parthenolide,SmallMoleculeDrug,Q01201,Transcription factor RelB
@@ -11531,13 +10949,7 @@ DB13063,Parthenolide,SmallMoleculeDrug,Q00653,Nuclear factor NF-kappa-B p100 sub
 DB13063,Parthenolide,SmallMoleculeDrug,Q04206,Transcription factor p65
 DB13074,Macimorelin,SmallMoleculeDrug,Q92847,Growth hormone secretagogue receptor type 1
 DB13125,Lusutrombopag,SmallMoleculeDrug,P40238,Thrombopoietin receptor
-DB13133,Von Willebrand factor human,BiotechDrug,P00451,Coagulation factor VIII
-DB13133,Von Willebrand factor human,BiotechDrug,P02452,Collagen alpha-1(I) chain
-DB13133,Von Willebrand factor human,BiotechDrug,P07306,Asialoglycoprotein receptor 1
-DB13133,Von Willebrand factor human,BiotechDrug,Q07954,Prolow-density lipoprotein receptor-related protein 1
 DB13139,Levosalbutamol,SmallMoleculeDrug,P07550,Beta-2 adrenergic receptor
-DB13140,Bezlotoxumab,BiotechDrug,P18177,Toxin B
-DB13144,Lenograstim,BiotechDrug,Q99062,Granulocyte colony-stimulating factor receptor
 DB13146,Fluciclovine (18F),SmallMoleculeDrug,Q15758,Neutral amino acid transporter B(0)
 DB13146,Fluciclovine (18F),SmallMoleculeDrug,Q9UM01,Y+L amino acid transporter 1
 DB13146,Fluciclovine (18F),SmallMoleculeDrug,Q8WY07,Cationic amino acid transporter 3
@@ -11552,27 +10964,6 @@ DB13146,Fluciclovine (18F),SmallMoleculeDrug,P42261,Glutamate receptor 1
 DB13146,Fluciclovine (18F),SmallMoleculeDrug,P42262,Glutamate receptor 2
 DB13146,Fluciclovine (18F),SmallMoleculeDrug,P42263,Glutamate receptor 3
 DB13146,Fluciclovine (18F),SmallMoleculeDrug,P48058,Glutamate receptor 4
-DB13149,Protein S human,BiotechDrug,P12259,Coagulation factor V
-DB13149,Protein S human,BiotechDrug,P00742,Coagulation factor X
-DB13149,Protein S human,BiotechDrug,P04070,Vitamin K-dependent protein C
-DB13150,Coagulation factor VII human,BiotechDrug,P13726,Tissue factor
-DB13150,Coagulation factor VII human,BiotechDrug,P00742,Coagulation factor X
-DB13150,Coagulation factor VII human,BiotechDrug,P00740,Coagulation factor IX
-DB13151,Anti-inhibitor coagulant complex,BiotechDrug,P00742,Coagulation factor X
-DB13151,Anti-inhibitor coagulant complex,BiotechDrug,P00734,Prothrombin
-DB13151,Anti-inhibitor coagulant complex,BiotechDrug,P02671,Fibrinogen alpha chain
-DB13151,Anti-inhibitor coagulant complex,BiotechDrug,P02675,Fibrinogen beta chain
-DB13151,Anti-inhibitor coagulant complex,BiotechDrug,P00488,Coagulation factor XIII A chain
-DB13151,Anti-inhibitor coagulant complex,BiotechDrug,P12259,Coagulation factor V
-DB13151,Anti-inhibitor coagulant complex,BiotechDrug,P00451,Coagulation factor VIII
-DB13151,Anti-inhibitor coagulant complex,BiotechDrug,P08709,Coagulation factor VII
-DB13152,Coagulation Factor IX Human,BiotechDrug,P00742,Coagulation factor X
-DB13152,Coagulation Factor IX Human,BiotechDrug,P03951,Coagulation factor XI
-DB13152,Coagulation Factor IX Human,BiotechDrug,P08709,Coagulation factor VII
-DB13152,Coagulation Factor IX Human,BiotechDrug,P00451,Coagulation factor VIII
-DB13152,Coagulation Factor IX Human,BiotechDrug,P00734,Prothrombin
-DB13152,Coagulation Factor IX Human,BiotechDrug,Q07954,Prolow-density lipoprotein receptor-related protein 1
-DB13152,Coagulation Factor IX Human,BiotechDrug,P38435,Vitamin K-dependent gamma-carboxylase
 DB13154,Parachlorophenol,SmallMoleculeDrug,P35499,Sodium channel protein type 4 subunit alpha
 DB13155,Esculin,SmallMoleculeDrug,P10275,Androgen receptor
 DB13158,Clobetasone,SmallMoleculeDrug,P04150,Glucocorticoid receptor
@@ -11581,13 +10972,9 @@ DB13166,Zofenopril,SmallMoleculeDrug,P12821,Angiotensin-converting enzyme
 DB13167,Alclofenac,SmallMoleculeDrug,P35354,Prostaglandin G/H synthase 2
 DB13170,Plecanatide,SmallMoleculeDrug,P25092,Guanylyl cyclase C
 DB13170,Plecanatide,SmallMoleculeDrug,P33402,Guanylate cyclase soluble subunit alpha-2
-DB13173,Cerliponase alfa,BiotechDrug,P11717,Cation-independent mannose-6-phosphate receptor
 DB13179,Troleandomycin,SmallMoleculeDrug,P49228,50S ribosomal protein L32
 DB13179,Troleandomycin,SmallMoleculeDrug,P60723,50S ribosomal protein L4
 DB13179,Troleandomycin,SmallMoleculeDrug,O75469,Nuclear receptor subfamily 1 group I member 2
-DB13192,Antihemophilic factor human,BiotechDrug,P00740,Coagulation factor IX
-DB13192,Antihemophilic factor human,BiotechDrug,P00742,Coagulation factor X
-DB13200,Lipegfilgrastim,BiotechDrug,Q99062,Granulocyte colony-stimulating factor receptor
 DB13245,Thiram,SmallMoleculeDrug,O60674,Tyrosine-protein kinase JAK2
 DB13247,Pramiracetam,SmallMoleculeDrug,P08912,Muscarinic acetylcholine receptor M5
 DB13257,Ferrous sulfate anhydrous,SmallMoleculeDrug,P69905,Hemoglobin subunit alpha
@@ -11776,33 +11163,12 @@ DB13874,Enasidenib,SmallMoleculeDrug,P48735,"Isocitrate dehydrogenase [NADP], mi
 DB13878,Pibrentasvir,SmallMoleculeDrug,Q5L478,Nonstructural protein 5A
 DB13879,Glecaprevir,SmallMoleculeDrug,Q91RS4,NS3 protease
 DB13879,Glecaprevir,SmallMoleculeDrug,B0B3C9,Genome polyprotein
-DB13881,Tisagenlecleucel,BiotechDrug,P15391,B-lymphocyte antigen CD19
-DB13884,Albutrepenonacog alfa,BiotechDrug,P00742,Coagulation factor X
-DB13893,Crotalus adamanteus antivenin,BiotechDrug,O15496,Group 10 secretory phospholipase A2
-DB13894,Agkistrodon piscivorus antivenin,BiotechDrug,O15496,Group 10 secretory phospholipase A2
-DB13896,Talimogene laherparepvec,BiotechDrug,P04141,Granulocyte-macrophage colony-stimulating factor
-DB13897,Equine Botulinum Neurotoxin E Immune FAB2,BiotechDrug,Q00496,Botulinum neurotoxin type E
-DB13898,Equine Botulinum Neurotoxin C Immune FAB2,BiotechDrug,P18640,Botulinum neurotoxin type C1
-DB13899,Equine Botulinum Neurotoxin G Immune FAB2,BiotechDrug,Q60393,Botulinum neurotoxin type G
-DB13900,Equine Botulinum Neurotoxin A Immune FAB2,BiotechDrug,Q7B8V4,BoNT/A
-DB13901,Equine Botulinum Neurotoxin F Immune FAB2,BiotechDrug,P30996,Botulinum neurotoxin type F
-DB13902,Equine Botulinum Neurotoxin D Immune FAB2,BiotechDrug,P19321,Botulinum neurotoxin type D
-DB13903,Equine Botulinum Neurotoxin B Immune FAB2,BiotechDrug,P10844,Botulinum neurotoxin type B
 DB13908,Amylmetacresol,SmallMoleculeDrug,Q99250,Sodium channel protein type 2 subunit alpha
-DB13915,Axicabtagene ciloleucel,BiotechDrug,P15391,B-lymphocyte antigen CD19
-DB13923,Emicizumab,BiotechDrug,P00740,Coagulation factor IX
-DB13923,Emicizumab,BiotechDrug,P00742,Coagulation factor X
 DB13925,Dotatate gallium Ga-68,SmallMoleculeDrug,P30874,Somatostatin receptor type 2
-DB13926,Cenegermin,BiotechDrug,P04629,High affinity nerve growth factor receptor
-DB13926,Cenegermin,BiotechDrug,P08138,Tumor necrosis factor receptor superfamily member 16
 DB13928,Semaglutide,SmallMoleculeDrug,P43220,Glucagon-like peptide 1 receptor
 DB13931,Netarsudil,SmallMoleculeDrug,Q13464,Rho-associated protein kinase 1
 DB13931,Netarsudil,SmallMoleculeDrug,O75116,Rho-associated protein kinase 2
 DB13931,Netarsudil,SmallMoleculeDrug,P23975,Sodium-dependent noradrenaline transporter
-DB13932,Voretigene neparvovec,BiotechDrug,Q16518,Retinoid isomerohydrolase
-DB13933,Nonacog beta pegol,BiotechDrug,P08709,Coagulation factor VII
-DB13933,Nonacog beta pegol,BiotechDrug,P00451,Coagulation factor VIII
-DB13933,Nonacog beta pegol,BiotechDrug,P00742,Coagulation factor X
 DB13943,Testosterone cypionate,SmallMoleculeDrug,P10275,Androgen receptor
 DB13943,Testosterone cypionate,SmallMoleculeDrug,P03372,Estrogen receptor
 DB13943,Testosterone cypionate,SmallMoleculeDrug,P08235,Mineralocorticoid receptor
@@ -11862,39 +11228,7 @@ DB13956,Estradiol valerate,SmallMoleculeDrug,P00846,ATP synthase subunit a
 DB13956,Estradiol valerate,SmallMoleculeDrug,Q14457,Beclin-1
 DB13956,Estradiol valerate,SmallMoleculeDrug,P37059,17-beta-hydroxysteroid dehydrogenase type 2
 DB13956,Estradiol valerate,SmallMoleculeDrug,P62508,Estrogen-related receptor gamma
-DB13961,Fish oil,BiotechDrug,Q96PD7,Diacylglycerol O-acyltransferase 2
-DB13961,Fish oil,BiotechDrug,P35354,Prostaglandin G/H synthase 2
-DB13961,Fish oil,BiotechDrug,Q5NUL3,Free fatty acid receptor 4
-DB13961,Fish oil,BiotechDrug,Q13936,Voltage-dependent L-type calcium channel subunit alpha-1C
-DB13961,Fish oil,BiotechDrug,Q01668,Voltage-dependent L-type calcium channel subunit alpha-1D
-DB13961,Fish oil,BiotechDrug,O60840,Voltage-dependent L-type calcium channel subunit alpha-1F
-DB13961,Fish oil,BiotechDrug,Q13698,Voltage-dependent L-type calcium channel subunit alpha-1S
-DB13961,Fish oil,BiotechDrug,Q02641,Voltage-dependent L-type calcium channel subunit beta-1
-DB13961,Fish oil,BiotechDrug,Q08289,Voltage-dependent L-type calcium channel subunit beta-2
-DB13961,Fish oil,BiotechDrug,P54284,Voltage-dependent L-type calcium channel subunit beta-3
-DB13961,Fish oil,BiotechDrug,O00305,Voltage-dependent L-type calcium channel subunit beta-4
-DB13961,Fish oil,BiotechDrug,P35498,Sodium channel protein type 1 subunit alpha
-DB13961,Fish oil,BiotechDrug,Q9Y5Y9,Sodium channel protein type 10 subunit alpha
-DB13961,Fish oil,BiotechDrug,Q9UI33,Sodium channel protein type 11 subunit alpha
-DB13961,Fish oil,BiotechDrug,Q99250,Sodium channel protein type 2 subunit alpha
-DB13961,Fish oil,BiotechDrug,Q9NY46,Sodium channel protein type 3 subunit alpha
-DB13961,Fish oil,BiotechDrug,P35499,Sodium channel protein type 4 subunit alpha
-DB13961,Fish oil,BiotechDrug,Q14524,Sodium channel protein type 5 subunit alpha
-DB13961,Fish oil,BiotechDrug,Q01118,Sodium channel protein type 7 subunit alpha
-DB13961,Fish oil,BiotechDrug,Q9UQD0,Sodium channel protein type 8 subunit alpha
-DB13961,Fish oil,BiotechDrug,Q15858,Sodium channel protein type 9 subunit alpha
-DB13961,Fish oil,BiotechDrug,Q07699,Sodium channel regulatory subunit beta-1
-DB13961,Fish oil,BiotechDrug,O60939,Sodium channel regulatory subunit beta-2
-DB13961,Fish oil,BiotechDrug,Q9NY72,Sodium channel regulatory subunit beta-3
-DB13961,Fish oil,BiotechDrug,Q8IWT1,Sodium channel regulatory subunit beta-4
-DB13961,Fish oil,BiotechDrug,Q00653,Nuclear factor NF-kappa-B p100 subunit
-DB13961,Fish oil,BiotechDrug,P19838,Nuclear factor NF-kappa-B p105 subunit
-DB13961,Fish oil,BiotechDrug,P36956,Sterol regulatory element-binding protein 1
-DB13961,Fish oil,BiotechDrug,Q07869,Peroxisome proliferator-activated receptor alpha
-DB13961,Fish oil,BiotechDrug,P37231,Peroxisome proliferator-activated receptor gamma
-DB13961,Fish oil,BiotechDrug,Q03181,Peroxisome proliferator-activated receptor delta
 DB13967,Patent Blue,SmallMoleculeDrug,P02768,Albumin
-DB13979,Besilesomab,BiotechDrug,Q14081,Carcinoembryonic antigen
 DB13981,Nomegestrol acetate,SmallMoleculeDrug,P03372,Estrogen receptor
 DB13985,Lutetium Lu 177 dotatate,SmallMoleculeDrug,P30874,Somatostatin receptor type 2
 DB13985,Lutetium Lu 177 dotatate,SmallMoleculeDrug,P30872,Somatostatin receptor type 1
@@ -11907,28 +11241,6 @@ DB13995,Ferric pyrophosphate citrate,SmallMoleculeDrug,P69905,Hemoglobin subunit
 DB13995,Ferric pyrophosphate citrate,SmallMoleculeDrug,P68871,Hemoglobin subunit beta
 DB13996,Magnesium acetate,SmallMoleculeDrug,P05023,Sodium/potassium-transporting ATPase subunit alpha-1
 DB13997,Baloxavir marboxil,SmallMoleculeDrug,P03433,Polymerase acidic protein
-DB13998,Lonoctocog alfa,BiotechDrug,P00742,Coagulation factor X
-DB13998,Lonoctocog alfa,BiotechDrug,P00740,Coagulation factor IX
-DB13998,Lonoctocog alfa,BiotechDrug,P04275,von Willebrand factor
-DB13998,Lonoctocog alfa,BiotechDrug,O14832,"Phytanoyl-CoA dioxygenase, peroxisomal"
-DB13998,Lonoctocog alfa,BiotechDrug,P07307,Asialoglycoprotein receptor 2
-DB13998,Lonoctocog alfa,BiotechDrug,P11021,Endoplasmic reticulum chaperone BiP
-DB13998,Lonoctocog alfa,BiotechDrug,P27797,Calreticulin
-DB13998,Lonoctocog alfa,BiotechDrug,P27824,Calnexin
-DB13998,Lonoctocog alfa,BiotechDrug,P49257,Protein ERGIC-53
-DB13998,Lonoctocog alfa,BiotechDrug,Q07954,Prolow-density lipoprotein receptor-related protein 1
-DB13998,Lonoctocog alfa,BiotechDrug,Q8NI22,Multiple coagulation factor deficiency protein 2
-DB13999,Moroctocog alfa,BiotechDrug,P00742,Coagulation factor X
-DB13999,Moroctocog alfa,BiotechDrug,P00740,Coagulation factor IX
-DB13999,Moroctocog alfa,BiotechDrug,P04275,von Willebrand factor
-DB13999,Moroctocog alfa,BiotechDrug,O14832,"Phytanoyl-CoA dioxygenase, peroxisomal"
-DB13999,Moroctocog alfa,BiotechDrug,P07307,Asialoglycoprotein receptor 2
-DB13999,Moroctocog alfa,BiotechDrug,P11021,Endoplasmic reticulum chaperone BiP
-DB13999,Moroctocog alfa,BiotechDrug,P27797,Calreticulin
-DB13999,Moroctocog alfa,BiotechDrug,P27824,Calnexin
-DB13999,Moroctocog alfa,BiotechDrug,P49257,Protein ERGIC-53
-DB13999,Moroctocog alfa,BiotechDrug,Q07954,Prolow-density lipoprotein receptor-related protein 1
-DB13999,Moroctocog alfa,BiotechDrug,Q8NI22,Multiple coagulation factor deficiency protein 2
 DB14001,alpha-Tocopherol succinate,SmallMoleculeDrug,Q9UDX4,SEC14-like protein 3
 DB14001,alpha-Tocopherol succinate,SmallMoleculeDrug,O76054,SEC14-like protein 2
 DB14001,alpha-Tocopherol succinate,SmallMoleculeDrug,O75469,Nuclear receptor subfamily 1 group I member 2
@@ -11951,8 +11263,6 @@ DB14002,D-alpha-Tocopherol acetate,SmallMoleculeDrug,O75469,Nuclear receptor sub
 DB14002,D-alpha-Tocopherol acetate,SmallMoleculeDrug,P05771,Protein kinase C beta type
 DB14002,D-alpha-Tocopherol acetate,SmallMoleculeDrug,P09917,Polyunsaturated fatty acid 5-lipoxygenase
 DB14002,D-alpha-Tocopherol acetate,SmallMoleculeDrug,P17252,Protein kinase C alpha type
-DB14004,Tildrakizumab,BiotechDrug,P29460,Interleukin-12 subunit beta
-DB14004,Tildrakizumab,BiotechDrug,Q9NPF7,Interleukin-23 subunit alpha
 DB14006,Choline salicylate,SmallMoleculeDrug,Q9Y5K3,Choline-phosphate cytidylyltransferase B
 DB14006,Choline salicylate,SmallMoleculeDrug,P22303,Acetylcholinesterase
 DB14006,Choline salicylate,SmallMoleculeDrug,P49585,Choline-phosphate cytidylyltransferase A
@@ -11960,7 +11270,6 @@ DB14006,Choline salicylate,SmallMoleculeDrug,O14939,Phospholipase D2
 DB14006,Choline salicylate,SmallMoleculeDrug,P06276,Cholinesterase
 DB14006,Choline salicylate,SmallMoleculeDrug,Q13393,Phospholipase D1
 DB14006,Choline salicylate,SmallMoleculeDrug,P36544,Neuronal acetylcholine receptor subunit alpha-7
-DB14012,Burosumab,BiotechDrug,Q7Z4T2,Fibroblast growth factor 23
 DB14018,Bromotheophylline,SmallMoleculeDrug,P30542,Adenosine receptor A1
 DB14018,Bromotheophylline,SmallMoleculeDrug,P29274,Adenosine receptor A2a
 DB14018,Bromotheophylline,SmallMoleculeDrug,P29275,Adenosine receptor A2b
@@ -11968,13 +11277,6 @@ DB14018,Bromotheophylline,SmallMoleculeDrug,P0DMS8,Adenosine receptor A3
 DB14019,Fosnetupitant,SmallMoleculeDrug,P25103,Substance-P receptor
 DB14020,Benzoin,SmallMoleculeDrug,P23141,Liver carboxylesterase 1
 DB14033,Acetyl sulfisoxazole,SmallMoleculeDrug,P0AC13,Dihydropteroate synthase
-DB14039,Erenumab,BiotechDrug,Q16602,Calcitonin gene-related peptide type 1 receptor
-DB14040,Eptinezumab,BiotechDrug,P06881,Calcitonin gene-related peptide 1
-DB14040,Eptinezumab,BiotechDrug,P10092,Calcitonin gene-related peptide 2
-DB14041,Fremanezumab,BiotechDrug,P06881,Calcitonin gene-related peptide 1
-DB14041,Fremanezumab,BiotechDrug,P10092,Calcitonin gene-related peptide 2
-DB14042,Galcanezumab,BiotechDrug,P06881,Calcitonin gene-related peptide 1
-DB14042,Galcanezumab,BiotechDrug,P10092,Calcitonin gene-related peptide 2
 DB14083,Bisphenol A diglycidyl ether,SmallMoleculeDrug,Q8NEC5,Cation channel sperm-associated protein 1
 DB14086,Cianidanol,SmallMoleculeDrug,P00918,Carbonic anhydrase 2
 DB14086,Cianidanol,SmallMoleculeDrug,O43570,Carbonic anhydrase 12
@@ -12489,15 +11791,12 @@ DB14548,"Zinc sulfate, unspecified form",SmallMoleculeDrug,P04196,Histidine-rich
 DB14548,"Zinc sulfate, unspecified form",SmallMoleculeDrug,P03951,Coagulation factor XI
 DB14548,"Zinc sulfate, unspecified form",SmallMoleculeDrug,P41238,C->U-editing enzyme APOBEC-1
 DB14548,"Zinc sulfate, unspecified form",SmallMoleculeDrug,Q02383,Semenogelin-2
-DB14562,Andexanet alfa,BiotechDrug,P10646,Tissue factor pathway inhibitor
 DB14568,Ivosidenib,SmallMoleculeDrug,O75874,Isocitrate dehydrogenase [NADP] cytoplasmic
 DB14575,Eslicarbazepine,SmallMoleculeDrug,Q9UI33,Sodium channel protein type 11 subunit alpha
 DB14575,Eslicarbazepine,SmallMoleculeDrug,Q99571,P2X purinoceptor 4
-DB14580,Lecanemab,BiotechDrug,P05067,Amyloid-beta precursor protein
 DB14583,Segesterone acetate,SmallMoleculeDrug,P06401,Progesterone receptor
 DB14583,Segesterone acetate,SmallMoleculeDrug,P10275,Androgen receptor
 DB14583,Segesterone acetate,SmallMoleculeDrug,P04150,Glucocorticoid receptor
-DB14597,Lanadelumab,BiotechDrug,P03952,Plasma kallikrein
 DB14631,Prednisolone phosphate,SmallMoleculeDrug,P04150,Glucocorticoid receptor
 DB14631,Prednisolone phosphate,SmallMoleculeDrug,P04083,Annexin A1
 DB14642,Lypressin,SmallMoleculeDrug,P37288,Vasopressin V1a receptor
@@ -12510,42 +11809,25 @@ DB14649,Dexamethasone acetate,SmallMoleculeDrug,P51843,Nuclear receptor subfamil
 DB14649,Dexamethasone acetate,SmallMoleculeDrug,O75469,Nuclear receptor subfamily 1 group I member 2
 DB14669,Betamethasone phosphate,SmallMoleculeDrug,P04150,Glucocorticoid receptor
 DB14669,Betamethasone phosphate,SmallMoleculeDrug,P04083,Annexin A1
-DB14700,Damoctocog alfa pegol,BiotechDrug,P00451,Coagulation factor VIII
-DB14707,Cemiplimab,BiotechDrug,Q15116,Programmed cell death protein 1
-DB14713,Inotersen,BiotechDrug,P02766,Transthyretin
 DB14723,Larotrectinib,SmallMoleculeDrug,P04629,High affinity nerve growth factor receptor
 DB14723,Larotrectinib,SmallMoleculeDrug,Q16620,BDNF/NT-3 growth factors receptor
 DB14723,Larotrectinib,SmallMoleculeDrug,Q16288,NT-3 growth factor receptor
-DB14724,Emapalumab,BiotechDrug,P01579,Interferon gamma
 DB14726,Dabigatran,SmallMoleculeDrug,P00734,Prothrombin
-DB14731,Tagraxofusp,BiotechDrug,P26951,Interleukin-3 receptor subunit alpha
 DB14733,Ceftobiprole medocaril,SmallMoleculeDrug,Q7DHH4,MecA
 DB14733,Ceftobiprole medocaril,SmallMoleculeDrug,P0A3M6,Penicillin-binding protein 2B
 DB14733,Ceftobiprole medocaril,SmallMoleculeDrug,P59676,Penicillin-binding protein 2X
-DB14738,Turoctocog alfa pegol,BiotechDrug,P00740,Coagulation factor IX
-DB14738,Turoctocog alfa pegol,BiotechDrug,P00742,Coagulation factor X
-DB14738,Turoctocog alfa pegol,BiotechDrug,P00734,Prothrombin
-DB14738,Turoctocog alfa pegol,BiotechDrug,P04275,von Willebrand factor
-DB14740,Hyaluronidase,BiotechDrug,P01137,Transforming growth factor beta-1 proprotein
-DB00781,Polymyxin B,BiotechDrug,P0AC13,Dihydropteroate synthase
-DB14751,Mecasermin rinfabate,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
-DB14751,Mecasermin rinfabate,BiotechDrug,P06213,Insulin receptor
-DB14751,Mecasermin rinfabate,BiotechDrug,P11717,Cation-independent mannose-6-phosphate receptor
 DB14754,Solriamfetol,SmallMoleculeDrug,Q01959,Sodium-dependent dopamine transporter
 DB14754,Solriamfetol,SmallMoleculeDrug,P23975,Sodium-dependent noradrenaline transporter
 DB14761,Remdesivir,SmallMoleculeDrug,P0DTD1,Replicase polyprotein 1ab
 DB14761,Remdesivir,SmallMoleculeDrug,P0C6X7,Replicase polyprotein 1ab
 DB14761,Remdesivir,SmallMoleculeDrug,K9N7C7,Replicase polyprotein 1ab
 DB14761,Remdesivir,SmallMoleculeDrug,Q05318,RNA-directed RNA polymerase L
-DB14762,Risankizumab,BiotechDrug,P29460,Interleukin-12 subunit beta
-DB14762,Risankizumab,BiotechDrug,Q9NPF7,Interleukin-23 subunit alpha
 DB14763,Cycloguanil,SmallMoleculeDrug,Q9HBH1,"Peptide deformylase, mitochondrial"
 DB14766,Etrasimod,SmallMoleculeDrug,P21453,Sphingosine 1-phosphate receptor 1
 DB14766,Etrasimod,SmallMoleculeDrug,O95977,Sphingosine 1-phosphate receptor 4
 DB14766,Etrasimod,SmallMoleculeDrug,Q9H228,Sphingosine 1-phosphate receptor 5
 DB14783,Diroximel fumarate,SmallMoleculeDrug,Q9GZZ6,Neuronal acetylcholine receptor subunit alpha-10
 DB14805,Piflufolastat F 18,SmallMoleculeDrug,Q04609,Glutamate carboxypeptidase 2
-DB14811,Isatuximab,BiotechDrug,P28907,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1
 DB14840,Ripretinib,SmallMoleculeDrug,P10721,Mast/stem cell growth factor receptor Kit
 DB14840,Ripretinib,SmallMoleculeDrug,P09619,Platelet-derived growth factor receptor beta
 DB14840,Ripretinib,SmallMoleculeDrug,Q02763,Angiopoietin-1 receptor
@@ -12553,8 +11835,6 @@ DB14840,Ripretinib,SmallMoleculeDrug,P35968,Vascular endothelial growth factor r
 DB14840,Ripretinib,SmallMoleculeDrug,P15056,Serine/threonine-protein kinase B-raf
 DB14840,Ripretinib,SmallMoleculeDrug,P16234,Platelet-derived growth factor receptor alpha
 DB14845,Filgotinib,SmallMoleculeDrug,P23458,Tyrosine-protein kinase JAK1
-DB14851,Relatlimab,BiotechDrug,P18627,Lymphocyte activation gene 3 protein
-DB14864,Brolucizumab,BiotechDrug,P15692,"Vascular endothelial growth factor A, long form"
 DB14879,Cefiderocol,SmallMoleculeDrug,Q51504,Cell division protein
 DB14879,Cefiderocol,SmallMoleculeDrug,Q07806,Penicillin-binding protein 1A
 DB14879,Cefiderocol,SmallMoleculeDrug,Q9X6W0,Penicillin-binding protein 1B
@@ -12562,26 +11842,17 @@ DB14879,Cefiderocol,SmallMoleculeDrug,Q9X6V3,Penicillin-binding protein 2
 DB14879,Cefiderocol,SmallMoleculeDrug,P24228,D-alanyl-D-alanine carboxypeptidase DacB
 DB14881,Oliceridine,SmallMoleculeDrug,P35372,Mu-type opioid receptor
 DB14895,Vibegron,SmallMoleculeDrug,P13945,Beta-3 adrenergic receptor
-DB14901,Inclisiran,BiotechDrug,Q8NBP7,Proprotein convertase subtilisin/kexin type 9
 DB14909,Imetelstat,SmallMoleculeDrug,O14746,Telomerase reverse transcriptase
-DB14910,Mirikizumab,BiotechDrug,Q9NPF7,Interleukin-23 subunit alpha
 DB14914,Flortaucipir F-18,SmallMoleculeDrug,P10636,Microtubule-associated protein tau
 DB14914,Flortaucipir F-18,SmallMoleculeDrug,P21397,Amine oxidase [flavin-containing] A
 DB14914,Flortaucipir F-18,SmallMoleculeDrug,P27338,Amine oxidase [flavin-containing] B
-DB14919,Rozanolixizumab,BiotechDrug,P55899,IgG receptor FcRn large subunit p51
 DB14921,Mavacamten,SmallMoleculeDrug,P12883,Myosin-7
-DB14922,Tislelizumab,BiotechDrug,Q15116,Programmed cell death protein 1
 DB14924,Ritlecitinib,SmallMoleculeDrug,P52333,Tyrosine-protein kinase JAK3
 DB14924,Ritlecitinib,SmallMoleculeDrug,P42680,Tyrosine-protein kinase Tec
 DB14924,Ritlecitinib,SmallMoleculeDrug,Q08881,Tyrosine-protein kinase ITK/TSK
 DB14924,Ritlecitinib,SmallMoleculeDrug,P42681,Tyrosine-protein kinase TXK
 DB14924,Ritlecitinib,SmallMoleculeDrug,Q06187,Tyrosine-protein kinase BTK
 DB14924,Ritlecitinib,SmallMoleculeDrug,P51813,Cytoplasmic tyrosine-protein kinase BMX
-DB14939,Motixafortide,BiotechDrug,P61073,C-X-C chemokine receptor type 4
-DB14960,Somatrogon,BiotechDrug,P10912,Growth hormone receptor
-DB14962,Trastuzumab deruxtecan,BiotechDrug,P12314,High affinity immunoglobulin gamma Fc receptor I
-DB14962,Trastuzumab deruxtecan,BiotechDrug,P11387,DNA topoisomerase 1
-DB14967,Margetuximab,BiotechDrug,P04626,Receptor tyrosine-protein kinase erbB-2
 DB14973,Abrocitinib,SmallMoleculeDrug,P23458,Tyrosine-protein kinase JAK1
 DB14973,Abrocitinib,SmallMoleculeDrug,O60674,Tyrosine-protein kinase JAK2
 DB14973,Abrocitinib,SmallMoleculeDrug,P52333,Tyrosine-protein kinase JAK3
@@ -12590,10 +11861,6 @@ DB14975,Voxelotor,SmallMoleculeDrug,P69905,Hemoglobin subunit alpha
 DB14989,Umbralisib,SmallMoleculeDrug,P49674,Casein kinase I isoform epsilon
 DB14989,Umbralisib,SmallMoleculeDrug,O00329,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform"
 DB14989,Umbralisib,SmallMoleculeDrug,P00519,Tyrosine-protein kinase ABL1
-DB14992,Pegunigalsidase alfa,BiotechDrug,P06280,Alpha-galactosidase A
-DB14996,Sutimlimab,BiotechDrug,P09871,Complement C1s subcomponent
-DB14999,Human interferon beta,BiotechDrug,P17181,Interferon alpha/beta receptor 1
-DB15001,Eflapegrastim,BiotechDrug,Q99062,Granulocyte colony-stimulating factor receptor
 DB15011,Avacopan,SmallMoleculeDrug,P21730,C5a anaphylatoxin chemotactic receptor 1
 DB15031,Daridorexant,SmallMoleculeDrug,O43613,Orexin/Hypocretin receptor type 1
 DB15031,Daridorexant,SmallMoleculeDrug,O43614,Orexin receptor type 2
@@ -12612,17 +11879,11 @@ DB15035,Zanubrutinib,SmallMoleculeDrug,P09769,Tyrosine-protein kinase Fgr
 DB15035,Zanubrutinib,SmallMoleculeDrug,P42685,Tyrosine-protein kinase FRK
 DB15035,Zanubrutinib,SmallMoleculeDrug,P06239,Tyrosine-protein kinase Lck
 DB15035,Zanubrutinib,SmallMoleculeDrug,P42681,Tyrosine-protein kinase TXK
-DB15043,Toripalimab,BiotechDrug,Q15116,Programmed cell death protein 1
-DB15044,Tafasitamab,BiotechDrug,P15391,B-lymphocyte antigen CD19
 DB15059,Aprocitentan,SmallMoleculeDrug,P25101,Endothelin-1 receptor
 DB15059,Aprocitentan,SmallMoleculeDrug,P24530,Endothelin receptor type B
-DB15066,Givosiran,BiotechDrug,P13196,"5-aminolevulinate synthase, non-specific, mitochondrial"
-DB15067,Volanesorsen,BiotechDrug,P02656,Apolipoprotein C-III
 DB15071,Omidenepag isopropyl,SmallMoleculeDrug,P43116,Prostaglandin E2 receptor EP2 subtype
 DB15071,Omidenepag isopropyl,SmallMoleculeDrug,P34995,Prostaglandin E2 receptor EP1 subtype
-DB15090,Tezepelumab,BiotechDrug,Q969D9,Thymic stromal lymphopoietin
 DB15091,Upadacitinib,SmallMoleculeDrug,P23458,Tyrosine-protein kinase JAK1
-DB15093,Somapacitan,BiotechDrug,P10912,Growth hormone receptor
 DB15097,Gefapixant,SmallMoleculeDrug,P56373,P2X purinoceptor 3
 DB15097,Gefapixant,SmallMoleculeDrug,Q9UBL9,P2X purinoceptor 2
 DB15102,Pemigatinib,SmallMoleculeDrug,P11362,Fibroblast growth factor receptor 1
@@ -12631,9 +11892,6 @@ DB15102,Pemigatinib,SmallMoleculeDrug,P22607,Fibroblast growth factor receptor 3
 DB15102,Pemigatinib,SmallMoleculeDrug,P22455,Fibroblast growth factor receptor 4
 DB15114,Vamorolone,SmallMoleculeDrug,P04150,Glucocorticoid receptor
 DB15114,Vamorolone,SmallMoleculeDrug,P08235,Mineralocorticoid receptor
-DB15118,Zolbetuximab,BiotechDrug,P56856,Claudin-18
-DB15119,Ropeginterferon alfa-2b,BiotechDrug,P17181,Interferon alpha/beta receptor 1
-DB15119,Ropeginterferon alfa-2b,BiotechDrug,P48551,Interferon alpha/beta receptor 2
 DB15133,Tepotinib,SmallMoleculeDrug,P08581,Hepatocyte growth factor receptor
 DB15133,Tepotinib,SmallMoleculeDrug,Q9Y2I1,Nischarin
 DB15133,Tepotinib,SmallMoleculeDrug,P49286,Melatonin receptor type 1B
@@ -12641,46 +11899,21 @@ DB15149,Futibatinib,SmallMoleculeDrug,P11362,Fibroblast growth factor receptor 1
 DB15149,Futibatinib,SmallMoleculeDrug,P21802,Fibroblast growth factor receptor 2
 DB15149,Futibatinib,SmallMoleculeDrug,P22607,Fibroblast growth factor receptor 3
 DB15149,Futibatinib,SmallMoleculeDrug,P22455,Fibroblast growth factor receptor 4
-DB15164,Apadamtase alfa,BiotechDrug,P04275,von Willebrand factor
-DB15165,Avacincaptad pegol,BiotechDrug,P01031,Complement C5
-DB15171,Tirzepatide,BiotechDrug,P43220,Glucagon-like peptide 1 receptor
-DB15171,Tirzepatide,BiotechDrug,P48546,Gastric inhibitory polypeptide receptor
-DB15218,Pozelimab,BiotechDrug,P01031,Complement C5
-DB15226,Dasiglucagon,BiotechDrug,P47871,Glucagon receptor
 DB15233,Avapritinib,SmallMoleculeDrug,P16234,Platelet-derived growth factor receptor alpha
 DB15233,Avapritinib,SmallMoleculeDrug,P10721,Mast/stem cell growth factor receptor Kit
-DB15248,Bulevirtide,BiotechDrug,Q14973,Hepatic sodium/bile acid cotransporter
-DB15252,Nemolizumab,BiotechDrug,Q8NI17,Interleukin-31 receptor subunit alpha
-DB15258,Imlifidase,BiotechDrug,P01857,Immunoglobulin heavy constant gamma 1
-DB15258,Imlifidase,BiotechDrug,P01859,Immunoglobulin heavy constant gamma 2
-DB15258,Imlifidase,BiotechDrug,P01860,Immunoglobulin heavy constant gamma 3
-DB15258,Imlifidase,BiotechDrug,P01861,Immunoglobulin heavy constant gamma 4
 DB15266,Tovorafenib,SmallMoleculeDrug,P04049,RAF proto-oncogene serine/threonine-protein kinase
 DB15266,Tovorafenib,SmallMoleculeDrug,P10398,Serine/threonine-protein kinase A-Raf
 DB15266,Tovorafenib,SmallMoleculeDrug,P15056,Serine/threonine-protein kinase B-raf
-DB15270,Efgartigimod alfa,BiotechDrug,P55899,IgG receptor FcRn large subunit p51
-DB15271,Crizanlizumab,BiotechDrug,P16109,P-selectin
 DB15275,Inavolisib,SmallMoleculeDrug,P48736,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform"
 DB15275,Inavolisib,SmallMoleculeDrug,P42336,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform"
-DB15283,Tebentafusp,BiotechDrug,P40967,Melanocyte protein PMEL
-DB15303,Faricimab,BiotechDrug,P15692,"Vascular endothelial growth factor A, long form"
-DB15303,Faricimab,BiotechDrug,O15123,Angiopoietin-2
 DB15328,Ubrogepant,SmallMoleculeDrug,Q16602,Calcitonin gene-related peptide type 1 receptor
-DB15354,Evinacumab,BiotechDrug,Q9Y5C1,Angiopoietin-related protein 3
 DB15357,Xanomeline,SmallMoleculeDrug,P11229,Muscarinic acetylcholine receptor M1
 DB15357,Xanomeline,SmallMoleculeDrug,P08173,Muscarinic acetylcholine receptor M4
 DB15357,Xanomeline,SmallMoleculeDrug,P08172,Muscarinic acetylcholine receptor M2
 DB15357,Xanomeline,SmallMoleculeDrug,P20309,Muscarinic acetylcholine receptor M3
 DB15357,Xanomeline,SmallMoleculeDrug,P08912,Muscarinic acetylcholine receptor M5
-DB15395,Elranatamab,BiotechDrug,Q02223,Tumor necrosis factor receptor superfamily member 17
-DB15395,Elranatamab,BiotechDrug,P04234,T-cell surface glycoprotein CD3 delta chain
-DB15395,Elranatamab,BiotechDrug,P07766,T-cell surface glycoprotein CD3 epsilon chain
-DB15395,Elranatamab,BiotechDrug,P09693,T-cell surface glycoprotein CD3 gamma chain
-DB15395,Elranatamab,BiotechDrug,P20963,T-cell surface glycoprotein CD3 zeta chain
 DB15401,Danicopan,SmallMoleculeDrug,P00746,Complement factor D
 DB15413,Pafolacianine,SmallMoleculeDrug,P15328,Folate receptor alpha
-DB15434,Mosunetuzumab,BiotechDrug,P11836,B-lymphocyte antigen CD20
-DB15434,Mosunetuzumab,BiotechDrug,P07766,T-cell surface glycoprotein CD3 epsilon chain
 DB15442,Trilaciclib,SmallMoleculeDrug,P11802,Cyclin-dependent kinase 4
 DB15442,Trilaciclib,SmallMoleculeDrug,Q00534,Cyclin-dependent kinase 6
 DB15442,Trilaciclib,SmallMoleculeDrug,P50750,Cyclin-dependent kinase 9
@@ -12692,7 +11925,6 @@ DB15456,Vericiguat,SmallMoleculeDrug,Q02846,Retinal guanylyl cyclase 1
 DB15456,Vericiguat,SmallMoleculeDrug,Q02153,Guanylate cyclase soluble subunit beta-1
 DB15463,Belzutifan,SmallMoleculeDrug,Q99814,Endothelial PAS domain-containing protein 1
 DB15465,Benzhydrocodone,SmallMoleculeDrug,P35372,Mu-type opioid receptor
-DB15471,Zanidatamab,BiotechDrug,P04626,Receptor tyrosine-protein kinase erbB-2
 DB15490,Zuranolone,SmallMoleculeDrug,Q99928,Gamma-aminobutyric acid receptor subunit gamma-3
 DB15490,Zuranolone,SmallMoleculeDrug,P14867,Gamma-aminobutyric acid receptor subunit alpha-1
 DB15490,Zuranolone,SmallMoleculeDrug,P47869,Gamma-aminobutyric acid receptor subunit alpha-2
@@ -12719,14 +11951,11 @@ DB15534,Colchiceine,SmallMoleculeDrug,Q71U36,Tubulin alpha-1A chain
 DB15566,Prednisolone acetate,SmallMoleculeDrug,P04150,Glucocorticoid receptor
 DB15568,Adagrasib,SmallMoleculeDrug,P01116,GTPase KRas
 DB15569,Sotorasib,SmallMoleculeDrug,P01116,GTPase KRas
-DB15593,Golodirsen,BiotechDrug,P11532,Dystrophin
 DB15598,Ferric maltol,SmallMoleculeDrug,P05106,Integrin beta-3
 DB15598,Ferric maltol,SmallMoleculeDrug,P49281,Natural resistance-associated macrophage protein 2
 DB15617,Ferric derisomaltose,SmallMoleculeDrug,P69905,Hemoglobin subunit alpha
 DB15617,Ferric derisomaltose,SmallMoleculeDrug,P02786,Transferrin receptor protein 1
 DB15617,Ferric derisomaltose,SmallMoleculeDrug,Q9UP52,Transferrin receptor protein 2
-DB15626,Spesolimab,BiotechDrug,Q9HB29,Interleukin-1 receptor-like 2
-DB15627,Dostarlimab,BiotechDrug,Q15116,Programmed cell death protein 1
 DB15636,Zilucoplan,SmallMoleculeDrug,P01031,Complement C5
 DB15669,Fezolinetant,SmallMoleculeDrug,P29371,Neuromedin-K receptor
 DB15673,Lenacapavir,SmallMoleculeDrug,P04585,Gag-Pol polyprotein
@@ -12740,11 +11969,6 @@ DB15688,Zavegepant,SmallMoleculeDrug,Q16602,Calcitonin gene-related peptide type
 DB15690,Fluoroestradiol F-18,SmallMoleculeDrug,P03372,Estrogen receptor
 DB15690,Fluoroestradiol F-18,SmallMoleculeDrug,Q92731,Estrogen receptor beta
 DB15694,Cedazuridine,SmallMoleculeDrug,P32320,Cytidine deaminase
-DB15699,Brexucabtagene autoleucel,BiotechDrug,P15391,B-lymphocyte antigen CD19
-DB15718,Bamlanivimab,BiotechDrug,P0DTC2,Spike glycoprotein
-DB15719,Belantamab mafodotin,BiotechDrug,Q02223,Tumor necrosis factor receptor superfamily member 17
-DB15762,Satralizumab,BiotechDrug,P08887,Interleukin-6 receptor subunit alpha
-DB15766,Retifanlimab,BiotechDrug,Q15116,Programmed cell death protein 1
 DB15822,Pralsetinib,SmallMoleculeDrug,P07949,Proto-oncogene tyrosine-protein kinase receptor Ret
 DB15822,Pralsetinib,SmallMoleculeDrug,Q08345,Epithelial discoidin domain-containing receptor 1
 DB15822,Pralsetinib,SmallMoleculeDrug,Q16288,NT-3 growth factor receptor
@@ -12757,20 +11981,10 @@ DB15822,Pralsetinib,SmallMoleculeDrug,P09619,Platelet-derived growth factor rece
 DB15822,Pralsetinib,SmallMoleculeDrug,P11362,Fibroblast growth factor receptor 1
 DB15822,Pralsetinib,SmallMoleculeDrug,P21802,Fibroblast growth factor receptor 2
 DB15873,Copper oxodotreotide Cu-64,SmallMoleculeDrug,P30874,Somatostatin receptor type 2
-DB15898,Atoltivimab,BiotechDrug,Q05320,Envelope glycoprotein
-DB15899,Maftivimab,BiotechDrug,Q05320,Envelope glycoprotein
-DB15900,Odesivimab,BiotechDrug,Q05320,Envelope glycoprotein
-DB15935,Lumasiran,BiotechDrug,Q9UJM8,2-Hydroxyacid oxidase 1
-DB15940,Imdevimab,BiotechDrug,P0DTC2,Spike glycoprotein
-DB15941,Casirivimab,BiotechDrug,P0DTC2,Spike glycoprotein
 DB15982,Berotralstat,SmallMoleculeDrug,P03952,Plasma kallikrein
-DB16007,Rurioctocog alfa pegol,BiotechDrug,P04275,von Willebrand factor
-DB16007,Rurioctocog alfa pegol,BiotechDrug,P00451,Coagulation factor VIII
 DB16019,Gallium Ga-68 gozetotide,SmallMoleculeDrug,P07288,Prostate-specific antigen
 DB16019,Gallium Ga-68 gozetotide,SmallMoleculeDrug,Q04609,Glutamate carboxypeptidase 2
 DB16098,Atogepant,SmallMoleculeDrug,Q16602,Calcitonin gene-related peptide type 1 receptor
-DB16099,Avalglucosidase alfa,BiotechDrug,P11717,Cation-independent mannose-6-phosphate receptor
-DB16128,Crovalimab,BiotechDrug,P01031,Complement C5
 DB16157,Ensifentrine,SmallMoleculeDrug,Q14432,"cGMP-inhibited 3',5'-cyclic phosphodiesterase 3A"
 DB16157,Ensifentrine,SmallMoleculeDrug,Q13370,"cGMP-inhibited 3',5'-cyclic phosphodiesterase 3B"
 DB16157,Ensifentrine,SmallMoleculeDrug,P27815,"3',5'-cyclic-AMP phosphodiesterase 4A"
@@ -12781,16 +11995,10 @@ DB16165,Finerenone,SmallMoleculeDrug,P08235,Mineralocorticoid receptor
 DB16200,Iptacopan,SmallMoleculeDrug,P00751,Complement factor B
 DB16216,Lazertinib,SmallMoleculeDrug,P00533,Epidermal growth factor receptor
 DB16217,Leniolisib,SmallMoleculeDrug,O00329,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform"
-DB16220,Lonapegsomatropin,BiotechDrug,P10912,Growth hormone receptor
-DB16220,Lonapegsomatropin,BiotechDrug,P16471,Prolactin receptor
-DB16222,Loncastuximab tesirine,BiotechDrug,P15391,B-lymphocyte antigen CD19
 DB16226,Maralixibat,SmallMoleculeDrug,Q12908,Ileal sodium/bile acid cotransporter
 DB16226,Maralixibat,SmallMoleculeDrug,Q14973,Hepatic sodium/bile acid cotransporter
 DB16236,Mitapivat,SmallMoleculeDrug,P30613,Pyruvate kinase PKLR
 DB16236,Mitapivat,SmallMoleculeDrug,P11511,Aromatase
-DB16258,Nirsevimab,BiotechDrug,P13843,Fusion glycoprotein F0
-DB16258,Nirsevimab,BiotechDrug,P03420,Fusion glycoprotein F0
-DB16258,Nirsevimab,BiotechDrug,P11209,Fusion glycoprotein F0
 DB16261,Odevixibat,SmallMoleculeDrug,Q12908,Ileal sodium/bile acid cotransporter
 DB16267,Olutasidenib,SmallMoleculeDrug,O75874,Isocitrate dehydrogenase [NADP] cytoplasmic
 DB16310,Rezafungin,SmallMoleculeDrug,A2QLK4,"1,3-beta-glucan synthase component FKS1"
@@ -12802,91 +12010,35 @@ DB16335,Sulopenem etzadroxil,SmallMoleculeDrug,P24228,D-alanyl-D-alanine carboxy
 DB16335,Sulopenem etzadroxil,SmallMoleculeDrug,P0AD68,Peptidoglycan synthase FtsI
 DB16335,Sulopenem etzadroxil,SmallMoleculeDrug,P0AEB2,D-alanyl-D-alanine carboxypeptidase DacA
 DB16335,Sulopenem etzadroxil,SmallMoleculeDrug,P08506,D-alanyl-D-alanine carboxypeptidase DacC
-DB16355,Sotrovimab,BiotechDrug,P0DTC2,Spike glycoprotein
-DB16371,Glofitamab,BiotechDrug,P11836,B-lymphocyte antigen CD20
-DB16371,Glofitamab,BiotechDrug,P04234,T-cell surface glycoprotein CD3 delta chain
-DB16371,Glofitamab,BiotechDrug,P07766,T-cell surface glycoprotein CD3 epsilon chain
-DB16371,Glofitamab,BiotechDrug,P09693,T-cell surface glycoprotein CD3 gamma chain
-DB16371,Glofitamab,BiotechDrug,P20963,T-cell surface glycoprotein CD3 zeta chain
-DB16385,Ansuvimab,BiotechDrug,Q05320,Envelope glycoprotein
-DB16388,Axatilimab,BiotechDrug,P07333,Macrophage colony-stimulating factor 1 receptor
 DB16390,Mobocertinib,SmallMoleculeDrug,P00533,Epidermal growth factor receptor
-DB16393,Cilgavimab,BiotechDrug,P0DTC2,Spike glycoprotein
-DB16394,Tixagevimab,BiotechDrug,P0DTC2,Spike glycoprotein
-DB16405,Regdanvimab,BiotechDrug,P0DTC2,Spike glycoprotein
-DB16582,Lisocabtagene maraleucel,BiotechDrug,P15391,B-lymphocyte antigen CD19
 DB16628,Fosdenopterin,SmallMoleculeDrug,Q9NZB8,Molybdenum cofactor biosynthesis protein 1
 DB16628,Fosdenopterin,SmallMoleculeDrug,P47989,Xanthine dehydrogenase/oxidase
 DB16629,Serdexmethylphenidate,SmallMoleculeDrug,Q01959,Sodium-dependent dopamine transporter
 DB16629,Serdexmethylphenidate,SmallMoleculeDrug,P23975,Sodium-dependent noradrenaline transporter
 DB16629,Serdexmethylphenidate,SmallMoleculeDrug,P08908,5-hydroxytryptamine receptor 1A
 DB16650,Deucravacitinib,SmallMoleculeDrug,P29597,Non-receptor tyrosine-protein kinase TYK2
-DB16655,Teclistamab,BiotechDrug,P04234,T-cell surface glycoprotein CD3 delta chain
-DB16655,Teclistamab,BiotechDrug,P07766,T-cell surface glycoprotein CD3 epsilon chain
-DB16655,Teclistamab,BiotechDrug,P09693,T-cell surface glycoprotein CD3 gamma chain
-DB16655,Teclistamab,BiotechDrug,P20963,T-cell surface glycoprotein CD3 zeta chain
-DB16655,Teclistamab,BiotechDrug,Q02223,Tumor necrosis factor receptor superfamily member 17
-DB16662,Efanesoctocog alfa,BiotechDrug,P00740,Coagulation factor IX
-DB16662,Efanesoctocog alfa,BiotechDrug,P00742,Coagulation factor X
-DB16662,Efanesoctocog alfa,BiotechDrug,P98164,Low-density lipoprotein receptor-related protein 2
-DB16662,Efanesoctocog alfa,BiotechDrug,P98160,Basement membrane-specific heparan sulfate proteoglycan core protein
-DB16665,Idecabtagene vicleucel,BiotechDrug,Q02223,Tumor necrosis factor receptor superfamily member 17
-DB16672,Epcoritamab,BiotechDrug,P11836,B-lymphocyte antigen CD20
-DB16672,Epcoritamab,BiotechDrug,P07766,T-cell surface glycoprotein CD3 epsilon chain
-DB16678,Talquetamab,BiotechDrug,P04234,T-cell surface glycoprotein CD3 delta chain
-DB16678,Talquetamab,BiotechDrug,P07766,T-cell surface glycoprotein CD3 epsilon chain
-DB16678,Talquetamab,BiotechDrug,P09693,T-cell surface glycoprotein CD3 gamma chain
-DB16678,Talquetamab,BiotechDrug,P20963,T-cell surface glycoprotein CD3 zeta chain
-DB16678,Talquetamab,BiotechDrug,Q9NZD1,G-protein coupled receptor family C group 5 member D
 DB16691,Nirmatrelvir,SmallMoleculeDrug,P0DTD1,Replicase polyprotein 1ab
-DB16693,Insulin icodec,BiotechDrug,P06213,Insulin receptor
-DB16693,Insulin icodec,BiotechDrug,P08069,Insulin-like growth factor 1 receptor
-DB16694,Pegcetacoplan,BiotechDrug,P01024,Complement C3
-DB16695,Amivantamab,BiotechDrug,P00533,Epidermal growth factor receptor
-DB16695,Amivantamab,BiotechDrug,P08581,Hepatocyte growth factor receptor
-DB16695,Amivantamab,BiotechDrug,P08637,Low affinity immunoglobulin gamma Fc region receptor III-A
 DB16703,Belumosudil,SmallMoleculeDrug,O75116,Rho-associated protein kinase 2
 DB16703,Belumosudil,SmallMoleculeDrug,Q13464,Rho-associated protein kinase 1
 DB16704,Durlobactam,SmallMoleculeDrug,Q939N4,Beta-lactamase
 DB16704,Durlobactam,SmallMoleculeDrug,Q9L5C7,Beta-lactamase
 DB16704,Durlobactam,SmallMoleculeDrug,Q840M4,Beta-lactamase
-DB16708,Cipaglucosidase alfa,BiotechDrug,P11717,Cation-independent mannose-6-phosphate receptor
-DB16732,Tisotumab vedotin,BiotechDrug,P13726,Tissue factor
-DB16738,Ciltacabtagene autoleucel,BiotechDrug,Q02223,Tumor necrosis factor receptor superfamily member 17
-DB16778,Lutetium Lu-177 vipivotide tetraxetan,BiotechDrug,P07288,Prostate-specific antigen
-DB16791,Etranacogene dezaparvovec,BiotechDrug,P00740,Coagulation factor IX
-DB16820,LetibotulinumtoxinA,BiotechDrug,P60880,Synaptosomal-associated protein 25
 DB16826,Repotrectinib,SmallMoleculeDrug,P08922,Proto-oncogene tyrosine-protein kinase ROS
 DB16826,Repotrectinib,SmallMoleculeDrug,P04629,High affinity nerve growth factor receptor
 DB16826,Repotrectinib,SmallMoleculeDrug,Q16620,BDNF/NT-3 growth factors receptor
 DB16826,Repotrectinib,SmallMoleculeDrug,Q16288,NT-3 growth factor receptor
-DB16900,Betibeglogene autotemcel,BiotechDrug,V9H1D9,Alpha globin
 DB17083,Linzagolix,SmallMoleculeDrug,P30968,Gonadotropin-releasing hormone receptor
 DB17097,Vorasidenib,SmallMoleculeDrug,P50213,"Isocitrate dehydrogenase [NAD] subunit alpha, mitochondrial"
 DB17097,Vorasidenib,SmallMoleculeDrug,O43837,"Isocitrate dehydrogenase [NAD] subunit beta, mitochondrial"
 DB17097,Vorasidenib,SmallMoleculeDrug,P51553,"Isocitrate dehydrogenase [NAD] subunit gamma, mitochondrial"
 DB17097,Vorasidenib,SmallMoleculeDrug,O75874,Isocitrate dehydrogenase [NADP] cytoplasmic
 DB17097,Vorasidenib,SmallMoleculeDrug,P48735,"Isocitrate dehydrogenase [NADP], mitochondrial"
-DB17256,Tarlatamab,BiotechDrug,Q9NYJ7,Delta-like protein 3
-DB17256,Tarlatamab,BiotechDrug,P04234,T-cell surface glycoprotein CD3 delta chain
-DB17256,Tarlatamab,BiotechDrug,P07766,T-cell surface glycoprotein CD3 epsilon chain
-DB17256,Tarlatamab,BiotechDrug,P09693,T-cell surface glycoprotein CD3 gamma chain
-DB17256,Tarlatamab,BiotechDrug,P20963,T-cell surface glycoprotein CD3 zeta chain
-DB17449,Anacaulase,BiotechDrug,P01011,Alpha-1-antichymotrypsin
-DB17449,Anacaulase,BiotechDrug,P01023,Alpha-2-macroglobulin
 DB17472,Pirtobrutinib,SmallMoleculeDrug,Q06187,Tyrosine-protein kinase BTK
-DB17635,Nedosiran,BiotechDrug,P00338,L-lactate dehydrogenase A chain
-DB17725,Marstacimab,BiotechDrug,P10646,Tissue factor pathway inhibitor
 DB17851,Flotufolastat F-18,SmallMoleculeDrug,Q04609,Glutamate carboxypeptidase 2
-DB17929,DaxibotulinumtoxinA,BiotechDrug,P60880,Synaptosomal-associated protein 25
 DB17992,Lotilaner,SmallMoleculeDrug,E0W492,"Gaba-gated chloride channel, putative"
 DB18515,Revumenib,SmallMoleculeDrug,O00255,Menin
-DB18676,Palopegteriparatide,BiotechDrug,Q03431,Parathyroid hormone/parathyroid hormone-related peptide receptor
-DB18704,Efbemalenograstim alfa,BiotechDrug,Q99062,Granulocyte colony-stimulating factor receptor
 DB18716,Enmetazobactam,SmallMoleculeDrug,P37321,Extended-spectrum beta-lactamase PER-1
 DB18716,Enmetazobactam,SmallMoleculeDrug,P00807,Beta-lactamase
-DB18740,Nogapendekin alfa,BiotechDrug,P14784,Interleukin-2 receptor subunit beta
-DB18740,Nogapendekin alfa,BiotechDrug,P31785,Cytokine receptor common subunit gamma
 DB19325,Sofpironium,SmallMoleculeDrug,P20309,Muscarinic acetylcholine receptor M3
 DB19325,Sofpironium,SmallMoleculeDrug,P11229,Muscarinic acetylcholine receptor M1
 DB19325,Sofpironium,SmallMoleculeDrug,P08172,Muscarinic acetylcholine receptor M2
@@ -12902,8 +12054,3 @@ DB01611,Hydroxychloroquine,SmallMoleculeDrug,,TIR domain-containing adaptor prot
 DB00608,Chloroquine,SmallMoleculeDrug,,TIR domain-containing adaptor protein (TIRAP)
 DB00746,Deferoxamine,SmallMoleculeDrug,,Natural resistance-associated macrophage protein 1
 DB01609,Deferasirox,SmallMoleculeDrug,,Natural resistance-associated macrophage protein 2
-DB06716,Cholic acid,SmallMolecule,P28288,ATP-binding cassette sub-family D member 3
-DB00224,Chenodeoxycholic acid,SmallMolecule,P28288,ATP-binding cassette sub-family D member 3
-DB00168,Docosahexaenoic acid,SmallMolecule,P51659,Peroxisomal multifunctional enzyme type 2
-DB00169,Cholecalciferol,SmallMolecule,P51659,Peroxisomal multifunctional enzyme type 2
-
