@@ -1,246 +1,246 @@
 {
   "nodes": [
     {
-      "id": "Gout",
-      "label": "Gout",
+      "id": "breast cancer",
+      "label": "breast cancer",
       "type": "disease"
     },
     {
-      "id": "ABCG2",
-      "label": "ABCG2",
+      "id": "BRCA1",
+      "label": "BRCA1",
       "type": "gene"
     },
     {
-      "id": "ALDH16A1",
-      "label": "ALDH16A1",
+      "id": "BRCA2",
+      "label": "BRCA2",
       "type": "gene"
     },
     {
-      "id": "ALPK1",
-      "label": "ALPK1",
+      "id": "TP53",
+      "label": "TP53",
       "type": "gene"
     },
     {
-      "id": "CARD8",
-      "label": "CARD8",
+      "id": "PIK3CA",
+      "label": "PIK3CA",
       "type": "gene"
     },
     {
-      "id": "CD14",
-      "label": "CD14",
+      "id": "ERBB2",
+      "label": "ERBB2",
       "type": "gene"
     },
     {
-      "id": "DB00437",
-      "label": "Allopurinol",
+      "id": "DB00783",
+      "label": "Estradiol",
       "type": "drug",
-      "score": 0.4797128438949585
+      "score": 0.40705087780952454
     },
     {
-      "id": "DB04854",
-      "label": "Febuxostat",
+      "id": "DB01229",
+      "label": "Paclitaxel",
       "type": "drug",
-      "score": 0.47606921195983887
+      "score": 0.3592613935470581
     },
     {
-      "id": "DB16628",
-      "label": "Fosdenopterin",
+      "id": "DB01168",
+      "label": "Procarbazine",
       "type": "drug",
-      "score": 0.45532912015914917
+      "score": 0.3030037581920624
     },
     {
-      "id": "DB01041",
-      "label": "Thalidomide",
+      "id": "DB00915",
+      "label": "Amantadine",
       "type": "drug",
-      "score": 0.4526652693748474
+      "score": 0.30148395895957947
     },
     {
-      "id": "DB08814",
-      "label": "Triflusal",
+      "id": "DB00470",
+      "label": "Dronabinol",
       "type": "drug",
-      "score": 0.427541047334671
+      "score": 0.2961760461330414
     },
     {
-      "id": "DB04951",
-      "label": "Pirfenidone",
+      "id": "DB00822",
+      "label": "Disulfiram",
       "type": "drug",
-      "score": 0.42535290122032166
+      "score": 0.2807815968990326
     }
   ],
   "links": [
     {
-      "source": "Gout",
-      "target": "ABCG2",
+      "source": "breast cancer",
+      "target": "BRCA1",
       "type": "disease-gene"
     },
     {
-      "source": "Gout",
-      "target": "ALDH16A1",
+      "source": "breast cancer",
+      "target": "BRCA2",
       "type": "disease-gene"
     },
     {
-      "source": "Gout",
-      "target": "ALPK1",
+      "source": "breast cancer",
+      "target": "TP53",
       "type": "disease-gene"
     },
     {
-      "source": "Gout",
-      "target": "CARD8",
+      "source": "breast cancer",
+      "target": "PIK3CA",
       "type": "disease-gene"
     },
     {
-      "source": "Gout",
-      "target": "CD14",
+      "source": "breast cancer",
+      "target": "ERBB2",
       "type": "disease-gene"
     },
     {
-      "source": "ABCG2",
-      "target": "DB00437",
+      "source": "BRCA1",
+      "target": "DB00783",
       "type": "gene-drug"
     },
     {
-      "source": "ALDH16A1",
-      "target": "DB00437",
+      "source": "BRCA2",
+      "target": "DB00783",
       "type": "gene-drug"
     },
     {
-      "source": "ALPK1",
-      "target": "DB00437",
+      "source": "TP53",
+      "target": "DB00783",
       "type": "gene-drug"
     },
     {
-      "source": "CARD8",
-      "target": "DB00437",
+      "source": "PIK3CA",
+      "target": "DB00783",
       "type": "gene-drug"
     },
     {
-      "source": "CD14",
-      "target": "DB00437",
+      "source": "ERBB2",
+      "target": "DB00783",
       "type": "gene-drug"
     },
     {
-      "source": "ABCG2",
-      "target": "DB04854",
+      "source": "BRCA1",
+      "target": "DB01229",
       "type": "gene-drug"
     },
     {
-      "source": "ALDH16A1",
-      "target": "DB04854",
+      "source": "BRCA2",
+      "target": "DB01229",
       "type": "gene-drug"
     },
     {
-      "source": "ALPK1",
-      "target": "DB04854",
+      "source": "TP53",
+      "target": "DB01229",
       "type": "gene-drug"
     },
     {
-      "source": "CARD8",
-      "target": "DB04854",
+      "source": "PIK3CA",
+      "target": "DB01229",
       "type": "gene-drug"
     },
     {
-      "source": "CD14",
-      "target": "DB04854",
+      "source": "ERBB2",
+      "target": "DB01229",
       "type": "gene-drug"
     },
     {
-      "source": "ABCG2",
-      "target": "DB16628",
+      "source": "BRCA1",
+      "target": "DB01168",
       "type": "gene-drug"
     },
     {
-      "source": "ALDH16A1",
-      "target": "DB16628",
+      "source": "BRCA2",
+      "target": "DB01168",
       "type": "gene-drug"
     },
     {
-      "source": "ALPK1",
-      "target": "DB16628",
+      "source": "TP53",
+      "target": "DB01168",
       "type": "gene-drug"
     },
     {
-      "source": "CARD8",
-      "target": "DB16628",
+      "source": "PIK3CA",
+      "target": "DB01168",
       "type": "gene-drug"
     },
     {
-      "source": "CD14",
-      "target": "DB16628",
+      "source": "ERBB2",
+      "target": "DB01168",
       "type": "gene-drug"
     },
     {
-      "source": "ABCG2",
-      "target": "DB01041",
+      "source": "BRCA1",
+      "target": "DB00915",
       "type": "gene-drug"
     },
     {
-      "source": "ALDH16A1",
-      "target": "DB01041",
+      "source": "BRCA2",
+      "target": "DB00915",
       "type": "gene-drug"
     },
     {
-      "source": "ALPK1",
-      "target": "DB01041",
+      "source": "TP53",
+      "target": "DB00915",
       "type": "gene-drug"
     },
     {
-      "source": "CARD8",
-      "target": "DB01041",
+      "source": "PIK3CA",
+      "target": "DB00915",
       "type": "gene-drug"
     },
     {
-      "source": "CD14",
-      "target": "DB01041",
+      "source": "ERBB2",
+      "target": "DB00915",
       "type": "gene-drug"
     },
     {
-      "source": "ABCG2",
-      "target": "DB08814",
+      "source": "BRCA1",
+      "target": "DB00470",
       "type": "gene-drug"
     },
     {
-      "source": "ALDH16A1",
-      "target": "DB08814",
+      "source": "BRCA2",
+      "target": "DB00470",
       "type": "gene-drug"
     },
     {
-      "source": "ALPK1",
-      "target": "DB08814",
+      "source": "TP53",
+      "target": "DB00470",
       "type": "gene-drug"
     },
     {
-      "source": "CARD8",
-      "target": "DB08814",
+      "source": "PIK3CA",
+      "target": "DB00470",
       "type": "gene-drug"
     },
     {
-      "source": "CD14",
-      "target": "DB08814",
+      "source": "ERBB2",
+      "target": "DB00470",
       "type": "gene-drug"
     },
     {
-      "source": "ABCG2",
-      "target": "DB04951",
+      "source": "BRCA1",
+      "target": "DB00822",
       "type": "gene-drug"
     },
     {
-      "source": "ALDH16A1",
-      "target": "DB04951",
+      "source": "BRCA2",
+      "target": "DB00822",
       "type": "gene-drug"
     },
     {
-      "source": "ALPK1",
-      "target": "DB04951",
+      "source": "TP53",
+      "target": "DB00822",
       "type": "gene-drug"
     },
     {
-      "source": "CARD8",
-      "target": "DB04951",
+      "source": "PIK3CA",
+      "target": "DB00822",
       "type": "gene-drug"
     },
     {
-      "source": "CD14",
-      "target": "DB04951",
+      "source": "ERBB2",
+      "target": "DB00822",
       "type": "gene-drug"
     }
   ]

@@ -22,7 +22,7 @@ if torch.cuda.is_available():
 # ==================================================
 # CONFIG
 # ==================================================
-INPUT_DIM = 640
+INPUT_DIM = 644
 HIDDEN_DIM = 256
 TOP_PATHWAYS = 5
 
@@ -63,7 +63,9 @@ metadata = pd.read_csv("data/drug_target_metadata_cleaned.csv")
 # ==================================================
 drug_gene = pd.read_csv("data/pharmacologically_active.csv")
 gene_disease = pd.read_csv("data/core_plus_disease_gene.csv")
-drug_disease = pd.read_csv("data/drug_parser.csv")
+
+
+
 
 drug_gene = drug_gene[drug_gene["Species"] == "Humans"]
 drug_gene = drug_gene.rename(columns={
@@ -72,7 +74,7 @@ drug_gene = drug_gene.rename(columns={
 })
 
 gene_disease["DiseaseName_norm"] = gene_disease["DiseaseName"].apply(normalize)
-drug_disease["DiseaseName_norm"] = drug_disease["DiseaseName"].apply(normalize)
+
 
 gene_disease["disease_id"], disease_map, disease_rev = encode(
     gene_disease["DiseaseName_norm"]
@@ -89,9 +91,7 @@ drug_map = {dbid: idx for idx, dbid in enumerate(unique_drugs)}
 drug_rev = {idx: dbid for dbid, idx in drug_map.items()}
 drug_gene["drug_id"] = drug_gene["DrugID"].map(drug_map)
 
-drug_disease["disease_id"] = drug_disease["DiseaseName_norm"].map(disease_rev)
-drug_disease["drug_id"] = drug_disease["DrugBankID"].map(drug_map)
-drug_disease = drug_disease.dropna(subset=["disease_id", "drug_id"])
+
 
 print(f"Diseases: {len(disease_map)}, Genes: {len(gene_map)}, Drugs: {len(drug_map)}")
 
@@ -99,7 +99,7 @@ print(f"Diseases: {len(disease_map)}, Genes: {len(gene_map)}, Drugs: {len(drug_m
 # ==================================================
 # Load Protein Embeddings
 # ==================================================
-protein_emb = torch.load("protein_embeddings.pt", map_location="cpu")
+protein_emb = torch.load("gene_features_full.pt", map_location="cpu")
 
 
 # ==================================================
@@ -113,8 +113,14 @@ with open("data/drug_map.json", "r") as f:
 drug_features = torch.zeros((len(drug_map), INPUT_DIM))
 
 for dbid, idx in drug_map.items():
-    if dbid in full_drug_map:
-        drug_features[idx] = full_drug_features[full_drug_map[dbid]]
+    if dbid in full_drug_features:
+        drug_features[idx] = full_drug_features[dbid]
+
+
+# ==================================================
+# Load Disease Embeddings
+# ==================================================
+disease_emb_file = torch.load("disease_features_644.pt", map_location="cpu")
 
 
 # ==================================================
@@ -146,19 +152,66 @@ for gene in gene_map.values():
         gene_features.append(torch.zeros(INPUT_DIM))
 
 data["gene"].x = torch.stack(gene_features)
-data["disease"].x = torch.randn(len(disease_map), INPUT_DIM)
+
+disease_x = []
+
+for disease in disease_map.values():
+
+    if disease in disease_emb_file:
+        disease_x.append(disease_emb_file[disease])
+    else:
+        disease_x.append(torch.zeros(INPUT_DIM))
+
+data["disease"].x = torch.stack(disease_x)
 
 # Core edges (INT64 FIX)
 dg = torch.tensor(gene_disease[["disease_id", "gene_id"]].values.T, dtype=torch.long)
 gd = torch.tensor(drug_gene[["gene_id", "drug_id"]].values.T, dtype=torch.long)
-dd = torch.tensor(drug_disease[["drug_id", "disease_id"]].values.T, dtype=torch.long)
+
 
 data["disease", "associates", "gene"].edge_index = dg
 data["gene", "rev_associates", "disease"].edge_index = dg.flip(0)
 data["gene", "targets", "drug"].edge_index = gd
 data["drug", "rev_targets", "gene"].edge_index = gd.flip(0)
-data["drug", "treats", "disease"].edge_index = dd
-data["disease", "rev_treats", "drug"].edge_index = dd.flip(0)
+
+drug_disease = pd.read_csv("data/drug_disease_edges.csv")
+
+drug_disease["disease_norm"] = drug_disease["disease"].apply(normalize)
+
+drug_disease["disease_id"] = drug_disease["disease_norm"].map(disease_rev)
+drug_disease["drug_id"] = drug_disease["drug_id"].map(drug_map)
+
+drug_disease = drug_disease.dropna(subset=["disease_id","drug_id"])
+
+dd = torch.tensor(
+    drug_disease[["drug_id","disease_id"]].values.T,
+    dtype=torch.long
+)
+
+data["drug","treats","disease"].edge_index = dd
+data["disease","rev_treats","drug"].edge_index = dd.flip(0)
+
+
+# ==================================================
+# Load Gene-Gene PPI Edges
+# ==================================================
+
+ppi = pd.read_csv("data/ppi_edges.csv")
+
+ppi["g1"] = ppi["Gene1"].map(gene_rev)
+ppi["g2"] = ppi["Gene2"].map(gene_rev)
+
+ppi = ppi.dropna()
+
+ppi_edges = torch.tensor(
+    ppi[["g1", "g2"]].values.T,
+    dtype=torch.long
+)
+ppi_edges = torch.cat([ppi_edges, ppi_edges.flip(0)], dim=1)
+data["gene", "interacts", "gene"].edge_index = ppi_edges
+data["gene","rev_interacts","gene"].edge_index = ppi_edges.flip(0)
+print("Gene-Gene PPI edges:", ppi_edges.shape[1])
+
 
 data = data.to(device)
 

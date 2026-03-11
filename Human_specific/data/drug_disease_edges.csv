@@ -1,0 +1,693 @@
+drug_id,disease
+DB06704,neuroblastoma
+DB06637,multiple sclerosis
+DB06819,parkinson disease
+DB00316,crohn disease
+DB00819,glaucoma
+DB06151,cystic fibrosis
+DB06151,disseminated intravascular coagulation
+DB06151,long qt syndrome
+DB06151,neural tube defects
+DB00459,psoriasis
+DB00210,psoriasis
+DB00640,asthma
+DB01001,asthma
+DB01001,coronary artery disease
+DB00630,osteoporosis
+DB00630,osteosarcoma
+DB01436,graves disease
+DB01436,osteoporosis
+DB00437,gout
+DB00915,huntington disease
+DB00915,multiple sclerosis
+DB00915,parkinson disease
+DB00288,psoriasis
+DB01143,cataract
+DB00513,nephrotic syndrome
+DB00855,psoriasis
+DB01223,asthma
+DB00233,tuberculosis
+DB00381,atherosclerosis
+DB00381,coronary artery disease
+DB00613,malaria
+DB00182,narcolepsy
+DB11157,psoriasis
+DB05630,leishmaniasis
+DB00714,parkinson disease
+DB00673,parkinson disease
+DB00278,disseminated intravascular coagulation
+DB01238,huntington disease
+DB01238,hyperprolactinemia
+DB01238,obsessive-compulsive disorder
+DB01169,asthma
+DB01169,burkitt lymphoma
+DB01169,glioma
+DB01169,idiopathic pulmonary fibrosis
+DB01169,medulloblastoma
+DB01169,multiple myeloma
+DB01169,neuroblastoma
+DB01169,osteosarcoma
+DB06697,malaria
+DB00126,cataract
+DB00126,diabetic retinopathy
+DB00126,glioma
+DB00126,long qt syndrome
+DB00126,retinitis pigmentosa
+DB00945,atherosclerosis
+DB00945,coronary artery disease
+DB00945,diabetic retinopathy
+DB00945,hypertriglyceridemia
+DB00945,parkinson disease
+DB00637,malaria
+DB00637,parkinson disease
+DB00335,coronary artery disease
+DB00335,long qt syndrome
+DB00335,marfan syndrome
+DB01076,atherosclerosis
+DB01076,coronary artery disease
+DB01076,diabetic retinopathy
+DB01076,hypertriglyceridemia
+DB01076,nephrotic syndrome
+DB00572,myasthenia gravis
+DB00572,myopia
+DB00928,multiple myeloma
+DB00993,celiac disease
+DB00993,crohn disease
+DB00993,lupus nephritis
+DB00993,multiple sclerosis
+DB00993,myasthenia gravis
+DB00993,psoriasis
+DB00548,atherosclerosis
+DB00548,psoriasis
+DB00181,multiple sclerosis
+DB00542,atherosclerosis
+DB00542,nephrotic syndrome
+DB04812,psoriasis
+DB12783,parkinson disease
+DB00245,parkinson disease
+DB04115,osteoporosis
+DB06698,atherosclerosis
+DB06756,neural tube defects
+DB00443,psoriasis
+DB00195,glaucoma
+DB01393,atherosclerosis
+DB01393,coronary artery disease
+DB01393,hypertriglyceridemia
+DB00905,glaucoma
+DB00810,parkinson disease
+DB00188,glioma
+DB00188,medulloblastoma
+DB00188,multiple myeloma
+DB00188,neuroblastoma
+DB00188,osteosarcoma
+DB00188,rhabdomyosarcoma
+DB01200,hyperprolactinemia
+DB01200,parkinson disease
+DB01222,asthma
+DB01222,crohn disease
+DB00887,nephrotic syndrome
+DB00490,obsessive-compulsive disorder
+DB00248,hyperprolactinemia
+DB00248,parkinson disease
+DB00201,parkinson disease
+DB02300,psoriasis
+DB00136,glioma
+DB00136,multiple myeloma
+DB00136,psoriasis
+DB06774,atherosclerosis
+DB06774,multiple myeloma
+DB00190,parkinson disease
+DB00389,asthma
+DB00389,graves disease
+DB08889,multiple myeloma
+DB00262,cholangiocarcinoma
+DB00262,glioma
+DB00262,medulloblastoma
+DB00262,multiple myeloma
+DB00521,glaucoma
+DB01136,glioma
+DB14086,atherosclerosis
+DB00482,gout
+DB00482,multiple myeloma
+DB00482,neuroblastoma
+DB00050,multiple myeloma
+DB06777,tuberculosis
+DB00475,crohn disease
+DB00608,malaria
+DB00608,sarcoidosis
+DB00477,glioma
+DB00477,hyperprolactinemia
+DB00477,malaria
+DB00169,neural tube defects
+DB01188,rhabdomyosarcoma
+DB09064,hypertriglyceridemia
+DB00215,obsessive-compulsive disorder
+DB00242,multiple sclerosis
+DB00771,crohn disease
+DB11750,psoriasis
+DB11750,vitiligo
+DB00720,multiple myeloma
+DB00636,atherosclerosis
+DB00636,hypertriglyceridemia
+DB00882,hyperprolactinemia
+DB01242,obsessive-compulsive disorder
+DB01068,myasthenia gravis
+DB01068,obsessive-compulsive disorder
+DB01068,parkinson disease
+DB00575,glaucoma
+DB00575,obsessive-compulsive disorder
+DB00758,coronary artery disease
+DB00363,obsessive-compulsive disorder
+DB00363,parkinson disease
+DB09270,huntington disease
+DB09270,hypertriglyceridemia
+DB01394,gout
+DB01394,psoriasis
+DB09130,diabetic retinopathy
+DB00148,huntington disease
+DB08865,neuroblastoma
+DB11672,atherosclerosis
+DB11672,multiple myeloma
+DB11672,osteoporosis
+DB00260,tuberculosis
+DB00091,myasthenia gravis
+DB00091,nephrotic syndrome
+DB00091,osteosarcoma
+DB00091,psoriasis
+DB00434,malaria
+DB04839,hypotrichosis
+DB00987,burkitt lymphoma
+DB00987,medulloblastoma
+DB00987,multiple myeloma
+DB00987,rhabdomyosarcoma
+DB01406,hyperprolactinemia
+DB06292,long qt syndrome
+DB00694,burkitt lymphoma
+DB01262,asthma
+DB01262,multiple myeloma
+DB01262,neuroblastoma
+DB01262,rhabdomyosarcoma
+DB01151,parkinson disease
+DB01260,psoriasis
+DB01234,asthma
+DB01234,burkitt lymphoma
+DB01234,glioma
+DB01234,lupus nephritis
+DB01234,meningioma
+DB01234,multiple myeloma
+DB01576,narcolepsy
+DB01576,obsessive-compulsive disorder
+DB00514,atherosclerosis
+DB00514,multiple sclerosis
+DB00829,hypertriglyceridemia
+DB00829,parkinson disease
+DB00586,gout
+DB00586,neuroblastoma
+DB00255,disseminated intravascular coagulation
+DB00390,coronary artery disease
+DB00343,coronary artery disease
+DB08908,multiple sclerosis
+DB00917,glaucoma
+DB00917,idiopathic pulmonary fibrosis
+DB00449,glaucoma
+DB00822,cataract
+DB00822,osteosarcoma
+DB01248,glioma
+DB01248,multiple myeloma
+DB01184,parkinson disease
+DB00869,glaucoma
+DB00997,burkitt lymphoma
+DB00997,multiple myeloma
+DB00997,neuroblastoma
+DB00997,osteosarcoma
+DB00997,rhabdomyosarcoma
+DB00470,atherosclerosis
+DB00470,glioma
+DB00470,huntington disease
+DB00378,coronary artery disease
+DB01010,myasthenia gravis
+DB00159,hypertriglyceridemia
+DB00159,parkinson disease
+DB00584,atherosclerosis
+DB00584,coronary artery disease
+DB00584,osteoporosis
+DB09477,long qt syndrome
+DB04880,coronary artery disease
+DB00824,asthma
+DB00494,parkinson disease
+DB01364,asthma
+DB00668,asthma
+DB00668,coronary artery disease
+DB00668,glaucoma
+DB00445,osteosarcoma
+DB00783,atherosclerosis
+DB00783,coronary artery disease
+DB00783,disseminated intravascular coagulation
+DB00783,medulloblastoma
+DB00783,osteoporosis
+DB00783,parkinson disease
+DB04573,atherosclerosis
+DB00609,tuberculosis
+DB01077,osteoporosis
+DB00773,burkitt lymphoma
+DB00773,glioma
+DB00773,medulloblastoma
+DB00773,multiple myeloma
+DB00773,neuroblastoma
+DB00773,osteosarcoma
+DB00773,rhabdomyosarcoma
+DB01628,gout
+DB09086,long qt syndrome
+DB09086,parkinson disease
+DB00973,atherosclerosis
+DB00973,coronary artery disease
+DB00973,hypertriglyceridemia
+DB04854,gout
+DB01039,coronary artery disease
+DB01039,diabetic retinopathy
+DB01039,gout
+DB01039,hypertriglyceridemia
+DB01288,asthma
+DB00687,parkinson disease
+DB00180,asthma
+DB01047,psoriasis
+DB00544,glioma
+DB00472,obsessive-compulsive disorder
+DB01185,fanconi anemia
+DB13867,asthma
+DB01095,atherosclerosis
+DB01095,hypertriglyceridemia
+DB01095,multiple myeloma
+DB00176,obsessive-compulsive disorder
+DB00158,cataract
+DB00158,hypospadias
+DB00158,neural tube defects
+DB00158,psoriasis
+DB00947,neuroblastoma
+DB00695,coronary artery disease
+DB00695,nephrotic syndrome
+DB15149,cholangiocarcinoma
+DB00996,parkinson disease
+DB00441,multiple myeloma
+DB01241,atherosclerosis
+DB01241,coronary artery disease
+DB01241,hypertriglyceridemia
+DB14183,asthma
+DB14183,atherosclerosis
+DB14183,long qt syndrome
+DB01296,osteoporosis
+DB00986,asthma
+DB13751,nephrotic syndrome
+DB01170,glaucoma
+DB01218,malaria
+DB01159,asthma
+DB01275,atherosclerosis
+DB00999,atherosclerosis
+DB00741,asthma
+DB00741,burkitt lymphoma
+DB00741,crohn disease
+DB00741,long qt syndrome
+DB00741,rhabdomyosarcoma
+DB00200,myasthenia gravis
+DB01611,cystic fibrosis
+DB01611,dengue
+DB01611,malaria
+DB01005,psoriasis
+DB01050,cystic fibrosis
+DB01177,multiple myeloma
+DB00458,malaria
+DB00458,q fever
+DB00328,glioma
+DB00328,gout
+DB00328,nephrotic syndrome
+DB00332,asthma
+DB01029,atherosclerosis
+DB00762,glioma
+DB00762,neuroblastoma
+DB00762,osteosarcoma
+DB00762,rhabdomyosarcoma
+DB01064,asthma
+DB01064,long qt syndrome
+DB00883,coronary artery disease
+DB00270,atherosclerosis
+DB11757,parkinson disease
+DB08820,cystic fibrosis
+DB01026,parkinson disease
+DB01026,q fever
+DB00920,asthma
+DB00920,malaria
+DB09236,atherosclerosis
+DB00448,asthma
+DB00448,barrett esophagus
+DB00448,cystic fibrosis
+DB06202,osteoporosis
+DB00654,glaucoma
+DB00480,multiple myeloma
+DB00650,burkitt lymphoma
+DB00650,glioma
+DB00650,medulloblastoma
+DB00650,neural tube defects
+DB00650,osteosarcoma
+DB00848,nephrotic syndrome
+DB01210,glaucoma
+DB01235,multiple sclerosis
+DB01235,parkinson disease
+DB00367,osteoporosis
+DB00281,long qt syndrome
+DB14104,hypertriglyceridemia
+DB00722,diabetic retinopathy
+DB00722,hypertriglyceridemia
+DB00589,hyperprolactinemia
+DB00589,parkinson disease
+DB06448,multiple myeloma
+DB00455,asthma
+DB00678,atherosclerosis
+DB00678,cataract
+DB00678,gout
+DB00678,marfan syndrome
+DB00678,nephrotic syndrome
+DB00227,atherosclerosis
+DB00227,coronary artery disease
+DB00227,hypertriglyceridemia
+DB00227,q fever
+DB06708,malaria
+DB01283,gout
+DB00653,long qt syndrome
+DB00579,narcolepsy
+DB00603,lymphangioleiomyomatosis
+DB01065,cataract
+DB01065,cholangiocarcinoma
+DB01065,diabetic retinopathy
+DB01065,hypertriglyceridemia
+DB01065,osteoporosis
+DB01043,sarcoidosis
+DB01033,crohn disease
+DB00244,celiac disease
+DB00244,crohn disease
+DB00816,asthma
+DB00331,cataract
+DB00331,hypertriglyceridemia
+DB01577,narcolepsy
+DB00703,glaucoma
+DB00763,graves disease
+DB00563,asthma
+DB00563,burkitt lymphoma
+DB00563,crohn disease
+DB00563,cystic fibrosis
+DB00563,diabetic retinopathy
+DB00563,glioma
+DB00563,medulloblastoma
+DB00563,multiple myeloma
+DB00563,osteoporosis
+DB00563,osteosarcoma
+DB00563,psoriasis
+DB00563,rhabdomyosarcoma
+DB00553,psoriasis
+DB00553,vitiligo
+DB00422,narcolepsy
+DB00959,asthma
+DB00959,crohn disease
+DB00959,lupus nephritis
+DB00959,multiple myeloma
+DB00959,multiple sclerosis
+DB00959,nephrotic syndrome
+DB00959,sarcoidosis
+DB06710,cryptorchidism
+DB00264,atherosclerosis
+DB00264,coronary artery disease
+DB00264,glaucoma
+DB00264,long qt syndrome
+DB00379,long qt syndrome
+DB00419,cystic fibrosis
+DB09031,leishmaniasis
+DB00370,obsessive-compulsive disorder
+DB00370,parkinson disease
+DB01204,multiple sclerosis
+DB01204,rhabdomyosarcoma
+DB00745,narcolepsy
+DB14512,asthma
+DB00600,vitiligo
+DB00471,asthma
+DB01024,lupus nephritis
+DB01024,myasthenia gravis
+DB01024,nephrotic syndrome
+DB01024,psoriasis
+DB01203,coronary artery disease
+DB01183,atherosclerosis
+DB00704,multiple sclerosis
+DB08804,fanconi anemia
+DB08804,osteoporosis
+DB04861,atherosclerosis
+DB04861,osteoporosis
+DB00716,asthma
+DB01400,myasthenia gravis
+DB00627,atherosclerosis
+DB00627,cataract
+DB00627,coronary artery disease
+DB00627,hypertriglyceridemia
+DB02701,multiple sclerosis
+DB00622,asthma
+DB00622,atherosclerosis
+DB00622,coronary artery disease
+DB01115,asthma
+DB01115,atherosclerosis
+DB01115,coronary artery disease
+DB01115,cystic fibrosis
+DB01054,atherosclerosis
+DB00435,atherosclerosis
+DB00727,coronary artery disease
+DB00368,glaucoma
+DB00540,huntington disease
+DB00540,obsessive-compulsive disorder
+DB00334,huntington disease
+DB00334,obsessive-compulsive disorder
+DB00338,barrett esophagus
+DB01083,atherosclerosis
+DB01083,hypertriglyceridemia
+DB01173,parkinson disease
+DB06412,multiple myeloma
+DB00219,myopia
+DB01229,atherosclerosis
+DB01229,glioma
+DB01229,multiple myeloma
+DB01229,osteosarcoma
+DB00282,multiple myeloma
+DB00282,osteoporosis
+DB00282,osteoporosis-pseudoglioma syndrome
+DB00282,osteosarcoma
+DB06603,idiopathic pulmonary fibrosis
+DB00213,barrett esophagus
+DB00715,obsessive-compulsive disorder
+DB06154,coronary artery disease
+DB00738,leishmaniasis
+DB00806,atherosclerosis
+DB00806,lupus nephritis
+DB00806,nephrotic syndrome
+DB01186,parkinson disease
+DB00780,narcolepsy
+DB00780,obsessive-compulsive disorder
+DB01174,asthma
+DB01174,neural tube defects
+DB00812,nephrotic syndrome
+DB00252,atherosclerosis
+DB00252,long qt syndrome
+DB00981,huntington disease
+DB01085,glaucoma
+DB00337,psoriasis
+DB00337,vitiligo
+DB01132,cystic fibrosis
+DB01132,diabetic retinopathy
+DB01132,parkinson disease
+DB01291,coronary artery disease
+DB00670,myopia
+DB04951,idiopathic pulmonary fibrosis
+DB11642,tuberculosis
+DB08910,multiple myeloma
+DB00413,parkinson disease
+DB00175,atherosclerosis
+DB00175,coronary artery disease
+DB00175,hypertriglyceridemia
+DB00860,asthma
+DB00860,burkitt lymphoma
+DB00860,crohn disease
+DB00860,graves disease
+DB00860,lupus nephritis
+DB00860,multiple myeloma
+DB00860,multiple sclerosis
+DB00860,myasthenia gravis
+DB00860,nephrotic syndrome
+DB00860,psoriasis
+DB00860,sarcoidosis
+DB00860,tuberculosis
+DB00635,asthma
+DB00635,burkitt lymphoma
+DB00635,celiac disease
+DB00635,crohn disease
+DB00635,graves disease
+DB00635,lupus nephritis
+DB00635,multiple myeloma
+DB00635,multiple sclerosis
+DB00635,myasthenia gravis
+DB00635,nephrotic syndrome
+DB00635,sarcoidosis
+DB01032,gout
+DB01599,atherosclerosis
+DB01599,nephrotic syndrome
+DB01035,coronary artery disease
+DB01168,glioma
+DB01168,medulloblastoma
+DB01168,multiple myeloma
+DB01366,asthma
+DB00387,parkinson disease
+DB00392,parkinson disease
+DB01131,malaria
+DB00571,asthma
+DB00571,coronary artery disease
+DB00571,graves disease
+DB00571,long qt syndrome
+DB00571,osteoporosis
+DB00571,parkinson disease
+DB00550,graves disease
+DB00344,malaria
+DB00807,glaucoma
+DB00165,parkinson disease
+DB00165,tuberculosis
+DB00205,malaria
+DB09097,hyperprolactinemia
+DB00881,coronary artery disease
+DB00908,coronary artery disease
+DB00908,malaria
+DB00908,multiple sclerosis
+DB00178,atherosclerosis
+DB00863,barrett esophagus
+DB01367,parkinson disease
+DB00811,myasthenia gravis
+DB00140,cataract
+DB00140,hypertriglyceridemia
+DB00884,osteoporosis
+DB00734,obsessive-compulsive disorder
+DB00734,prader-willi syndrome
+DB00989,parkinson disease
+DB01656,asthma
+DB01656,parkinson disease
+DB00268,parkinson disease
+DB00412,atherosclerosis
+DB05271,parkinson disease
+DB01698,fanconi anemia
+DB01698,long qt syndrome
+DB01698,lupus nephritis
+DB01698,multiple myeloma
+DB08877,psoriasis
+DB06654,parkinson disease
+DB00936,atherosclerosis
+DB01037,parkinson disease
+DB01104,huntington disease
+DB01104,myasthenia gravis
+DB01104,obsessive-compulsive disorder
+DB00641,atherosclerosis
+DB00641,coronary artery disease
+DB00641,cystic fibrosis
+DB00641,glioma
+DB00641,hypertriglyceridemia
+DB00641,long qt syndrome
+DB00641,nephrotic syndrome
+DB12371,multiple sclerosis
+DB00877,atherosclerosis
+DB00877,huntington disease
+DB00877,multiple myeloma
+DB00877,parkinson disease
+DB00877,psoriasis
+DB00398,medulloblastoma
+DB00795,crohn disease
+DB00795,psoriasis
+DB01138,gout
+DB00605,diabetic retinopathy
+DB00864,lupus nephritis
+DB00864,myasthenia gravis
+DB00864,psoriasis
+DB00864,vitiligo
+DB00675,atherosclerosis
+DB00675,glioma
+DB00675,multiple myeloma
+DB00799,psoriasis
+DB00966,atherosclerosis
+DB00871,asthma
+DB00342,asthma
+DB00342,osteoporosis
+DB08880,multiple sclerosis
+DB00624,cryptorchidism
+DB01420,cryptorchidism
+DB04844,huntington disease
+DB01041,cholangiocarcinoma
+DB01041,crohn disease
+DB01041,glioma
+DB01041,multiple myeloma
+DB01041,nephrotic syndrome
+DB01041,sarcoidosis
+DB00277,asthma
+DB00152,cataract
+DB09070,atherosclerosis
+DB09070,osteoporosis
+DB08816,coronary artery disease
+DB00208,atherosclerosis
+DB00208,coronary artery disease
+DB00373,glaucoma
+DB00373,long qt syndrome
+DB01056,long qt syndrome
+DB08895,celiac disease
+DB08895,psoriasis
+DB00323,parkinson disease
+DB01030,multiple myeloma
+DB01030,neuroblastoma
+DB00302,disseminated intravascular coagulation
+DB00752,obsessive-compulsive disorder
+DB00752,parkinson disease
+DB00287,glaucoma
+DB00656,obsessive-compulsive disorder
+DB00755,asthma
+DB00755,barrett esophagus
+DB00755,cataract
+DB00755,coronary artery disease
+DB00755,medulloblastoma
+DB00755,multiple myeloma
+DB00755,psoriasis
+DB00755,rhabdomyosarcoma
+DB00755,tuberculosis
+DB00755,vitiligo
+DB00620,diabetic retinopathy
+DB00376,parkinson disease
+DB00726,malaria
+DB00197,atherosclerosis
+DB00197,glioma
+DB00197,hypertriglyceridemia
+DB00197,neuroblastoma
+DB00197,psoriasis
+DB11699,huntington disease
+DB01586,cystic fibrosis
+DB00313,rhabdomyosarcoma
+DB00177,coronary artery disease
+DB00661,coronary artery disease
+DB00661,osteosarcoma
+DB00661,tuberculosis
+DB00570,rhabdomyosarcoma
+DB00541,burkitt lymphoma
+DB00541,glioma
+DB00541,medulloblastoma
+DB00541,multiple myeloma
+DB00541,nephrotic syndrome
+DB00541,neuroblastoma
+DB00541,osteosarcoma
+DB00541,rhabdomyosarcoma
+DB00309,multiple myeloma
+DB00309,neuroblastoma
+DB00162,cataract
+DB00162,psoriasis
+DB02546,medulloblastoma
+DB00682,coronary artery disease
+DB00682,multiple myeloma
+DB00549,asthma
+DB00549,cystic fibrosis
+DB00744,asthma
+DB00399,multiple myeloma
+DB00399,osteoporosis
+DB00909,parkinson disease

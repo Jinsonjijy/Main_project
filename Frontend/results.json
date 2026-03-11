@@ -1,57 +1,57 @@
 {
-  "disease": "Gout",
+  "disease": "breast cancer",
   "pathways": [
     [
-      "Cytokine-cytokine receptor interaction - Homo sapiens (human)",
-      3
+      "Pathways in cancer - Homo sapiens (human)",
+      11
     ],
     [
-      "MAPK signaling pathway - Homo sapiens (human)",
-      3
+      "Breast cancer - Homo sapiens (human)",
+      11
     ],
     [
-      "Tuberculosis - Homo sapiens (human)",
-      3
+      "Prostate cancer - Homo sapiens (human)",
+      10
     ],
     [
-      "Amoebiasis - Homo sapiens (human)",
-      3
+      "Human papillomavirus infection - Homo sapiens (human)",
+      9
     ],
     [
-      "Lipid and atherosclerosis - Homo sapiens (human)",
-      2
+      "Hepatocellular carcinoma - Homo sapiens (human)",
+      9
     ]
   ],
   "drugs": [
     {
-      "name": "Allopurinol",
-      "drugbank_id": "DB00437",
-      "score": 0.4797128438949585
+      "name": "Estradiol",
+      "drugbank_id": "DB00783",
+      "score": 0.40705087780952454
     },
     {
-      "name": "Febuxostat",
-      "drugbank_id": "DB04854",
-      "score": 0.47606921195983887
+      "name": "Paclitaxel",
+      "drugbank_id": "DB01229",
+      "score": 0.3592613935470581
     },
     {
-      "name": "Fosdenopterin",
-      "drugbank_id": "DB16628",
-      "score": 0.45532912015914917
+      "name": "Procarbazine",
+      "drugbank_id": "DB01168",
+      "score": 0.3030037581920624
     },
     {
-      "name": "Thalidomide",
-      "drugbank_id": "DB01041",
-      "score": 0.4526652693748474
+      "name": "Amantadine",
+      "drugbank_id": "DB00915",
+      "score": 0.30148395895957947
     },
     {
-      "name": "Triflusal",
-      "drugbank_id": "DB08814",
-      "score": 0.427541047334671
+      "name": "Dronabinol",
+      "drugbank_id": "DB00470",
+      "score": 0.2961760461330414
     },
     {
-      "name": "Pirfenidone",
-      "drugbank_id": "DB04951",
-      "score": 0.42535290122032166
+      "name": "Disulfiram",
+      "drugbank_id": "DB00822",
+      "score": 0.2807815968990326
     }
   ]
 }
