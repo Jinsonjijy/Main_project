@@ -9,7 +9,7 @@ from gnn_model import DrugRepurposingHeteroGNN
 
 # ================= FIX RANDOMNESS =================
 
-SEED = 42
+SEED = 47
 
 random.seed(SEED)
 np.random.seed(SEED)
@@ -26,6 +26,7 @@ torch.backends.cudnn.benchmark = False
 EMB_DIM = 644
 HIDDEN_DIM = 256
 TOPK = 20
+NEG_RATIO = 1
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Using device:", device)
@@ -232,26 +233,26 @@ labels = []
 train_set = set(train_pairs)
 
 
-# ================= POSITIVES =================
+# ================= POSITIVE PAIRS =================
 
 for d, dr in test_pairs:
 
-    score = torch.dot(
-        disease_emb[d],
-        drug_emb[dr]
+    score = F.cosine_similarity(
+        disease_emb[d].unsqueeze(0),
+        drug_emb[dr].unsqueeze(0)
     ).item()
 
     scores.append(score)
     labels.append(1)
 
 
-# ================= NEGATIVES (STABLE) =================
+# ================= NEGATIVE PAIRS =================
 
 random.seed(SEED)
 
 negatives = []
 
-while len(negatives) < len(test_pairs):
+while len(negatives) < NEG_RATIO * len(test_pairs):
 
     d = random.randint(0, len(d_uniques) - 1)
     dr = random.randint(0, num_dr - 1)
@@ -259,11 +260,12 @@ while len(negatives) < len(test_pairs):
     if (d, dr) not in train_set and (d, dr) not in test_pairs:
         negatives.append((d, dr))
 
+
 for d, dr in negatives:
 
-    score = torch.dot(
-        disease_emb[d],
-        drug_emb[dr]
+    score = F.cosine_similarity(
+        disease_emb[d].unsqueeze(0),
+        drug_emb[dr].unsqueeze(0)
     ).item()
 
     scores.append(score)
