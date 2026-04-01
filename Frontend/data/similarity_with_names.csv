@@ -1,0 +1,1225 @@
+drug,similar_drug,similarity,drug_name,similar_name
+DB00014,DB06825,0.617,Goserelin,Triptorelin
+DB06825,DB00014,0.617,Triptorelin,Goserelin
+DB00035,DB09059,0.602,Desmopressin,Atosiban
+DB09059,DB00035,0.602,Atosiban,Desmopressin
+DB00035,DB14642,0.764,Desmopressin,Lypressin
+DB14642,DB00035,0.764,Lypressin,Desmopressin
+DB00050,DB00106,0.724,Cetrorelix,Abarelix
+DB00106,DB00050,0.724,Abarelix,Cetrorelix
+DB00050,DB06699,0.695,Cetrorelix,Degarelix
+DB06699,DB00050,0.695,Degarelix,Cetrorelix
+DB00050,DB06785,0.797,Cetrorelix,Ganirelix
+DB06785,DB00050,0.797,Ganirelix,Cetrorelix
+DB00091,DB11693,0.864,Cyclosporine,Voclosporin
+DB11693,DB00091,0.864,Voclosporin,Cyclosporine
+DB00106,DB06699,0.686,Abarelix,Degarelix
+DB06699,DB00106,0.686,Degarelix,Abarelix
+DB00106,DB06785,0.713,Abarelix,Ganirelix
+DB06785,DB00106,0.713,Ganirelix,Abarelix
+DB00120,DB00135,0.704,Phenylalanine,Tyrosine
+DB00135,DB00120,0.704,Tyrosine,Phenylalanine
+DB00128,DB00174,0.65,Aspartic acid,Asparagine
+DB00174,DB00128,0.65,Asparagine,Aspartic acid
+DB00131,DB00157,0.629,Adenosine phosphate,NADH
+DB00157,DB00131,0.629,NADH,Adenosine phosphate
+DB00131,DB00194,0.686,Adenosine phosphate,Vidarabine
+DB00194,DB00131,0.686,Vidarabine,Adenosine phosphate
+DB00131,DB00640,0.686,Adenosine phosphate,Adenosine
+DB00640,DB00131,0.686,Adenosine,Adenosine phosphate
+DB00132,DB00159,0.852,alpha-Linolenic acid,Icosapent
+DB00159,DB00132,0.852,Icosapent,alpha-Linolenic acid
+DB00132,DB03756,0.714,alpha-Linolenic acid,Doconexent
+DB03756,DB00132,0.714,Doconexent,alpha-Linolenic acid
+DB00132,DB04224,0.69,alpha-Linolenic acid,Oleic Acid
+DB04224,DB00132,0.69,Oleic Acid,alpha-Linolenic acid
+DB00132,DB14104,0.793,alpha-Linolenic acid,Linoleic acid
+DB14104,DB00132,0.793,Linoleic acid,alpha-Linolenic acid
+DB00135,DB01235,0.645,Tyrosine,Levodopa
+DB01235,DB00135,0.645,Levodopa,Tyrosine
+DB00136,DB00146,0.794,Calcitriol,Calcifediol
+DB00146,DB00136,0.794,Calcifediol,Calcitriol
+DB00136,DB00169,0.642,Calcitriol,Cholecalciferol
+DB00169,DB00136,0.642,Cholecalciferol,Calcitriol
+DB00136,DB01436,0.82,Calcitriol,Alfacalcidol
+DB01436,DB00136,0.82,Alfacalcidol,Calcitriol
+DB00136,DB02300,0.638,Calcitriol,Calcipotriol
+DB02300,DB00136,0.638,Calcipotriol,Calcitriol
+DB00139,DB00548,0.615,Succinic acid,Azelaic acid
+DB00548,DB00139,0.615,Azelaic acid,Succinic acid
+DB00146,DB00153,0.636,Calcifediol,Ergocalciferol
+DB00153,DB00146,0.636,Ergocalciferol,Calcifediol
+DB00146,DB00169,0.817,Calcifediol,Cholecalciferol
+DB00169,DB00146,0.817,Cholecalciferol,Calcifediol
+DB00146,DB01436,0.642,Calcifediol,Alfacalcidol
+DB01436,DB00146,0.642,Alfacalcidol,Calcifediol
+DB00153,DB00169,0.667,Ergocalciferol,Cholecalciferol
+DB00169,DB00153,0.667,Cholecalciferol,Ergocalciferol
+DB00153,DB01070,0.712,Ergocalciferol,Dihydrotachysterol
+DB01070,DB00153,0.712,Dihydrotachysterol,Ergocalciferol
+DB00153,DB02300,0.612,Ergocalciferol,Calcipotriol
+DB02300,DB00153,0.612,Calcipotriol,Ergocalciferol
+DB00159,DB03756,0.769,Icosapent,Doconexent
+DB03756,DB00159,0.769,Doconexent,Icosapent
+DB00159,DB14104,0.667,Icosapent,Linoleic acid
+DB14104,DB00159,0.667,Linoleic acid,Icosapent
+DB00162,DB00523,0.696,Vitamin A,Alitretinoin
+DB00523,DB00162,0.696,Alitretinoin,Vitamin A
+DB00162,DB00755,0.696,Vitamin A,Tretinoin
+DB00755,DB00162,0.696,Tretinoin,Vitamin A
+DB00169,DB01436,0.783,Cholecalciferol,Alfacalcidol
+DB01436,DB00169,0.783,Alfacalcidol,Cholecalciferol
+DB00178,DB00519,0.964,Ramipril,Trandolapril
+DB00519,DB00178,0.964,Trandolapril,Ramipril
+DB00178,DB00584,0.677,Ramipril,Enalapril
+DB00584,DB00178,0.677,Enalapril,Ramipril
+DB00178,DB00790,0.759,Ramipril,Perindopril
+DB00790,DB00178,0.759,Perindopril,Ramipril
+DB00178,DB00881,0.606,Ramipril,Quinapril
+DB00881,DB00178,0.606,Quinapril,Ramipril
+DB00180,DB00591,0.639,Flunisolide,Fluocinolone acetonide
+DB00591,DB00180,0.639,Fluocinolone acetonide,Flunisolide
+DB00180,DB00846,0.7,Flunisolide,Flurandrenolide
+DB00846,DB00180,0.7,Flurandrenolide,Flunisolide
+DB00180,DB01260,0.721,Flunisolide,Desonide
+DB01260,DB00180,0.721,Desonide,Flunisolide
+DB00182,DB01576,1.0,Amphetamine,Dextroamphetamine
+DB01576,DB00182,1.0,Dextroamphetamine,Amphetamine
+DB00182,DB09352,0.6,Amphetamine,Hydroxyamphetamine
+DB09352,DB00182,0.6,Hydroxyamphetamine,Amphetamine
+DB00186,DB00842,0.75,Lorazepam,Oxazepam
+DB00842,DB00186,0.75,Oxazepam,Lorazepam
+DB00186,DB13872,0.6,Lorazepam,Lormetazepam
+DB13872,DB00186,0.6,Lormetazepam,Lorazepam
+DB00187,DB00264,0.705,Esmolol,Metoprolol
+DB00264,DB00187,0.705,Metoprolol,Esmolol
+DB00187,DB00335,0.652,Esmolol,Atenolol
+DB00335,DB00187,0.652,Atenolol,Esmolol
+DB00190,DB00968,0.649,Carbidopa,Methyldopa
+DB00968,DB00190,0.649,Methyldopa,Carbidopa
+DB00194,DB00640,1.0,Vidarabine,Adenosine
+DB00640,DB00194,1.0,Adenosine,Vidarabine
+DB00194,DB01073,0.688,Vidarabine,Fludarabine
+DB01073,DB00194,0.688,Fludarabine,Vidarabine
+DB00195,DB00264,0.681,Betaxolol,Metoprolol
+DB00264,DB00195,0.681,Metoprolol,Betaxolol
+DB00195,DB09351,1.0,Betaxolol,Levobetaxolol
+DB09351,DB00195,1.0,Levobetaxolol,Betaxolol
+DB00200,DB03614,0.915,Hydroxocobalamin,Mecobalamin
+DB03614,DB00200,0.915,Mecobalamin,Hydroxocobalamin
+DB00202,DB00411,0.625,Succinylcholine,Carbamoylcholine
+DB00411,DB00202,0.625,Carbamoylcholine,Succinylcholine
+DB00206,DB01089,0.844,Reserpine,Deserpidine
+DB01089,DB00206,0.844,Deserpidine,Reserpine
+DB00206,DB01180,0.805,Reserpine,Rescinnamine
+DB01180,DB00206,0.805,Rescinnamine,Reserpine
+DB00215,DB01175,1.0,Citalopram,Escitalopram
+DB01175,DB00215,1.0,Escitalopram,Citalopram
+DB00223,DB00443,0.714,Diflorasone,Betamethasone
+DB00443,DB00223,0.714,Betamethasone,Diflorasone
+DB00223,DB00591,0.662,Diflorasone,Fluocinolone acetonide
+DB00591,DB00223,0.662,Fluocinolone acetonide,Diflorasone
+DB00223,DB00596,0.847,Diflorasone,Ulobetasol
+DB00596,DB00223,0.847,Ulobetasol,Diflorasone
+DB00223,DB00620,0.606,Diflorasone,Triamcinolone
+DB00620,DB00223,0.606,Triamcinolone,Diflorasone
+DB00223,DB00663,1.0,Diflorasone,Flumethasone
+DB00663,DB00223,1.0,Flumethasone,Diflorasone
+DB00223,DB01234,0.714,Diflorasone,Dexamethasone
+DB01234,DB00223,0.714,Dexamethasone,Diflorasone
+DB00223,DB09095,0.621,Diflorasone,Difluocortolone
+DB09095,DB00223,0.621,Difluocortolone,Diflorasone
+DB00223,DB11750,0.603,Diflorasone,Clobetasol
+DB11750,DB00223,0.603,Clobetasol,Diflorasone
+DB00223,DB13867,0.762,Diflorasone,Fluticasone
+DB13867,DB00223,0.762,Fluticasone,Diflorasone
+DB00227,DB00641,0.742,Lovastatin,Simvastatin
+DB00641,DB00227,0.742,Simvastatin,Lovastatin
+DB00231,DB13872,0.761,Temazepam,Lormetazepam
+DB13872,DB00231,0.761,Lormetazepam,Temazepam
+DB00233,DB00244,0.692,Aminosalicylic acid,Mesalazine
+DB00244,DB00233,0.692,Mesalazine,Aminosalicylic acid
+DB00237,DB00306,0.645,Butabarbital,Talbutal
+DB00306,DB00237,0.645,Talbutal,Butabarbital
+DB00237,DB00312,0.714,Butabarbital,Pentobarbital
+DB00312,DB00237,0.714,Pentobarbital,Butabarbital
+DB00242,DB00631,0.618,Cladribine,Clofarabine
+DB00631,DB00242,0.618,Clofarabine,Cladribine
+DB00245,DB01146,0.629,Benzatropine,Diphenylpyraline
+DB01146,DB00245,0.629,Diphenylpyraline,Benzatropine
+DB00247,DB00353,0.723,Methysergide,Methylergometrine
+DB00353,DB00247,0.723,Methylergometrine,Methysergide
+DB00264,DB00335,0.622,Metoprolol,Atenolol
+DB00335,DB00264,0.622,Atenolol,Metoprolol
+DB00264,DB00612,0.617,Metoprolol,Bisoprolol
+DB00612,DB00264,0.617,Bisoprolol,Metoprolol
+DB00264,DB09351,0.681,Metoprolol,Levobetaxolol
+DB09351,DB00264,0.681,Levobetaxolol,Metoprolol
+DB00277,DB01223,0.839,Theophylline,Aminophylline
+DB01223,DB00277,0.839,Aminophylline,Theophylline
+DB00279,DB00451,0.744,Liothyronine,Levothyroxine
+DB00451,DB00279,0.744,Levothyroxine,Liothyronine
+DB00279,DB00509,0.744,Liothyronine,Dextrothyroxine
+DB00509,DB00279,0.744,Dextrothyroxine,Liothyronine
+DB00279,DB01583,0.714,Liothyronine,Liotrix
+DB01583,DB00279,0.714,Liotrix,Liothyronine
+DB00282,DB00630,0.727,Pamidronic acid,Alendronic acid
+DB00630,DB00282,0.727,Alendronic acid,Pamidronic acid
+DB00285,DB06700,0.718,Venlafaxine,Desvenlafaxine
+DB06700,DB00285,0.718,Desvenlafaxine,Venlafaxine
+DB00287,DB08819,0.636,Travoprost,Tafluprost
+DB08819,DB00287,0.636,Tafluprost,Travoprost
+DB00288,DB01047,0.658,Amcinonide,Fluocinonide
+DB01047,DB00288,0.658,Fluocinonide,Amcinonide
+DB00288,DB14649,0.658,Amcinonide,Dexamethasone acetate
+DB14649,DB00288,0.658,Dexamethasone acetate,Amcinonide
+DB00294,DB00304,0.717,Etonogestrel,Desogestrel
+DB00304,DB00294,0.717,Desogestrel,Etonogestrel
+DB00294,DB00367,0.707,Etonogestrel,Levonorgestrel
+DB00367,DB00294,0.707,Levonorgestrel,Etonogestrel
+DB00294,DB09389,0.707,Etonogestrel,Norgestrel
+DB09389,DB00294,0.707,Norgestrel,Etonogestrel
+DB00295,DB00318,0.759,Morphine,Codeine
+DB00318,DB00295,0.759,Codeine,Morphine
+DB00295,DB09209,0.641,Morphine,Pholcodine
+DB09209,DB00295,0.641,Pholcodine,Morphine
+DB00296,DB00297,0.86,Ropivacaine,Bupivacaine
+DB00297,DB00296,0.86,Bupivacaine,Ropivacaine
+DB00296,DB00961,0.721,Ropivacaine,Mepivacaine
+DB00961,DB00296,0.721,Mepivacaine,Ropivacaine
+DB00296,DB01002,0.86,Ropivacaine,Levobupivacaine
+DB01002,DB00296,0.86,Levobupivacaine,Ropivacaine
+DB00297,DB00961,0.689,Bupivacaine,Mepivacaine
+DB00961,DB00297,0.689,Mepivacaine,Bupivacaine
+DB00297,DB01002,1.0,Bupivacaine,Levobupivacaine
+DB01002,DB00297,1.0,Levobupivacaine,Bupivacaine
+DB00306,DB00418,0.758,Talbutal,Secobarbital
+DB00418,DB00306,0.758,Secobarbital,Talbutal
+DB00309,DB00361,0.622,Vindesine,Vinorelbine
+DB00361,DB00309,0.622,Vinorelbine,Vindesine
+DB00309,DB00541,0.748,Vindesine,Vincristine
+DB00541,DB00309,0.748,Vincristine,Vindesine
+DB00309,DB00570,0.846,Vindesine,Vinblastine
+DB00570,DB00309,0.846,Vinblastine,Vindesine
+DB00309,DB11641,0.653,Vindesine,Vinflunine
+DB11641,DB00309,0.653,Vinflunine,Vindesine
+DB00312,DB00418,0.667,Pentobarbital,Secobarbital
+DB00418,DB00312,0.667,Secobarbital,Pentobarbital
+DB00312,DB00599,0.733,Pentobarbital,Thiopental
+DB00599,DB00312,0.733,Thiopental,Pentobarbital
+DB00318,DB01452,0.625,Codeine,Diamorphine
+DB01452,DB00318,0.625,Diamorphine,Codeine
+DB00318,DB01551,0.661,Codeine,Dihydrocodeine
+DB01551,DB00318,0.661,Dihydrocodeine,Codeine
+DB00318,DB09209,0.714,Codeine,Pholcodine
+DB09209,DB00318,0.714,Pholcodine,Codeine
+DB00320,DB00696,0.694,Dihydroergotamine,Ergotamine
+DB00696,DB00320,0.694,Ergotamine,Dihydroergotamine
+DB00320,DB11273,0.677,Dihydroergotamine,Dihydroergocornine
+DB11273,DB00320,0.677,Dihydroergocornine,Dihydroergotamine
+DB00320,DB11274,0.726,Dihydroergotamine,Dihydro-alpha-ergocryptine
+DB11274,DB00320,0.726,Dihydro-alpha-ergocryptine,Dihydroergotamine
+DB00320,DB11275,0.667,Dihydroergotamine,Epicriptine
+DB11275,DB00320,0.667,Epicriptine,Dihydroergotamine
+DB00320,DB13345,0.856,Dihydroergotamine,Dihydroergocristine
+DB13345,DB00320,0.856,Dihydroergocristine,Dihydroergotamine
+DB00321,DB00540,0.611,Amitriptyline,Nortriptyline
+DB00540,DB00321,0.611,Nortriptyline,Amitriptyline
+DB00321,DB00924,0.629,Amitriptyline,Cyclobenzaprine
+DB00924,DB00321,0.629,Cyclobenzaprine,Amitriptyline
+DB00321,DB01142,0.684,Amitriptyline,Doxepin
+DB01142,DB00321,0.684,Doxepin,Amitriptyline
+DB00321,DB09167,0.667,Amitriptyline,Dosulepin
+DB09167,DB00321,0.667,Dosulepin,Amitriptyline
+DB00322,DB00432,0.723,Floxuridine,Trifluridine
+DB00432,DB00322,0.723,Trifluridine,Floxuridine
+DB00322,DB03312,0.66,Floxuridine,Brivudine
+DB03312,DB00322,0.66,Brivudine,Floxuridine
+DB00322,DB13421,0.717,Floxuridine,Edoxudine
+DB13421,DB00322,0.717,Edoxudine,Floxuridine
+DB00327,DB00956,0.75,Hydromorphone,Hydrocodone
+DB00956,DB00327,0.75,Hydrocodone,Hydromorphone
+DB00328,DB13783,0.811,Indomethacin,Acemetacin
+DB13783,DB00328,0.811,Acemetacin,Indomethacin
+DB00332,DB00424,0.633,Ipratropium,Hyoscyamine
+DB00424,DB00332,0.633,Hyoscyamine,Ipratropium
+DB00332,DB00462,0.635,Ipratropium,Methscopolamine bromide
+DB00462,DB00332,0.635,Methscopolamine bromide,Ipratropium
+DB00332,DB00572,0.633,Ipratropium,Atropine
+DB00572,DB00332,0.633,Atropine,Ipratropium
+DB00332,DB11315,0.647,Ipratropium,Methscopolamine
+DB11315,DB00332,0.647,Methscopolamine,Ipratropium
+DB00335,DB01297,0.622,Atenolol,Practolol
+DB01297,DB00335,0.622,Practolol,Atenolol
+DB00337,DB00864,0.794,Pimecrolimus,Tacrolimus
+DB00864,DB00337,0.794,Tacrolimus,Pimecrolimus
+DB00338,DB00736,0.846,Omeprazole,Esomeprazole
+DB00736,DB00338,0.846,Esomeprazole,Omeprazole
+DB00341,DB00557,0.745,Cetirizine,Hydroxyzine
+DB00557,DB00341,0.745,Hydroxyzine,Cetirizine
+DB00341,DB06282,1.0,Cetirizine,Levocetirizine
+DB06282,DB00341,1.0,Levocetirizine,Cetirizine
+DB00342,DB00950,0.804,Terfenadine,Fexofenadine
+DB00950,DB00342,0.804,Fexofenadine,Terfenadine
+DB00351,DB09124,0.717,Megestrol acetate,Medrogestone
+DB09124,DB00351,0.717,Medrogestone,Megestrol acetate
+DB00351,DB13981,0.65,Megestrol acetate,Nomegestrol acetate
+DB13981,DB00351,0.65,Nomegestrol acetate,Megestrol acetate
+DB00351,DB19378,0.704,Megestrol acetate,Megestrol
+DB19378,DB00351,0.704,Megestrol,Megestrol acetate
+DB00353,DB01253,0.806,Methylergometrine,Ergometrine
+DB01253,DB00353,0.806,Ergometrine,Methylergometrine
+DB00354,DB00737,0.653,Buclizine,Meclizine
+DB00737,DB00354,0.653,Meclizine,Buclizine
+DB00357,DB01437,0.722,Aminoglutethimide,Glutethimide
+DB01437,DB00357,0.722,Glutethimide,Aminoglutethimide
+DB00361,DB00541,0.653,Vinorelbine,Vincristine
+DB00541,DB00361,0.653,Vincristine,Vinorelbine
+DB00361,DB00570,0.739,Vinorelbine,Vinblastine
+DB00570,DB00361,0.739,Vinblastine,Vinorelbine
+DB00361,DB11641,0.766,Vinorelbine,Vinflunine
+DB11641,DB00361,0.766,Vinflunine,Vinorelbine
+DB00367,DB00717,0.717,Levonorgestrel,Norethisterone
+DB00717,DB00367,0.717,Norethisterone,Levonorgestrel
+DB00367,DB06713,0.745,Levonorgestrel,Norelgestromin
+DB06713,DB00367,0.745,Norelgestromin,Levonorgestrel
+DB00367,DB09389,1.0,Levonorgestrel,Norgestrel
+DB09389,DB00367,1.0,Norgestrel,Levonorgestrel
+DB00371,DB00395,0.697,Meprobamate,Carisoprodol
+DB00395,DB00371,0.697,Carisoprodol,Meprobamate
+DB00372,DB00433,0.72,Thiethylperazine,Prochlorperazine
+DB00433,DB00372,0.72,Prochlorperazine,Thiethylperazine
+DB00372,DB00831,0.648,Thiethylperazine,Trifluoperazine
+DB00831,DB00372,0.648,Trifluoperazine,Thiethylperazine
+DB00372,DB12710,0.711,Thiethylperazine,Perazine
+DB12710,DB00372,0.711,Perazine,Thiethylperazine
+DB00376,DB00387,1.0,Trihexyphenidyl,Procyclidine
+DB00387,DB00376,1.0,Procyclidine,Trihexyphenidyl
+DB00376,DB00810,0.609,Trihexyphenidyl,Biperiden
+DB00810,DB00376,0.609,Biperiden,Trihexyphenidyl
+DB00376,DB00942,1.0,Trihexyphenidyl,Cycrimine
+DB00942,DB00376,1.0,Cycrimine,Trihexyphenidyl
+DB00381,DB01023,0.614,Amlodipine,Felodipine
+DB01023,DB00381,0.614,Felodipine,Amlodipine
+DB00381,DB09237,1.0,Amlodipine,Levamlodipine
+DB09237,DB00381,1.0,Levamlodipine,Amlodipine
+DB00385,DB00445,0.616,Valrubicin,Epirubicin
+DB00445,DB00385,0.616,Epirubicin,Valrubicin
+DB00385,DB00997,0.616,Valrubicin,Doxorubicin
+DB00997,DB00385,0.616,Doxorubicin,Valrubicin
+DB00387,DB00810,0.609,Procyclidine,Biperiden
+DB00810,DB00387,0.609,Biperiden,Procyclidine
+DB00387,DB00942,1.0,Procyclidine,Cycrimine
+DB00942,DB00387,1.0,Cycrimine,Procyclidine
+DB00388,DB00668,0.606,Phenylephrine,Epinephrine
+DB00668,DB00388,0.606,Epinephrine,Phenylephrine
+DB00390,DB00511,0.694,Digoxin,Acetyldigitoxin
+DB00511,DB00390,0.694,Acetyldigitoxin,Digoxin
+DB00390,DB01078,0.802,Digoxin,Deslanoside
+DB01078,DB00390,0.802,Deslanoside,Digoxin
+DB00390,DB01396,0.813,Digoxin,Digitoxin
+DB01396,DB00390,0.813,Digitoxin,Digoxin
+DB00391,DB00409,0.607,Sulpiride,Remoxipride
+DB00409,DB00391,0.607,Remoxipride,Sulpiride
+DB00391,DB06288,0.656,Sulpiride,Amisulpride
+DB06288,DB00391,0.656,Amisulpride,Sulpiride
+DB00392,DB01069,0.714,Profenamine,Promethazine
+DB01069,DB00392,0.714,Promethazine,Profenamine
+DB00393,DB00622,0.612,Nimodipine,Nicardipine
+DB00622,DB00393,0.612,Nicardipine,Nimodipine
+DB00393,DB01054,0.696,Nimodipine,Nitrendipine
+DB01054,DB00393,0.696,Nitrendipine,Nimodipine
+DB00393,DB06712,0.661,Nimodipine,Nilvadipine
+DB06712,DB00393,0.661,Nilvadipine,Nimodipine
+DB00394,DB01013,0.689,Beclomethasone dipropionate,Clobetasol propionate
+DB01013,DB00394,0.689,Clobetasol propionate,Beclomethasone dipropionate
+DB00394,DB14512,0.637,Beclomethasone dipropionate,Mometasone furoate
+DB14512,DB00394,0.637,Mometasone furoate,Beclomethasone dipropionate
+DB00396,DB00624,0.723,Progesterone,Testosterone
+DB00624,DB00396,0.723,Testosterone,Progesterone
+DB00396,DB01420,0.636,Progesterone,Testosterone propionate
+DB01420,DB00396,0.636,Testosterone propionate,Progesterone
+DB00396,DB06710,0.6,Progesterone,Methyltestosterone
+DB06710,DB00396,0.6,Methyltestosterone,Progesterone
+DB00398,DB08896,0.831,Sorafenib,Regorafenib
+DB08896,DB00398,0.831,Regorafenib,Sorafenib
+DB00401,DB01115,0.787,Nisoldipine,Nifedipine
+DB01115,DB00401,0.787,Nifedipine,Nisoldipine
+DB00402,DB01198,1.0,Eszopiclone,Zopiclone
+DB01198,DB00402,1.0,Zopiclone,Eszopiclone
+DB00404,DB00897,0.766,Alprazolam,Triazolam
+DB00897,DB00404,0.766,Triazolam,Alprazolam
+DB00404,DB01215,0.62,Alprazolam,Estazolam
+DB01215,DB00404,0.62,Estazolam,Alprazolam
+DB00405,DB00835,1.0,Dexbrompheniramine,Brompheniramine
+DB00835,DB00405,1.0,Brompheniramine,Dexbrompheniramine
+DB00405,DB01114,0.75,Dexbrompheniramine,Chlorpheniramine
+DB01114,DB00405,0.75,Chlorpheniramine,Dexbrompheniramine
+DB00405,DB01620,0.806,Dexbrompheniramine,Pheniramine
+DB01620,DB00405,0.806,Pheniramine,Dexbrompheniramine
+DB00405,DB09555,0.625,Dexbrompheniramine,Dexchlorpheniramine maleate
+DB09555,DB00405,0.625,Dexchlorpheniramine maleate,Dexbrompheniramine
+DB00408,DB00543,0.739,Loxapine,Amoxapine
+DB00543,DB00408,0.739,Amoxapine,Loxapine
+DB00416,DB01199,0.615,Metocurine iodide,Tubocurarine
+DB01199,DB00416,0.615,Tubocurarine,Metocurine iodide
+DB00416,DB01336,0.982,Metocurine iodide,Metocurine
+DB01336,DB00416,0.982,Metocurine,Metocurine iodide
+DB00418,DB01154,0.794,Secobarbital,Thiamylal
+DB01154,DB00418,0.794,Thiamylal,Secobarbital
+DB00419,DB00491,0.677,Miglustat,Miglitol
+DB00491,DB00419,0.677,Miglitol,Miglustat
+DB00420,DB00458,0.611,Promazine,Imipramine
+DB00458,DB00420,0.611,Imipramine,Promazine
+DB00420,DB00477,0.763,Promazine,Chlorpromazine
+DB00477,DB00420,0.763,Chlorpromazine,Promazine
+DB00420,DB00508,0.707,Promazine,Triflupromazine
+DB00508,DB00420,0.707,Triflupromazine,Promazine
+DB00422,DB06701,1.0,Methylphenidate,Dexmethylphenidate
+DB06701,DB00422,1.0,Dexmethylphenidate,Methylphenidate
+DB00424,DB00572,1.0,Hyoscyamine,Atropine
+DB00572,DB00424,1.0,Atropine,Hyoscyamine
+DB00424,DB00747,0.681,Hyoscyamine,Scopolamine
+DB00747,DB00424,0.681,Scopolamine,Hyoscyamine
+DB00424,DB11181,0.698,Hyoscyamine,Homatropine
+DB11181,DB00424,0.698,Homatropine,Hyoscyamine
+DB00424,DB11315,0.6,Hyoscyamine,Methscopolamine
+DB11315,DB00424,0.6,Methscopolamine,Hyoscyamine
+DB00429,DB01160,0.703,Carboprost tromethamine,Dinoprost tromethamine
+DB01160,DB00429,0.703,Dinoprost tromethamine,Carboprost tromethamine
+DB00432,DB03312,0.623,Trifluridine,Brivudine
+DB03312,DB00432,0.623,Brivudine,Trifluridine
+DB00432,DB13421,0.673,Trifluridine,Edoxudine
+DB13421,DB00432,0.673,Edoxudine,Trifluridine
+DB00433,DB00477,0.646,Prochlorperazine,Chlorpromazine
+DB00477,DB00433,0.646,Chlorpromazine,Prochlorperazine
+DB00433,DB00831,0.7,Prochlorperazine,Trifluoperazine
+DB00831,DB00433,0.7,Trifluoperazine,Prochlorperazine
+DB00433,DB00850,0.804,Prochlorperazine,Perphenazine
+DB00850,DB00433,0.804,Perphenazine,Prochlorperazine
+DB00433,DB12710,0.78,Prochlorperazine,Perazine
+DB12710,DB00433,0.78,Perazine,Prochlorperazine
+DB00441,DB00987,0.604,Gemcitabine,Cytarabine
+DB00987,DB00441,0.604,Cytarabine,Gemcitabine
+DB00443,DB00547,0.621,Betamethasone,Desoximetasone
+DB00547,DB00443,0.621,Desoximetasone,Betamethasone
+DB00443,DB00596,0.603,Betamethasone,Ulobetasol
+DB00596,DB00443,0.603,Ulobetasol,Betamethasone
+DB00443,DB00620,0.86,Betamethasone,Triamcinolone
+DB00620,DB00443,0.86,Triamcinolone,Betamethasone
+DB00443,DB00663,0.714,Betamethasone,Flumethasone
+DB00663,DB00443,0.714,Flumethasone,Betamethasone
+DB00443,DB01013,0.634,Betamethasone,Clobetasol propionate
+DB01013,DB00443,0.634,Clobetasol propionate,Betamethasone
+DB00443,DB01234,1.0,Betamethasone,Dexamethasone
+DB01234,DB00443,1.0,Dexamethasone,Betamethasone
+DB00443,DB11750,0.847,Betamethasone,Clobetasol
+DB11750,DB00443,0.847,Clobetasol,Betamethasone
+DB00443,DB13158,0.636,Betamethasone,Clobetasone
+DB13158,DB00443,0.636,Clobetasone,Betamethasone
+DB00443,DB14649,0.794,Betamethasone,Dexamethasone acetate
+DB14649,DB00443,0.794,Dexamethasone acetate,Betamethasone
+DB00443,DB14669,0.769,Betamethasone,Betamethasone phosphate
+DB14669,DB00443,0.769,Betamethasone phosphate,Betamethasone
+DB00444,DB00773,0.753,Teniposide,Etoposide
+DB00773,DB00444,0.753,Etoposide,Teniposide
+DB00445,DB00694,0.853,Epirubicin,Daunorubicin
+DB00694,DB00445,0.853,Daunorubicin,Epirubicin
+DB00445,DB00997,1.0,Epirubicin,Doxorubicin
+DB00997,DB00445,1.0,Doxorubicin,Epirubicin
+DB00445,DB01177,0.701,Epirubicin,Idarubicin
+DB01177,DB00445,0.701,Idarubicin,Epirubicin
+DB00448,DB01129,0.719,Lansoprazole,Rabeprazole
+DB01129,DB00448,0.719,Rabeprazole,Lansoprazole
+DB00448,DB05351,1.0,Lansoprazole,Dexlansoprazole
+DB05351,DB00448,1.0,Dexlansoprazole,Lansoprazole
+DB00451,DB00509,1.0,Levothyroxine,Dextrothyroxine
+DB00509,DB00451,1.0,Dextrothyroxine,Levothyroxine
+DB00451,DB01583,0.653,Levothyroxine,Liotrix
+DB01583,DB00451,0.653,Liotrix,Levothyroxine
+DB00454,DB00913,0.646,Meperidine,Anileridine
+DB00913,DB00454,0.646,Anileridine,Meperidine
+DB00454,DB01081,0.608,Meperidine,Diphenoxylate
+DB01081,DB00454,0.608,Diphenoxylate,Meperidine
+DB00458,DB01151,0.611,Imipramine,Desipramine
+DB01151,DB00458,0.611,Desipramine,Imipramine
+DB00458,DB01242,0.763,Imipramine,Clomipramine
+DB01242,DB00458,0.763,Clomipramine,Imipramine
+DB00462,DB00747,0.68,Methscopolamine bromide,Scopolamine
+DB00747,DB00462,0.68,Scopolamine,Methscopolamine bromide
+DB00462,DB09300,0.736,Methscopolamine bromide,Butylscopolamine
+DB09300,DB00462,0.736,Butylscopolamine,Methscopolamine bromide
+DB00462,DB11315,0.977,Methscopolamine bromide,Methscopolamine
+DB11315,DB00462,0.977,Methscopolamine,Methscopolamine bromide
+DB00464,DB11328,0.718,Sodium tetradecyl sulfate,Tetradecyl hydrogen sulfate (ester)
+DB11328,DB00464,0.718,Tetradecyl hydrogen sulfate (ester),Sodium tetradecyl sulfate
+DB00469,DB00554,0.692,Tenoxicam,Piroxicam
+DB00554,DB00469,0.692,Piroxicam,Tenoxicam
+DB00469,DB06725,0.696,Tenoxicam,Lornoxicam
+DB06725,DB00469,0.696,Lornoxicam,Tenoxicam
+DB00477,DB00508,0.681,Chlorpromazine,Triflupromazine
+DB00508,DB00477,0.681,Triflupromazine,Chlorpromazine
+DB00477,DB00850,0.6,Chlorpromazine,Perphenazine
+DB00850,DB00477,0.6,Perphenazine,Chlorpromazine
+DB00477,DB01242,0.617,Chlorpromazine,Clomipramine
+DB01242,DB00477,0.617,Clomipramine,Chlorpromazine
+DB00480,DB08910,0.617,Lenalidomide,Pomalidomide
+DB08910,DB00480,0.617,Pomalidomide,Lenalidomide
+DB00481,DB06249,0.651,Raloxifene,Arzoxifene
+DB06249,DB00481,0.651,Arzoxifene,Raloxifene
+DB00490,DB12184,0.733,Buspirone,Gepirone
+DB12184,DB00490,0.733,Gepirone,Buspirone
+DB00497,DB01192,0.768,Oxycodone,Oxymorphone
+DB01192,DB00497,0.768,Oxymorphone,Oxycodone
+DB00498,DB01125,0.607,Phenindione,Anisindione
+DB01125,DB00498,0.607,Anisindione,Phenindione
+DB00504,DB00854,0.686,Levallorphan,Levorphanol
+DB00854,DB00504,0.686,Levorphanol,Levallorphan
+DB00508,DB00623,0.623,Triflupromazine,Fluphenazine
+DB00623,DB00508,0.623,Fluphenazine,Triflupromazine
+DB00508,DB00831,0.667,Triflupromazine,Trifluoperazine
+DB00831,DB00508,0.667,Trifluoperazine,Triflupromazine
+DB00509,DB01583,0.653,Dextrothyroxine,Liotrix
+DB01583,DB00509,0.653,Liotrix,Dextrothyroxine
+DB00511,DB01078,0.604,Acetyldigitoxin,Deslanoside
+DB01078,DB00511,0.604,Deslanoside,Acetyldigitoxin
+DB00511,DB01396,0.846,Acetyldigitoxin,Digitoxin
+DB01396,DB00511,0.846,Digitoxin,Acetyldigitoxin
+DB00513,DB00548,0.706,Aminocaproic acid,Azelaic acid
+DB00548,DB00513,0.706,Azelaic acid,Aminocaproic acid
+DB00513,DB02530,0.778,Aminocaproic acid,gamma-Aminobutyric acid
+DB02530,DB00513,0.778,gamma-Aminobutyric acid,Aminocaproic acid
+DB00514,DB00854,0.708,Dextromethorphan,Levorphanol
+DB00854,DB00514,0.708,Levorphanol,Dextromethorphan
+DB00519,DB00584,0.677,Trandolapril,Enalapril
+DB00584,DB00519,0.677,Enalapril,Trandolapril
+DB00519,DB00790,0.789,Trandolapril,Perindopril
+DB00790,DB00519,0.789,Perindopril,Trandolapril
+DB00519,DB00881,0.606,Trandolapril,Quinapril
+DB00881,DB00519,0.606,Quinapril,Trandolapril
+DB00521,DB01210,0.618,Carteolol,Levobunolol
+DB01210,DB00521,0.618,Levobunolol,Carteolol
+DB00523,DB00755,1.0,Alitretinoin,Tretinoin
+DB00755,DB00523,1.0,Tretinoin,Alitretinoin
+DB00528,DB00622,0.605,Lercanidipine,Nicardipine
+DB00622,DB00528,0.605,Nicardipine,Lercanidipine
+DB00539,DB00675,0.738,Toremifene,Tamoxifen
+DB00675,DB00539,0.738,Tamoxifen,Toremifene
+DB00539,DB04938,0.714,Toremifene,Ospemifene
+DB04938,DB00539,0.714,Ospemifene,Toremifene
+DB00541,DB00570,0.883,Vincristine,Vinblastine
+DB00570,DB00541,0.883,Vinblastine,Vincristine
+DB00541,DB11641,0.684,Vincristine,Vinflunine
+DB11641,DB00541,0.684,Vinflunine,Vincristine
+DB00547,DB00620,0.615,Desoximetasone,Triamcinolone
+DB00620,DB00547,0.615,Triamcinolone,Desoximetasone
+DB00547,DB00838,0.606,Desoximetasone,Clocortolone
+DB00838,DB00547,0.606,Clocortolone,Desoximetasone
+DB00547,DB01234,0.621,Desoximetasone,Dexamethasone
+DB01234,DB00547,0.621,Dexamethasone,Desoximetasone
+DB00547,DB09095,0.71,Desoximetasone,Difluocortolone
+DB09095,DB00547,0.71,Difluocortolone,Desoximetasone
+DB00548,DB01440,0.625,Azelaic acid,gamma-Hydroxybutyric acid
+DB01440,DB00548,0.625,gamma-Hydroxybutyric acid,Azelaic acid
+DB00548,DB03017,0.706,Azelaic acid,Lauric acid
+DB03017,DB00548,0.706,Lauric acid,Azelaic acid
+DB00548,DB03796,0.706,Azelaic acid,Palmitic Acid
+DB03796,DB00548,0.706,Palmitic Acid,Azelaic acid
+DB00548,DB11117,0.6,Azelaic acid,Undecylenic acid
+DB11117,DB00548,0.6,Undecylenic acid,Azelaic acid
+DB00554,DB00814,0.63,Piroxicam,Meloxicam
+DB00814,DB00554,0.63,Meloxicam,Piroxicam
+DB00554,DB06725,0.655,Piroxicam,Lornoxicam
+DB06725,DB00554,0.655,Lornoxicam,Piroxicam
+DB00557,DB06282,0.745,Hydroxyzine,Levocetirizine
+DB06282,DB00557,0.745,Levocetirizine,Hydroxyzine
+DB00563,DB06813,0.653,Methotrexate,Pralatrexate
+DB06813,DB00563,0.653,Pralatrexate,Methotrexate
+DB00565,DB00732,0.81,Cisatracurium,Atracurium besylate
+DB00732,DB00565,0.81,Atracurium besylate,Cisatracurium
+DB00565,DB01226,0.683,Cisatracurium,Mivacurium
+DB01226,DB00565,0.683,Mivacurium,Cisatracurium
+DB00568,DB04841,0.816,Cinnarizine,Flunarizine
+DB04841,DB00568,0.816,Flunarizine,Cinnarizine
+DB00570,DB11641,0.773,Vinblastine,Vinflunine
+DB11641,DB00570,0.773,Vinflunine,Vinblastine
+DB00571,DB00960,0.644,Propranolol,Pindolol
+DB00960,DB00571,0.644,Pindolol,Propranolol
+DB00571,DB01580,0.614,Propranolol,Oxprenolol
+DB01580,DB00571,0.614,Oxprenolol,Propranolol
+DB00572,DB00747,0.681,Atropine,Scopolamine
+DB00747,DB00572,0.681,Scopolamine,Atropine
+DB00572,DB11181,0.698,Atropine,Homatropine
+DB11181,DB00572,0.698,Homatropine,Atropine
+DB00572,DB11315,0.6,Atropine,Methscopolamine
+DB11315,DB00572,0.6,Methscopolamine,Atropine
+DB00574,DB01191,1.0,Fenfluramine,Dexfenfluramine
+DB01191,DB00574,1.0,Dexfenfluramine,Fenfluramine
+DB00575,DB00964,0.657,Clonidine,Apraclonidine
+DB00964,DB00575,0.657,Apraclonidine,Clonidine
+DB00580,DB08439,0.612,Valdecoxib,Parecoxib
+DB08439,DB00580,0.612,Parecoxib,Valdecoxib
+DB00584,DB00691,0.636,Enalapril,Moexipril
+DB00691,DB00584,0.636,Moexipril,Enalapril
+DB00584,DB00881,0.7,Enalapril,Quinapril
+DB00881,DB00584,0.7,Quinapril,Enalapril
+DB00584,DB01348,0.656,Enalapril,Spirapril
+DB01348,DB00584,0.656,Spirapril,Enalapril
+DB00584,DB09477,0.811,Enalapril,Enalaprilat
+DB09477,DB00584,0.811,Enalaprilat,Enalapril
+DB00586,DB06736,0.725,Diclofenac,Aceclofenac
+DB06736,DB00586,0.725,Aceclofenac,Diclofenac
+DB00588,DB08906,0.753,Fluticasone propionate,Fluticasone furoate
+DB08906,DB00588,0.753,Fluticasone furoate,Fluticasone propionate
+DB00588,DB13867,0.729,Fluticasone propionate,Fluticasone
+DB13867,DB00588,0.729,Fluticasone,Fluticasone propionate
+DB00590,DB01162,0.652,Doxazosin,Terazosin
+DB01162,DB00590,0.652,Terazosin,Doxazosin
+DB00591,DB00663,0.662,Fluocinolone acetonide,Flumethasone
+DB00663,DB00591,0.662,Flumethasone,Fluocinolone acetonide
+DB00591,DB01047,0.809,Fluocinolone acetonide,Fluocinonide
+DB01047,DB00591,0.809,Fluocinonide,Fluocinolone acetonide
+DB00596,DB00663,0.847,Ulobetasol,Flumethasone
+DB00663,DB00596,0.847,Flumethasone,Ulobetasol
+DB00596,DB01234,0.603,Ulobetasol,Dexamethasone
+DB01234,DB00596,0.603,Dexamethasone,Ulobetasol
+DB00596,DB11750,0.719,Ulobetasol,Clobetasol
+DB11750,DB00596,0.719,Clobetasol,Ulobetasol
+DB00596,DB13867,0.75,Ulobetasol,Fluticasone
+DB13867,DB00596,0.75,Fluticasone,Ulobetasol
+DB00599,DB01154,0.706,Thiopental,Thiamylal
+DB01154,DB00599,0.706,Thiamylal,Thiopental
+DB00608,DB01611,0.86,Chloroquine,Hydroxychloroquine
+DB01611,DB00608,0.86,Hydroxychloroquine,Chloroquine
+DB00620,DB00663,0.606,Triamcinolone,Flumethasone
+DB00663,DB00620,0.606,Flumethasone,Triamcinolone
+DB00620,DB01234,0.86,Triamcinolone,Dexamethasone
+DB01234,DB00620,0.86,Dexamethasone,Triamcinolone
+DB00620,DB11750,0.726,Triamcinolone,Clobetasol
+DB11750,DB00620,0.726,Clobetasol,Triamcinolone
+DB00620,DB14649,0.682,Triamcinolone,Dexamethasone acetate
+DB14649,DB00620,0.682,Dexamethasone acetate,Triamcinolone
+DB00620,DB14669,0.662,Triamcinolone,Betamethasone phosphate
+DB14669,DB00620,0.662,Betamethasone phosphate,Triamcinolone
+DB00622,DB01054,0.689,Nicardipine,Nitrendipine
+DB01054,DB00622,0.689,Nitrendipine,Nicardipine
+DB00622,DB09238,0.613,Nicardipine,Manidipine
+DB09238,DB00622,0.613,Manidipine,Nicardipine
+DB00623,DB00831,0.816,Fluphenazine,Trifluoperazine
+DB00831,DB00623,0.816,Trifluoperazine,Fluphenazine
+DB00623,DB00850,0.706,Fluphenazine,Perphenazine
+DB00850,DB00623,0.706,Perphenazine,Fluphenazine
+DB00623,DB01063,0.655,Fluphenazine,Acetophenazine
+DB01063,DB00623,0.655,Acetophenazine,Fluphenazine
+DB00624,DB01420,0.642,Testosterone,Testosterone propionate
+DB01420,DB00624,0.642,Testosterone propionate,Testosterone
+DB00624,DB06710,0.638,Testosterone,Methyltestosterone
+DB06710,DB00624,0.638,Methyltestosterone,Testosterone
+DB00624,DB13944,0.603,Testosterone,Testosterone enanthate
+DB13944,DB00624,0.603,Testosterone enanthate,Testosterone
+DB00624,DB13946,0.603,Testosterone,Testosterone undecanoate
+DB13946,DB00624,0.603,Testosterone undecanoate,Testosterone
+DB00627,DB02701,0.654,Niacin,Nicotinamide
+DB02701,DB00627,0.654,Nicotinamide,Niacin
+DB00628,DB00842,0.733,Clorazepic acid,Oxazepam
+DB00842,DB00628,0.733,Oxazepam,Clorazepic acid
+DB00631,DB01073,0.642,Clofarabine,Fludarabine
+DB01073,DB00631,0.642,Fludarabine,Clofarabine
+DB00635,DB00860,0.683,Prednisone,Prednisolone
+DB00860,DB00635,0.683,Prednisolone,Prednisone
+DB00635,DB09383,0.7,Prednisone,Meprednisone
+DB09383,DB00635,0.7,Meprednisone,Prednisone
+DB00640,DB01073,0.688,Adenosine,Fludarabine
+DB01073,DB00640,0.688,Fludarabine,Adenosine
+DB00651,DB09092,0.702,Dyphylline,Xanthinol
+DB09092,DB00651,0.702,Xanthinol,Dyphylline
+DB00653,DB09472,0.75,Magnesium sulfate,Sodium sulfate
+DB09472,DB00653,0.75,Sodium sulfate,Magnesium sulfate
+DB00653,DB13257,0.75,Magnesium sulfate,Ferrous sulfate anhydrous
+DB13257,DB00653,0.75,Ferrous sulfate anhydrous,Magnesium sulfate
+DB00654,DB11660,0.686,Latanoprost,Latanoprostene bunod
+DB11660,DB00654,0.686,Latanoprostene bunod,Latanoprost
+DB00655,DB00783,0.625,Estrone,Estradiol
+DB00783,DB00655,0.625,Estradiol,Estrone
+DB00655,DB04573,0.612,Estrone,Estriol
+DB04573,DB00655,0.612,Estriol,Estrone
+DB00655,DB04574,0.7,Estrone,Estrone sulfate
+DB04574,DB00655,0.7,Estrone sulfate,Estrone
+DB00663,DB01234,0.714,Flumethasone,Dexamethasone
+DB01234,DB00663,0.714,Dexamethasone,Flumethasone
+DB00663,DB09095,0.621,Flumethasone,Difluocortolone
+DB09095,DB00663,0.621,Difluocortolone,Flumethasone
+DB00663,DB11750,0.603,Flumethasone,Clobetasol
+DB11750,DB00663,0.603,Clobetasol,Flumethasone
+DB00663,DB13867,0.762,Flumethasone,Fluticasone
+DB13867,DB00663,0.762,Fluticasone,Flumethasone
+DB00666,DB06788,0.766,Nafarelin,Histrelin
+DB06788,DB00666,0.766,Histrelin,Nafarelin
+DB00666,DB06825,0.932,Nafarelin,Triptorelin
+DB06825,DB00666,0.932,Triptorelin,Nafarelin
+DB00668,DB01064,0.688,Epinephrine,Isoprenaline
+DB01064,DB00668,0.688,Isoprenaline,Epinephrine
+DB00669,DB00918,0.654,Sumatriptan,Almotriptan
+DB00918,DB00669,0.654,Almotriptan,Sumatriptan
+DB00672,DB01124,0.625,Chlorpropamide,Tolbutamide
+DB01124,DB00672,0.625,Tolbutamide,Chlorpropamide
+DB00673,DB06717,0.711,Aprepitant,Fosaprepitant
+DB06717,DB00673,0.711,Fosaprepitant,Aprepitant
+DB00674,DB19353,0.672,Galantamine,Benzgalantamine
+DB19353,DB00674,0.672,Benzgalantamine,Galantamine
+DB00679,DB00933,0.696,Thioridazine,Mesoridazine
+DB00933,DB00679,0.696,Mesoridazine,Thioridazine
+DB00682,DB00946,0.732,Warfarin,Phenprocoumon
+DB00946,DB00682,0.732,Phenprocoumon,Warfarin
+DB00682,DB01418,0.766,Warfarin,Acenocoumarol
+DB01418,DB00682,0.766,Acenocoumarol,Warfarin
+DB00687,DB01185,0.727,Fludrocortisone,Fluoxymesterone
+DB01185,DB00687,0.727,Fluoxymesterone,Fludrocortisone
+DB00688,DB01024,0.656,Mycophenolate mofetil,Mycophenolic acid
+DB01024,DB00688,0.656,Mycophenolic acid,Mycophenolate mofetil
+DB00691,DB00881,0.803,Moexipril,Quinapril
+DB00881,DB00691,0.803,Quinapril,Moexipril
+DB00694,DB00997,0.853,Daunorubicin,Doxorubicin
+DB00997,DB00694,0.853,Doxorubicin,Daunorubicin
+DB00694,DB01177,0.829,Daunorubicin,Idarubicin
+DB01177,DB00694,0.829,Idarubicin,Daunorubicin
+DB00704,DB00844,0.631,Naltrexone,Nalbuphine
+DB00844,DB00704,0.631,Nalbuphine,Naltrexone
+DB00704,DB01183,0.754,Naltrexone,Naloxone
+DB01183,DB00704,0.754,Naloxone,Naltrexone
+DB00704,DB01192,0.712,Naltrexone,Oxymorphone
+DB01192,DB00704,0.712,Oxymorphone,Naltrexone
+DB00704,DB06230,0.797,Naltrexone,Nalmefene
+DB06230,DB00704,0.797,Nalmefene,Naltrexone
+DB00704,DB06800,0.612,Naltrexone,Methylnaltrexone
+DB06800,DB00704,0.612,Methylnaltrexone,Naltrexone
+DB00708,DB00802,0.615,Sufentanil,Alfentanil
+DB00802,DB00708,0.615,Alfentanil,Sufentanil
+DB00717,DB09389,0.717,Norethisterone,Norgestrel
+DB09389,DB00717,0.717,Norgestrel,Norethisterone
+DB00721,DB00807,0.614,Procaine,Proparacaine
+DB00807,DB00721,0.614,Proparacaine,Procaine
+DB00721,DB00892,0.6,Procaine,Oxybuprocaine
+DB00892,DB00721,0.6,Oxybuprocaine,Procaine
+DB00721,DB01086,0.618,Procaine,Benzocaine
+DB01086,DB00721,0.618,Benzocaine,Procaine
+DB00721,DB01161,0.619,Procaine,Chloroprocaine
+DB01161,DB00721,0.619,Chloroprocaine,Procaine
+DB00721,DB11148,0.639,Procaine,Butamben
+DB11148,DB00721,0.639,Butamben,Procaine
+DB00722,DB09477,0.702,Lisinopril,Enalaprilat
+DB09477,DB00722,0.702,Enalaprilat,Lisinopril
+DB00725,DB11181,0.636,Homatropine methylbromide,Homatropine
+DB11181,DB00725,0.636,Homatropine,Homatropine methylbromide
+DB00726,DB01246,0.632,Trimipramine,Alimemazine
+DB01246,DB00726,0.632,Alimemazine,Trimipramine
+DB00727,DB01613,0.652,Nitroglycerin,Erythrityl tetranitrate
+DB01613,DB00727,0.652,Erythrityl tetranitrate,Nitroglycerin
+DB00728,DB04834,0.687,Rocuronium,Rapacuronium
+DB04834,DB00728,0.687,Rapacuronium,Rocuronium
+DB00734,DB01267,0.746,Risperidone,Paliperidone
+DB01267,DB00734,0.746,Paliperidone,Risperidone
+DB00741,DB00769,0.697,Hydrocortisone,Hydrocortamate
+DB00769,DB00741,0.697,Hydrocortamate,Hydrocortisone
+DB00741,DB00860,0.683,Hydrocortisone,Prednisolone
+DB00860,DB00741,0.683,Prednisolone,Hydrocortisone
+DB00741,DB09091,0.836,Hydrocortisone,Tixocortol
+DB09091,DB00741,0.836,Tixocortol,Hydrocortisone
+DB00741,DB14539,0.78,Hydrocortisone,Hydrocortisone acetate
+DB14539,DB00741,0.78,Hydrocortisone acetate,Hydrocortisone
+DB00741,DB14540,0.677,Hydrocortisone,Hydrocortisone butyrate
+DB14540,DB00741,0.677,Hydrocortisone butyrate,Hydrocortisone
+DB00741,DB14541,0.687,Hydrocortisone,Hydrocortisone cypionate
+DB14541,DB00741,0.687,Hydrocortisone cypionate,Hydrocortisone
+DB00741,DB14542,0.754,Hydrocortisone,Hydrocortisone phosphate
+DB14542,DB00741,0.754,Hydrocortisone phosphate,Hydrocortisone
+DB00741,DB14544,0.667,Hydrocortisone,Hydrocortisone valerate
+DB14544,DB00741,0.667,Hydrocortisone valerate,Hydrocortisone
+DB00745,DB06413,1.0,Modafinil,Armodafinil
+DB06413,DB00745,1.0,Armodafinil,Modafinil
+DB00747,DB09300,0.607,Scopolamine,Butylscopolamine
+DB09300,DB00747,0.607,Butylscopolamine,Scopolamine
+DB00747,DB11315,0.694,Scopolamine,Methscopolamine
+DB11315,DB00747,0.694,Methscopolamine,Scopolamine
+DB00748,DB01114,0.622,Carbinoxamine,Chlorpheniramine
+DB01114,DB00748,0.622,Chlorpheniramine,Carbinoxamine
+DB00757,DB11699,0.647,Dolasetron,Tropisetron
+DB11699,DB00757,0.647,Tropisetron,Dolasetron
+DB00765,DB00968,0.667,Metyrosine,Methyldopa
+DB00968,DB00765,0.667,Methyldopa,Metyrosine
+DB00768,DB01142,0.66,Olopatadine,Doxepin
+DB01142,DB00768,0.66,Doxepin,Olopatadine
+DB00769,DB09091,0.687,Hydrocortamate,Tixocortol
+DB09091,DB00769,0.687,Tixocortol,Hydrocortamate
+DB00769,DB14539,0.773,Hydrocortamate,Hydrocortisone acetate
+DB14539,DB00769,0.773,Hydrocortisone acetate,Hydrocortamate
+DB00769,DB14541,0.736,Hydrocortamate,Hydrocortisone cypionate
+DB14541,DB00769,0.736,Hydrocortisone cypionate,Hydrocortamate
+DB00769,DB14542,0.7,Hydrocortamate,Hydrocortisone phosphate
+DB14542,DB00769,0.7,Hydrocortisone phosphate,Hydrocortamate
+DB00769,DB14543,0.623,Hydrocortamate,Hydrocortisone probutate
+DB14543,DB00769,0.623,Hydrocortisone probutate,Hydrocortamate
+DB00770,DB00917,0.727,Alprostadil,Dinoprostone
+DB00917,DB00770,0.727,Dinoprostone,Alprostadil
+DB00774,DB00999,0.651,Hydroflumethiazide,Hydrochlorothiazide
+DB00999,DB00774,0.651,Hydrochlorothiazide,Hydroflumethiazide
+DB00777,DB01069,0.659,Propiomazine,Promethazine
+DB01069,DB00777,0.659,Promethazine,Propiomazine
+DB00782,DB00940,0.711,Propantheline,Methantheline
+DB00940,DB00782,0.711,Methantheline,Propantheline
+DB00783,DB04573,0.717,Estradiol,Estriol
+DB04573,DB00783,0.717,Estriol,Estradiol
+DB00783,DB12235,0.674,Estradiol,Estetrol
+DB12235,DB00783,0.674,Estetrol,Estradiol
+DB00783,DB13952,0.686,Estradiol,Estradiol acetate
+DB13952,DB00783,0.686,Estradiol acetate,Estradiol
+DB00783,DB13953,0.625,Estradiol,Estradiol benzoate
+DB13953,DB00783,0.625,Estradiol benzoate,Estradiol
+DB00783,DB13956,0.614,Estradiol,Estradiol valerate
+DB13956,DB00783,0.614,Estradiol valerate,Estradiol
+DB00784,DB09216,0.714,Mefenamic acid,Tolfenamic acid
+DB09216,DB00784,0.714,Tolfenamic acid,Mefenamic acid
+DB00792,DB06691,0.744,Tripelennamine,Mepyramine
+DB06691,DB00792,0.744,Mepyramine,Tripelennamine
+DB00794,DB01174,0.677,Primidone,Phenobarbital
+DB01174,DB00794,0.677,Phenobarbital,Primidone
+DB00797,DB08799,0.6,Tolazoline,Antazoline
+DB08799,DB00797,0.6,Antazoline,Tolazoline
+DB00801,DB00829,0.64,Halazepam,Diazepam
+DB00829,DB00801,0.64,Diazepam,Halazepam
+DB00801,DB01588,0.692,Halazepam,Prazepam
+DB01588,DB00801,0.692,Prazepam,Halazepam
+DB00807,DB00892,0.723,Proparacaine,Oxybuprocaine
+DB00892,DB00807,0.723,Oxybuprocaine,Proparacaine
+DB00807,DB09342,0.633,Proparacaine,Propoxycaine
+DB09342,DB00807,0.633,Propoxycaine,Proparacaine
+DB00810,DB00942,0.609,Biperiden,Cycrimine
+DB00942,DB00810,0.609,Cycrimine,Biperiden
+DB00812,DB03585,0.824,Phenylbutazone,Oxyphenbutazone
+DB03585,DB00812,0.824,Oxyphenbutazone,Phenylbutazone
+DB00816,DB01064,0.606,Orciprenaline,Isoprenaline
+DB01064,DB00816,0.606,Isoprenaline,Orciprenaline
+DB00816,DB01288,0.611,Orciprenaline,Fenoterol
+DB01288,DB00816,0.611,Fenoterol,Orciprenaline
+DB00829,DB01588,0.64,Diazepam,Prazepam
+DB01588,DB00829,0.64,Prazepam,Diazepam
+DB00831,DB12710,0.727,Trifluoperazine,Perazine
+DB12710,DB00831,0.727,Perazine,Trifluoperazine
+DB00834,DB08867,0.731,Mifepristone,Ulipristal
+DB08867,DB00834,0.731,Ulipristal,Mifepristone
+DB00835,DB01114,0.75,Brompheniramine,Chlorpheniramine
+DB01114,DB00835,0.75,Chlorpheniramine,Brompheniramine
+DB00835,DB01620,0.806,Brompheniramine,Pheniramine
+DB01620,DB00835,0.806,Pheniramine,Brompheniramine
+DB00835,DB09555,0.625,Brompheniramine,Dexchlorpheniramine maleate
+DB09555,DB00835,0.625,Dexchlorpheniramine maleate,Brompheniramine
+DB00838,DB09095,0.797,Clocortolone,Difluocortolone
+DB09095,DB00838,0.797,Difluocortolone,Clocortolone
+DB00839,DB01120,0.667,Tolazamide,Gliclazide
+DB01120,DB00839,0.667,Gliclazide,Tolazamide
+DB00844,DB06230,0.631,Nalbuphine,Nalmefene
+DB06230,DB00844,0.631,Nalmefene,Nalbuphine
+DB00849,DB01174,0.618,Methylphenobarbital,Phenobarbital
+DB01174,DB00849,0.618,Phenobarbital,Methylphenobarbital
+DB00850,DB01063,0.692,Perphenazine,Acetophenazine
+DB01063,DB00850,0.692,Acetophenazine,Perphenazine
+DB00850,DB12710,0.609,Perphenazine,Perazine
+DB12710,DB00850,0.609,Perazine,Perphenazine
+DB00852,DB01364,1.0,Pseudoephedrine,Ephedrine
+DB01364,DB00852,1.0,Ephedrine,Pseudoephedrine
+DB00860,DB00896,0.609,Prednisolone,Rimexolone
+DB00896,DB00860,0.609,Rimexolone,Prednisolone
+DB00860,DB00959,0.705,Prednisolone,Methylprednisolone
+DB00959,DB00860,0.705,Methylprednisolone,Prednisolone
+DB00860,DB01260,0.627,Prednisolone,Desonide
+DB01260,DB00860,0.627,Desonide,Prednisolone
+DB00860,DB14631,0.758,Prednisolone,Prednisolone phosphate
+DB14631,DB00860,0.758,Prednisolone phosphate,Prednisolone
+DB00860,DB15566,0.783,Prednisolone,Prednisolone acetate
+DB15566,DB00860,0.783,Prednisolone acetate,Prednisolone
+DB00865,DB01037,0.625,Benzphetamine,Selegiline
+DB01037,DB00865,0.625,Selegiline,Benzphetamine
+DB00871,DB01407,0.6,Terbutaline,Clenbuterol
+DB01407,DB00871,0.6,Clenbuterol,Terbutaline
+DB14596,DB01130,0.75,Loteprednol etabonate,Prednicarbate
+DB01130,DB14596,0.75,Prednicarbate,Loteprednol etabonate
+DB00875,DB01624,0.717,Flupentixol,Zuclopenthixol
+DB01624,DB00875,0.717,Zuclopenthixol,Flupentixol
+DB00877,DB01590,0.873,Sirolimus,Everolimus
+DB01590,DB00877,0.873,Everolimus,Sirolimus
+DB00877,DB06287,0.842,Sirolimus,Temsirolimus
+DB06287,DB00877,0.842,Temsirolimus,Sirolimus
+DB00881,DB01348,0.636,Quinapril,Spirapril
+DB01348,DB00881,0.636,Spirapril,Quinapril
+DB00883,DB01020,0.778,Isosorbide dinitrate,Isosorbide mononitrate
+DB01020,DB00883,0.778,Isosorbide mononitrate,Isosorbide dinitrate
+DB00908,DB01346,0.72,Quinidine,Quinidine barbiturate
+DB01346,DB00908,0.72,Quinidine barbiturate,Quinidine
+DB00917,DB12789,0.667,Dinoprostone,Dinoprost
+DB12789,DB00917,0.667,Dinoprost,Dinoprostone
+DB00928,DB00987,0.644,Azacitidine,Cytarabine
+DB00987,DB00928,0.644,Cytarabine,Azacitidine
+DB00928,DB01262,0.617,Azacitidine,Decitabine
+DB01262,DB00928,0.617,Decitabine,Azacitidine
+DB00935,DB06694,0.643,Oxymetazoline,Xylometazoline
+DB06694,DB00935,0.643,Xylometazoline,Oxymetazoline
+DB00936,DB01399,0.607,Salicylic acid,Salsalate
+DB01399,DB00936,0.607,Salsalate,Salicylic acid
+DB00936,DB11079,0.667,Salicylic acid,Trolamine salicylate
+DB11079,DB00936,0.667,Trolamine salicylate,Salicylic acid
+DB00938,DB09082,0.678,Salmeterol,Vilanterol
+DB09082,DB00938,0.678,Vilanterol,Salmeterol
+DB00944,DB01400,0.692,Demecarium,Neostigmine
+DB01400,DB00944,0.692,Neostigmine,Demecarium
+DB00956,DB01551,0.65,Hydrocodone,Dihydrocodeine
+DB01551,DB00956,0.65,Dihydrocodeine,Hydrocodone
+DB00957,DB06713,0.694,Norgestimate,Norelgestromin
+DB06713,DB00957,0.694,Norelgestromin,Norgestimate
+DB00961,DB01002,0.689,Mepivacaine,Levobupivacaine
+DB01002,DB00961,0.689,Levobupivacaine,Mepivacaine
+DB00963,DB06802,0.625,Bromfenac,Nepafenac
+DB06802,DB00963,0.625,Nepafenac,Bromfenac
+DB00977,DB01357,0.765,Ethinylestradiol,Mestranol
+DB01357,DB00977,0.765,Mestranol,Ethinylestradiol
+DB00977,DB04575,0.709,Ethinylestradiol,Quinestrol
+DB04575,DB00977,0.709,Quinestrol,Ethinylestradiol
+DB00983,DB01274,1.0,Formoterol,Arformoterol
+DB01274,DB00983,1.0,Arformoterol,Formoterol
+DB00984,DB08804,0.719,Nandrolone phenpropionate,Nandrolone decanoate
+DB08804,DB00984,0.719,Nandrolone decanoate,Nandrolone phenpropionate
+DB00986,DB04843,0.638,Glycopyrronium,Mepenzolate
+DB04843,DB00986,0.638,Mepenzolate,Glycopyrronium
+DB00986,DB19325,0.685,Glycopyrronium,Sofpironium
+DB19325,DB00986,0.685,Sofpironium,Glycopyrronium
+DB00997,DB01177,0.701,Doxorubicin,Idarubicin
+DB01177,DB00997,0.701,Idarubicin,Doxorubicin
+DB01001,DB13139,1.0,Albuterol,Levosalbutamol
+DB13139,DB01001,1.0,Levosalbutamol,Albuterol
+DB01013,DB01234,0.634,Clobetasol propionate,Dexamethasone
+DB01234,DB01013,0.634,Dexamethasone,Clobetasol propionate
+DB01013,DB11750,0.721,Clobetasol propionate,Clobetasol
+DB11750,DB01013,0.721,Clobetasol,Clobetasol propionate
+DB01013,DB14512,0.605,Clobetasol propionate,Mometasone furoate
+DB14512,DB01013,0.605,Mometasone furoate,Clobetasol propionate
+DB01013,DB14649,0.613,Clobetasol propionate,Dexamethasone acetate
+DB14649,DB01013,0.613,Dexamethasone acetate,Clobetasol propionate
+DB01019,DB06709,0.654,Bethanechol,Methacholine
+DB06709,DB01019,0.654,Methacholine,Bethanechol
+DB01023,DB04920,0.78,Felodipine,Clevidipine
+DB04920,DB01023,0.78,Clevidipine,Felodipine
+DB01023,DB09237,0.614,Felodipine,Levamlodipine
+DB09237,DB01023,0.614,Levamlodipine,Felodipine
+DB01026,DB05667,1.0,Ketoconazole,Levoketoconazole
+DB05667,DB01026,1.0,Levoketoconazole,Ketoconazole
+DB01039,DB13873,0.667,Fenofibrate,Fenofibric acid
+DB13873,DB01039,0.667,Fenofibric acid,Fenofibrate
+DB01041,DB08910,0.737,Thalidomide,Pomalidomide
+DB08910,DB01041,0.737,Pomalidomide,Thalidomide
+DB01050,DB09213,1.0,Ibuprofen,Dexibuprofen
+DB09213,DB01050,1.0,Dexibuprofen,Ibuprofen
+DB01054,DB06712,0.633,Nitrendipine,Nilvadipine
+DB06712,DB01054,0.633,Nilvadipine,Nitrendipine
+DB01054,DB09238,0.636,Nitrendipine,Manidipine
+DB09238,DB01054,0.636,Manidipine,Nitrendipine
+DB01063,DB06808,0.782,Acetophenazine,Piperacetazine
+DB06808,DB01063,0.782,Piperacetazine,Acetophenazine
+DB01065,DB06594,0.604,Melatonin,Agomelatine
+DB06594,DB01065,0.604,Agomelatine,Melatonin
+DB01068,DB01595,0.729,Clonazepam,Nitrazepam
+DB01595,DB01068,0.729,Nitrazepam,Clonazepam
+DB01069,DB01246,0.667,Promethazine,Alimemazine
+DB01246,DB01069,0.667,Alimemazine,Promethazine
+DB01073,DB01280,0.611,Fludarabine,Nelarabine
+DB01280,DB01073,0.611,Nelarabine,Fludarabine
+DB01075,DB01173,0.727,Diphenhydramine,Orphenadrine
+DB01173,DB01075,0.727,Orphenadrine,Diphenhydramine
+DB01075,DB01237,0.806,Diphenhydramine,Bromodiphenhydramine
+DB01237,DB01075,0.806,Bromodiphenhydramine,Diphenhydramine
+DB01078,DB01396,0.659,Deslanoside,Digitoxin
+DB01396,DB01078,0.659,Digitoxin,Deslanoside
+DB01081,DB01501,0.745,Diphenoxylate,Difenoxin
+DB01501,DB01081,0.745,Difenoxin,Diphenoxylate
+DB01086,DB11148,0.677,Benzocaine,Butamben
+DB11148,DB01086,0.677,Butamben,Benzocaine
+DB01089,DB01180,0.678,Deserpidine,Rescinnamine
+DB01180,DB01089,0.678,Rescinnamine,Deserpidine
+DB01089,DB01392,0.61,Deserpidine,Yohimbine
+DB01392,DB01089,0.61,Yohimbine,Deserpidine
+DB01114,DB01620,0.806,Chlorpheniramine,Pheniramine
+DB01620,DB01114,0.806,Pheniramine,Chlorpheniramine
+DB01114,DB09555,0.814,Chlorpheniramine,Dexchlorpheniramine maleate
+DB09555,DB01114,0.814,Dexchlorpheniramine maleate,Chlorpheniramine
+DB01126,DB01216,0.638,Dutasteride,Finasteride
+DB01216,DB01126,0.638,Finasteride,Dutasteride
+DB01129,DB05351,0.719,Rabeprazole,Dexlansoprazole
+DB05351,DB01129,0.719,Dexlansoprazole,Rabeprazole
+DB01130,DB14543,0.628,Prednicarbate,Hydrocortisone probutate
+DB14543,DB01130,0.628,Hydrocortisone probutate,Prednicarbate
+DB01130,DB15566,0.622,Prednicarbate,Prednisolone acetate
+DB15566,DB01130,0.622,Prednisolone acetate,Prednicarbate
+DB01135,DB01226,0.71,Doxacurium,Mivacurium
+DB01226,DB01135,0.71,Mivacurium,Doxacurium
+DB01160,DB12789,0.852,Dinoprost tromethamine,Dinoprost
+DB12789,DB01160,0.852,Dinoprost,Dinoprost tromethamine
+DB01161,DB09342,0.674,Chloroprocaine,Propoxycaine
+DB09342,DB01161,0.674,Propoxycaine,Chloroprocaine
+DB01173,DB01237,0.615,Orphenadrine,Bromodiphenhydramine
+DB01237,DB01173,0.615,Bromodiphenhydramine,Orphenadrine
+DB01176,DB08936,0.793,Cyclizine,Chlorcyclizine
+DB08936,DB01176,0.793,Chlorcyclizine,Cyclizine
+DB01183,DB01192,0.729,Naloxone,Oxymorphone
+DB01192,DB01183,0.729,Oxymorphone,Naloxone
+DB01183,DB06230,0.621,Naloxone,Nalmefene
+DB06230,DB01183,0.621,Nalmefene,Naloxone
+DB01196,DB13952,0.729,Estramustine,Estradiol acetate
+DB13952,DB01196,0.729,Estradiol acetate,Estramustine
+DB01196,DB13953,0.672,Estramustine,Estradiol benzoate
+DB13953,DB01196,0.672,Estradiol benzoate,Estramustine
+DB01199,DB01336,0.623,Tubocurarine,Metocurine
+DB01336,DB01199,0.623,Metocurine,Tubocurarine
+DB01221,DB11823,1.0,Ketamine,Esketamine
+DB11823,DB01221,1.0,Esketamine,Ketamine
+DB01222,DB01260,0.729,Budesonide,Desonide
+DB01260,DB01222,0.729,Desonide,Budesonide
+DB01229,DB01248,0.768,Paclitaxel,Docetaxel
+DB01248,DB01229,0.768,Docetaxel,Paclitaxel
+DB01229,DB06772,0.712,Paclitaxel,Cabazitaxel
+DB06772,DB01229,0.712,Cabazitaxel,Paclitaxel
+DB01234,DB11750,0.847,Dexamethasone,Clobetasol
+DB11750,DB01234,0.847,Clobetasol,Dexamethasone
+DB01234,DB13158,0.636,Dexamethasone,Clobetasone
+DB13158,DB01234,0.636,Clobetasone,Dexamethasone
+DB01234,DB14649,0.794,Dexamethasone,Dexamethasone acetate
+DB14649,DB01234,0.794,Dexamethasone acetate,Dexamethasone
+DB01234,DB14669,0.769,Dexamethasone,Betamethasone phosphate
+DB14669,DB01234,0.769,Betamethasone phosphate,Dexamethasone
+DB01243,DB04815,0.719,Chloroxine,Clioquinol
+DB04815,DB01243,0.719,Clioquinol,Chloroxine
+DB01246,DB01403,0.738,Alimemazine,Methotrimeprazine
+DB01403,DB01246,0.738,Methotrimeprazine,Alimemazine
+DB01248,DB06772,0.792,Docetaxel,Cabazitaxel
+DB06772,DB01248,0.792,Cabazitaxel,Docetaxel
+DB01282,DB09059,0.639,Carbetocin,Atosiban
+DB09059,DB01282,0.639,Atosiban,Carbetocin
+DB01337,DB01339,0.79,Pancuronium,Vecuronium
+DB01339,DB01337,0.79,Vecuronium,Pancuronium
+DB01338,DB01339,0.723,Pipecuronium,Vecuronium
+DB01339,DB01338,0.723,Vecuronium,Pipecuronium
+DB01339,DB04834,0.711,Vecuronium,Rapacuronium
+DB04834,DB01339,0.711,Rapacuronium,Vecuronium
+DB01351,DB01353,0.6,Amobarbital,Butobarbital
+DB01353,DB01351,0.6,Butobarbital,Amobarbital
+DB01357,DB04575,0.782,Mestranol,Quinestrol
+DB04575,DB01357,0.782,Quinestrol,Mestranol
+DB01380,DB14539,0.703,Cortisone acetate,Hydrocortisone acetate
+DB14539,DB01380,0.703,Hydrocortisone acetate,Cortisone acetate
+DB01393,DB13873,0.614,Bezafibrate,Fenofibric acid
+DB13873,DB01393,0.614,Fenofibric acid,Bezafibrate
+DB01399,DB11071,0.645,Salsalate,Phenyl salicylate
+DB11071,DB01399,0.645,Phenyl salicylate,Salsalate
+DB01420,DB13943,0.759,Testosterone propionate,Testosterone cypionate
+DB13943,DB01420,0.759,Testosterone cypionate,Testosterone propionate
+DB01420,DB13944,0.789,Testosterone propionate,Testosterone enanthate
+DB13944,DB01420,0.789,Testosterone enanthate,Testosterone propionate
+DB01420,DB13946,0.789,Testosterone propionate,Testosterone undecanoate
+DB13946,DB01420,0.789,Testosterone undecanoate,Testosterone propionate
+DB01436,DB02300,0.667,Alfacalcidol,Calcipotriol
+DB02300,DB01436,0.667,Calcipotriol,Alfacalcidol
+DB01576,DB09352,0.6,Dextroamphetamine,Hydroxyamphetamine
+DB09352,DB01576,0.6,Hydroxyamphetamine,Dextroamphetamine
+DB01586,DB02659,0.778,Ursodeoxycholic acid,Cholic Acid
+DB02659,DB01586,0.778,Cholic Acid,Ursodeoxycholic acid
+DB01586,DB03619,0.61,Ursodeoxycholic acid,Deoxycholic acid
+DB03619,DB01586,0.61,Deoxycholic acid,Ursodeoxycholic acid
+DB01586,DB05990,0.667,Ursodeoxycholic acid,Obeticholic acid
+DB05990,DB01586,0.667,Obeticholic acid,Ursodeoxycholic acid
+DB01586,DB06777,1.0,Ursodeoxycholic acid,Chenodeoxycholic acid
+DB06777,DB01586,1.0,Chenodeoxycholic acid,Ursodeoxycholic acid
+DB01590,DB06287,0.846,Everolimus,Temsirolimus
+DB06287,DB01590,0.846,Temsirolimus,Everolimus
+DB01620,DB09555,0.659,Pheniramine,Dexchlorpheniramine maleate
+DB09555,DB01620,0.659,Dexchlorpheniramine maleate,Pheniramine
+DB01621,DB06808,0.688,Pipotiazine,Piperacetazine
+DB06808,DB01621,0.688,Piperacetazine,Pipotiazine
+DB01708,DB02789,0.612,Prasterone,Pregnenolone
+DB02789,DB01708,0.612,Pregnenolone,Prasterone
+DB02659,DB03619,0.737,Cholic Acid,Deoxycholic acid
+DB03619,DB02659,0.737,Deoxycholic acid,Cholic Acid
+DB02659,DB04348,0.708,Cholic Acid,Taurocholic acid
+DB04348,DB02659,0.708,Taurocholic acid,Cholic Acid
+DB02659,DB06777,0.778,Cholic Acid,Chenodeoxycholic acid
+DB06777,DB02659,0.778,Chenodeoxycholic acid,Cholic Acid
+DB03017,DB03796,1.0,Lauric acid,Palmitic Acid
+DB03796,DB03017,1.0,Palmitic Acid,Lauric acid
+DB03017,DB04224,0.739,Lauric acid,Oleic Acid
+DB04224,DB03017,0.739,Oleic Acid,Lauric acid
+DB03017,DB14104,0.654,Lauric acid,Linoleic acid
+DB14104,DB03017,0.654,Linoleic acid,Lauric acid
+DB03312,DB13421,0.647,Brivudine,Edoxudine
+DB13421,DB03312,0.647,Edoxudine,Brivudine
+DB03619,DB06777,0.61,Deoxycholic acid,Chenodeoxycholic acid
+DB06777,DB03619,0.61,Chenodeoxycholic acid,Deoxycholic acid
+DB03796,DB04224,0.739,Palmitic Acid,Oleic Acid
+DB04224,DB03796,0.739,Oleic Acid,Palmitic Acid
+DB03796,DB14104,0.654,Palmitic Acid,Linoleic acid
+DB14104,DB03796,0.654,Linoleic acid,Palmitic Acid
+DB04224,DB06689,0.793,Oleic Acid,Ethanolamine oleate
+DB06689,DB04224,0.793,Ethanolamine oleate,Oleic Acid
+DB04224,DB14104,0.885,Oleic Acid,Linoleic acid
+DB14104,DB04224,0.885,Linoleic acid,Oleic Acid
+DB04573,DB12235,0.66,Estriol,Estetrol
+DB12235,DB04573,0.66,Estetrol,Estriol
+DB04844,DB12161,0.854,Tetrabenazine,Deutetrabenazine
+DB12161,DB04844,0.854,Deutetrabenazine,Tetrabenazine
+DB04896,DB08918,1.0,Milnacipran,Levomilnacipran
+DB08918,DB04896,1.0,Levomilnacipran,Milnacipran
+DB05087,DB11859,0.659,Ganaxolone,Brexanolone
+DB11859,DB05087,0.659,Brexanolone,Ganaxolone
+DB05990,DB06777,0.667,Obeticholic acid,Chenodeoxycholic acid
+DB06777,DB05990,0.667,Chenodeoxycholic acid,Obeticholic acid
+DB06292,DB09038,0.661,Dapagliflozin,Empagliflozin
+DB09038,DB06292,0.661,Empagliflozin,Dapagliflozin
+DB06292,DB12236,0.759,Dapagliflozin,Bexagliflozin
+DB12236,DB06292,0.759,Bexagliflozin,Dapagliflozin
+DB06292,DB12713,0.732,Dapagliflozin,Sotagliflozin
+DB12713,DB06292,0.732,Sotagliflozin,Dapagliflozin
+DB06689,DB14104,0.719,Ethanolamine oleate,Linoleic acid
+DB14104,DB06689,0.719,Linoleic acid,Ethanolamine oleate
+DB06691,DB11235,0.769,Mepyramine,Thonzylamine
+DB11235,DB06691,0.769,Thonzylamine,Mepyramine
+DB06695,DB14726,0.625,Dabigatran etexilate,Dabigatran
+DB14726,DB06695,0.625,Dabigatran,Dabigatran etexilate
+DB06699,DB06785,0.659,Degarelix,Ganirelix
+DB06785,DB06699,0.659,Ganirelix,Degarelix
+DB06713,DB09389,0.745,Norelgestromin,Norgestrel
+DB09389,DB06713,0.745,Norgestrel,Norelgestromin
+DB06774,DB09120,1.0,Capsaicin,Zucapsaicin
+DB09120,DB06774,1.0,Zucapsaicin,Capsaicin
+DB06788,DB06825,0.814,Histrelin,Triptorelin
+DB06825,DB06788,0.814,Triptorelin,Histrelin
+DB06791,DB13925,0.636,Lanreotide,Dotatate gallium Ga-68
+DB13925,DB06791,0.636,Dotatate gallium Ga-68,Lanreotide
+DB06791,DB13985,0.636,Lanreotide,Lutetium Lu 177 dotatate
+DB13985,DB06791,0.636,Lutetium Lu 177 dotatate,Lanreotide
+DB06791,DB15873,0.621,Lanreotide,Copper oxodotreotide Cu-64
+DB15873,DB06791,0.621,Copper oxodotreotide Cu-64,Lanreotide
+DB08804,DB13944,0.662,Nandrolone decanoate,Testosterone enanthate
+DB13944,DB08804,0.662,Testosterone enanthate,Nandrolone decanoate
+DB08804,DB13946,0.662,Nandrolone decanoate,Testosterone undecanoate
+DB13946,DB08804,0.662,Testosterone undecanoate,Nandrolone decanoate
+DB08899,DB11901,0.605,Enzalutamide,Apalutamide
+DB11901,DB08899,0.605,Apalutamide,Enzalutamide
+DB08906,DB13867,0.662,Fluticasone furoate,Fluticasone
+DB13867,DB08906,0.662,Fluticasone,Fluticasone furoate
+DB08916,DB11963,0.602,Afatinib,Dacomitinib
+DB11963,DB08916,0.602,Dacomitinib,Afatinib
+DB08932,DB15059,0.714,Macitentan,Aprocitentan
+DB15059,DB08932,0.714,Aprocitentan,Macitentan
+DB09038,DB12236,0.677,Empagliflozin,Bexagliflozin
+DB12236,DB09038,0.677,Bexagliflozin,Empagliflozin
+DB09048,DB14019,0.671,Netupitant,Fosnetupitant
+DB14019,DB09048,0.671,Fosnetupitant,Netupitant
+DB09073,DB11730,0.605,Palbociclib,Ribociclib
+DB11730,DB09073,0.605,Ribociclib,Palbociclib
+DB09091,DB14539,0.767,Tixocortol,Hydrocortisone acetate
+DB14539,DB09091,0.767,Hydrocortisone acetate,Tixocortol
+DB09091,DB14541,0.676,Tixocortol,Hydrocortisone cypionate
+DB14541,DB09091,0.676,Hydrocortisone cypionate,Tixocortol
+DB09091,DB14542,0.742,Tixocortol,Hydrocortisone phosphate
+DB14542,DB09091,0.742,Hydrocortisone phosphate,Tixocortol
+DB09119,DB14575,0.628,Eslicarbazepine acetate,Eslicarbazepine
+DB14575,DB09119,0.628,Eslicarbazepine,Eslicarbazepine acetate
+DB09124,DB19378,0.776,Medrogestone,Megestrol
+DB19378,DB09124,0.776,Megestrol,Medrogestone
+DB09148,DB09149,0.714,Florbetaben F-18,Florbetapir F-18
+DB09149,DB09148,0.714,Florbetapir F-18,Florbetaben F-18
+DB09256,DB09327,0.75,Tegafur,Tegafur-uracil
+DB09327,DB09256,0.75,Tegafur-uracil,Tegafur
+DB09300,DB11315,0.75,Butylscopolamine,Methscopolamine
+DB11315,DB09300,0.75,Methscopolamine,Butylscopolamine
+DB09330,DB16390,0.724,Osimertinib,Mobocertinib
+DB16390,DB09330,0.724,Mobocertinib,Osimertinib
+DB09472,DB13257,0.75,Sodium sulfate,Ferrous sulfate anhydrous
+DB13257,DB09472,0.75,Ferrous sulfate anhydrous,Sodium sulfate
+DB09552,DB11235,0.609,Thonzonium,Thonzylamine
+DB11235,DB09552,0.609,Thonzylamine,Thonzonium
+DB11273,DB11274,0.83,Dihydroergocornine,Dihydro-alpha-ergocryptine
+DB11274,DB11273,0.83,Dihydro-alpha-ergocryptine,Dihydroergocornine
+DB11273,DB11275,0.884,Dihydroergocornine,Epicriptine
+DB11275,DB11273,0.884,Epicriptine,Dihydroergocornine
+DB11273,DB13345,0.802,Dihydroergocornine,Dihydroergocristine
+DB13345,DB11273,0.802,Dihydroergocristine,Dihydroergocornine
+DB11274,DB11275,0.813,Dihydro-alpha-ergocryptine,Epicriptine
+DB11275,DB11274,0.813,Epicriptine,Dihydro-alpha-ergocryptine
+DB11274,DB13345,0.856,Dihydro-alpha-ergocryptine,Dihydroergocristine
+DB13345,DB11274,0.856,Dihydroergocristine,Dihydro-alpha-ergocryptine
+DB11275,DB13345,0.787,Epicriptine,Dihydroergocristine
+DB13345,DB11275,0.787,Dihydroergocristine,Epicriptine
+DB11278,DB11587,0.679,DL-Methylephedrine,Etafedrine
+DB11587,DB11278,0.679,Etafedrine,DL-Methylephedrine
+DB11689,DB11967,0.841,Selumetinib,Binimetinib
+DB11967,DB11689,0.841,Binimetinib,Selumetinib
+DB11750,DB13158,0.758,Clobetasol,Clobetasone
+DB13158,DB11750,0.758,Clobetasone,Clobetasol
+DB11750,DB14649,0.781,Clobetasol,Dexamethasone acetate
+DB14649,DB11750,0.781,Dexamethasone acetate,Clobetasol
+DB11750,DB14669,0.758,Clobetasol,Betamethasone phosphate
+DB14669,DB11750,0.758,Betamethasone phosphate,Clobetasol
+DB11921,DB15566,0.644,Deflazacort,Prednisolone acetate
+DB15566,DB11921,0.644,Prednisolone acetate,Deflazacort
+DB12499,DB14540,0.657,Clascoterone,Hydrocortisone butyrate
+DB14540,DB12499,0.657,Hydrocortisone butyrate,Clascoterone
+DB12499,DB14544,0.647,Clascoterone,Hydrocortisone valerate
+DB14544,DB12499,0.647,Hydrocortisone valerate,Clascoterone
+DB13925,DB13985,0.982,Dotatate gallium Ga-68,Lutetium Lu 177 dotatate
+DB13985,DB13925,0.982,Lutetium Lu 177 dotatate,Dotatate gallium Ga-68
+DB13925,DB15494,0.897,Dotatate gallium Ga-68,Edotreotide gallium Ga-68
+DB15494,DB13925,0.897,Edotreotide gallium Ga-68,Dotatate gallium Ga-68
+DB13925,DB15873,0.956,Dotatate gallium Ga-68,Copper oxodotreotide Cu-64
+DB15873,DB13925,0.956,Copper oxodotreotide Cu-64,Dotatate gallium Ga-68
+DB13943,DB13944,0.742,Testosterone cypionate,Testosterone enanthate
+DB13944,DB13943,0.742,Testosterone enanthate,Testosterone cypionate
+DB13943,DB13946,0.742,Testosterone cypionate,Testosterone undecanoate
+DB13946,DB13943,0.742,Testosterone undecanoate,Testosterone cypionate
+DB13944,DB13946,1.0,Testosterone enanthate,Testosterone undecanoate
+DB13946,DB13944,1.0,Testosterone undecanoate,Testosterone enanthate
+DB13952,DB13953,0.768,Estradiol acetate,Estradiol benzoate
+DB13953,DB13952,0.768,Estradiol benzoate,Estradiol acetate
+DB13954,DB13955,0.614,Estradiol cypionate,Estradiol dienanthate
+DB13955,DB13954,0.614,Estradiol dienanthate,Estradiol cypionate
+DB13954,DB13956,0.77,Estradiol cypionate,Estradiol valerate
+DB13956,DB13954,0.77,Estradiol valerate,Estradiol cypionate
+DB13955,DB13956,0.762,Estradiol dienanthate,Estradiol valerate
+DB13956,DB13955,0.762,Estradiol valerate,Estradiol dienanthate
+DB13985,DB15494,0.88,Lutetium Lu 177 dotatate,Edotreotide gallium Ga-68
+DB15494,DB13985,0.88,Edotreotide gallium Ga-68,Lutetium Lu 177 dotatate
+DB13985,DB15873,0.956,Lutetium Lu 177 dotatate,Copper oxodotreotide Cu-64
+DB15873,DB13985,0.956,Copper oxodotreotide Cu-64,Lutetium Lu 177 dotatate
+DB14539,DB14541,0.761,Hydrocortisone acetate,Hydrocortisone cypionate
+DB14541,DB14539,0.761,Hydrocortisone cypionate,Hydrocortisone acetate
+DB14539,DB14542,0.778,Hydrocortisone acetate,Hydrocortisone phosphate
+DB14542,DB14539,0.778,Hydrocortisone phosphate,Hydrocortisone acetate
+DB14539,DB14543,0.616,Hydrocortisone acetate,Hydrocortisone probutate
+DB14543,DB14539,0.616,Hydrocortisone probutate,Hydrocortisone acetate
+DB14539,DB15566,0.708,Hydrocortisone acetate,Prednisolone acetate
+DB15566,DB14539,0.708,Prednisolone acetate,Hydrocortisone acetate
+DB14540,DB14543,0.821,Hydrocortisone butyrate,Hydrocortisone probutate
+DB14543,DB14540,0.821,Hydrocortisone probutate,Hydrocortisone butyrate
+DB14540,DB14544,0.919,Hydrocortisone butyrate,Hydrocortisone valerate
+DB14544,DB14540,0.919,Hydrocortisone valerate,Hydrocortisone butyrate
+DB14541,DB14542,0.69,Hydrocortisone cypionate,Hydrocortisone phosphate
+DB14542,DB14541,0.69,Hydrocortisone phosphate,Hydrocortisone cypionate
+DB14541,DB14543,0.615,Hydrocortisone cypionate,Hydrocortisone probutate
+DB14543,DB14541,0.615,Hydrocortisone probutate,Hydrocortisone cypionate
+DB14542,DB14631,0.716,Hydrocortisone phosphate,Prednisolone phosphate
+DB14631,DB14542,0.716,Prednisolone phosphate,Hydrocortisone phosphate
+DB14543,DB14544,0.757,Hydrocortisone probutate,Hydrocortisone valerate
+DB14544,DB14543,0.757,Hydrocortisone valerate,Hydrocortisone probutate
+DB14631,DB15566,0.781,Prednisolone phosphate,Prednisolone acetate
+DB15566,DB14631,0.781,Prednisolone acetate,Prednisolone phosphate
+DB14649,DB14669,0.791,Dexamethasone acetate,Betamethasone phosphate
+DB14669,DB14649,0.791,Betamethasone phosphate,Dexamethasone acetate
+DB15328,DB16098,0.812,Ubrogepant,Atogepant
+DB16098,DB15328,0.812,Atogepant,Ubrogepant
+DB15494,DB15873,0.858,Edotreotide gallium Ga-68,Copper oxodotreotide Cu-64
+DB15873,DB15494,0.858,Copper oxodotreotide Cu-64,Edotreotide gallium Ga-68
