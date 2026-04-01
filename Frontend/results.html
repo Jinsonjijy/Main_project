@@ -361,7 +361,7 @@
               : ((drug.score - minScore) / range) * 100;
 
             return `
-          <div class="drug-card">
+          <div class="drug-card" onclick="openDrug('${drug.drugbank_id}')">
             <div class="drug-name">
               ${drug.name}
               <span class="drug-bank">${drug.drugbank_id}</span>
@@ -400,6 +400,9 @@
     }
 
     loadResults();
+    function openDrug(id){
+      window.location.href = `drug.html?id=${id}`;
+    }
   </script>
 </body>
 
