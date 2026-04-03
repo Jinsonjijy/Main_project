@@ -1,57 +1,57 @@
 {
-  "disease": "Multiple sclerosis",
+  "disease": "Psoriasis",
   "pathways": [
     [
+      "Pathways in cancer - Homo sapiens (human)",
+      13
+    ],
+    [
       "Cytokine-cytokine receptor interaction - Homo sapiens (human)",
-      15
-    ],
-    [
-      "Influenza A - Homo sapiens (human)",
-      14
-    ],
-    [
-      "Lipid and atherosclerosis - Homo sapiens (human)",
-      13
-    ],
-    [
-      "Herpes simplex virus 1 infection - Homo sapiens (human)",
-      13
+      11
     ],
     [
       "Epstein-Barr virus infection - Homo sapiens (human)",
-      12
+      10
+    ],
+    [
+      "Coronavirus disease - COVID-19 - Homo sapiens (human)",
+      10
+    ],
+    [
+      "JAK-STAT signaling pathway - Homo sapiens (human)",
+      10
     ]
   ],
   "drugs": [
     {
-      "name": "Cladribine",
-      "drugbank_id": "DB00242",
-      "score": 0.5004121661186218
+      "name": "Amcinonide",
+      "drugbank_id": "DB00288",
+      "score": 0.6950070261955261
     },
     {
-      "name": "Levodopa",
-      "drugbank_id": "DB01235",
-      "score": 0.4961278438568115
+      "name": "Leucovorin",
+      "drugbank_id": "DB00650",
+      "score": 0.5823793411254883
     },
     {
-      "name": "Betaine",
-      "drugbank_id": "DB06756",
-      "score": 0.4919850528240204
+      "name": "Desonide",
+      "drugbank_id": "DB01260",
+      "score": 0.5792452096939087
     },
     {
-      "name": "Roflumilast",
-      "drugbank_id": "DB01656",
-      "score": 0.473930299282074
+      "name": "Tofacitinib",
+      "drugbank_id": "DB08895",
+      "score": 0.5613126754760742
     },
     {
-      "name": "Gemcitabine",
-      "drugbank_id": "DB00441",
-      "score": 0.46322429180145264
+      "name": "Adapalene",
+      "drugbank_id": "DB00210",
+      "score": 0.5596969127655029
     },
     {
-      "name": "Ephedrine",
-      "drugbank_id": "DB01364",
-      "score": 0.4307025074958801
+      "name": "Ruxolitinib",
+      "drugbank_id": "DB08877",
+      "score": 0.5463268756866455
     }
   ]
 }
