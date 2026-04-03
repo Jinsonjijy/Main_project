@@ -3,23 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disease-Gene-Drug Network Explorer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>CureSnap | Human Disease Network Intelligence</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS (lightweight grid & components) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
+    <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Inter + Outfit for modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
         :root {
-            --primary-color: #4f6df5;
-            --secondary-color: #10b981;
-            --accent-color: #8b5cf6;
-            --dark-color: #1f2937;
-            --light-color: #f8fafc;
+            --primary: #4f46e5;
+            --primary-dark: #4338ca;
+            --secondary: #0ea5e9;
+            --accent: #8b5cf6;
+            --success: #10b981;
+            --dark: #0f172a;
+            --gray-700: #334155;
+            --gray-400: #94a3b8;
+            --light-bg: #fafcff;
+            --card-radius: 2rem;
+            --glass-border: rgba(255, 255, 255, 0.5);
         }
 
         * {
@@ -30,878 +36,610 @@
 
         body {
             font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #f5f7ff 0%, #f3f4f6 100%);
+            background: radial-gradient(circle at 10% 20%, rgba(79, 70, 229, 0.03) 0%, rgba(14, 165, 233, 0.02) 100%),
+                        linear-gradient(145deg, #f9faff 0%, #f1f4fe 100%);
             min-height: 100vh;
-            color: var(--dark-color);
+            color: var(--dark);
+            scroll-behavior: smooth;
         }
 
-        /* Navigation */
+        /* animated mesh background */
+        .bg-mesh {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5 L55 30 L30 55 L5 30 Z' fill='none' stroke='%234f46e5' stroke-width='0.6' stroke-opacity='0.08'/%3E%3Ccircle cx='30' cy='30' r='2' fill='%234f46e5' fill-opacity='0.15'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            opacity: 0.6;
+        }
+
+        /* modern navbar */
         .navbar {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            padding: 1rem 0;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(79, 70, 229, 0.12);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.02);
+            padding: 0.8rem 0;
+            transition: all 0.2s;
         }
 
         .navbar-brand {
             font-weight: 800;
             font-size: 1.8rem;
-            color: var(--primary-color) !important;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent !important;
+            letter-spacing: -0.3px;
             display: flex;
             align-items: center;
             gap: 10px;
         }
 
         .navbar-brand i {
+            background: none;
+            -webkit-background-clip: unset;
+            background-clip: unset;
+            color: var(--primary);
             font-size: 1.6rem;
         }
 
         .nav-link {
             font-weight: 600;
-            color: var(--dark-color) !important;
-            padding: 0.5rem 1.5rem !important;
-            border-radius: 12px;
-            transition: all 0.3s ease;
-            margin: 0 5px;
+            color: var(--dark) !important;
+            padding: 0.6rem 1.4rem !important;
+            border-radius: 40px;
+            transition: all 0.25s ease;
+            margin: 0 3px;
+            font-size: 0.95rem;
         }
 
-        .nav-link:hover,
-        .nav-link.active {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+        .nav-link:hover, .nav-link.active {
+            background: linear-gradient(105deg, var(--primary) 0%, var(--accent) 100%);
             color: white !important;
+            box-shadow: 0 8px 18px rgba(79, 70, 229, 0.25);
+            transform: translateY(-1px);
         }
 
-        /* Hero Section */
-        .hero-section {
-            padding: 100px 0 60px;
-            background: linear-gradient(135deg, rgba(79, 109, 245, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
-            border-radius: 0 0 40px 40px;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%234f6df5' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
-            opacity: 0.3;
-        }
-
-        .hero-title {
-            font-size: 3.2rem;
-            font-weight: 800;
-            margin-bottom: 20px;
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .hero-subtitle {
-            font-size: 1.2rem;
-            color: #6b7280;
-            max-width: 600px;
-            margin: 0 auto 40px;
-            line-height: 1.6;
-        }
-
-        /* Search Section */
-        .search-section {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 24px;
-            padding: 40px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        /* hero section modern */
+        .hero-modern {
+            padding: 5rem 0 3rem;
             position: relative;
             z-index: 2;
         }
 
-        .search-tabs {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 30px;
-            background: #f8fafc;
-            padding: 8px;
-            border-radius: 16px;
-        }
-
-        .search-tab {
-            flex: 1;
-            padding: 15px;
-            text-align: center;
-            background: transparent;
-            border: none;
-            border-radius: 12px;
+        .hero-badge {
+            display: inline-block;
+            background: rgba(79, 70, 229, 0.12);
+            backdrop-filter: blur(4px);
+            padding: 0.4rem 1.2rem;
+            border-radius: 60px;
+            font-size: 0.85rem;
             font-weight: 600;
-            color: #6b7280;
-            cursor: pointer;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(79, 70, 229, 0.2);
+        }
+
+        .hero-title {
+            font-size: 3.6rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            background: linear-gradient(125deg, #1e1b4b 0%, #3b2b6b 40%, var(--primary) 80%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 1.2rem;
+        }
+
+        .hero-sub {
+            font-size: 1.2rem;
+            color: var(--gray-700);
+            max-width: 650px;
+            margin: 0 auto 2rem;
+            line-height: 1.5;
+        }
+
+        /* search card - glassmorphic */
+        .search-card {
+            background: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(12px);
+            border-radius: 2rem;
+            padding: 2rem 2rem 2rem 2rem;
+            box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(79, 70, 229, 0.1);
             transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
+            max-width: 850px;
+            margin: 0 auto;
+            border: 1px solid var(--glass-border);
         }
 
-        .search-tab:hover {
-            background: rgba(79, 109, 245, 0.1);
-        }
-
-        .search-tab.active {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
-            color: white;
-            box-shadow: 0 4px 12px rgba(79, 109, 245, 0.3);
-        }
-
-        .search-form {
-            margin-top: 20px;
-        }
-
-        .search-input-group {
+        .input-icon-group {
             position: relative;
-            margin-bottom: 20px;
+            margin-bottom: 1.5rem;
         }
 
-        .search-icon {
+        .input-icon {
             position: absolute;
             left: 20px;
             top: 50%;
             transform: translateY(-50%);
-            color: var(--primary-color);
-            font-size: 1.2rem;
-            z-index: 3;
+            font-size: 1.3rem;
+            color: var(--primary);
+            z-index: 2;
         }
 
-        .form-control {
-            padding: 20px 20px 20px 60px;
-            border: 2px solid #e5e7eb;
-            border-radius: 16px;
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
-            height: auto;
-        }
-
-        .form-control:focus {
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 3px rgba(79, 109, 245, 0.2);
-        }
-
-        .search-btn {
+        .form-control-net {
             width: 100%;
-            padding: 18px;
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            padding: 1.1rem 1.2rem 1.1rem 3.5rem;
+            font-size: 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 1.5rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            background: white;
+        }
+
+        .form-control-net:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.2);
+            outline: none;
+        }
+
+        .btn-gradient {
+            background: linear-gradient(105deg, var(--primary), var(--accent));
             border: none;
-            border-radius: 16px;
-            color: white;
+            padding: 1rem 1.6rem;
+            border-radius: 1.8rem;
             font-weight: 700;
-            font-size: 1.1rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
+            font-size: 1.05rem;
+            color: white;
+            transition: all 0.25s;
+            box-shadow: 0 10px 20px -5px rgba(79, 70, 229, 0.4);
+            width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 10px;
-            box-shadow: 0 4px 12px rgba(79, 109, 245, 0.3);
+            gap: 12px;
         }
 
-        .search-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(79, 109, 245, 0.4);
+        .btn-gradient:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 20px 25px -8px rgba(79, 70, 229, 0.5);
+            background: linear-gradient(105deg, var(--primary-dark), var(--accent));
         }
 
-        .examples-section {
-            margin-top: 30px;
-            padding-top: 30px;
-            border-top: 1px solid #e5e7eb;
+        /* example chips */
+        .example-section {
+            margin-top: 2rem;
+            padding-top: 1.2rem;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
         }
 
-        .examples-title {
-            font-size: 1rem;
+        .example-label {
+            font-size: 0.85rem;
             font-weight: 600;
-            color: #6b7280;
-            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--gray-400);
+            margin-bottom: 1rem;
         }
 
-        .example-tags {
+        .chip-list {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 12px;
         }
 
-        .example-tag {
-            padding: 8px 16px;
-            background: rgba(79, 109, 245, 0.1);
-            color: var(--primary-color);
-            border-radius: 12px;
-            font-size: 0.9rem;
+        .chip {
+            background: rgba(79, 70, 229, 0.08);
+            backdrop-filter: blur(2px);
+            padding: 0.6rem 1.2rem;
+            border-radius: 2rem;
+            font-size: 0.85rem;
             font-weight: 500;
+            color: var(--primary);
             cursor: pointer;
-            transition: all 0.3s ease;
+            transition: all 0.2s;
+            border: 1px solid rgba(79, 70, 229, 0.2);
         }
 
-        .example-tag:hover {
-            background: rgba(79, 109, 245, 0.2);
+        .chip:hover {
+            background: var(--primary);
+            color: white;
             transform: translateY(-2px);
+            box-shadow: 0 8px 15px rgba(79, 70, 229, 0.25);
+            border-color: transparent;
         }
 
-        /* Features Section */
-        .features-section {
-            padding: 80px 0;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 2.5rem;
-            font-weight: 800;
-            margin-bottom: 60px;
-            color: var(--dark-color);
-        }
-
-        .features-grid {
+        /* feature cards (elevated) */
+        .features-grid-modern {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 1rem;
         }
 
-        .feature-card {
+        .feat-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            border-radius: 2rem;
+            padding: 2rem 1.8rem;
+            transition: all 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.02);
+        }
+
+        .feat-card:hover {
+            transform: translateY(-8px);
             background: white;
-            border-radius: 24px;
-            padding: 40px 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.12);
+            border-color: rgba(79, 70, 229, 0.2);
         }
 
-        .feature-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
-        }
-
-        .feature-icon {
-            width: 70px;
-            height: 70px;
-            border-radius: 20px;
+        .feat-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, rgba(79, 70, 229, 0.1), rgba(139, 92, 246, 0.1));
+            border-radius: 1.4rem;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 25px;
             font-size: 1.8rem;
-            color: white;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
         }
 
-        .feature-icon.analysis {
-            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-        }
-
-        .feature-icon.network {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-
-        .feature-icon.research {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-        }
-
-        .feature-title {
-            font-size: 1.5rem;
+        .feat-title {
+            font-size: 1.4rem;
             font-weight: 700;
-            margin-bottom: 15px;
-            color: var(--dark-color);
+            margin-bottom: 0.8rem;
         }
 
-        .feature-description {
-            color: #6b7280;
-            line-height: 1.6;
+        /* footer refined */
+        .footer-modern {
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 3rem 0 2rem;
+            margin-top: 4rem;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
         }
 
-        /* Footer */
-        .footer {
-            background: var(--dark-color);
-            color: white;
-            padding: 60px 0 30px;
-            margin-top: 60px;
-        }
-
-        .footer-title {
-            font-size: 1.2rem;
-            font-weight: 700;
-            margin-bottom: 25px;
-            color: white;
-        }
-
-        .footer-links {
-            list-style: none;
-            padding: 0;
-        }
-
-        .footer-links li {
-            margin-bottom: 12px;
-        }
-
-        .footer-links a {
-            color: #d1d5db;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            color: white;
-        }
-
-        .footer-bottom {
-            text-align: center;
-            padding-top: 30px;
-            margin-top: 40px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: #9ca3af;
-            font-size: 0.9rem;
-        }
-
-        /* Loading Animation */
-        .loading-overlay {
+        /* Toast alert (no loading overlay) */
+        .toast-alert {
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(255, 255, 255, 0.9);
+            top: 24px;
+            right: 24px;
+            z-index: 11000;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 20px 35px -8px rgba(0,0,0,0.2);
+            padding: 1rem 1.5rem;
             display: flex;
-            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            z-index: 9999;
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.3s ease;
+            gap: 12px;
+            border-left: 5px solid;
+            animation: slideRight 0.3s ease;
+            font-weight: 500;
         }
 
-        .loading-overlay.active {
-            opacity: 1;
-            visibility: visible;
+        @keyframes slideRight {
+            from { opacity: 0; transform: translateX(40px);}
+            to { opacity: 1; transform: translateX(0);}
         }
 
-        .loading-spinner {
-            width: 60px;
-            height: 60px;
-            border: 4px solid rgba(79, 109, 245, 0.1);
-            border-top-color: var(--primary-color);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-bottom: 20px;
-        }
-
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        /* Responsive Design */
         @media (max-width: 768px) {
-            .hero-title {
-                font-size: 2.2rem;
-            }
-
-            .search-section {
-                padding: 30px 20px;
-            }
-
-            .search-tabs {
-                flex-direction: column;
-            }
-
-            .features-grid {
-                grid-template-columns: 1fr;
-            }
+            .hero-title { font-size: 2.5rem; }
+            .search-card { padding: 1.5rem; margin: 0 1rem; }
+            .feat-card { padding: 1.5rem; }
         }
     </style>
 </head>
 
 <body>
-    <!-- Loading Overlay -->
-    <div class="loading-overlay" id="loadingOverlay">
-        <div class="loading-spinner"></div>
-        <h4>Analyzing Disease Network...</h4>
-        <p>Redirecting to visualization page</p>
+<div class="bg-mesh"></div>
+
+<!-- navigation -->
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-brain"></i> CureSnap
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" id="navHumanMain">
+                        <i class="fas fa-dna"></i> Human Diseases
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" target="_blank">
+                        <i class="fas fa-project-diagram"></i> Full Network
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="aboutScroll">
+                        <i class="fas fa-microscope"></i> About
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="home.html">
-                <i class="fas fa-dna"></i> Disease Network Explorer
-            </a>
+<!-- hero -->
+<section class="hero-modern">
+    <div class="container text-center">
+        <div class="hero-badge">
+            <i class="fas fa-chart-network me-1"></i> Biomedical Intelligence
+        </div>
+        <h1 class="hero-title">Decode disease <br>interactome with AI</h1>
+        <p class="hero-sub">
+            Uncover gene–disease–drug connections using graph neural networks. <br> 
+            Explore mechanistic links, repurpose therapies, and accelerate discovery.
+        </p>
+    </div>
+</section>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<!-- unified search section (human only) -->
+<div class="container position-relative" style="z-index: 5;">
+    <div class="search-card">
+        <div class="text-center mb-3">
+            <span class="badge bg-primary bg-opacity-10 text-primary px-3 py-2 rounded-pill">
+                <i class="fas fa-user-md me-1"></i> Human disease network
+            </span>
+        </div>
+        <h4 class="fw-bold mb-2 text-center" style="color: #1e293b;">
+            <i class="fas fa-search me-2" style="color: var(--primary);"></i>Explore disease landscape
+        </h4>
+        <p class="text-center text-secondary small mb-4">Enter any human disorder — from rare to common</p>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" id="nav-human">
-                            <i class="fas fa-user"></i> Human Diseases
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" id="nav-pathogen">
-                            <i class="fas fa-virus"></i> Pathogen Diseases
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html" target="_blank">
-                            <i class="fas fa-project-diagram"></i> View Full Network
-                        </a>
-                    </li>
+        <div class="input-icon-group">
+            <i class="fas fa-disease input-icon"></i>
+            <input type="text" class="form-control-net" id="humanDiseaseInput" 
+                   placeholder="e.g., Alzheimer's disease, Rheumatoid arthritis, Glioblastoma">
+        </div>
+
+        <button class="btn-gradient" id="searchMainBtn">
+            <i class="fas fa-chart-simple"></i> Analyze disease network
+        </button>
+
+        <div class="example-section">
+            <div class="example-label"><i class="fas fa-lightbulb me-1"></i> try quick examples</div>
+            <div class="chip-list" id="exampleChipContainer">
+                <!-- dynamic chips injected -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- features section improved -->
+<section class="container py-5 mt-4">
+    <div class="text-center mb-5">
+        <span class="badge bg-secondary bg-opacity-10 text-secondary px-3 py-2 rounded-pill">platform power</span>
+        <h2 class="display-6 fw-bold mt-2">Why CureSnap transforms research</h2>
+        <p class="text-secondary">Interactive graph intelligence for biomedical scientists</p>
+    </div>
+    <div class="features-grid-modern">
+        <div class="feat-card">
+            <div class="feat-icon"><i class="fas fa-brain"></i></div>
+            <h3 class="feat-title">Graph Neural Engine</h3>
+            <p class="text-secondary">Leverage deep graph networks to map disease-gene-drug tripartite relationships, revealing hidden clusters and driver nodes.</p>
+        </div>
+        <div class="feat-card">
+            <div class="feat-icon"><i class="fas fa-hand-pointer"></i></div>
+            <h3 class="feat-title">Interactive exploration</h3>
+            <p class="text-secondary">Drag, zoom, filter by node type — highlight paths between diseases and therapeutic compounds in real time.</p>
+        </div>
+        <div class="feat-card">
+            <div class="feat-icon"><i class="fas fa-chart-line"></i></div>
+            <h3 class="feat-title">Drug repurposing insights</h3>
+            <p class="text-secondary">Identify shared biological targets, enabling rapid hypotheses for drug repositioning and combination therapy.</p>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="footer-modern">
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-md-5">
+                <h5 class="fw-bold mb-3"><i class="fas fa-dna me-2"></i>CureSnap</h5>
+                <p class="text-secondary-emphasis small opacity-75">Next-generation disease network explorer for precision medicine and systems biology.</p>
+            </div>
+            <div class="col-md-3">
+                <h6 class="fw-semibold">Explore</h6>
+                <ul class="list-unstyled mt-2">
+                    <li><a href="#" class="text-decoration-none text-light-emphasis small" id="footerHumanLink"><i class="fas fa-arrow-right me-1"></i> Human diseases</a></li>
+                    <li><a href="index.html" target="_blank" class="text-decoration-none text-light-emphasis small"><i class="fas fa-project-diagram me-1"></i> Full network viewer</a></li>
+                    <li><a href="#" class="text-decoration-none text-light-emphasis small"><i class="fas fa-flask me-1"></i> Research methods</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h6 class="fw-semibold">Resources</h6>
+                <ul class="list-unstyled mt-2">
+                    <li><a href="#" class="text-decoration-none text-light-emphasis small"><i class="fas fa-book-open me-1"></i> Documentation</a></li>
+                    <li><a href="#" class="text-decoration-none text-light-emphasis small"><i class="fas fa-database me-1"></i> Knowledge graph</a></li>
+                    <li><a href="#" class="text-decoration-none text-light-emphasis small"><i class="fab fa-github me-1"></i> GitHub</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h1 class="hero-title">Explore Disease-Gene-Drug Networks</h1>
-                    <p class="hero-subtitle">
-                        Discover complex relationships between diseases, genetic factors, and therapeutic compounds.
-                        Our interactive platform helps researchers visualize and analyze biomedical networks.
-                    </p>
-                </div>
-            </div>
+        <hr class="mt-4 opacity-25">
+        <div class="text-center small opacity-50">
+            &copy; 2026 CureSnap — AI-powered biomedical network analytics | Demo for research advancement
         </div>
-    </section>
-    <br>
-    <!-- Search Section -->
-    <section class="search-section">
-        <div class="container">
-            <div class="search-tabs">
-                <button class="search-tab active" id="human-tab" data-type="human">
-                    <i class="fas fa-user"></i> Human Diseases
-                </button>
-                <button class="search-tab" id="pathogen-tab" data-type="pathogen">
-                    <i class="fas fa-virus"></i> Pathogen Diseases
-                </button>
-            </div>
+    </div>
+</footer>
 
-            <div id="search-interface">
-                <!-- Human Disease Search -->
-                <div class="search-form" id="human-form">
-                    <h3 class="mb-4" style="color: var(--primary-color);">
-                        <i class="fas fa-search me-2"></i>Search Human Disease Network
-                    </h3>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    // ------------------------------
+    // HUMAN DISEASE ONLY — LOADING OVERLAY REMOVED
+    // ------------------------------
+    const humanDiseaseExamples = [
+       "Multiple sclerosis", "Crohn disease", "Psoriasis", "Lupus nephritis", "Glioma", "Neuroblastoma", "Multiple myeloma", "Medulloblastoma", "Atherosclerosis", "Gout"
+    ];
 
-                    <div class="search-input-group">
-                        <i class="fas fa-disease search-icon"></i>
-                        <input type="text" class="form-control" id="human-disease-input"
-                            placeholder="Enter human disease name (e.g., Alzheimer's, Diabetes, Breast Cancer)">
-                    </div>
+    // DOM elements
+    const searchInput = document.getElementById('humanDiseaseInput');
+    const searchBtn = document.getElementById('searchMainBtn');
+    const exampleContainer = document.getElementById('exampleChipContainer');
+    const navHumanMain = document.getElementById('navHumanMain');
+    const footerHumanLink = document.getElementById('footerHumanLink');
+    const aboutScrollBtn = document.getElementById('aboutScroll');
 
-                    <button class="search-btn" id="search-human-btn">
-                        <i class="fas fa-chart-network"></i> Analyze Disease Network
-                    </button>
-                </div>
-
-                <!-- Pathogen Disease Search -->
-                <div class="search-form" id="pathogen-form" style="display: none;">
-                    <h3 class="mb-4" style="color: var(--accent-color);">
-                        <i class="fas fa-virus me-2"></i>Search Pathogen Disease Network
-                    </h3>
-
-                    <div class="search-input-group">
-                        <i class="fas fa-bacteria search-icon"></i>
-                        <input type="text" class="form-control" id="pathogen-disease-input"
-                            placeholder="Enter pathogen disease name (e.g., Tuberculosis, Malaria, COVID-19)">
-                    </div>
-
-                    <button class="search-btn" id="search-pathogen-btn">
-                        <i class="fas fa-chart-network"></i> Analyze Pathogen Network
-                    </button>
-                </div>
-            </div>
-
-            <div class="examples-section">
-                <div class="examples-title">Try these examples:</div>
-                <div class="example-tags" id="example-tags">
-                    <!-- Examples will be populated by JavaScript -->
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features-section">
-        <div class="container">
-            <h2 class="section-title">Why Use Our Platform</h2>
-
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon analysis">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3 class="feature-title">Advanced Network Analysis</h3>
-                    <p class="feature-description">
-                        Visualize complex relationships between diseases, genes, and drugs using interactive
-                        force-directed graphs.
-                        Identify key nodes and clusters in biomedical networks.
-                    </p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon network">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <h3 class="feature-title">Interactive Exploration</h3>
-                    <p class="feature-description">
-                        Click on nodes to highlight connections, drag to reposition, and filter by node type.
-                        Real-time control over graph parameters for customized analysis.
-                    </p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-icon research">
-                        <i class="fas fa-flask"></i>
-                    </div>
-                    <h3 class="feature-title">Research-Ready Tools</h3>
-                    <p class="feature-description">
-                        Export visualizations for publications, analyze connection patterns, and discover potential
-                        drug repurposing opportunities through network pharmacology.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 mb-4">
-                    <h3 class="footer-title">
-                        <i class="fas fa-dna me-2"></i>Disease Network Explorer
-                    </h3>
-                    <p style="color: #d1d5db;">
-                        A biomedical research platform for visualizing and analyzing complex disease-gene-drug networks.
-                    </p>
-                </div>
-
-                <div class="col-lg-2 col-md-6 mb-4">
-                    <h3 class="footer-title">Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="home.html"><i class="fas fa-home me-2"></i>Home</a></li>
-                        <li><a href="#" id="nav-human-footer"><i class="fas fa-user me-2"></i>Human Diseases</a></li>
-                        <li><a href="#" id="nav-pathogen-footer"><i class="fas fa-virus me-2"></i>Pathogen Diseases</a>
-                        </li>
-                        <li><a href="index.html" target="_blank"><i class="fas fa-project-diagram me-2"></i>Network
-                                Visualization</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h3 class="footer-title">Resources</h3>
-                    <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-book me-2"></i>Documentation</a></li>
-                        <li><a href="#"><i class="fas fa-database me-2"></i>Data Sources</a></li>
-                        <li><a href="#"><i class="fas fa-question-circle me-2"></i>Help Center</a></li>
-                        <li><a href="#"><i class="fas fa-file-alt me-2"></i>Research Papers</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h3 class="footer-title">Contact</h3>
-                    <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-envelope me-2"></i>Contact Us</a></li>
-                        <li><a href="#"><i class="fas fa-comments me-2"></i>Feedback</a></li>
-                        <li><a href="#"><i class="fas fa-code-branch me-2"></i>GitHub</a></li>
-                        <li><a href="#"><i class="fas fa-newspaper me-2"></i>Newsletter</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2023 Disease Network Explorer. Built for biomedical research. Data is for demonstration
-                    purposes.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script>
-        // Disease examples
-        const humanDiseases = [
-            "Asthma",
-            "Coronary Artery Disease",
-            "Osteoporosis"
-        ];
-
-        const pathogenDiseases = [
-            "Tuberculosis",
-            "Malaria",
-            "Influenza",
-            "Hepatitis B",
-            "Dengue Fever",
-            "Zika Virus",
-            "Ebola",
-            "Cholera",
-            "Typhoid Fever",
-            "Lyme Disease"
-        ];
-
-        // DOM Elements
-        const humanTab = document.getElementById('human-tab');
-        const pathogenTab = document.getElementById('pathogen-tab');
-        const humanForm = document.getElementById('human-form');
-        const pathogenForm = document.getElementById('pathogen-form');
-        const humanInput = document.getElementById('human-disease-input');
-        const pathogenInput = document.getElementById('pathogen-disease-input');
-        const searchHumanBtn = document.getElementById('search-human-btn');
-        const searchPathogenBtn = document.getElementById('search-pathogen-btn');
-        const exampleTags = document.getElementById('example-tags');
-        const navHuman = document.getElementById('nav-human');
-        const navPathogen = document.getElementById('nav-pathogen');
-        const navHumanFooter = document.getElementById('nav-human-footer');
-        const navPathogenFooter = document.getElementById('nav-pathogen-footer');
-        const loadingOverlay = document.getElementById('loadingOverlay');
-
-        // Set current disease type
-        let currentType = 'human';
-
-        // Initialize examples
-        updateExamples();
-
-        // Tab switching
-        humanTab.addEventListener('click', () => {
-            switchTab('human');
+    // Build dynamic chips
+    function renderExampleChips() {
+        if (!exampleContainer) return;
+        exampleContainer.innerHTML = '';
+        humanDiseaseExamples.forEach(disease => {
+            const chip = document.createElement('div');
+            chip.className = 'chip';
+            chip.innerHTML = `<i class="fas fa-vial me-1"></i> ${disease}`;
+            chip.addEventListener('click', (e) => {
+                e.preventDefault();
+                searchInput.value = disease;
+                // trigger search after slight delay for better UX
+                setTimeout(() => {
+                    executeDiseaseSearch(disease);
+                }, 120);
+            });
+            exampleContainer.appendChild(chip);
         });
+    }
 
-        pathogenTab.addEventListener('click', () => {
-            switchTab('pathogen');
-        });
+    // alert system (custom toast)
+    function showAlert(message, type = 'error') {
+        const existingToast = document.querySelector('.toast-alert');
+        if (existingToast) existingToast.remove();
+        
+        const toast = document.createElement('div');
+        toast.className = 'toast-alert';
+        let borderColor = '#ef4444';
+        let icon = '<i class="fas fa-circle-exclamation"></i>';
+        if (type === 'warning') {
+            borderColor = '#f59e0b';
+            icon = '<i class="fas fa-triangle-exclamation"></i>';
+        } else if (type === 'info') {
+            borderColor = '#3b82f6';
+            icon = '<i class="fas fa-info-circle"></i>';
+        }
+        toast.style.borderLeftColor = borderColor;
+        toast.innerHTML = `
+            <div style="color: ${borderColor};">${icon}</div>
+            <span style="color: #1e293b;">${message}</span>
+            <i class="fas fa-times ms-3" style="cursor:pointer; color:#94a3b8;"></i>
+        `;
+        document.body.appendChild(toast);
+        const closeBtn = toast.querySelector('.fa-times');
+        closeBtn.addEventListener('click', () => toast.remove());
+        setTimeout(() => {
+            if (toast && toast.parentElement) toast.remove();
+        }, 4500);
+    }
 
-        // Navigation links
-        navHuman.addEventListener('click', (e) => {
-            e.preventDefault();
-            switchTab('human');
-            // Scroll to search section
-            document.querySelector('.search-section').scrollIntoView({ behavior: 'smooth' });
-        });
-
-        navPathogen.addEventListener('click', (e) => {
-            e.preventDefault();
-            switchTab('pathogen');
-            // Scroll to search section
-            document.querySelector('.search-section').scrollIntoView({ behavior: 'smooth' });
-        });
-
-        // Footer navigation
-        navHumanFooter.addEventListener('click', (e) => {
-            e.preventDefault();
-            switchTab('human');
-            // Scroll to search section
-            document.querySelector('.search-section').scrollIntoView({ behavior: 'smooth' });
-        });
-
-        navPathogenFooter.addEventListener('click', (e) => {
-            e.preventDefault();
-            switchTab('pathogen');
-            // Scroll to search section
-            document.querySelector('.search-section').scrollIntoView({ behavior: 'smooth' });
-        });
-
-        // Search functionality
-        searchHumanBtn.addEventListener('click', () => {
-            const disease = humanInput.value.trim();
-            if (disease) {
-                searchDisease(disease, 'human');
-            } else {
-                showAlert('Please enter a disease name', 'warning');
-            }
-        });
-
-        searchPathogenBtn.addEventListener('click', () => {
-            const disease = pathogenInput.value.trim();
-            if (disease) {
-                searchDisease(disease, 'pathogen');
-            } else {
-                showAlert('Please enter a disease name', 'warning');
-            }
-        });
-
-        // Enter key support
-        humanInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                searchHumanBtn.click();
-            }
-        });
-
-        pathogenInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                searchPathogenBtn.click();
-            }
-        });
-
-        // Switch tab function
-        function switchTab(type) {
-            currentType = type;
-
-            // Update tab styles
-            if (type === 'human') {
-                humanTab.classList.add('active');
-                pathogenTab.classList.remove('active');
-                humanForm.style.display = 'block';
-                pathogenForm.style.display = 'none';
-
-                // Update navigation
-                navHuman.classList.add('active');
-                navPathogen.classList.remove('active');
-            } else {
-                humanTab.classList.remove('active');
-                pathogenTab.classList.add('active');
-                humanForm.style.display = 'none';
-                pathogenForm.style.display = 'block';
-
-                // Update navigation
-                navHuman.classList.remove('active');
-                navPathogen.classList.add('active');
-            }
-
-            // Update examples
-            updateExamples();
+    // main search function: only human, backend call + redirect (no loading overlay)
+    async function executeDiseaseSearch(diseaseName) {
+        const disease = diseaseName.trim();
+        if (!disease) {
+            showAlert('Please enter a valid human disease name', 'warning');
+            return;
         }
 
-        // Update examples based on current tab
-        function updateExamples() {
-            const diseases = currentType === 'human' ? humanDiseases : pathogenDiseases;
-
-            exampleTags.innerHTML = diseases.map(disease =>
-                `<div class="example-tag" onclick="fillExample('${disease}')">${disease}</div>`
-            ).join('');
-        }
-
-        // Fill example into input
-        window.fillExample = function (disease) {
-            if (currentType === 'human') {
-                humanInput.value = disease;
-                // Auto-search after a short delay
-                setTimeout(() => searchDisease(disease, 'human'), 300);
-            } else {
-                pathogenInput.value = disease;
-                setTimeout(() => searchDisease(disease, 'pathogen'), 300);
-            }
-        };
-
-        // Search disease function - UPDATED TO PASS PARAMETERS
-        // Search disease function - FIXED VERSION
-        function searchDisease(disease, type) {
-
-            fetch("http://127.0.0.1:5000/run-gnn", {
+        try {
+            const response = await fetch("http://127.0.0.1:5000/run-gnn", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify({ disease: disease })
-            })
-                .then(res => res.json())
-                .then(data => {
+            });
 
-                    if (data.error) {
-                        throw new Error(data.error);
-                    }
+            if (!response.ok) {
+                let errorMsg = `Server error (${response.status})`;
+                try {
+                    const errData = await response.json();
+                    errorMsg = errData.error || errorMsg;
+                } catch(e) {}
+                throw new Error(errorMsg);
+            }
 
-                    const encodedDisease = encodeURIComponent(disease);
-                    window.location.href =
-                        `results.html?disease=${encodedDisease}&type=${type}`;
+            const data = await response.json();
+            if (data.error) {
+                throw new Error(data.error);
+            }
 
-                })
-                .catch(err => {
-                    alert("Error running GNN: " + err.message);
-                });
+            const encodedDisease = encodeURIComponent(disease);
+            window.location.href = `results.html?disease=${encodedDisease}&type=human`;
+            
+        } catch (err) {
+            console.error("GNN error:", err);
+            showAlert(`Analysis failed: ${err.message || "Could not reach network backend. Ensure server is running."}`, 'error');
         }
+    }
 
+    // event handlers
+    searchBtn.addEventListener('click', () => {
+        executeDiseaseSearch(searchInput.value);
+    });
 
+    searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            executeDiseaseSearch(searchInput.value);
+        }
+    });
 
-        // Show loading overlay
-        function showLoading(show) {
-            if (show) {
-                loadingOverlay.classList.add('active');
+    // smooth scroll to features / about section
+    if (aboutScrollBtn) {
+        aboutScrollBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const featuresSection = document.querySelector('.features-grid-modern');
+            if (featuresSection) {
+                featuresSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
             } else {
-                loadingOverlay.classList.remove('active');
+                window.scrollTo({ top: document.body.scrollHeight * 0.6, behavior: 'smooth' });
             }
-        }
-
-        // Show alert message
-        function showAlert(message, type = 'info') {
-            // Remove existing alerts
-            const existingAlert = document.querySelector('.custom-alert');
-            if (existingAlert) {
-                existingAlert.remove();
-            }
-
-            // Create alert
-            const alert = document.createElement('div');
-            alert.className = `custom-alert alert-${type}`;
-            alert.innerHTML = `
-                <div style="position: fixed; top: 20px; right: 20px; z-index: 10000;
-                            background: ${type === 'success' ? '#10b981' : type === 'warning' ? '#f59e0b' : '#3b82f6'};
-                            color: white; padding: 15px 20px; border-radius: 12px;
-                            box-shadow: 0 10px 25px rgba(0,0,0,0.2); display: flex; align-items: center; gap: 10px;
-                            animation: slideIn 0.5s ease;">
-                    <i class="fas ${type === 'success' ? 'fa-check-circle' : type === 'warning' ? 'fa-exclamation-triangle' : 'fa-info-circle'}"></i>
-                    <span>${message}</span>
-                    <button onclick="this.parentElement.parentElement.remove()" 
-                            style="background: none; border: none; color: white; cursor: pointer; margin-left: 10px;">
-                        <i class="fas fa-times"></i>
-                    </button>
-                </div>
-            `;
-
-            document.body.appendChild(alert);
-
-            // Auto-remove after 5 seconds
-            setTimeout(() => {
-                if (alert.parentElement) {
-                    alert.style.opacity = '0';
-                    alert.style.transition = 'opacity 0.5s ease';
-                    setTimeout(() => {
-                        if (alert.parentElement) {
-                            alert.remove();
-                        }
-                    }, 500);
-                }
-            }, 5000);
-        }
-
-        // Initialize with human tab active
-        switchTab('human');
-
-        // Auto-focus on search input
-        window.addEventListener('load', () => {
-            humanInput.focus();
         });
+    }
 
-        // Add slideIn animation
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes slideIn {
-                from {
-                    transform: translateX(100%);
-                    opacity: 0;
-                }
-                to {
-                    transform: translateX(0);
-                    opacity: 1;
-                }
-            }
-        `;
-        document.head.appendChild(style);
-    </script>
+    // optional: human disease nav highlights and scroll
+    if (navHumanMain) {
+        navHumanMain.addEventListener('click', (e) => {
+            e.preventDefault();
+            document.querySelector('.search-card')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            searchInput.focus();
+        });
+    }
+    if (footerHumanLink) {
+        footerHumanLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            document.querySelector('.search-card')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            searchInput.focus();
+        });
+    }
+
+    // initial render of chips
+    renderExampleChips();
+    // set focus to input
+    if (searchInput) searchInput.focus();
+
+    // add active state to nav human to indicate only mode
+    const allNavLinks = document.querySelectorAll('.nav-link');
+    allNavLinks.forEach(link => {
+        if (link.getAttribute('id') === 'navHumanMain') {
+            link.classList.add('active');
+        }
+    });
+
+    console.log("CureSnap ready — human disease network explorer (loading overlay removed)");
+</script>
 </body>
-
 </html>
